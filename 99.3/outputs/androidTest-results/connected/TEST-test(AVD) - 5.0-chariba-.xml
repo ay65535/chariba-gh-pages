@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="com.android.builder.testing.ConnectedDevice" tests="1" failures="1" errors="0" skipped="0" time="3.159" timestamp="2015-01-10T08:36:28" hostname="localhost">
+  <properties>
+    <property name="device" value="test(AVD) - 5.0" />
+    <property name="flavor" value="" />
+    <property name="project" value="chariba" />
+  </properties>
+  <testcase name="runTests" classname="com.android.builder.testing.ConnectedDevice" time="0.001">
+    <failure>com.android.builder.testing.api.DeviceException: com.android.ddmlib.InstallException: Failed to establish session
+	at com.android.builder.testing.ConnectedDevice.installPackages(ConnectedDevice.java:104)
+	at com.android.builder.internal.testing.SimpleTestCallable.call(SimpleTestCallable.java:123)
+	at com.android.builder.internal.testing.SimpleTestCallable.call(SimpleTestCallable.java:47)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.android.ddmlib.InstallException: Failed to establish session
+	at com.android.ddmlib.Device.installPackages(Device.java:867)
+	at com.android.builder.testing.ConnectedDevice.installPackages(ConnectedDevice.java:101)
+	... 8 more
+</failure>
+  </testcase>
+</testsuite>

@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="com.example.espresso.activity.DeckardEspressoTest" tests="1" failures="0" errors="0" skipped="0" time="7.327" timestamp="2015-01-07T14:40:05" hostname="localhost">
+  <properties>
+    <property name="device" value="test(AVD) - 5.0" />
+    <property name="flavor" value="" />
+    <property name="project" value="chariba" />
+  </properties>
+  <testcase name="testCheckText" classname="com.example.espresso.activity.DeckardEspressoTest" time="7.286" />
+</testsuite>

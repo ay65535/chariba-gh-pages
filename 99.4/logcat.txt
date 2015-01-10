@@ -1,0 +1,820 @@
+--------- beginning of /dev/log/main
+E/logwrapper(   39): executing /system/bin/e2fsck failed: No such file or directory
+E/logwrapper(   45): executing /system/bin/e2fsck failed: No such file or directory
+E/cutils  (   59): Failed to read /data/.layout_version: No such file or directory
+--------- beginning of /dev/log/system
+W/InterfaceController(   52): Warning (dlopen failed: library "/system/lib/libnetcmdiface.so" not found) while opening the net interface command library
+E/SurfaceFlinger(   55): hwcomposer module not found
+W/SurfaceFlinger(   55): getting VSYNC period from fb HAL: 1536001
+W/SurfaceFlinger(   55): no suitable EGLConfig found, trying a simpler query
+W/SurfaceFlinger(   55): EGL_SLOW_CONFIG selected!
+W/SurfaceFlinger(   55): power module not found
+W/SurfaceFlinger(   55): power module not found
+E/SurfaceFlinger(   55): ro.sf.lcd_density must be defined as a build property
+W/AudioFlinger(   58): Thread AudioOut_2 cannot connect to the power manager service
+E/AudioFlinger(   58): int android::load_audio_interface(const char*, audio_hw_device_t**) couldn't load audio hw module audio.r_submix (No such file or directory)
+W/AudioPolicyManagerBase(   58): could not open HW module r_submix
+E/memtrack(   56): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug(   56): failed to load memtrack module: -2
+W/dalvikvm(   56): Exception Ljava/lang/UnsatisfiedLinkError; thrown while initializing Landroid/media/videoeditor/MediaArtistNativeHelper;
+W/Zygote  (   56): Class not found for preloading: android.media.videoeditor.MediaArtistNativeHelper
+E/EmojiFactory_jni(   56): Failed to load libemoji.so: dlopen failed: library "libemoji.so" not found
+W/Zygote  (   56): Class not found for preloading: java.lang.UnsafeByteSequence
+E/logwrapper(  299): executing /system/bin/ip failed: No such file or directory
+E/logwrapper(  300): executing /system/bin/ip failed: No such file or directory
+E/logwrapper(  301): executing /system/bin/ip failed: No such file or directory
+E/logwrapper(  302): executing /system/bin/ip failed: No such file or directory
+E/logwrapper(  303): executing /system/bin/ip failed: No such file or directory
+E/logwrapper(  304): executing /system/bin/ip failed: No such file or directory
+E/logwrapper(  305): executing /system/bin/ip failed: No such file or directory
+E/PowerManagerService-JNI(  380): Couldn't load power module (No such file or directory)
+E/SurfaceFlinger(   55): ro.sf.lcd_density must be defined as a build property
+W/FileUtils(  380): Failed to chmod(/data/system/packages.list): libcore.io.ErrnoException: chmod failed: ENOENT (No such file or directory)
+W/PackageManager(  380): Running ENG build: no pre-dexopt!
+W/PackageParser(  380): No actions in intent filter at /system/priv-app/Contacts.apk Binary XML file line #375
+W/PackageParser(  380): No actions in intent filter at /system/priv-app/Dialer.apk Binary XML file line #162
+W/ResourceType(  380): Failure getting entry for 0x7f050000 (t=4 e=0) in package 0 (error -75)
+W/PackageParser(  380): No actions in intent filter at /data/app/ApiDemos.apk Binary XML file line #2899
+W/PackageParser(  380): No actions in intent filter at /data/app/ApiDemos.apk Binary XML file line #2905
+W/PackageManager(  380): Package com.example.android.apis desires unavailable shared library com.example.will.never.exist; ignoring!
+W/PackageManager(  380): Package com.example.android.apis desires unavailable shared library com.example.will.never.exist; ignoring!
+W/PackageManager(  380): Package com.android.camera desires unavailable shared library com.google.android.media.effects; ignoring!
+W/PackageManager(  380): Not granting permission android.permission.GLOBAL_SEARCH to package com.android.quicksearchbox (protectionLevel=18 flags=0x8be45)
+W/PackageManager(  380): Unknown permission com.android.smspush.WAPPUSH_MANAGER_BIND in package com.android.phone
+W/PackageManager(  380): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.providers.calendar
+W/PackageManager(  380): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.cl in package com.android.providers.calendar
+W/PackageManager(  380): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.mail in package com.android.calendar
+W/PackageManager(  380): Not granting permission android.permission.ACCESS_DOWNLOAD_MANAGER to package com.android.browser (protectionLevel=18 flags=0x9be45)
+W/PackageManager(  380): Not granting permission android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS to package com.android.browser (protectionLevel=2 flags=0x9be45)
+W/PackageManager(  380): Not granting permission android.permission.BIND_APPWIDGET to package com.android.widgetpreview (protectionLevel=18 flags=0x8be44)
+W/PackageManager(  380): Unknown permission android.permission.INSTALL_DRM in package com.android.mms
+W/PackageManager(  380): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.settings
+W/PackageManager(  380): Unknown permission com.google.android.googleapps.permission.ACCESS_GOOGLE_PASSWORD in package com.android.development
+W/PackageManager(  380): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.development
+W/PackageManager(  380): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.ALL_SERVICES in package com.android.development
+W/PackageManager(  380): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.YouTubeUser in package com.android.development
+W/PackageManager(  380): Not granting permission android.permission.DELETE_PACKAGES to package com.svox.pico (protectionLevel=18 flags=0x8be45)
+W/PackageManager(  380): Not granting permission android.permission.DEVICE_POWER to package com.android.deskclock (protectionLevel=2 flags=0x48be45)
+W/EntropyMixer(  380): No existing entropy file -- first boot?
+W/SyncManagerFile(  380): Error reading pending data.
+W/SyncManagerFile(  380): java.io.FileNotFoundException: /data/system/sync/pending.xml: open failed: ENOENT (No such file or directory)
+W/SyncManagerFile(  380): 	at libcore.io.IoBridge.open(IoBridge.java:409)
+W/SyncManagerFile(  380): 	at java.io.FileInputStream.<init>(FileInputStream.java:78)
+W/SyncManagerFile(  380): 	at android.util.AtomicFile.openRead(AtomicFile.java:199)
+W/SyncManagerFile(  380): 	at com.android.server.content.SyncStorageEngine.readPendingOperationsLocked(SyncStorageEngine.java:2286)
+W/SyncManagerFile(  380): 	at com.android.server.content.SyncStorageEngine.<init>(SyncStorageEngine.java:434)
+W/SyncManagerFile(  380): 	at com.android.server.content.SyncStorageEngine.init(SyncStorageEngine.java:454)
+W/SyncManagerFile(  380): 	at com.android.server.content.SyncManager.<init>(SyncManager.java:383)
+W/SyncManagerFile(  380): 	at com.android.server.content.ContentService.getSyncManager(ContentService.java:75)
+W/SyncManagerFile(  380): 	at com.android.server.content.ContentService.notifyChange(ContentService.java:283)
+W/SyncManagerFile(  380): 	at android.content.ContentResolver.notifyChange(ContentResolver.java:1621)
+W/SyncManagerFile(  380): 	at com.android.providers.settings.SettingsProvider.sendNotify(SettingsProvider.java:262)
+W/SyncManagerFile(  380): 	at com.android.providers.settings.SettingsProvider.insertForUser(SettingsProvider.java:941)
+W/SyncManagerFile(  380): 	at com.android.providers.settings.SettingsProvider.ensureAndroidIdIsSet(SettingsProvider.java:496)
+W/SyncManagerFile(  380): 	at com.android.providers.settings.SettingsProvider.establishDbTracking(SettingsProvider.java:409)
+W/SyncManagerFile(  380): 	at com.android.providers.settings.SettingsProvider.onCreate(SettingsProvider.java:335)
+W/SyncManagerFile(  380): 	at android.content.ContentProvider.attachInfo(ContentProvider.java:1591)
+W/SyncManagerFile(  380): 	at android.content.ContentProvider.attachInfo(ContentProvider.java:1562)
+W/SyncManagerFile(  380): 	at android.app.ActivityThread.installProvider(ActivityThread.java:4790)
+W/SyncManagerFile(  380): 	at android.app.ActivityThread.installContentProviders(ActivityThread.java:4385)
+W/SyncManagerFile(  380): 	at android.app.ActivityThread.installSystemProviders(ActivityThread.java:4945)
+W/SyncManagerFile(  380): 	at com.android.server.am.ActivityManagerService.installSystemProviders(ActivityManagerService.java:8081)
+W/SyncManagerFile(  380): 	at com.android.server.ServerThread.initAndLoop(SystemServer.java:275)
+W/SyncManagerFile(  380): 	at com.android.server.SystemServer.main(SystemServer.java:1179)
+W/SyncManagerFile(  380): 	at java.lang.reflect.Method.invokeNative(Native Method)
+W/SyncManagerFile(  380): 	at java.lang.reflect.Method.invoke(Method.java:515)
+W/SyncManagerFile(  380): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+W/SyncManagerFile(  380): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+W/SyncManagerFile(  380): 	at dalvik.system.NativeStart.main(Native Method)
+W/SyncManagerFile(  380): Caused by: libcore.io.ErrnoException: open failed: ENOENT (No such file or directory)
+W/SyncManagerFile(  380): 	at libcore.io.Posix.open(Native Method)
+W/SyncManagerFile(  380): 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:110)
+W/SyncManagerFile(  380): 	at libcore.io.IoBridge.open(IoBridge.java:393)
+W/SyncManagerFile(  380): 	... 27 more
+E/ConsumerIrService(  380): Can't open consumer IR HW Module, error: -2
+W/libsuspend(  380): Error writing 'on' to /sys/power/state: Invalid argument
+E/libsuspend(  380): Error opening /sys/power/autosleep: No such file or directory
+E/EventHub(  380): could not get driver version for /dev/input/mouse0, Not a typewriter
+W/EventHub(  380): Unable to disable kernel key repeat for /dev/input/event0: Function not implemented
+E/EventHub(  380): could not get driver version for /dev/input/mice, Not a typewriter
+W/InputMethodManagerService(  380): No IME selected. Choose the most applicable IME.
+W/MountService(  380): getSecureContainerList() called when storage not mounted
+W/PackageManager(  380): Not granting permission android.permission.GLOBAL_SEARCH to package com.android.quicksearchbox (protectionLevel=18 flags=0x8be45)
+W/PackageManager(  380): Unknown permission com.android.smspush.WAPPUSH_MANAGER_BIND in package com.android.phone
+W/PackageManager(  380): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.providers.calendar
+W/PackageManager(  380): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.cl in package com.android.providers.calendar
+W/PackageManager(  380): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.mail in package com.android.calendar
+W/PackageManager(  380): Not granting permission android.permission.ACCESS_DOWNLOAD_MANAGER to package com.android.browser (protectionLevel=18 flags=0x9be45)
+W/PackageManager(  380): Not granting permission android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS to package com.android.browser (protectionLevel=2 flags=0x9be45)
+W/PackageManager(  380): Not granting permission android.permission.BIND_APPWIDGET to package com.android.widgetpreview (protectionLevel=18 flags=0x8be44)
+W/PackageManager(  380): Unknown permission android.permission.INSTALL_DRM in package com.android.mms
+W/PackageManager(  380): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.settings
+W/PackageManager(  380): Unknown permission com.google.android.googleapps.permission.ACCESS_GOOGLE_PASSWORD in package com.android.development
+W/PackageManager(  380): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.development
+W/PackageManager(  380): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.ALL_SERVICES in package com.android.development
+W/PackageManager(  380): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.YouTubeUser in package com.android.development
+W/PackageManager(  380): Not granting permission android.permission.DELETE_PACKAGES to package com.svox.pico (protectionLevel=18 flags=0x8be45)
+W/PackageManager(  380): Not granting permission android.permission.DEVICE_POWER to package com.android.deskclock (protectionLevel=2 flags=0x48be45)
+E/MobileDataStateTracker(  380): default: Ignoring feature request because could not acquire PhoneService
+E/MobileDataStateTracker(  380): default: Could not enable APN type "default"
+W/WallpaperService(  380): no current wallpaper -- first boot?
+W/DockObserver(  380): This kernel does not have dock station support
+W/WiredAccessoryManager(  380): This kernel does not have wired headset support
+W/WiredAccessoryManager(  380): This kernel does not have usb audio support
+W/WiredAccessoryManager(  380): This kernel does not have HDMI audio support
+E/SQLiteLog(  380): (1) no such table: locksettings
+W/AssetAtlasService(  380): Could not find EGL configuration
+W/InputMethodManagerService(  380): Focus gain on non-focused client android.view.inputmethod.InputMethodManager$1@b31b40e0 (uid=1000 pid=380)
+E/SoundPool(  451): error loading /system/media/audio/ui/Lock.ogg
+W/KeyguardViewMediator(  451): failed to load lock sound from /system/media/audio/ui/Lock.ogg
+E/SoundPool(  451): error loading /system/media/audio/ui/Unlock.ogg
+W/KeyguardViewMediator(  451): failed to load unlock sound from /system/media/audio/ui/Unlock.ogg
+E/memtrack(  510): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug(  510): failed to load memtrack module: -2
+E/NetdConnector(  380): NDC Command {1 bandwidth enable} took too long (1527ms)
+E/BluetoothAdapter(  451): Bluetooth binder is null
+E/BluetoothAdapter(  451): Bluetooth binder is null
+E/BluetoothAdapter(  451): Bluetooth binder is null
+E/BluetoothAdapter(  451): Bluetooth binder is null
+E/BluetoothAdapter(  451): Bluetooth binder is null
+W/RecognitionManagerService(  380): no available voice recognition services found for user 0
+W/AppWidgetServiceImpl(  380): Failed to read state: java.io.FileNotFoundException: /data/system/users/0/appwidgets.xml: open failed: ENOENT (No such file or directory)
+W/InputMethodManagerService(  380): Ignoring setImeWindowStatus of uid 1000 token: null
+W/InputMethodUtils(  380): Found no subtypes in a system IME: com.android.inputmethod.pinyin
+W/InputMethodManagerService(  380): Reset the default IME as "Resource" is ready here.
+W/InputMethodUtils(  380): Found no subtypes in a system IME: com.android.inputmethod.pinyin
+W/GpsLocationProvider(  380): Could not open GPS configuration file /etc/gps.conf
+W/ServiceWatcher(  380): com.google.android.location not found
+W/ServiceWatcher(  380): com.google.android.location not found
+W/ServiceWatcher(  380): com.google.android.location not found
+W/LocationManagerService(  380): no network location provider found
+W/InputMethodManagerService(  380): Illegal subtype state: old subtype = null, new subtype = android.view.inputmethod.InputMethodSubtype@c9194f98
+W/ServiceWatcher(  380): com.google.android.location not found
+E/LocationManagerService(  380): no geocoder provider found
+E/FlpHardwareProvider(  380): Error hw_get_module 'flp': -2
+W/ServiceWatcher(  380): com.google.android.location not found
+E/FlpHardwareProvider(  380): Error hw_get_module 'flp': -2
+W/ServiceWatcher(  380): com.google.android.location not found
+E/LocationManagerService(  380): No FusedProvider found.
+E/LocationManagerService(  380): no geofence provider found
+W/InputAttributes(  607): No editor info for this field. Bug?
+E/BluetoothAdapter(  640): Bluetooth binder is null
+W/ActivityManager(  380): Activity pause timeout for ActivityRecord{b369b6c8 u0 com.android.settings/.CryptKeeper t1 f}
+E/RemotePrintSpooler(  380): Error removing obsolete print jobs .
+E/RemotePrintSpooler(  380): java.util.concurrent.TimeoutException: Cannot get spooler!
+E/RemotePrintSpooler(  380): 	at com.android.server.print.RemotePrintSpooler.bindLocked(RemotePrintSpooler.java:376)
+E/RemotePrintSpooler(  380): 	at com.android.server.print.RemotePrintSpooler.getRemoteInstanceLazy(RemotePrintSpooler.java:352)
+E/RemotePrintSpooler(  380): 	at com.android.server.print.RemotePrintSpooler.removeObsoletePrintJobs(RemotePrintSpooler.java:287)
+E/RemotePrintSpooler(  380): 	at com.android.server.print.UserState.removeObsoletePrintJobs(UserState.java:163)
+E/RemotePrintSpooler(  380): 	at com.android.server.print.PrintManagerService$1.run(PrintManagerService.java:94)
+E/RemotePrintSpooler(  380): 	at android.os.Handler.handleCallback(Handler.java:733)
+E/RemotePrintSpooler(  380): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+E/RemotePrintSpooler(  380): 	at android.os.Looper.loop(Looper.java:136)
+E/RemotePrintSpooler(  380): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+W/ActivityManager(  380): Launch timeout has expired, giving up wake lock!
+W/BackupManagerService(  380): dataChanged but no participant pkg='com.android.providers.settings' uid=1001
+E/BluetoothAdapter(  629): Bluetooth binder is null
+E/BluetoothAdapter(  629): Bluetooth binder is null
+E/BluetoothAdapter(  629): Bluetooth binder is null
+W/ActivityManager(  380): Unable to start service Intent { cmp=com.android.email/.service.AttachmentDownloadService } U=0: not found
+E/SurfaceFlinger(   55): glCheckFramebufferStatusOES error -1087560904
+E/SurfaceFlinger(   55): got GL_FRAMEBUFFER_COMPLETE_OES error while taking screenshot
+E/BluetoothAdapter(  640): Bluetooth binder is null
+W/Resources(  771): Converting to int: TypedValue{t=0x3/d=0x12 "4" a=-1}
+W/Resources(  771): Converting to int: TypedValue{t=0x3/d=0xf "1" a=-1}
+W/Resources(  771): Converting to int: TypedValue{t=0x3/d=0x15 "2" a=-1}
+W/Resources(  771): Converting to int: TypedValue{t=0x3/d=0x15 "2" a=-1}
+W/Launcher.LauncherProvider(  771): Unable to add favorite: com.android.camera2/com.android.camera.CameraLauncher
+W/Launcher.LauncherProvider(  771): android.content.pm.PackageManager$NameNotFoundException: ComponentInfo{com.android.camera2/com.android.camera.CameraLauncher}
+W/Launcher.LauncherProvider(  771): 	at android.app.ApplicationPackageManager.getActivityInfo(ApplicationPackageManager.java:242)
+W/Launcher.LauncherProvider(  771): 	at com.android.launcher2.LauncherProvider$DatabaseHelper.addAppShortcut(LauncherProvider.java:939)
+W/Launcher.LauncherProvider(  771): 	at com.android.launcher2.LauncherProvider$DatabaseHelper.loadFavorites(LauncherProvider.java:843)
+W/Launcher.LauncherProvider(  771): 	at com.android.launcher2.LauncherProvider$DatabaseHelper.access$000(LauncherProvider.java:233)
+W/Launcher.LauncherProvider(  771): 	at com.android.launcher2.LauncherProvider.loadDefaultFavoritesIfNecessary(LauncherProvider.java:228)
+W/Launcher.LauncherProvider(  771): 	at com.android.launcher2.LauncherModel$LoaderTask.loadWorkspace(LauncherModel.java:1263)
+W/Launcher.LauncherProvider(  771): 	at com.android.launcher2.LauncherModel$LoaderTask.loadAndBindWorkspace(LauncherModel.java:1005)
+W/Launcher.LauncherProvider(  771): 	at com.android.launcher2.LauncherModel$LoaderTask.run(LauncherModel.java:1111)
+W/Launcher.LauncherProvider(  771): 	at android.os.Handler.handleCallback(Handler.java:733)
+W/Launcher.LauncherProvider(  771): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+W/Launcher.LauncherProvider(  771): 	at android.os.Looper.loop(Looper.java:136)
+W/Launcher.LauncherProvider(  771): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+W/Launcher.LauncherProvider(  771): Unable to add favorite: com.android.gallery3d/com.android.gallery3d.app.Gallery
+W/Launcher.LauncherProvider(  771): android.content.pm.PackageManager$NameNotFoundException: ComponentInfo{com.android.gallery3d/com.android.gallery3d.app.Gallery}
+W/Launcher.LauncherProvider(  771): 	at android.app.ApplicationPackageManager.getActivityInfo(ApplicationPackageManager.java:242)
+W/Launcher.LauncherProvider(  771): 	at com.android.launcher2.LauncherProvider$DatabaseHelper.addAppShortcut(LauncherProvider.java:939)
+W/Launcher.LauncherProvider(  771): 	at com.android.launcher2.LauncherProvider$DatabaseHelper.loadFavorites(LauncherProvider.java:843)
+W/Launcher.LauncherProvider(  771): 	at com.android.launcher2.LauncherProvider$DatabaseHelper.access$000(LauncherProvider.java:233)
+W/Launcher.LauncherProvider(  771): 	at com.android.launcher2.LauncherProvider.loadDefaultFavoritesIfNecessary(LauncherProvider.java:228)
+W/Launcher.LauncherProvider(  771): 	at com.android.launcher2.LauncherModel$LoaderTask.loadWorkspace(LauncherModel.java:1263)
+W/Launcher.LauncherProvider(  771): 	at com.android.launcher2.LauncherModel$LoaderTask.loadAndBindWorkspace(LauncherModel.java:1005)
+W/Launcher.LauncherProvider(  771): 	at com.android.launcher2.LauncherModel$LoaderTask.run(LauncherModel.java:1111)
+W/Launcher.LauncherProvider(  771): 	at android.os.Handler.handleCallback(Handler.java:733)
+W/Launcher.LauncherProvider(  771): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+W/Launcher.LauncherProvider(  771): 	at android.os.Looper.loop(Looper.java:136)
+W/Launcher.LauncherProvider(  771): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+W/ActivityManager(  380): Unable to start service Intent { cmp=com.android.email/.service.AttachmentDownloadService } U=0: not found
+W/Launcher.Model(  771): Desktop items loading interrupted:
+W/Launcher.Model(  771): java.lang.NullPointerException
+W/Launcher.Model(  771): 	at com.android.launcher2.LauncherModel$LoaderTask.checkItemPlacement(LauncherModel.java:1211)
+W/Launcher.Model(  771): 	at com.android.launcher2.LauncherModel$LoaderTask.loadWorkspace(LauncherModel.java:1368)
+W/Launcher.Model(  771): 	at com.android.launcher2.LauncherModel$LoaderTask.loadAndBindWorkspace(LauncherModel.java:1005)
+W/Launcher.Model(  771): 	at com.android.launcher2.LauncherModel$LoaderTask.run(LauncherModel.java:1111)
+W/Launcher.Model(  771): 	at android.os.Handler.handleCallback(Handler.java:733)
+W/Launcher.Model(  771): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+W/Launcher.Model(  771): 	at android.os.Looper.loop(Looper.java:136)
+W/Launcher.Model(  771): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+E/NetdConnector(  380): NDC Command {12 bandwidth setiquota eth0 9223372036854775807} took too long (1237ms)
+W/WindowManager(  380): App freeze timeout expired.
+W/WindowManager(  380): Force clearing freeze: AppWindowToken{b34b5928 token=Token{b36a22d0 ActivityRecord{b3699f88 u0 com.android.launcher/com.android.launcher2.Launcher t3}}}
+E/NetdConnector(  380): NDC Command {13 bandwidth removeiquota eth0} took too long (665ms)
+E/NetdConnector(  380): NDC Command {14 bandwidth setiquota eth0 9223372036854775807} took too long (1224ms)
+E/ConnectivityService(  380): startUsingNetworkFeature took too long: 3429ms
+W/WindowManager(  380): Window freeze timeout expired.
+W/WindowManager(  380): Force clearing orientation change: Window{b2e12b08 u0 com.android.launcher/com.android.launcher2.Launcher}
+W/WindowManager(  380): Force clearing orientation change: Window{b2e27470 u0 com.android.systemui.ImageWallpaper}
+E/logwrapper(  900): executing /system/bin/ip failed: No such file or directory
+E/ConnectivityService(  380): Exception trying to add a route: java.lang.IllegalStateException: command '21 interface fwmark exempt add 10.0.2.2/32' failed with '400 21 Failed to add exemption rule (File exists)'
+E/logwrapper(  902): executing /system/bin/ip failed: No such file or directory
+E/ConnectivityService(  380): Exception trying to add a route: java.lang.IllegalStateException: command '23 interface fwmark exempt add 10.0.2.3/32' failed with '400 23 Failed to add exemption rule (File exists)'
+E/logwrapper(  904): executing /system/bin/ip failed: No such file or directory
+E/SecondaryTablController(   52): ip route add failed: /system/bin/ip route add 10.0.2.2/32 via 0.0.0.0 dev eth0 table 60
+W/FrameworkListener(   52): Handler 'interface' error (No such device)
+W/ActivityManager(  380): Unable to start service Intent { cmp=com.android.email/.service.AttachmentDownloadService } U=0: not found
+E/ConnectivityService(  380): Exception trying to add a route: java.lang.IllegalStateException: command '24 interface route add eth0 secondary 10.0.2.2 32 0.0.0.0' failed with '400 24 ip route modification failed (No such device)'
+E/logwrapper(  905): executing /system/bin/ip failed: No such file or directory
+E/SecondaryTablController(   52): ip route add failed: /system/bin/ip route add 0.0.0.0/0 via 10.0.2.2 dev eth0 table 60
+W/FrameworkListener(   52): Handler 'interface' error (No such device)
+E/ConnectivityService(  380): Exception trying to add a route: java.lang.IllegalStateException: command '25 interface route add eth0 secondary 0.0.0.0 0 10.0.2.2' failed with '400 25 ip route modification failed (No such device)'
+W/NetworkPolicy(  380): shared quota unsupported; generating rule for each iface
+E/logwrapper(  918): executing /system/bin/ip failed: No such file or directory
+E/ConnectivityService(  380): Exception trying to add a route: java.lang.IllegalStateException: command '30 interface fwmark exempt add 10.0.2.2/32' failed with '400 30 Failed to add exemption rule (File exists)'
+E/NetdConnector(  380): NDC Command {29 bandwidth setiquota eth0 9223372036854775807} took too long (1055ms)
+E/NetdConnector(  380): NDC Command {31 interface route add eth0 default 74.125.228.40 32 10.0.2.2} took too long (1058ms)
+E/logwrapper(  947): executing /system/bin/ip failed: No such file or directory
+E/NetdConnector(  380): NDC Command {33 interface fwmark exempt add 74.125.228.40/32} took too long (597ms)
+E/ConnectivityService(  380): Exception trying to add a route: java.lang.IllegalStateException: command '33 interface fwmark exempt add 74.125.228.40/32' failed with '400 33 Failed to add exemption rule (File exists)'
+E/NetdConnector(  380): NDC Command {34 bandwidth setiquota eth0 9223372036854775807} took too long (1120ms)
+E/logwrapper(  980): executing /system/bin/ip failed: No such file or directory
+E/ConnectivityService(  380): Exception trying to add a route: java.lang.IllegalStateException: command '37 interface fwmark exempt add 10.0.2.2/32' failed with '400 37 Failed to add exemption rule (File exists)'
+E/logwrapper(  982): executing /system/bin/ip failed: No such file or directory
+E/ConnectivityService(  380): Exception trying to add a route: java.lang.IllegalStateException: command '39 interface fwmark exempt add 74.125.228.34/32' failed with '400 39 Failed to add exemption rule (File exists)'
+W/ActivityManager(  380): No content provider found for permission revoke: file:///data/local/tmp/chariba-debug.apk
+W/ActivityManager(  380): No content provider found for permission revoke: file:///data/local/tmp/chariba-debug.apk
+E/logwrapper( 1015): executing /system/bin/ip failed: No such file or directory
+E/ConnectivityService(  380): Exception trying to add a route: java.lang.IllegalStateException: command '41 interface fwmark exempt add 10.0.2.2/32' failed with '400 41 Failed to add exemption rule (File exists)'
+E/logwrapper( 1017): executing /system/bin/ip failed: No such file or directory
+E/ConnectivityService(  380): Exception trying to add a route: java.lang.IllegalStateException: command '43 interface fwmark exempt add 74.125.228.33/32' failed with '400 43 Failed to add exemption rule (File exists)'
+W/dalvikvm( 1018): method Landroid/support/v7/internal/widget/ListViewCompat;.lookForSelectablePosition incorrectly overrides package-private method with same name in Landroid/widget/ListView;
+E/logwrapper( 1020): executing /system/bin/ip failed: No such file or directory
+E/ConnectivityService(  380): Exception trying to add a route: java.lang.IllegalStateException: command '45 interface fwmark exempt add 10.0.2.2/32' failed with '400 45 Failed to add exemption rule (File exists)'
+E/logwrapper( 1022): executing /system/bin/ip failed: No such file or directory
+E/ConnectivityService(  380): Exception trying to add a route: java.lang.IllegalStateException: command '47 interface fwmark exempt add 74.125.228.32/32' failed with '400 47 Failed to add exemption rule (File exists)'
+W/PackageManager(  380): Unknown permission com.google.android.providers.gsf.permission.READ_GSERVICES in package com.example.chariba
+E/logwrapper( 1030): executing /system/bin/ip failed: No such file or directory
+E/SecondaryTablController(   52): ip route del failed: /system/bin/ip route del 10.0.2.2/32 via 0.0.0.0 dev eth0 table 60
+W/FrameworkListener(   52): Handler 'interface' error (No such device)
+E/logwrapper( 1032): executing /system/bin/ip failed: No such file or directory
+E/SecondaryTablController(   52): ip route del failed: /system/bin/ip route del 0.0.0.0/0 via 10.0.2.2 dev eth0 table 60
+W/FrameworkListener(   52): Handler 'interface' error (No such device)
+W/ContentResolver(  992): Failed to get type for: content://com.android.calendar (Unknown URL content://com.android.calendar)
+E/NetdConnector(  380): NDC Command {54 bandwidth removeiquota eth0} took too long (1720ms)
+E/NetdConnector(  380): NDC Command {55 bandwidth gettetherstats} took too long (1247ms)
+W/BackupManagerService(  380): dataChanged but no participant pkg='com.android.providers.settings' uid=10020
+E/BluetoothAdapter(  640): Bluetooth binder is null
+E/NetdConnector(  380): NDC Command {56 bandwidth setiquota eth0 9223372036854775807} took too long (2209ms)
+E/NetdConnector(  380): NDC Command {57 bandwidth gettetherstats} took too long (1913ms)
+W/ProcessCpuTracker(  380): Skipping unknown process pid 1087
+E/NetdConnector(  380): NDC Command {58 bandwidth removeiquota eth0} took too long (1311ms)
+E/NetdConnector(  380): NDC Command {59 bandwidth setglobalalert 2097152} took too long (1202ms)
+E/memtrack( 1053): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 1053): failed to load memtrack module: -2
+E/NetdConnector(  380): NDC Command {60 bandwidth setiquota eth0 9223372036854775807} took too long (2013ms)
+W/ActivityManager(  380): No content provider found for permission revoke: file:///data/local/tmp/chariba-debug-test-unaligned.apk
+W/ActivityManager(  380): No content provider found for permission revoke: file:///data/local/tmp/chariba-debug-test-unaligned.apk
+W/RecognitionManagerService(  380): no available voice recognition services found for user 0
+E/BluetoothAdapter(  380): Bluetooth binder is null
+E/BluetoothAdapter(  380): Bluetooth binder is null
+E/SoundPool(  380): error loading /system/media/audio/ui/Effect_Tick.ogg
+W/AudioService(  380): Soundpool could not load file: /system/media/audio/ui/Effect_Tick.ogg
+E/SoundPool(  380): error loading /system/media/audio/ui/Effect_Tick.ogg
+W/AudioService(  380): Soundpool could not load file: /system/media/audio/ui/Effect_Tick.ogg
+E/SoundPool(  380): error loading /system/media/audio/ui/Effect_Tick.ogg
+W/AudioService(  380): Soundpool could not load file: /system/media/audio/ui/Effect_Tick.ogg
+E/SoundPool(  380): error loading /system/media/audio/ui/Effect_Tick.ogg
+W/AudioService(  380): Soundpool could not load file: /system/media/audio/ui/Effect_Tick.ogg
+E/SoundPool(  380): error loading /system/media/audio/ui/Effect_Tick.ogg
+W/AudioService(  380): Soundpool could not load file: /system/media/audio/ui/Effect_Tick.ogg
+E/SoundPool(  380): error loading /system/media/audio/ui/KeypressStandard.ogg
+W/AudioService(  380): Soundpool could not load file: /system/media/audio/ui/KeypressStandard.ogg
+E/SoundPool(  380): error loading /system/media/audio/ui/KeypressSpacebar.ogg
+W/AudioService(  380): Soundpool could not load file: /system/media/audio/ui/KeypressSpacebar.ogg
+E/SoundPool(  380): error loading /system/media/audio/ui/KeypressDelete.ogg
+W/AudioService(  380): Soundpool could not load file: /system/media/audio/ui/KeypressDelete.ogg
+E/SoundPool(  380): error loading /system/media/audio/ui/KeypressReturn.ogg
+W/AudioService(  380): Soundpool could not load file: /system/media/audio/ui/KeypressReturn.ogg
+E/SoundPool(  380): error loading /system/media/audio/ui/KeypressInvalid.ogg
+W/AudioService(  380): Soundpool could not load file: /system/media/audio/ui/KeypressInvalid.ogg
+W/AudioService(  380): onLoadSoundEffects(), Error -1 while loading samples
+W/RecognitionManagerService(  380): no available voice recognition services found for user 0
+E/SQLiteLog(  812): (1) no such table: files
+E/WVMExtractor(   58): Failed to open libwvm.so
+E/MetadataRetrieverClient(   58): failed to extract an album art
+W/MediaProvider(  812): no database for scanned volume external
+E/SQLiteLog(  812): (1) no such table: album_info
+W/MediaScanner(  812): Error opening directory '/storage/sdcard/', skipping: Permission denied.
+E/StrictMode( 1067): A resource was acquired at attached stack trace but never released. See java.io.Closeable for information on avoiding resource leaks.
+E/StrictMode( 1067): java.lang.Throwable: Explicit termination method 'release' not called
+E/StrictMode( 1067): 	at dalvik.system.CloseGuard.open(CloseGuard.java:184)
+E/StrictMode( 1067): 	at android.drm.DrmManagerClient.<init>(DrmManagerClient.java:258)
+E/StrictMode( 1067): 	at com.google.android.mms.pdu.PduPersister.<init>(PduPersister.java:288)
+E/StrictMode( 1067): 	at com.google.android.mms.pdu.PduPersister.getPduPersister(PduPersister.java:296)
+E/StrictMode( 1067): 	at com.android.mms.transaction.TransactionService.onNewIntent(TransactionService.java:224)
+E/StrictMode( 1067): 	at com.android.mms.transaction.TransactionService$ServiceHandler.handleMessage(TransactionService.java:621)
+E/StrictMode( 1067): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/StrictMode( 1067): 	at android.os.Looper.loop(Looper.java:136)
+E/StrictMode( 1067): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+E/memtrack( 1186): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 1186): failed to load memtrack module: -2
+W/ActivityManager(  380): No content provider found for permission revoke: file:///data/local/tmp/chariba-debug.apk
+W/ActivityManager(  380): No content provider found for permission revoke: file:///data/local/tmp/chariba-debug.apk
+W/dalvikvm( 1197): method Landroid/support/v7/internal/widget/ListViewCompat;.lookForSelectablePosition incorrectly overrides package-private method with same name in Landroid/widget/ListView;
+W/PackageManager(  380): Code path for pkg : com.example.chariba changing from /data/app/com.example.chariba-1.apk to /data/app/com.example.chariba-2.apk
+W/PackageManager(  380): Resource path for pkg : com.example.chariba changing from /data/app/com.example.chariba-1.apk to /data/app/com.example.chariba-2.apk
+W/PackageManager(  380): Unknown permission com.google.android.providers.gsf.permission.READ_GSERVICES in package com.example.chariba
+W/RecognitionManagerService(  380): no available voice recognition services found for user 0
+W/BroadcastQueue(  380): Permission Denial: broadcasting Intent { act=android.appwidget.action.APPWIDGET_UPDATE_OPTIONS flg=0x10 cmp=com.android.settings/.widget.SettingsAppWidgetProvider (has extras) } from android (pid=771, uid=10008) is not exported from uid 1000 due to receiver com.android.settings/.widget.SettingsAppWidgetProvider
+E/memtrack( 1213): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 1213): failed to load memtrack module: -2
+W/ActivityManager(  380): No content provider found for permission revoke: file:///data/local/tmp/chariba-debug-test-unaligned.apk
+W/ActivityManager(  380): No content provider found for permission revoke: file:///data/local/tmp/chariba-debug-test-unaligned.apk
+E/BluetoothAdapter(  640): Bluetooth binder is null
+W/PackageManager(  380): Code path for pkg : com.example.chariba.test changing from /data/app/com.example.chariba.test-1.apk to /data/app/com.example.chariba.test-2.apk
+W/PackageManager(  380): Resource path for pkg : com.example.chariba.test changing from /data/app/com.example.chariba.test-1.apk to /data/app/com.example.chariba.test-2.apk
+W/RecognitionManagerService(  380): no available voice recognition services found for user 0
+W/ContextImpl( 1254): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1479 android.content.ContextWrapper.startService:494 android.content.ContextWrapper.startService:494 com.android.keychain.KeyChainBroadcastReceiver.onReceive:12 android.app.ActivityThread.handleReceiver:2419 
+W/ContextImpl( 1254): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1479 android.content.ContextWrapper.startService:494 android.content.ContextWrapper.startService:494 com.android.keychain.KeyChainBroadcastReceiver.onReceive:12 android.app.ActivityThread.handleReceiver:2419 
+E/memtrack( 1271): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 1271): failed to load memtrack module: -2
+W/dalvikvm( 1287): VFY: unable to resolve virtual method 1562: Lcom/google/android/apps/common/testing/testrunner/ExposedInstrumentationApi;.execStartActivity (Landroid/content/Context;Landroid/os/IBinder;Landroid/os/IBinder;Landroid/app/Activity;Landroid/content/Intent;I)Landroid/app/Instrumentation$ActivityResult;
+W/dalvikvm( 1287): method Landroid/support/v7/internal/widget/ListViewCompat;.lookForSelectablePosition incorrectly overrides package-private method with same name in Landroid/widget/ListView;
+W/dalvikvm( 1287): Unable to resolve superclass of Lorg/apache/maven/artifact/ant/shaded/interpolation/EnvarBasedValueSource; (2782)
+W/dalvikvm( 1287): Link of class 'Lorg/apache/maven/artifact/ant/shaded/interpolation/EnvarBasedValueSource;' failed
+W/ClassPathPackageInfoSource( 1287): Cannot load class. Make sure it is in your apk. Class name: 'org.apache.maven.artifact.ant.shaded.interpolation.EnvarBasedValueSource'. Message: org.apache.maven.artifact.ant.shaded.interpolation.EnvarBasedValueSource
+W/ClassPathPackageInfoSource( 1287): java.lang.ClassNotFoundException: org.apache.maven.artifact.ant.shaded.interpolation.EnvarBasedValueSource
+W/ClassPathPackageInfoSource( 1287): 	at java.lang.Class.classForName(Native Method)
+W/ClassPathPackageInfoSource( 1287): 	at java.lang.Class.forName(Class.java:251)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfoSource.createPackageInfo(ClassPathPackageInfoSource.java:88)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfoSource.access$000(ClassPathPackageInfoSource.java:39)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfoSource$1.load(ClassPathPackageInfoSource.java:50)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfoSource$1.load(ClassPathPackageInfoSource.java:47)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.SimpleCache.get(SimpleCache.java:31)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfoSource.getPackageInfo(ClassPathPackageInfoSource.java:72)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfo.getSubpackages(ClassPathPackageInfo.java:48)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfo.addTopLevelClassesTo(ClassPathPackageInfo.java:61)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfo.getTopLevelClassesRecursive(ClassPathPackageInfo.java:55)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.suitebuilder.TestGrouping.testCaseClassesInPackage(TestGrouping.java:156)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.suitebuilder.TestGrouping.addPackagesRecursive(TestGrouping.java:117)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.suitebuilder.TestSuiteBuilder.includePackages(TestSuiteBuilder.java:102)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.InstrumentationTestRunner.onCreate(InstrumentationTestRunner.java:366)
+W/ClassPathPackageInfoSource( 1287): 	at com.google.android.apps.common.testing.testrunner.GoogleInstrumentationTestRunner.onCreate(GoogleInstrumentationTestRunner.java:114)
+W/ClassPathPackageInfoSource( 1287): 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:4335)
+W/ClassPathPackageInfoSource( 1287): 	at android.app.ActivityThread.access$1500(ActivityThread.java:135)
+W/ClassPathPackageInfoSource( 1287): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1256)
+W/ClassPathPackageInfoSource( 1287): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+W/ClassPathPackageInfoSource( 1287): 	at android.os.Looper.loop(Looper.java:136)
+W/ClassPathPackageInfoSource( 1287): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+W/ClassPathPackageInfoSource( 1287): 	at java.lang.reflect.Method.invokeNative(Native Method)
+W/ClassPathPackageInfoSource( 1287): 	at java.lang.reflect.Method.invoke(Method.java:515)
+W/ClassPathPackageInfoSource( 1287): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+W/ClassPathPackageInfoSource( 1287): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+W/ClassPathPackageInfoSource( 1287): 	at dalvik.system.NativeStart.main(Native Method)
+W/ClassPathPackageInfoSource( 1287): Caused by: java.lang.NoClassDefFoundError: org/apache/maven/artifact/ant/shaded/interpolation/EnvarBasedValueSource
+W/ClassPathPackageInfoSource( 1287): 	... 27 more
+W/ClassPathPackageInfoSource( 1287): Caused by: java.lang.ClassNotFoundException: Didn't find class "org.apache.maven.artifact.ant.shaded.interpolation.EnvarBasedValueSource" on path: DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/data/app/com.example.chariba.test-2.apk", zip file "/data/app/com.example.chariba-2.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.chariba.test-2, /data/app-lib/com.example.chariba-2, /system/lib]]
+W/ClassPathPackageInfoSource( 1287): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:56)
+W/ClassPathPackageInfoSource( 1287): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:497)
+W/ClassPathPackageInfoSource( 1287): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:457)
+W/ClassPathPackageInfoSource( 1287): 	... 27 more
+W/dalvikvm( 1287): Link of class 'Lorg/apache/maven/artifact/ant/shaded/interpolation/Interpolator;' failed
+W/ClassPathPackageInfoSource( 1287): Cannot load class. Make sure it is in your apk. Class name: 'org.apache.maven.artifact.ant.shaded.interpolation.Interpolator'. Message: org.apache.maven.artifact.ant.shaded.interpolation.Interpolator
+W/ClassPathPackageInfoSource( 1287): java.lang.ClassNotFoundException: org.apache.maven.artifact.ant.shaded.interpolation.Interpolator
+W/ClassPathPackageInfoSource( 1287): 	at java.lang.Class.classForName(Native Method)
+W/ClassPathPackageInfoSource( 1287): 	at java.lang.Class.forName(Class.java:251)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfoSource.createPackageInfo(ClassPathPackageInfoSource.java:88)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfoSource.access$000(ClassPathPackageInfoSource.java:39)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfoSource$1.load(ClassPathPackageInfoSource.java:50)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfoSource$1.load(ClassPathPackageInfoSource.java:47)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.SimpleCache.get(SimpleCache.java:31)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfoSource.getPackageInfo(ClassPathPackageInfoSource.java:72)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfo.getSubpackages(ClassPathPackageInfo.java:48)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfo.addTopLevelClassesTo(ClassPathPackageInfo.java:61)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfo.getTopLevelClassesRecursive(ClassPathPackageInfo.java:55)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.suitebuilder.TestGrouping.testCaseClassesInPackage(TestGrouping.java:156)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.suitebuilder.TestGrouping.addPackagesRecursive(TestGrouping.java:117)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.suitebuilder.TestSuiteBuilder.includePackages(TestSuiteBuilder.java:102)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.InstrumentationTestRunner.onCreate(InstrumentationTestRunner.java:366)
+W/ClassPathPackageInfoSource( 1287): 	at com.google.android.apps.common.testing.testrunner.GoogleInstrumentationTestRunner.onCreate(GoogleInstrumentationTestRunner.java:114)
+W/ClassPathPackageInfoSource( 1287): 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:4335)
+W/ClassPathPackageInfoSource( 1287): 	at android.app.ActivityThread.access$1500(ActivityThread.java:135)
+W/ClassPathPackageInfoSource( 1287): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1256)
+W/ClassPathPackageInfoSource( 1287): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+W/ClassPathPackageInfoSource( 1287): 	at android.os.Looper.loop(Looper.java:136)
+W/ClassPathPackageInfoSource( 1287): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+W/ClassPathPackageInfoSource( 1287): 	at java.lang.reflect.Method.invokeNative(Native Method)
+W/ClassPathPackageInfoSource( 1287): 	at java.lang.reflect.Method.invoke(Method.java:515)
+W/ClassPathPackageInfoSource( 1287): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+W/ClassPathPackageInfoSource( 1287): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+W/ClassPathPackageInfoSource( 1287): 	at dalvik.system.NativeStart.main(Native Method)
+W/ClassPathPackageInfoSource( 1287): Caused by: java.lang.NoClassDefFoundError: org/apache/maven/artifact/ant/shaded/interpolation/Interpolator
+W/ClassPathPackageInfoSource( 1287): 	... 27 more
+W/ClassPathPackageInfoSource( 1287): Caused by: java.lang.ClassNotFoundException: Didn't find class "org.apache.maven.artifact.ant.shaded.interpolation.Interpolator" on path: DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/data/app/com.example.chariba.test-2.apk", zip file "/data/app/com.example.chariba-2.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.chariba.test-2, /data/app-lib/com.example.chariba-2, /system/lib]]
+W/ClassPathPackageInfoSource( 1287): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:56)
+W/ClassPathPackageInfoSource( 1287): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:497)
+W/ClassPathPackageInfoSource( 1287): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:457)
+W/ClassPathPackageInfoSource( 1287): 	... 27 more
+W/dalvikvm( 1287): Unable to resolve superclass of Lorg/apache/maven/artifact/ant/shaded/interpolation/InterpolatorFilterReader; (2784)
+W/dalvikvm( 1287): Link of class 'Lorg/apache/maven/artifact/ant/shaded/interpolation/InterpolatorFilterReader;' failed
+W/ClassPathPackageInfoSource( 1287): Cannot load class. Make sure it is in your apk. Class name: 'org.apache.maven.artifact.ant.shaded.interpolation.InterpolatorFilterReader'. Message: org.apache.maven.artifact.ant.shaded.interpolation.InterpolatorFilterReader
+W/ClassPathPackageInfoSource( 1287): java.lang.ClassNotFoundException: org.apache.maven.artifact.ant.shaded.interpolation.InterpolatorFilterReader
+W/ClassPathPackageInfoSource( 1287): 	at java.lang.Class.classForName(Native Method)
+W/ClassPathPackageInfoSource( 1287): 	at java.lang.Class.forName(Class.java:251)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfoSource.createPackageInfo(ClassPathPackageInfoSource.java:88)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfoSource.access$000(ClassPathPackageInfoSource.java:39)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfoSource$1.load(ClassPathPackageInfoSource.java:50)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfoSource$1.load(ClassPathPackageInfoSource.java:47)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.SimpleCache.get(SimpleCache.java:31)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfoSource.getPackageInfo(ClassPathPackageInfoSource.java:72)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfo.getSubpackages(ClassPathPackageInfo.java:48)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfo.addTopLevelClassesTo(ClassPathPackageInfo.java:61)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfo.getTopLevelClassesRecursive(ClassPathPackageInfo.java:55)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.suitebuilder.TestGrouping.testCaseClassesInPackage(TestGrouping.java:156)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.suitebuilder.TestGrouping.addPackagesRecursive(TestGrouping.java:117)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.suitebuilder.TestSuiteBuilder.includePackages(TestSuiteBuilder.java:102)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.InstrumentationTestRunner.onCreate(InstrumentationTestRunner.java:366)
+W/ClassPathPackageInfoSource( 1287): 	at com.google.android.apps.common.testing.testrunner.GoogleInstrumentationTestRunner.onCreate(GoogleInstrumentationTestRunner.java:114)
+W/ClassPathPackageInfoSource( 1287): 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:4335)
+W/ClassPathPackageInfoSource( 1287): 	at android.app.ActivityThread.access$1500(ActivityThread.java:135)
+W/ClassPathPackageInfoSource( 1287): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1256)
+W/ClassPathPackageInfoSource( 1287): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+W/ClassPathPackageInfoSource( 1287): 	at android.os.Looper.loop(Looper.java:136)
+W/ClassPathPackageInfoSource( 1287): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+W/ClassPathPackageInfoSource( 1287): 	at java.lang.reflect.Method.invokeNative(Native Method)
+W/ClassPathPackageInfoSource( 1287): 	at java.lang.reflect.Method.invoke(Method.java:515)
+W/ClassPathPackageInfoSource( 1287): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+W/ClassPathPackageInfoSource( 1287): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+W/ClassPathPackageInfoSource( 1287): 	at dalvik.system.NativeStart.main(Native Method)
+W/ClassPathPackageInfoSource( 1287): Caused by: java.lang.NoClassDefFoundError: org/apache/maven/artifact/ant/shaded/interpolation/InterpolatorFilterReader
+W/ClassPathPackageInfoSource( 1287): 	... 27 more
+W/ClassPathPackageInfoSource( 1287): Caused by: java.lang.ClassNotFoundException: Didn't find class "org.apache.maven.artifact.ant.shaded.interpolation.InterpolatorFilterReader" on path: DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/data/app/com.example.chariba.test-2.apk", zip file "/data/app/com.example.chariba-2.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.chariba.test-2, /data/app-lib/com.example.chariba-2, /system/lib]]
+W/ClassPathPackageInfoSource( 1287): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:56)
+W/ClassPathPackageInfoSource( 1287): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:497)
+W/ClassPathPackageInfoSource( 1287): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:457)
+W/ClassPathPackageInfoSource( 1287): 	... 27 more
+W/dalvikvm( 1287): Unable to resolve superclass of Lorg/apache/maven/artifact/ant/shaded/interpolation/MapBasedValueSource; (2785)
+W/dalvikvm( 1287): Link of class 'Lorg/apache/maven/artifact/ant/shaded/interpolation/MapBasedValueSource;' failed
+W/ClassPathPackageInfoSource( 1287): Cannot load class. Make sure it is in your apk. Class name: 'org.apache.maven.artifact.ant.shaded.interpolation.MapBasedValueSource'. Message: org.apache.maven.artifact.ant.shaded.interpolation.MapBasedValueSource
+W/ClassPathPackageInfoSource( 1287): java.lang.ClassNotFoundException: org.apache.maven.artifact.ant.shaded.interpolation.MapBasedValueSource
+W/ClassPathPackageInfoSource( 1287): 	at java.lang.Class.classForName(Native Method)
+W/ClassPathPackageInfoSource( 1287): 	at java.lang.Class.forName(Class.java:251)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfoSource.createPackageInfo(ClassPathPackageInfoSource.java:88)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfoSource.access$000(ClassPathPackageInfoSource.java:39)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfoSource$1.load(ClassPathPackageInfoSource.java:50)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfoSource$1.load(ClassPathPackageInfoSource.java:47)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.SimpleCache.get(SimpleCache.java:31)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfoSource.getPackageInfo(ClassPathPackageInfoSource.java:72)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfo.getSubpackages(ClassPathPackageInfo.java:48)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfo.addTopLevelClassesTo(ClassPathPackageInfo.java:61)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfo.getTopLevelClassesRecursive(ClassPathPackageInfo.java:55)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.suitebuilder.TestGrouping.testCaseClassesInPackage(TestGrouping.java:156)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.suitebuilder.TestGrouping.addPackagesRecursive(TestGrouping.java:117)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.suitebuilder.TestSuiteBuilder.includePackages(TestSuiteBuilder.java:102)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.InstrumentationTestRunner.onCreate(InstrumentationTestRunner.java:366)
+W/ClassPathPackageInfoSource( 1287): 	at com.google.android.apps.common.testing.testrunner.GoogleInstrumentationTestRunner.onCreate(GoogleInstrumentationTestRunner.java:114)
+W/ClassPathPackageInfoSource( 1287): 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:4335)
+W/ClassPathPackageInfoSource( 1287): 	at android.app.ActivityThread.access$1500(ActivityThread.java:135)
+W/ClassPathPackageInfoSource( 1287): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1256)
+W/ClassPathPackageInfoSource( 1287): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+W/ClassPathPackageInfoSource( 1287): 	at android.os.Looper.loop(Looper.java:136)
+W/ClassPathPackageInfoSource( 1287): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+W/ClassPathPackageInfoSource( 1287): 	at java.lang.reflect.Method.invokeNative(Native Method)
+W/ClassPathPackageInfoSource( 1287): 	at java.lang.reflect.Method.invoke(Method.java:515)
+W/ClassPathPackageInfoSource( 1287): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+W/ClassPathPackageInfoSource( 1287): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+W/ClassPathPackageInfoSource( 1287): 	at dalvik.system.NativeStart.main(Native Method)
+W/ClassPathPackageInfoSource( 1287): Caused by: java.lang.NoClassDefFoundError: org/apache/maven/artifact/ant/shaded/interpolation/MapBasedValueSource
+W/ClassPathPackageInfoSource( 1287): 	... 27 more
+W/ClassPathPackageInfoSource( 1287): Caused by: java.lang.ClassNotFoundException: Didn't find class "org.apache.maven.artifact.ant.shaded.interpolation.MapBasedValueSource" on path: DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/data/app/com.example.chariba.test-2.apk", zip file "/data/app/com.example.chariba-2.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.chariba.test-2, /data/app-lib/com.example.chariba-2, /system/lib]]
+W/ClassPathPackageInfoSource( 1287): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:56)
+W/ClassPathPackageInfoSource( 1287): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:497)
+W/ClassPathPackageInfoSource( 1287): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:457)
+W/ClassPathPackageInfoSource( 1287): 	... 27 more
+W/dalvikvm( 1287): Unable to resolve superclass of Lorg/apache/maven/artifact/ant/shaded/interpolation/ObjectBasedValueSource; (2786)
+W/dalvikvm( 1287): Link of class 'Lorg/apache/maven/artifact/ant/shaded/interpolation/ObjectBasedValueSource;' failed
+W/ClassPathPackageInfoSource( 1287): Cannot load class. Make sure it is in your apk. Class name: 'org.apache.maven.artifact.ant.shaded.interpolation.ObjectBasedValueSource'. Message: org.apache.maven.artifact.ant.shaded.interpolation.ObjectBasedValueSource
+W/ClassPathPackageInfoSource( 1287): java.lang.ClassNotFoundException: org.apache.maven.artifact.ant.shaded.interpolation.ObjectBasedValueSource
+W/ClassPathPackageInfoSource( 1287): 	at java.lang.Class.classForName(Native Method)
+W/ClassPathPackageInfoSource( 1287): 	at java.lang.Class.forName(Class.java:251)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfoSource.createPackageInfo(ClassPathPackageInfoSource.java:88)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfoSource.access$000(ClassPathPackageInfoSource.java:39)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfoSource$1.load(ClassPathPackageInfoSource.java:50)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfoSource$1.load(ClassPathPackageInfoSource.java:47)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.SimpleCache.get(SimpleCache.java:31)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfoSource.getPackageInfo(ClassPathPackageInfoSource.java:72)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfo.getSubpackages(ClassPathPackageInfo.java:48)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfo.addTopLevelClassesTo(ClassPathPackageInfo.java:61)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfo.getTopLevelClassesRecursive(ClassPathPackageInfo.java:55)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.suitebuilder.TestGrouping.testCaseClassesInPackage(TestGrouping.java:156)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.suitebuilder.TestGrouping.addPackagesRecursive(TestGrouping.java:117)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.suitebuilder.TestSuiteBuilder.includePackages(TestSuiteBuilder.java:102)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.InstrumentationTestRunner.onCreate(InstrumentationTestRunner.java:366)
+W/ClassPathPackageInfoSource( 1287): 	at com.google.android.apps.common.testing.testrunner.GoogleInstrumentationTestRunner.onCreate(GoogleInstrumentationTestRunner.java:114)
+W/ClassPathPackageInfoSource( 1287): 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:4335)
+W/ClassPathPackageInfoSource( 1287): 	at android.app.ActivityThread.access$1500(ActivityThread.java:135)
+W/ClassPathPackageInfoSource( 1287): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1256)
+W/ClassPathPackageInfoSource( 1287): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+W/ClassPathPackageInfoSource( 1287): 	at android.os.Looper.loop(Looper.java:136)
+W/ClassPathPackageInfoSource( 1287): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+W/ClassPathPackageInfoSource( 1287): 	at java.lang.reflect.Method.invokeNative(Native Method)
+W/ClassPathPackageInfoSource( 1287): 	at java.lang.reflect.Method.invoke(Method.java:515)
+W/ClassPathPackageInfoSource( 1287): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+W/ClassPathPackageInfoSource( 1287): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+W/ClassPathPackageInfoSource( 1287): 	at dalvik.system.NativeStart.main(Native Method)
+W/ClassPathPackageInfoSource( 1287): Caused by: java.lang.NoClassDefFoundError: org/apache/maven/artifact/ant/shaded/interpolation/ObjectBasedValueSource
+W/ClassPathPackageInfoSource( 1287): 	... 27 more
+W/ClassPathPackageInfoSource( 1287): Caused by: java.lang.ClassNotFoundException: Didn't find class "org.apache.maven.artifact.ant.shaded.interpolation.ObjectBasedValueSource" on path: DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/data/app/com.example.chariba.test-2.apk", zip file "/data/app/com.example.chariba-2.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.chariba.test-2, /data/app-lib/com.example.chariba-2, /system/lib]]
+W/ClassPathPackageInfoSource( 1287): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:56)
+W/ClassPathPackageInfoSource( 1287): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:497)
+W/ClassPathPackageInfoSource( 1287): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:457)
+W/ClassPathPackageInfoSource( 1287): 	... 27 more
+W/dalvikvm( 1287): Unable to resolve superclass of Lorg/apache/maven/artifact/ant/shaded/interpolation/PropertiesBasedValueSource; (2787)
+W/dalvikvm( 1287): Link of class 'Lorg/apache/maven/artifact/ant/shaded/interpolation/PropertiesBasedValueSource;' failed
+W/ClassPathPackageInfoSource( 1287): Cannot load class. Make sure it is in your apk. Class name: 'org.apache.maven.artifact.ant.shaded.interpolation.PropertiesBasedValueSource'. Message: org.apache.maven.artifact.ant.shaded.interpolation.PropertiesBasedValueSource
+W/ClassPathPackageInfoSource( 1287): java.lang.ClassNotFoundException: org.apache.maven.artifact.ant.shaded.interpolation.PropertiesBasedValueSource
+W/ClassPathPackageInfoSource( 1287): 	at java.lang.Class.classForName(Native Method)
+W/ClassPathPackageInfoSource( 1287): 	at java.lang.Class.forName(Class.java:251)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfoSource.createPackageInfo(ClassPathPackageInfoSource.java:88)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfoSource.access$000(ClassPathPackageInfoSource.java:39)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfoSource$1.load(ClassPathPackageInfoSource.java:50)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfoSource$1.load(ClassPathPackageInfoSource.java:47)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.SimpleCache.get(SimpleCache.java:31)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfoSource.getPackageInfo(ClassPathPackageInfoSource.java:72)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfo.getSubpackages(ClassPathPackageInfo.java:48)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfo.addTopLevelClassesTo(ClassPathPackageInfo.java:61)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfo.getTopLevelClassesRecursive(ClassPathPackageInfo.java:55)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.suitebuilder.TestGrouping.testCaseClassesInPackage(TestGrouping.java:156)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.suitebuilder.TestGrouping.addPackagesRecursive(TestGrouping.java:117)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.suitebuilder.TestSuiteBuilder.includePackages(TestSuiteBuilder.java:102)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.InstrumentationTestRunner.onCreate(InstrumentationTestRunner.java:366)
+W/ClassPathPackageInfoSource( 1287): 	at com.google.android.apps.common.testing.testrunner.GoogleInstrumentationTestRunner.onCreate(GoogleInstrumentationTestRunner.java:114)
+W/ClassPathPackageInfoSource( 1287): 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:4335)
+W/ClassPathPackageInfoSource( 1287): 	at android.app.ActivityThread.access$1500(ActivityThread.java:135)
+W/ClassPathPackageInfoSource( 1287): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1256)
+W/ClassPathPackageInfoSource( 1287): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+W/ClassPathPackageInfoSource( 1287): 	at android.os.Looper.loop(Looper.java:136)
+W/ClassPathPackageInfoSource( 1287): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+W/ClassPathPackageInfoSource( 1287): 	at java.lang.reflect.Method.invokeNative(Native Method)
+W/ClassPathPackageInfoSource( 1287): 	at java.lang.reflect.Method.invoke(Method.java:515)
+W/ClassPathPackageInfoSource( 1287): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+W/ClassPathPackageInfoSource( 1287): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+W/ClassPathPackageInfoSource( 1287): 	at dalvik.system.NativeStart.main(Native Method)
+W/ClassPathPackageInfoSource( 1287): Caused by: java.lang.NoClassDefFoundError: org/apache/maven/artifact/ant/shaded/interpolation/PropertiesBasedValueSource
+W/ClassPathPackageInfoSource( 1287): 	... 27 more
+W/ClassPathPackageInfoSource( 1287): Caused by: java.lang.ClassNotFoundException: Didn't find class "org.apache.maven.artifact.ant.shaded.interpolation.PropertiesBasedValueSource" on path: DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/data/app/com.example.chariba.test-2.apk", zip file "/data/app/com.example.chariba-2.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.chariba.test-2, /data/app-lib/com.example.chariba-2, /system/lib]]
+W/ClassPathPackageInfoSource( 1287): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:56)
+W/ClassPathPackageInfoSource( 1287): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:497)
+W/ClassPathPackageInfoSource( 1287): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:457)
+W/ClassPathPackageInfoSource( 1287): 	... 27 more
+W/dalvikvm( 1287): Unable to resolve superclass of Lorg/apache/maven/artifact/ant/shaded/interpolation/RegexBasedInterpolator; (2788)
+W/dalvikvm( 1287): Link of class 'Lorg/apache/maven/artifact/ant/shaded/interpolation/RegexBasedInterpolator;' failed
+W/ClassPathPackageInfoSource( 1287): Cannot load class. Make sure it is in your apk. Class name: 'org.apache.maven.artifact.ant.shaded.interpolation.RegexBasedInterpolator'. Message: org.apache.maven.artifact.ant.shaded.interpolation.RegexBasedInterpolator
+W/ClassPathPackageInfoSource( 1287): java.lang.ClassNotFoundException: org.apache.maven.artifact.ant.shaded.interpolation.RegexBasedInterpolator
+W/ClassPathPackageInfoSource( 1287): 	at java.lang.Class.classForName(Native Method)
+W/ClassPathPackageInfoSource( 1287): 	at java.lang.Class.forName(Class.java:251)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfoSource.createPackageInfo(ClassPathPackageInfoSource.java:88)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfoSource.access$000(ClassPathPackageInfoSource.java:39)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfoSource$1.load(ClassPathPackageInfoSource.java:50)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfoSource$1.load(ClassPathPackageInfoSource.java:47)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.SimpleCache.get(SimpleCache.java:31)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfoSource.getPackageInfo(ClassPathPackageInfoSource.java:72)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfo.getSubpackages(ClassPathPackageInfo.java:48)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfo.addTopLevelClassesTo(ClassPathPackageInfo.java:61)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfo.getTopLevelClassesRecursive(ClassPathPackageInfo.java:55)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.suitebuilder.TestGrouping.testCaseClassesInPackage(TestGrouping.java:156)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.suitebuilder.TestGrouping.addPackagesRecursive(TestGrouping.java:117)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.suitebuilder.TestSuiteBuilder.includePackages(TestSuiteBuilder.java:102)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.InstrumentationTestRunner.onCreate(InstrumentationTestRunner.java:366)
+W/ClassPathPackageInfoSource( 1287): 	at com.google.android.apps.common.testing.testrunner.GoogleInstrumentationTestRunner.onCreate(GoogleInstrumentationTestRunner.java:114)
+W/ClassPathPackageInfoSource( 1287): 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:4335)
+W/ClassPathPackageInfoSource( 1287): 	at android.app.ActivityThread.access$1500(ActivityThread.java:135)
+W/ClassPathPackageInfoSource( 1287): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1256)
+W/ClassPathPackageInfoSource( 1287): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+W/ClassPathPackageInfoSource( 1287): 	at android.os.Looper.loop(Looper.java:136)
+W/ClassPathPackageInfoSource( 1287): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+W/ClassPathPackageInfoSource( 1287): 	at java.lang.reflect.Method.invokeNative(Native Method)
+W/ClassPathPackageInfoSource( 1287): 	at java.lang.reflect.Method.invoke(Method.java:515)
+W/ClassPathPackageInfoSource( 1287): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+W/ClassPathPackageInfoSource( 1287): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+W/ClassPathPackageInfoSource( 1287): 	at dalvik.system.NativeStart.main(Native Method)
+W/ClassPathPackageInfoSource( 1287): Caused by: java.lang.NoClassDefFoundError: org/apache/maven/artifact/ant/shaded/interpolation/RegexBasedInterpolator
+W/ClassPathPackageInfoSource( 1287): 	... 27 more
+W/ClassPathPackageInfoSource( 1287): Caused by: java.lang.ClassNotFoundException: Didn't find class "org.apache.maven.artifact.ant.shaded.interpolation.RegexBasedInterpolator" on path: DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/data/app/com.example.chariba.test-2.apk", zip file "/data/app/com.example.chariba-2.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.chariba.test-2, /data/app-lib/com.example.chariba-2, /system/lib]]
+W/ClassPathPackageInfoSource( 1287): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:56)
+W/ClassPathPackageInfoSource( 1287): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:497)
+W/ClassPathPackageInfoSource( 1287): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:457)
+W/ClassPathPackageInfoSource( 1287): 	... 27 more
+W/dalvikvm( 1287): Link of class 'Lorg/apache/maven/artifact/ant/shaded/interpolation/ValueSource;' failed
+W/ClassPathPackageInfoSource( 1287): Cannot load class. Make sure it is in your apk. Class name: 'org.apache.maven.artifact.ant.shaded.interpolation.ValueSource'. Message: org.apache.maven.artifact.ant.shaded.interpolation.ValueSource
+W/ClassPathPackageInfoSource( 1287): java.lang.ClassNotFoundException: org.apache.maven.artifact.ant.shaded.interpolation.ValueSource
+W/ClassPathPackageInfoSource( 1287): 	at java.lang.Class.classForName(Native Method)
+W/ClassPathPackageInfoSource( 1287): 	at java.lang.Class.forName(Class.java:251)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfoSource.createPackageInfo(ClassPathPackageInfoSource.java:88)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfoSource.access$000(ClassPathPackageInfoSource.java:39)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfoSource$1.load(ClassPathPackageInfoSource.java:50)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfoSource$1.load(ClassPathPackageInfoSource.java:47)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.SimpleCache.get(SimpleCache.java:31)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfoSource.getPackageInfo(ClassPathPackageInfoSource.java:72)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfo.getSubpackages(ClassPathPackageInfo.java:48)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfo.addTopLevelClassesTo(ClassPathPackageInfo.java:61)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfo.getTopLevelClassesRecursive(ClassPathPackageInfo.java:55)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.suitebuilder.TestGrouping.testCaseClassesInPackage(TestGrouping.java:156)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.suitebuilder.TestGrouping.addPackagesRecursive(TestGrouping.java:117)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.suitebuilder.TestSuiteBuilder.includePackages(TestSuiteBuilder.java:102)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.InstrumentationTestRunner.onCreate(InstrumentationTestRunner.java:366)
+W/ClassPathPackageInfoSource( 1287): 	at com.google.android.apps.common.testing.testrunner.GoogleInstrumentationTestRunner.onCreate(GoogleInstrumentationTestRunner.java:114)
+W/ClassPathPackageInfoSource( 1287): 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:4335)
+W/ClassPathPackageInfoSource( 1287): 	at android.app.ActivityThread.access$1500(ActivityThread.java:135)
+W/ClassPathPackageInfoSource( 1287): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1256)
+W/ClassPathPackageInfoSource( 1287): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+W/ClassPathPackageInfoSource( 1287): 	at android.os.Looper.loop(Looper.java:136)
+W/ClassPathPackageInfoSource( 1287): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+W/ClassPathPackageInfoSource( 1287): 	at java.lang.reflect.Method.invokeNative(Native Method)
+W/ClassPathPackageInfoSource( 1287): 	at java.lang.reflect.Method.invoke(Method.java:515)
+W/ClassPathPackageInfoSource( 1287): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+W/ClassPathPackageInfoSource( 1287): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+W/ClassPathPackageInfoSource( 1287): 	at dalvik.system.NativeStart.main(Native Method)
+W/ClassPathPackageInfoSource( 1287): Caused by: java.lang.NoClassDefFoundError: org/apache/maven/artifact/ant/shaded/interpolation/ValueSource
+W/ClassPathPackageInfoSource( 1287): 	... 27 more
+W/ClassPathPackageInfoSource( 1287): Caused by: java.lang.ClassNotFoundException: Didn't find class "org.apache.maven.artifact.ant.shaded.interpolation.ValueSource" on path: DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/data/app/com.example.chariba.test-2.apk", zip file "/data/app/com.example.chariba-2.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.chariba.test-2, /data/app-lib/com.example.chariba-2, /system/lib]]
+W/ClassPathPackageInfoSource( 1287): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:56)
+W/ClassPathPackageInfoSource( 1287): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:497)
+W/ClassPathPackageInfoSource( 1287): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:457)
+W/ClassPathPackageInfoSource( 1287): 	... 27 more
+W/dalvikvm( 1287): Unable to resolve superclass of Lorg/cyberneko/html/parsers/DOMParser; (4744)
+W/dalvikvm( 1287): Link of class 'Lorg/cyberneko/html/parsers/DOMParser;' failed
+W/ClassPathPackageInfoSource( 1287): Cannot load class. Make sure it is in your apk. Class name: 'org.cyberneko.html.parsers.DOMParser'. Message: org.cyberneko.html.parsers.DOMParser
+W/ClassPathPackageInfoSource( 1287): java.lang.ClassNotFoundException: org.cyberneko.html.parsers.DOMParser
+W/ClassPathPackageInfoSource( 1287): 	at java.lang.Class.classForName(Native Method)
+W/ClassPathPackageInfoSource( 1287): 	at java.lang.Class.forName(Class.java:251)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfoSource.createPackageInfo(ClassPathPackageInfoSource.java:88)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfoSource.access$000(ClassPathPackageInfoSource.java:39)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfoSource$1.load(ClassPathPackageInfoSource.java:50)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfoSource$1.load(ClassPathPackageInfoSource.java:47)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.SimpleCache.get(SimpleCache.java:31)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfoSource.getPackageInfo(ClassPathPackageInfoSource.java:72)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfo.getSubpackages(ClassPathPackageInfo.java:48)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfo.addTopLevelClassesTo(ClassPathPackageInfo.java:61)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfo.getTopLevelClassesRecursive(ClassPathPackageInfo.java:55)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.suitebuilder.TestGrouping.testCaseClassesInPackage(TestGrouping.java:156)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.suitebuilder.TestGrouping.addPackagesRecursive(TestGrouping.java:117)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.suitebuilder.TestSuiteBuilder.includePackages(TestSuiteBuilder.java:102)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.InstrumentationTestRunner.onCreate(InstrumentationTestRunner.java:366)
+W/ClassPathPackageInfoSource( 1287): 	at com.google.android.apps.common.testing.testrunner.GoogleInstrumentationTestRunner.onCreate(GoogleInstrumentationTestRunner.java:114)
+W/ClassPathPackageInfoSource( 1287): 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:4335)
+W/ClassPathPackageInfoSource( 1287): 	at android.app.ActivityThread.access$1500(ActivityThread.java:135)
+W/ClassPathPackageInfoSource( 1287): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1256)
+W/ClassPathPackageInfoSource( 1287): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+W/ClassPathPackageInfoSource( 1287): 	at android.os.Looper.loop(Looper.java:136)
+W/ClassPathPackageInfoSource( 1287): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+W/ClassPathPackageInfoSource( 1287): 	at java.lang.reflect.Method.invokeNative(Native Method)
+W/ClassPathPackageInfoSource( 1287): 	at java.lang.reflect.Method.invoke(Method.java:515)
+W/ClassPathPackageInfoSource( 1287): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+W/ClassPathPackageInfoSource( 1287): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+W/ClassPathPackageInfoSource( 1287): 	at dalvik.system.NativeStart.main(Native Method)
+W/ClassPathPackageInfoSource( 1287): Caused by: java.lang.NoClassDefFoundError: org/cyberneko/html/parsers/DOMParser
+W/ClassPathPackageInfoSource( 1287): 	... 27 more
+W/ClassPathPackageInfoSource( 1287): Caused by: java.lang.ClassNotFoundException: Didn't find class "org.cyberneko.html.parsers.DOMParser" on path: DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/data/app/com.example.chariba.test-2.apk", zip file "/data/app/com.example.chariba-2.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.chariba.test-2, /data/app-lib/com.example.chariba-2, /system/lib]]
+W/ClassPathPackageInfoSource( 1287): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:56)
+W/ClassPathPackageInfoSource( 1287): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:497)
+W/ClassPathPackageInfoSource( 1287): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:457)
+W/ClassPathPackageInfoSource( 1287): 	... 27 more
+W/dalvikvm( 1287): Unable to resolve superclass of Lorg/cyberneko/html/parsers/SAXParser; (4743)
+W/dalvikvm( 1287): Link of class 'Lorg/cyberneko/html/parsers/SAXParser;' failed
+W/ClassPathPackageInfoSource( 1287): Cannot load class. Make sure it is in your apk. Class name: 'org.cyberneko.html.parsers.SAXParser'. Message: org.cyberneko.html.parsers.SAXParser
+W/ClassPathPackageInfoSource( 1287): java.lang.ClassNotFoundException: org.cyberneko.html.parsers.SAXParser
+W/ClassPathPackageInfoSource( 1287): 	at java.lang.Class.classForName(Native Method)
+W/ClassPathPackageInfoSource( 1287): 	at java.lang.Class.forName(Class.java:251)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfoSource.createPackageInfo(ClassPathPackageInfoSource.java:88)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfoSource.access$000(ClassPathPackageInfoSource.java:39)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfoSource$1.load(ClassPathPackageInfoSource.java:50)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfoSource$1.load(ClassPathPackageInfoSource.java:47)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.SimpleCache.get(SimpleCache.java:31)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfoSource.getPackageInfo(ClassPathPackageInfoSource.java:72)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfo.getSubpackages(ClassPathPackageInfo.java:48)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfo.addTopLevelClassesTo(ClassPathPackageInfo.java:61)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfo.getTopLevelClassesRecursive(ClassPathPackageInfo.java:55)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.suitebuilder.TestGrouping.testCaseClassesInPackage(TestGrouping.java:156)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.suitebuilder.TestGrouping.addPackagesRecursive(TestGrouping.java:117)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.suitebuilder.TestSuiteBuilder.includePackages(TestSuiteBuilder.java:102)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.InstrumentationTestRunner.onCreate(InstrumentationTestRunner.java:366)
+W/ClassPathPackageInfoSource( 1287): 	at com.google.android.apps.common.testing.testrunner.GoogleInstrumentationTestRunner.onCreate(GoogleInstrumentationTestRunner.java:114)
+W/ClassPathPackageInfoSource( 1287): 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:4335)
+W/ClassPathPackageInfoSource( 1287): 	at android.app.ActivityThread.access$1500(ActivityThread.java:135)
+W/ClassPathPackageInfoSource( 1287): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1256)
+W/ClassPathPackageInfoSource( 1287): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+W/ClassPathPackageInfoSource( 1287): 	at android.os.Looper.loop(Looper.java:136)
+W/ClassPathPackageInfoSource( 1287): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+W/ClassPathPackageInfoSource( 1287): 	at java.lang.reflect.Method.invokeNative(Native Method)
+W/ClassPathPackageInfoSource( 1287): 	at java.lang.reflect.Method.invoke(Method.java:515)
+W/ClassPathPackageInfoSource( 1287): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+W/ClassPathPackageInfoSource( 1287): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+W/ClassPathPackageInfoSource( 1287): 	at dalvik.system.NativeStart.main(Native Method)
+W/ClassPathPackageInfoSource( 1287): Caused by: java.lang.NoClassDefFoundError: org/cyberneko/html/parsers/SAXParser
+W/ClassPathPackageInfoSource( 1287): 	... 27 more
+W/ClassPathPackageInfoSource( 1287): Caused by: java.lang.ClassNotFoundException: Didn't find class "org.cyberneko.html.parsers.SAXParser" on path: DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/data/app/com.example.chariba.test-2.apk", zip file "/data/app/com.example.chariba-2.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.chariba.test-2, /data/app-lib/com.example.chariba-2, /system/lib]]
+W/ClassPathPackageInfoSource( 1287): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:56)
+W/ClassPathPackageInfoSource( 1287): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:497)
+W/ClassPathPackageInfoSource( 1287): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:457)
+W/ClassPathPackageInfoSource( 1287): 	... 27 more
+W/dalvikvm( 1287): Link of class 'Lorg/hamcrest/integration/EasyMock2Adapter;' failed
+W/ClassPathPackageInfoSource( 1287): Cannot load class. Make sure it is in your apk. Class name: 'org.hamcrest.integration.EasyMock2Adapter'. Message: org.hamcrest.integration.EasyMock2Adapter
+W/ClassPathPackageInfoSource( 1287): java.lang.ClassNotFoundException: org.hamcrest.integration.EasyMock2Adapter
+W/ClassPathPackageInfoSource( 1287): 	at java.lang.Class.classForName(Native Method)
+W/ClassPathPackageInfoSource( 1287): 	at java.lang.Class.forName(Class.java:251)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfoSource.createPackageInfo(ClassPathPackageInfoSource.java:88)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfoSource.access$000(ClassPathPackageInfoSource.java:39)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfoSource$1.load(ClassPathPackageInfoSource.java:50)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfoSource$1.load(ClassPathPackageInfoSource.java:47)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.SimpleCache.get(SimpleCache.java:31)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfoSource.getPackageInfo(ClassPathPackageInfoSource.java:72)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfo.getSubpackages(ClassPathPackageInfo.java:48)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfo.addTopLevelClassesTo(ClassPathPackageInfo.java:61)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfo.getTopLevelClassesRecursive(ClassPathPackageInfo.java:55)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.suitebuilder.TestGrouping.testCaseClassesInPackage(TestGrouping.java:156)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.suitebuilder.TestGrouping.addPackagesRecursive(TestGrouping.java:117)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.suitebuilder.TestSuiteBuilder.includePackages(TestSuiteBuilder.java:102)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.InstrumentationTestRunner.onCreate(InstrumentationTestRunner.java:366)
+W/ClassPathPackageInfoSource( 1287): 	at com.google.android.apps.common.testing.testrunner.GoogleInstrumentationTestRunner.onCreate(GoogleInstrumentationTestRunner.java:114)
+W/ClassPathPackageInfoSource( 1287): 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:4335)
+W/ClassPathPackageInfoSource( 1287): 	at android.app.ActivityThread.access$1500(ActivityThread.java:135)
+W/ClassPathPackageInfoSource( 1287): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1256)
+W/ClassPathPackageInfoSource( 1287): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+W/ClassPathPackageInfoSource( 1287): 	at android.os.Looper.loop(Looper.java:136)
+W/ClassPathPackageInfoSource( 1287): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+W/ClassPathPackageInfoSource( 1287): 	at java.lang.reflect.Method.invokeNative(Native Method)
+W/ClassPathPackageInfoSource( 1287): 	at java.lang.reflect.Method.invoke(Method.java:515)
+W/ClassPathPackageInfoSource( 1287): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+W/ClassPathPackageInfoSource( 1287): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+W/ClassPathPackageInfoSource( 1287): 	at dalvik.system.NativeStart.main(Native Method)
+W/ClassPathPackageInfoSource( 1287): Caused by: java.lang.NoClassDefFoundError: org/hamcrest/integration/EasyMock2Adapter
+W/ClassPathPackageInfoSource( 1287): 	... 27 more
+W/ClassPathPackageInfoSource( 1287): Caused by: java.lang.ClassNotFoundException: Didn't find class "org.hamcrest.integration.EasyMock2Adapter" on path: DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/data/app/com.example.chariba.test-2.apk", zip file "/data/app/com.example.chariba-2.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.chariba.test-2, /data/app-lib/com.example.chariba-2, /system/lib]]
+W/ClassPathPackageInfoSource( 1287): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:56)
+W/ClassPathPackageInfoSource( 1287): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:497)
+W/ClassPathPackageInfoSource( 1287): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:457)
+W/ClassPathPackageInfoSource( 1287): 	... 27 more
+W/dalvikvm( 1287): Link of class 'Lorg/hamcrest/integration/JMock1Adapter;' failed
+W/ClassPathPackageInfoSource( 1287): Cannot load class. Make sure it is in your apk. Class name: 'org.hamcrest.integration.JMock1Adapter'. Message: org.hamcrest.integration.JMock1Adapter
+W/ClassPathPackageInfoSource( 1287): java.lang.ClassNotFoundException: org.hamcrest.integration.JMock1Adapter
+W/ClassPathPackageInfoSource( 1287): 	at java.lang.Class.classForName(Native Method)
+W/ClassPathPackageInfoSource( 1287): 	at java.lang.Class.forName(Class.java:251)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfoSource.createPackageInfo(ClassPathPackageInfoSource.java:88)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfoSource.access$000(ClassPathPackageInfoSource.java:39)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfoSource$1.load(ClassPathPackageInfoSource.java:50)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfoSource$1.load(ClassPathPackageInfoSource.java:47)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.SimpleCache.get(SimpleCache.java:31)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfoSource.getPackageInfo(ClassPathPackageInfoSource.java:72)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfo.getSubpackages(ClassPathPackageInfo.java:48)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfo.addTopLevelClassesTo(ClassPathPackageInfo.java:61)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.ClassPathPackageInfo.getTopLevelClassesRecursive(ClassPathPackageInfo.java:55)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.suitebuilder.TestGrouping.testCaseClassesInPackage(TestGrouping.java:156)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.suitebuilder.TestGrouping.addPackagesRecursive(TestGrouping.java:117)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.suitebuilder.TestSuiteBuilder.includePackages(TestSuiteBuilder.java:102)
+W/ClassPathPackageInfoSource( 1287): 	at android.test.InstrumentationTestRunner.onCreate(InstrumentationTestRunner.java:366)
+W/ClassPathPackageInfoSource( 1287): 	at com.google.android.apps.common.testing.testrunner.GoogleInstrumentationTestRunner.onCreate(GoogleInstrumentationTestRunner.java:114)
+W/ClassPathPackageInfoSource( 1287): 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:4335)
+W/ClassPathPackageInfoSource( 1287): 	at android.app.ActivityThread.access$1500(ActivityThread.java:135)
+W/ClassPathPackageInfoSource( 1287): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1256)
+W/ClassPathPackageInfoSource( 1287): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+W/ClassPathPackageInfoSource( 1287): 	at android.os.Looper.loop(Looper.java:136)
+W/ClassPathPackageInfoSource( 1287): 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+W/ClassPathPackageInfoSource( 1287): 	at java.lang.reflect.Method.invokeNative(Native Method)
+W/ClassPathPackageInfoSource( 1287): 	at java.lang.reflect.Method.invoke(Method.java:515)
+W/ClassPathPackageInfoSource( 1287): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+W/ClassPathPackageInfoSource( 1287): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+W/ClassPathPackageInfoSource( 1287): 	at dalvik.system.NativeStart.main(Native Method)
+W/ClassPathPackageInfoSource( 1287): Caused by: java.lang.NoClassDefFoundError: org/hamcrest/integration/JMock1Adapter
+W/ClassPathPackageInfoSource( 1287): 	... 27 more
+W/ClassPathPackageInfoSource( 1287): Caused by: java.lang.ClassNotFoundException: Didn't find class "org.hamcrest.integration.JMock1Adapter" on path: DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/data/app/com.example.chariba.test-2.apk", zip file "/data/app/com.example.chariba-2.apk"],nativeLibraryDirectories=[/data/app-lib/com.example.chariba.test-2, /data/app-lib/com.example.chariba-2, /system/lib]]
+W/ClassPathPackageInfoSource( 1287): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:56)
+W/ClassPathPackageInfoSource( 1287): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:497)
+W/ClassPathPackageInfoSource( 1287): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:457)
+W/ClassPathPackageInfoSource( 1287): 	... 27 more
+E/SurfaceFlinger(   55): glCheckFramebufferStatusOES error -1087560904
+E/SurfaceFlinger(   55): got GL_FRAMEBUFFER_COMPLETE_OES error while taking screenshot
+W/WindowManager(  380): Screenshot failure taking screenshot for (246x369) to layer 21005
+W/dalvikvm( 1287): VFY: unable to resolve virtual method 569: Landroid/content/res/TypedArray;.getChangingConfigurations ()I
+W/dalvikvm( 1287): VFY: unable to resolve virtual method 591: Landroid/content/res/TypedArray;.getType (I)I
+W/GooglePlayServicesUtil( 1287): Google Play services is missing.
+E/LocationService( 1287): Google Play services NOT available.
+E/SurfaceFlinger(   55): glCheckFramebufferStatusOES error -1087560904
+E/Surfac
