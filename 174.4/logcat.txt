@@ -1,0 +1,124 @@
+--------- beginning of /dev/log/main
+E/logwrapper(   39): executing /system/bin/e2fsck failed: No such file or directory
+E/logwrapper(   45): executing /system/bin/e2fsck failed: No such file or directory
+E/cutils  (   59): Failed to read /data/.layout_version: No such file or directory
+--------- beginning of /dev/log/system
+W/InterfaceController(   52): Warning (dlopen failed: library "/system/lib/libnetcmdiface.so" not found) while opening the net interface command library
+E/SurfaceFlinger(   55): hwcomposer module not found
+W/SurfaceFlinger(   55): getting VSYNC period from fb HAL: 1536001
+W/SurfaceFlinger(   55): no suitable EGLConfig found, trying a simpler query
+W/SurfaceFlinger(   55): EGL_SLOW_CONFIG selected!
+W/SurfaceFlinger(   55): power module not found
+W/SurfaceFlinger(   55): power module not found
+E/SurfaceFlinger(   55): ro.sf.lcd_density must be defined as a build property
+W/AudioFlinger(   58): Thread AudioOut_2 cannot connect to the power manager service
+E/AudioFlinger(   58): int android::load_audio_interface(const char*, audio_hw_device_t**) couldn't load audio hw module audio.r_submix (No such file or directory)
+W/AudioPolicyManagerBase(   58): could not open HW module r_submix
+W/AudioFlinger(   58): Thread AudioOut_2 cannot connect to the power manager service
+W/AudioFlinger(   58): Thread AudioOut_2 cannot connect to the power manager service
+E/AudioFlinger(   58): no wake lock to update!
+E/memtrack(   56): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug(   56): failed to load memtrack module: -2
+W/dalvikvm(   56): Exception Ljava/lang/UnsatisfiedLinkError; thrown while initializing Landroid/media/videoeditor/MediaArtistNativeHelper;
+W/Zygote  (   56): Class not found for preloading: android.media.videoeditor.MediaArtistNativeHelper
+E/EmojiFactory_jni(   56): Failed to load libemoji.so: dlopen failed: library "libemoji.so" not found
+W/Zygote  (   56): Class not found for preloading: java.lang.UnsafeByteSequence
+E/logwrapper(  299): executing /system/bin/ip failed: No such file or directory
+E/logwrapper(  300): executing /system/bin/ip failed: No such file or directory
+E/logwrapper(  301): executing /system/bin/ip failed: No such file or directory
+E/logwrapper(  302): executing /system/bin/ip failed: No such file or directory
+E/logwrapper(  303): executing /system/bin/ip failed: No such file or directory
+E/logwrapper(  304): executing /system/bin/ip failed: No such file or directory
+E/logwrapper(  305): executing /system/bin/ip failed: No such file or directory
+E/PowerManagerService-JNI(  381): Couldn't load power module (No such file or directory)
+E/SurfaceFlinger(   55): ro.sf.lcd_density must be defined as a build property
+W/FileUtils(  381): Failed to chmod(/data/system/packages.list): libcore.io.ErrnoException: chmod failed: ENOENT (No such file or directory)
+W/PackageManager(  381): Running ENG build: no pre-dexopt!
+W/PackageParser(  381): No actions in intent filter at /system/priv-app/Contacts.apk Binary XML file line #375
+W/PackageParser(  381): No actions in intent filter at /system/priv-app/Dialer.apk Binary XML file line #162
+W/ResourceType(  381): Failure getting entry for 0x7f050000 (t=4 e=0) in package 0 (error -75)
+E/memtrack(  434): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug(  434): failed to load memtrack module: -2
+E/memtrack(  450): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug(  450): failed to load memtrack module: -2
+E/memtrack(  474): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug(  474): failed to load memtrack module: -2
+W/PackageParser(  381): No actions in intent filter at /data/app/ApiDemos.apk Binary XML file line #2899
+W/PackageParser(  381): No actions in intent filter at /data/app/ApiDemos.apk Binary XML file line #2905
+E/memtrack(  490): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug(  490): failed to load memtrack module: -2
+W/PackageManager(  381): Package com.example.android.apis desires unavailable shared library com.example.will.never.exist; ignoring!
+E/memtrack(  503): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug(  503): failed to load memtrack module: -2
+W/PackageManager(  381): Package com.example.android.apis desires unavailable shared library com.example.will.never.exist; ignoring!
+W/PackageManager(  381): Package com.android.camera desires unavailable shared library com.google.android.media.effects; ignoring!
+W/PackageManager(  381): Not granting permission android.permission.GLOBAL_SEARCH to package com.android.quicksearchbox (protectionLevel=18 flags=0x8be45)
+W/PackageManager(  381): Unknown permission com.android.smspush.WAPPUSH_MANAGER_BIND in package com.android.phone
+W/PackageManager(  381): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.providers.calendar
+W/PackageManager(  381): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.cl in package com.android.providers.calendar
+W/PackageManager(  381): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.mail in package com.android.calendar
+W/PackageManager(  381): Not granting permission android.permission.ACCESS_DOWNLOAD_MANAGER to package com.android.browser (protectionLevel=18 flags=0x9be45)
+W/PackageManager(  381): Not granting permission android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS to package com.android.browser (protectionLevel=2 flags=0x9be45)
+W/PackageManager(  381): Not granting permission android.permission.BIND_APPWIDGET to package com.android.widgetpreview (protectionLevel=18 flags=0x8be44)
+W/PackageManager(  381): Unknown permission android.permission.INSTALL_DRM in package com.android.mms
+W/PackageManager(  381): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.settings
+W/PackageManager(  381): Unknown permission com.google.android.googleapps.permission.ACCESS_GOOGLE_PASSWORD in package com.android.development
+W/PackageManager(  381): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.development
+W/PackageManager(  381): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.ALL_SERVICES in package com.android.development
+W/PackageManager(  381): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.YouTubeUser in package com.android.development
+W/PackageManager(  381): Not granting permission android.permission.DELETE_PACKAGES to package com.svox.pico (protectionLevel=18 flags=0x8be45)
+W/PackageManager(  381): Not granting permission android.permission.DEVICE_POWER to package com.android.deskclock (protectionLevel=2 flags=0x48be45)
+W/EntropyMixer(  381): No existing entropy file -- first boot?
+W/SyncManagerFile(  381): Error reading pending data.
+W/SyncManagerFile(  381): java.io.FileNotFoundException: /data/system/sync/pending.xml: open failed: ENOENT (No such file or directory)
+W/SyncManagerFile(  381): 	at libcore.io.IoBridge.open(IoBridge.java:409)
+W/SyncManagerFile(  381): 	at java.io.FileInputStream.<init>(FileInputStream.java:78)
+W/SyncManagerFile(  381): 	at android.util.AtomicFile.openRead(AtomicFile.java:199)
+W/SyncManagerFile(  381): 	at com.android.server.content.SyncStorageEngine.readPendingOperationsLocked(SyncStorageEngine.java:2286)
+W/SyncManagerFile(  381): 	at com.android.server.content.SyncStorageEngine.<init>(SyncStorageEngine.java:434)
+W/SyncManagerFile(  381): 	at com.android.server.content.SyncStorageEngine.init(SyncStorageEngine.java:454)
+W/SyncManagerFile(  381): 	at com.android.server.content.SyncManager.<init>(SyncManager.java:383)
+W/SyncManagerFile(  381): 	at com.android.server.content.ContentService.getSyncManager(ContentService.java:75)
+W/SyncManagerFile(  381): 	at com.android.server.content.ContentService.notifyChange(ContentService.java:283)
+W/SyncManagerFile(  381): 	at android.content.ContentResolver.notifyChange(ContentResolver.java:1621)
+W/SyncManagerFile(  381): 	at com.android.providers.settings.SettingsProvider.sendNotify(SettingsProvider.java:262)
+W/SyncManagerFile(  381): 	at com.android.providers.settings.SettingsProvider.insertForUser(SettingsProvider.java:941)
+W/SyncManagerFile(  381): 	at com.android.providers.settings.SettingsProvider.ensureAndroidIdIsSet(SettingsProvider.java:496)
+W/SyncManagerFile(  381): 	at com.android.providers.settings.SettingsProvider.establishDbTracking(SettingsProvider.java:409)
+W/SyncManagerFile(  381): 	at com.android.providers.settings.SettingsProvider.onCreate(SettingsProvider.java:335)
+W/SyncManagerFile(  381): 	at android.content.ContentProvider.attachInfo(ContentProvider.java:1591)
+W/SyncManagerFile(  381): 	at android.content.ContentProvider.attachInfo(ContentProvider.java:1562)
+W/SyncManagerFile(  381): 	at android.app.ActivityThread.installProvider(ActivityThread.java:4790)
+W/SyncManagerFile(  381): 	at android.app.ActivityThread.installContentProviders(ActivityThread.java:4385)
+W/SyncManagerFile(  381): 	at android.app.ActivityThread.installSystemProviders(ActivityThread.java:4945)
+W/SyncManagerFile(  381): 	at com.android.server.am.ActivityManagerService.installSystemProviders(ActivityManagerService.java:8081)
+W/SyncManagerFile(  381): 	at com.android.server.ServerThread.initAndLoop(SystemServer.java:275)
+W/SyncManagerFile(  381): 	at com.android.server.SystemServer.main(SystemServer.java:1179)
+W/SyncManagerFile(  381): 	at java.lang.reflect.Method.invokeNative(Native Method)
+W/SyncManagerFile(  381): 	at java.lang.reflect.Method.invoke(Method.java:515)
+W/SyncManagerFile(  381): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+W/SyncManagerFile(  381): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+W/SyncManagerFile(  381): 	at dalvik.system.NativeStart.main(Native Method)
+W/SyncManagerFile(  381): Caused by: libcore.io.ErrnoException: open failed: ENOENT (No such file or directory)
+W/SyncManagerFile(  381): 	at libcore.io.Posix.open(Native Method)
+W/SyncManagerFile(  381): 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:110)
+W/SyncManagerFile(  381): 	at libcore.io.IoBridge.open(IoBridge.java:393)
+W/SyncManagerFile(  381): 	... 27 more
+E/memtrack(  515): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug(  515): failed to load memtrack module: -2
+E/ConsumerIrService(  381): Can't open consumer IR HW Module, error: -2
+W/libsuspend(  381): Error writing 'on' to /sys/power/state: Invalid argument
+E/libsuspend(  381): Error opening /sys/power/autosleep: No such file or directory
+W/PackageManager(  381): Package named 'com.github.ay65535.chariba.test' doesn't exist.
+E/EventHub(  381): could not get driver version for /dev/input/mouse0, Not a typewriter
+W/EventHub(  381): Unable to disable kernel key repeat for /dev/input/event0: Function not implemented
+E/EventHub(  381): could not get driver version for /dev/input/mice, Not a typewriter
+W/InputMethodManagerService(  381): No IME selected. Choose the most applicable IME.
+W/MountService(  381): getSecureContainerList() called when storage not mounted
+W/PackageManager(  381): Not granting permission android.permission.GLOBAL_SEARCH to package com.android.quicksearchbox (protectionLevel=18 flags=0x8be45)
+W/PackageManager(  381): Unknown permission com.android.smspush.WAPPUSH_MANAGER_BIND in package com.android.phone
+W/PackageManager(  381): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.providers.calendar
+W/PackageManager(  381): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.cl in package com.android.providers.calendar
+W/PackageManager(  381): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.mail in package com.android.calendar
+W/PackageManager(  381): Not granting permission android.permission.ACCESS_DOWNLOAD_MANAGER to package com.android.browser (protectionLevel=18 flags=0x9be45)
+W/PackageManager(  381): Not granting permission android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS to package com.
