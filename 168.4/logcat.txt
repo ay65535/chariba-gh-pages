@@ -1,0 +1,286 @@
+--------- beginning of /dev/log/main
+E/logwrapper(   39): executing /system/bin/e2fsck failed: No such file or directory
+E/logwrapper(   46): executing /system/bin/e2fsck failed: No such file or directory
+--------- beginning of /dev/log/system
+E/cutils  (   60): Failed to read /data/.layout_version: No such file or directory
+W/InterfaceController(   53): Warning (dlopen failed: library "/system/lib/libnetcmdiface.so" not found) while opening the net interface command library
+E/SurfaceFlinger(   56): hwcomposer module not found
+W/SurfaceFlinger(   56): getting VSYNC period from fb HAL: 1536001
+W/SurfaceFlinger(   56): no suitable EGLConfig found, trying a simpler query
+W/SurfaceFlinger(   56): EGL_SLOW_CONFIG selected!
+W/SurfaceFlinger(   56): power module not found
+W/SurfaceFlinger(   56): power module not found
+E/SurfaceFlinger(   56): ro.sf.lcd_density must be defined as a build property
+W/AudioFlinger(   59): Thread AudioOut_2 cannot connect to the power manager service
+E/AudioFlinger(   59): int android::load_audio_interface(const char*, audio_hw_device_t**) couldn't load audio hw module audio.r_submix (No such file or directory)
+W/AudioPolicyManagerBase(   59): could not open HW module r_submix
+E/memtrack(   57): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug(   57): failed to load memtrack module: -2
+W/dalvikvm(   57): Exception Ljava/lang/UnsatisfiedLinkError; thrown while initializing Landroid/media/videoeditor/MediaArtistNativeHelper;
+W/Zygote  (   57): Class not found for preloading: android.media.videoeditor.MediaArtistNativeHelper
+E/EmojiFactory_jni(   57): Failed to load libemoji.so: dlopen failed: library "libemoji.so" not found
+W/Zygote  (   57): Class not found for preloading: java.lang.UnsafeByteSequence
+E/logwrapper(  298): executing /system/bin/ip failed: No such file or directory
+E/logwrapper(  299): executing /system/bin/ip failed: No such file or directory
+E/logwrapper(  300): executing /system/bin/ip failed: No such file or directory
+E/logwrapper(  301): executing /system/bin/ip failed: No such file or directory
+E/logwrapper(  302): executing /system/bin/ip failed: No such file or directory
+E/logwrapper(  303): executing /system/bin/ip failed: No such file or directory
+E/logwrapper(  304): executing /system/bin/ip failed: No such file or directory
+E/PowerManagerService-JNI(  379): Couldn't load power module (No such file or directory)
+E/SurfaceFlinger(   56): ro.sf.lcd_density must be defined as a build property
+W/FileUtils(  379): Failed to chmod(/data/system/packages.list): libcore.io.ErrnoException: chmod failed: ENOENT (No such file or directory)
+W/PackageManager(  379): Running ENG build: no pre-dexopt!
+W/PackageParser(  379): No actions in intent filter at /system/priv-app/Contacts.apk Binary XML file line #375
+W/PackageParser(  379): No actions in intent filter at /system/priv-app/Dialer.apk Binary XML file line #162
+W/ResourceType(  379): Failure getting entry for 0x7f050000 (t=4 e=0) in package 0 (error -75)
+W/PackageParser(  379): No actions in intent filter at /data/app/ApiDemos.apk Binary XML file line #2899
+W/PackageParser(  379): No actions in intent filter at /data/app/ApiDemos.apk Binary XML file line #2905
+W/PackageManager(  379): Package com.example.android.apis desires unavailable shared library com.example.will.never.exist; ignoring!
+W/PackageManager(  379): Package com.example.android.apis desires unavailable shared library com.example.will.never.exist; ignoring!
+W/PackageManager(  379): Package com.android.camera desires unavailable shared library com.google.android.media.effects; ignoring!
+W/PackageManager(  379): Not granting permission android.permission.GLOBAL_SEARCH to package com.android.quicksearchbox (protectionLevel=18 flags=0x8be45)
+W/PackageManager(  379): Unknown permission com.android.smspush.WAPPUSH_MANAGER_BIND in package com.android.phone
+W/PackageManager(  379): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.providers.calendar
+W/PackageManager(  379): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.cl in package com.android.providers.calendar
+W/PackageManager(  379): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.mail in package com.android.calendar
+W/PackageManager(  379): Not granting permission android.permission.ACCESS_DOWNLOAD_MANAGER to package com.android.browser (protectionLevel=18 flags=0x9be45)
+W/PackageManager(  379): Not granting permission android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS to package com.android.browser (protectionLevel=2 flags=0x9be45)
+W/PackageManager(  379): Not granting permission android.permission.BIND_APPWIDGET to package com.android.widgetpreview (protectionLevel=18 flags=0x8be44)
+W/PackageManager(  379): Unknown permission android.permission.INSTALL_DRM in package com.android.mms
+W/PackageManager(  379): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.settings
+W/PackageManager(  379): Unknown permission com.google.android.googleapps.permission.ACCESS_GOOGLE_PASSWORD in package com.android.development
+W/PackageManager(  379): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.development
+W/PackageManager(  379): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.ALL_SERVICES in package com.android.development
+W/PackageManager(  379): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.YouTubeUser in package com.android.development
+W/PackageManager(  379): Not granting permission android.permission.DELETE_PACKAGES to package com.svox.pico (protectionLevel=18 flags=0x8be45)
+W/PackageManager(  379): Not granting permission android.permission.DEVICE_POWER to package com.android.deskclock (protectionLevel=2 flags=0x48be45)
+W/EntropyMixer(  379): No existing entropy file -- first boot?
+W/SyncManagerFile(  379): Error reading pending data.
+W/SyncManagerFile(  379): java.io.FileNotFoundException: /data/system/sync/pending.xml: open failed: ENOENT (No such file or directory)
+W/SyncManagerFile(  379): 	at libcore.io.IoBridge.open(IoBridge.java:409)
+W/SyncManagerFile(  379): 	at java.io.FileInputStream.<init>(FileInputStream.java:78)
+W/SyncManagerFile(  379): 	at android.util.AtomicFile.openRead(AtomicFile.java:199)
+W/SyncManagerFile(  379): 	at com.android.server.content.SyncStorageEngine.readPendingOperationsLocked(SyncStorageEngine.java:2286)
+W/SyncManagerFile(  379): 	at com.android.server.content.SyncStorageEngine.<init>(SyncStorageEngine.java:434)
+W/SyncManagerFile(  379): 	at com.android.server.content.SyncStorageEngine.init(SyncStorageEngine.java:454)
+W/SyncManagerFile(  379): 	at com.android.server.content.SyncManager.<init>(SyncManager.java:383)
+W/SyncManagerFile(  379): 	at com.android.server.content.ContentService.getSyncManager(ContentService.java:75)
+W/SyncManagerFile(  379): 	at com.android.server.content.ContentService.notifyChange(ContentService.java:283)
+W/SyncManagerFile(  379): 	at android.content.ContentResolver.notifyChange(ContentResolver.java:1621)
+W/SyncManagerFile(  379): 	at com.android.providers.settings.SettingsProvider.sendNotify(SettingsProvider.java:262)
+W/SyncManagerFile(  379): 	at com.android.providers.settings.SettingsProvider.insertForUser(SettingsProvider.java:941)
+W/SyncManagerFile(  379): 	at com.android.providers.settings.SettingsProvider.ensureAndroidIdIsSet(SettingsProvider.java:496)
+W/SyncManagerFile(  379): 	at com.android.providers.settings.SettingsProvider.establishDbTracking(SettingsProvider.java:409)
+W/SyncManagerFile(  379): 	at com.android.providers.settings.SettingsProvider.onCreate(SettingsProvider.java:335)
+W/SyncManagerFile(  379): 	at android.content.ContentProvider.attachInfo(ContentProvider.java:1591)
+W/SyncManagerFile(  379): 	at android.content.ContentProvider.attachInfo(ContentProvider.java:1562)
+W/SyncManagerFile(  379): 	at android.app.ActivityThread.installProvider(ActivityThread.java:4790)
+W/SyncManagerFile(  379): 	at android.app.ActivityThread.installContentProviders(ActivityThread.java:4385)
+W/SyncManagerFile(  379): 	at android.app.ActivityThread.installSystemProviders(ActivityThread.java:4945)
+W/SyncManagerFile(  379): 	at com.android.server.am.ActivityManagerService.installSystemProviders(ActivityManagerService.java:8081)
+W/SyncManagerFile(  379): 	at com.android.server.ServerThread.initAndLoop(SystemServer.java:275)
+W/SyncManagerFile(  379): 	at com.android.server.SystemServer.main(SystemServer.java:1179)
+W/SyncManagerFile(  379): 	at java.lang.reflect.Method.invokeNative(Native Method)
+W/SyncManagerFile(  379): 	at java.lang.reflect.Method.invoke(Method.java:515)
+W/SyncManagerFile(  379): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+W/SyncManagerFile(  379): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+W/SyncManagerFile(  379): 	at dalvik.system.NativeStart.main(Native Method)
+W/SyncManagerFile(  379): Caused by: libcore.io.ErrnoException: open failed: ENOENT (No such file or directory)
+W/SyncManagerFile(  379): 	at libcore.io.Posix.open(Native Method)
+W/SyncManagerFile(  379): 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:110)
+W/SyncManagerFile(  379): 	at libcore.io.IoBridge.open(IoBridge.java:393)
+W/SyncManagerFile(  379): 	... 27 more
+E/ConsumerIrService(  379): Can't open consumer IR HW Module, error: -2
+W/libsuspend(  379): Error writing 'on' to /sys/power/state: Invalid argument
+E/libsuspend(  379): Error opening /sys/power/autosleep: No such file or directory
+E/EventHub(  379): could not get driver version for /dev/input/mouse0, Not a typewriter
+W/EventHub(  379): Unable to disable kernel key repeat for /dev/input/event0: Function not implemented
+E/EventHub(  379): could not get driver version for /dev/input/mice, Not a typewriter
+W/InputMethodManagerService(  379): No IME selected. Choose the most applicable IME.
+W/MountService(  379): getSecureContainerList() called when storage not mounted
+W/PackageManager(  379): Not granting permission android.permission.GLOBAL_SEARCH to package com.android.quicksearchbox (protectionLevel=18 flags=0x8be45)
+W/PackageManager(  379): Unknown permission com.android.smspush.WAPPUSH_MANAGER_BIND in package com.android.phone
+W/PackageManager(  379): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.providers.calendar
+W/PackageManager(  379): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.cl in package com.android.providers.calendar
+W/PackageManager(  379): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.mail in package com.android.calendar
+W/PackageManager(  379): Not granting permission android.permission.ACCESS_DOWNLOAD_MANAGER to package com.android.browser (protectionLevel=18 flags=0x9be45)
+W/PackageManager(  379): Not granting permission android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS to package com.android.browser (protectionLevel=2 flags=0x9be45)
+W/PackageManager(  379): Not granting permission android.permission.BIND_APPWIDGET to package com.android.widgetpreview (protectionLevel=18 flags=0x8be44)
+W/PackageManager(  379): Unknown permission android.permission.INSTALL_DRM in package com.android.mms
+W/PackageManager(  379): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.settings
+W/PackageManager(  379): Unknown permission com.google.android.googleapps.permission.ACCESS_GOOGLE_PASSWORD in package com.android.development
+W/PackageManager(  379): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.development
+W/PackageManager(  379): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.ALL_SERVICES in package com.android.development
+W/PackageManager(  379): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.YouTubeUser in package com.android.development
+W/PackageManager(  379): Not granting permission android.permission.DELETE_PACKAGES to package com.svox.pico (protectionLevel=18 flags=0x8be45)
+W/PackageManager(  379): Not granting permission android.permission.DEVICE_POWER to package com.android.deskclock (protectionLevel=2 flags=0x48be45)
+E/MobileDataStateTracker(  379): default: Ignoring feature request because could not acquire PhoneService
+E/MobileDataStateTracker(  379): default: Could not enable APN type "default"
+W/WallpaperService(  379): no current wallpaper -- first boot?
+W/DockObserver(  379): This kernel does not have dock station support
+W/WiredAccessoryManager(  379): This kernel does not have wired headset support
+W/WiredAccessoryManager(  379): This kernel does not have usb audio support
+W/WiredAccessoryManager(  379): This kernel does not have HDMI audio support
+E/SQLiteLog(  379): (1) no such table: locksettings
+W/AssetAtlasService(  379): Could not find EGL configuration
+W/InputMethodManagerService(  379): Focus gain on non-focused client android.view.inputmethod.InputMethodManager$1@b3470498 (uid=1000 pid=379)
+E/SoundPool(  450): error loading /system/media/audio/ui/Lock.ogg
+W/KeyguardViewMediator(  450): failed to load lock sound from /system/media/audio/ui/Lock.ogg
+E/SoundPool(  450): error loading /system/media/audio/ui/Unlock.ogg
+W/KeyguardViewMediator(  450): failed to load unlock sound from /system/media/audio/ui/Unlock.ogg
+E/NetdConnector(  379): NDC Command {1 bandwidth enable} took too long (4138ms)
+E/BluetoothAdapter(  450): Bluetooth binder is null
+E/BluetoothAdapter(  450): Bluetooth binder is null
+E/BluetoothAdapter(  450): Bluetooth binder is null
+W/RecognitionManagerService(  379): no available voice recognition services found for user 0
+E/BluetoothAdapter(  450): Bluetooth binder is null
+W/AppWidgetServiceImpl(  379): Failed to read state: java.io.FileNotFoundException: /data/system/users/0/appwidgets.xml: open failed: ENOENT (No such file or directory)
+W/InputMethodManagerService(  379): Ignoring setImeWindowStatus of uid 1000 token: null
+W/InputMethodUtils(  379): Found no subtypes in a system IME: com.android.inputmethod.pinyin
+W/InputMethodManagerService(  379): Reset the default IME as "Resource" is ready here.
+W/InputMethodUtils(  379): Found no subtypes in a system IME: com.android.inputmethod.pinyin
+W/GpsLocationProvider(  379): Could not open GPS configuration file /etc/gps.conf
+W/ServiceWatcher(  379): com.google.android.location not found
+W/ServiceWatcher(  379): com.google.android.location not found
+W/ServiceWatcher(  379): com.google.android.location not found
+W/LocationManagerService(  379): no network location provider found
+W/InputMethodManagerService(  379): Illegal subtype state: old subtype = null, new subtype = android.view.inputmethod.InputMethodSubtype@c9194f98
+W/ServiceWatcher(  379): com.google.android.location not found
+E/LocationManagerService(  379): no geocoder provider found
+E/FlpHardwareProvider(  379): Error hw_get_module 'flp': -2
+W/ServiceWatcher(  379): com.google.android.location not found
+E/LocationManagerService(  379): No FusedProvider found.
+E/FlpHardwareProvider(  379): Error hw_get_module 'flp': -2
+W/ServiceWatcher(  379): com.google.android.location not found
+E/LocationManagerService(  379): no geofence provider found
+E/BluetoothAdapter(  450): Bluetooth binder is null
+W/InputAttributes(  582): No editor info for this field. Bug?
+W/ActivityManager(  379): Activity pause timeout for ActivityRecord{b3114e50 u0 com.android.settings/.CryptKeeper t1 f}
+E/BluetoothAdapter(  605): Bluetooth binder is null
+W/WindowManager(  379): Window freeze timeout expired.
+W/WindowManager(  379): Force clearing orientation change: Window{b311c390 u0 StatusBar}
+W/BackupManagerService(  379): dataChanged but no participant pkg='com.android.providers.settings' uid=1001
+E/memtrack(  712): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug(  712): failed to load memtrack module: -2
+E/BluetoothAdapter(  596): Bluetooth binder is null
+E/BluetoothAdapter(  596): Bluetooth binder is null
+E/BluetoothAdapter(  596): Bluetooth binder is null
+W/ActivityManager(  379): Launch timeout has expired, giving up wake lock!
+E/BluetoothAdapter(  605): Bluetooth binder is null
+W/Resources(  729): Converting to int: TypedValue{t=0x3/d=0x12 "4" a=-1}
+W/Resources(  729): Converting to int: TypedValue{t=0x3/d=0xf "1" a=-1}
+W/Resources(  729): Converting to int: TypedValue{t=0x3/d=0x15 "2" a=-1}
+W/Resources(  729): Converting to int: TypedValue{t=0x3/d=0x15 "2" a=-1}
+W/Launcher.LauncherProvider(  729): Unable to add favorite: com.android.camera2/com.android.camera.CameraLauncher
+W/Launcher.LauncherProvider(  729): android.content.pm.PackageManager$NameNotFoundException: ComponentInfo{com.android.camera2/com.android.camera.CameraLauncher}
+W/Launcher.LauncherProvider(  729): 	at android.app.ApplicationPackageManager.getActivityInfo(ApplicationPackageManager.java:242)
+W/Launcher.LauncherProvider(  729): 	at com.android.launcher2.LauncherProvider$DatabaseHelper.addAppShortcut(LauncherProvider.java:939)
+W/Launcher.LauncherProvider(  729): 	at com.android.launcher2.LauncherProvider$DatabaseHelper.loadFavorites(LauncherProvider.java:843)
+W/Launcher.LauncherProvider(  729): 	at com.android.launcher2.LauncherProvider$DatabaseHelper.access$000(LauncherProvider.java:233)
+W/Launcher.LauncherProvider(  729): 	at com.android.launcher2.LauncherProvider.loadDefaultFavoritesIfNecessary(LauncherProvider.java:228)
+W/Launcher.LauncherProvider(  729): 	at com.android.launcher2.LauncherModel$LoaderTask.loadWorkspace(LauncherModel.java:1263)
+W/Launcher.LauncherProvider(  729): 	at com.android.launcher2.LauncherModel$LoaderTask.loadAndBindWorkspace(LauncherModel.java:1005)
+W/Launcher.LauncherProvider(  729): 	at com.android.launcher2.LauncherModel$LoaderTask.run(LauncherModel.java:1111)
+W/Launcher.LauncherProvider(  729): 	at android.os.Handler.handleCallback(Handler.java:733)
+W/Launcher.LauncherProvider(  729): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+W/Launcher.LauncherProvider(  729): 	at android.os.Looper.loop(Looper.java:136)
+W/Launcher.LauncherProvider(  729): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+W/Launcher.LauncherProvider(  729): Unable to add favorite: com.android.gallery3d/com.android.gallery3d.app.Gallery
+W/Launcher.LauncherProvider(  729): android.content.pm.PackageManager$NameNotFoundException: ComponentInfo{com.android.gallery3d/com.android.gallery3d.app.Gallery}
+W/Launcher.LauncherProvider(  729): 	at android.app.ApplicationPackageManager.getActivityInfo(ApplicationPackageManager.java:242)
+W/Launcher.LauncherProvider(  729): 	at com.android.launcher2.LauncherProvider$DatabaseHelper.addAppShortcut(LauncherProvider.java:939)
+W/Launcher.LauncherProvider(  729): 	at com.android.launcher2.LauncherProvider$DatabaseHelper.loadFavorites(LauncherProvider.java:843)
+W/Launcher.LauncherProvider(  729): 	at com.android.launcher2.LauncherProvider$DatabaseHelper.access$000(LauncherProvider.java:233)
+W/Launcher.LauncherProvider(  729): 	at com.android.launcher2.LauncherProvider.loadDefaultFavoritesIfNecessary(LauncherProvider.java:228)
+W/Launcher.LauncherProvider(  729): 	at com.android.launcher2.LauncherModel$LoaderTask.loadWorkspace(LauncherModel.java:1263)
+W/Launcher.LauncherProvider(  729): 	at com.android.launcher2.LauncherModel$LoaderTask.loadAndBindWorkspace(LauncherModel.java:1005)
+W/Launcher.LauncherProvider(  729): 	at com.android.launcher2.LauncherModel$LoaderTask.run(LauncherModel.java:1111)
+W/Launcher.LauncherProvider(  729): 	at android.os.Handler.handleCallback(Handler.java:733)
+W/Launcher.LauncherProvider(  729): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+W/Launcher.LauncherProvider(  729): 	at android.os.Looper.loop(Looper.java:136)
+W/Launcher.LauncherProvider(  729): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+E/SurfaceFlinger(   56): glCheckFramebufferStatusOES error -2062097815
+E/SurfaceFlinger(   56): got GL_FRAMEBUFFER_COMPLETE_OES error while taking screenshot
+W/Launcher.Model(  729): LoaderTask running with no launcher (loadAllAppsByBatch)
+W/WindowManager(  379): Window freeze timeout expired.
+W/WindowManager(  379): Force clearing orientation change: Window{b366a650 u0 com.android.launcher/com.android.launcher2.Launcher}
+W/ActivityManager(  379): Unable to start service Intent { cmp=com.android.email/.service.AttachmentDownloadService } U=0: not found
+W/WindowManager(  379): App freeze timeout expired.
+W/WindowManager(  379): Force clearing freeze: AppWindowToken{b2e3ec08 token=Token{b3124020 ActivityRecord{b2de2080 u0 com.android.launcher/com.android.launcher2.Launcher t3}}}
+W/ActivityManager(  379): No content provider found for permission revoke: file:///data/local/tmp/chariba-debug.apk
+E/NetdConnector(  379): NDC Command {14 bandwidth setiquota eth0 9223372036854775807} took too long (1272ms)
+E/ConnectivityService(  379): startUsingNetworkFeature took too long: 1924ms
+E/BluetoothAdapter(  379): Bluetooth binder is null
+E/BluetoothAdapter(  379): Bluetooth binder is null
+E/NetdConnector(  379): NDC Command {16 interface setmtu eth0 1440} took too long (658ms)
+E/NetdConnector(  379): NDC Command {15 bandwidth removeiquota eth0} took too long (827ms)
+E/SoundPool(  379): error loading /system/media/audio/ui/Effect_Tick.ogg
+W/AudioService(  379): Soundpool could not load file: /system/media/audio/ui/Effect_Tick.ogg
+E/SoundPool(  379): error loading /system/media/audio/ui/Effect_Tick.ogg
+W/AudioService(  379): Soundpool could not load file: /system/media/audio/ui/Effect_Tick.ogg
+E/SoundPool(  379): error loading /system/media/audio/ui/Effect_Tick.ogg
+W/AudioService(  379): Soundpool could not load file: /system/media/audio/ui/Effect_Tick.ogg
+E/SoundPool(  379): error loading /system/media/audio/ui/Effect_Tick.ogg
+W/AudioService(  379): Soundpool could not load file: /system/media/audio/ui/Effect_Tick.ogg
+E/SoundPool(  379): error loading /system/media/audio/ui/Effect_Tick.ogg
+W/AudioService(  379): Soundpool could not load file: /system/media/audio/ui/Effect_Tick.ogg
+E/SoundPool(  379): error loading /system/media/audio/ui/KeypressStandard.ogg
+W/AudioService(  379): Soundpool could not load file: /system/media/audio/ui/KeypressStandard.ogg
+E/SoundPool(  379): error loading /system/media/audio/ui/KeypressSpacebar.ogg
+W/AudioService(  379): Soundpool could not load file: /system/media/audio/ui/KeypressSpacebar.ogg
+E/SoundPool(  379): error loading /system/media/audio/ui/KeypressDelete.ogg
+W/AudioService(  379): Soundpool could not load file: /system/media/audio/ui/KeypressDelete.ogg
+E/SoundPool(  379): error loading /system/media/audio/ui/KeypressReturn.ogg
+W/AudioService(  379): Soundpool could not load file: /system/media/audio/ui/KeypressReturn.ogg
+E/SoundPool(  379): error loading /system/media/audio/ui/KeypressInvalid.ogg
+W/AudioService(  379): Soundpool could not load file: /system/media/audio/ui/KeypressInvalid.ogg
+W/AudioService(  379): onLoadSoundEffects(), Error -1 while loading samples
+E/NetdConnector(  379): NDC Command {17 bandwidth setiquota eth0 9223372036854775807} took too long (984ms)
+E/NetdConnector(  379): NDC Command {18 bandwidth gettetherstats} took too long (947ms)
+W/ProcessCpuTracker(  379): Skipping unknown process pid 941
+E/NetdConnector(  379): NDC Command {21 bandwidth setiquota eth0 9223372036854775807} took too long (1200ms)
+W/ActivityManager(  379): No content provider found for permission revoke: file:///data/local/tmp/chariba-debug.apk
+W/ContentResolver(  900): Failed to get type for: content://com.android.calendar (Unknown URL content://com.android.calendar)
+E/SQLiteLog(  848): (1) no such table: files
+E/WVMExtractor(   59): Failed to open libwvm.so
+E/MetadataRetrieverClient(   59): failed to extract an album art
+W/MediaProvider(  848): no database for scanned volume external
+E/SQLiteLog(  848): (1) no such table: album_info
+W/MediaScanner(  848): Error opening directory '/storage/sdcard/', skipping: Permission denied.
+W/dalvikvm(  969): method Landroid/support/v7/internal/widget/ListViewCompat;.lookForSelectablePosition incorrectly overrides package-private method with same name in Landroid/widget/ListView;
+W/PackageManager(  379): Unknown permission com.google.android.providers.gsf.permission.READ_GSERVICES in package com.github.ay65535.chariba
+W/RecognitionManagerService(  379): no available voice recognition services found for user 0
+E/memtrack( 1005): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 1005): failed to load memtrack module: -2
+W/ActivityManager(  379): No content provider found for permission revoke: file:///data/local/tmp/chariba-debug-test-unaligned.apk
+W/ActivityManager(  379): No content provider found for permission revoke: file:///data/local/tmp/chariba-debug-test-unaligned.apk
+W/RecognitionManagerService(  379): no available voice recognition services found for user 0
+E/memtrack( 1057): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 1057): failed to load memtrack module: -2
+W/ActivityManager(  379): No content provider found for permission revoke: file:///data/local/tmp/chariba-debug.apk
+W/ActivityManager(  379): No content provider found for permission revoke: file:///data/local/tmp/chariba-debug.apk
+W/dalvikvm( 1068): method Landroid/support/v7/internal/widget/ListViewCompat;.lookForSelectablePosition incorrectly overrides package-private method with same name in Landroid/widget/ListView;
+W/PackageManager(  379): Code path for pkg : com.github.ay65535.chariba changing from /data/app/com.github.ay65535.chariba-1.apk to /data/app/com.github.ay65535.chariba-2.apk
+W/PackageManager(  379): Resource path for pkg : com.github.ay65535.chariba changing from /data/app/com.github.ay65535.chariba-1.apk to /data/app/com.github.ay65535.chariba-2.apk
+W/PackageManager(  379): Unknown permission com.google.android.providers.gsf.permission.READ_GSERVICES in package com.github.ay65535.chariba
+W/BackupManagerService(  379): dataChanged but no participant pkg='com.android.providers.settings' uid=10020
+E/BluetoothAdapter(  605): Bluetooth binder is null
+E/BluetoothAdapter(  605): Bluetooth binder is null
+W/BroadcastQueue(  379): Permission Denial: broadcasting Intent { act=android.appwidget.action.APPWIDGET_UPDATE_OPTIONS flg=0x10 cmp=com.android.settings/.widget.SettingsAppWidgetProvider (has extras) } from android (pid=729, uid=10008) is not exported from uid 1000 due to receiver com.android.settings/.widget.SettingsAppWidgetProvider
+E/memtrack( 1098): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 1098): failed to load memtrack module: -2
+W/ActivityManager(  379): No content provider found for permission revoke: file:///data/local/tmp/chariba-debug-test-unaligned.apk
+W/ActivityManager(  379): No content provider found for permission revoke: file:///data/local/tmp/chariba-debug-test-unaligned.apk
+W/RecognitionManagerService(  379): no available voice recognition services found for user 0
+E/NetdConnector(  379): NDC Command {30 bandwidth removeiquota eth0} took too long (890ms)
+E/NetdConnector(  379): NDC Command {31 bandwidth gettetherstats} took too long (798ms)
+E/NetdConnector(  379): NDC Command {32 bandwidth setiquota eth0 9223372036854775807} took too long (1715ms)
+W/ProcessCpuTracker(  379): Skipping unknown process pid 1146
+E/NetdConnector(  379): NDC Command {33 bandwidth removeiquota eth0} took too long (792ms)
+W/PackageManager(  379): Code path for pkg : com.github.ay65535.chariba.test changing from /data/app/com.github.ay65535.chariba.test-1.apk to /data/app/com.github.ay65535.chariba.test-2.apk
+W/PackageManager(  379): Resource path for pkg : com.github.ay65535.chariba.test changing from /data/app/com.github.ay65535.chariba.test-1.apk to /data/app/com.github.ay65535.chariba.test-2.apk
+E/NetdConnector(  379): NDC Command {34 bandwidth setiquota eth0 9223372036854775807} took too long (1266ms)
+E/memtrack( 1191): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 1191): failed to load memtrack module: -2
+W/ContextImpl( 1201): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1479 android.content.ContextWrapper.startService:494 android.content.ContextWrapper.startServi
