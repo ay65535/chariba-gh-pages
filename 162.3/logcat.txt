@@ -1,0 +1,316 @@
+--------- beginning of main
+W/auditd  (   49): type=2000 audit(0.0:1): initialized
+W/auditd  (   49): type=1404 audit(0.0:3): enforcing=1 old_enforcing=0 auid=4294967295 ses=4294967295
+E/cutils  (   66): Failed to read /data/.layout_version: No such file or directory
+--------- beginning of system
+E/SurfaceFlinger(   54): hwcomposer module not found
+W/SurfaceFlinger(   54): no suitable EGLConfig found, trying a simpler query
+W/SurfaceFlinger(   54): EGL_SLOW_CONFIG selected!
+W/SurfaceFlinger(   54): no suitable EGLConfig found, trying a simpler query
+W/SurfaceFlinger(   54): EGL_SLOW_CONFIG selected!
+W/SurfaceFlinger(   54): no suitable EGLConfig found, trying a simpler query
+W/SurfaceFlinger(   54): EGL_SLOW_CONFIG selected!
+E/SurfaceFlinger(   54): ro.sf.lcd_density must be defined as a build property
+W/AudioFlinger(   65): Thread AudioOut_2 cannot connect to the power manager service
+W/AudioFlinger(   65): Thread AudioOut_2 cannot connect to the power manager service
+W/AudioFlinger(   65): Thread AudioOut_2 cannot connect to the power manager service
+E/AudioFlinger(   65): no wake lock to update!
+E/audio_hw_generic(   65): Error opening input stream format 1, channel_mask 0010, sample_rate 16000
+E/AudioFlinger(   65): int android::load_audio_interface(const char*, audio_hw_device_t**) couldn't load audio hw module audio.r_submix (No such file or directory)
+W/AudioPolicyManager(   65): could not open HW module r_submix
+W/AudioPolicyManager(   65): Input device 80000100 unreachable
+E/SoundTriggerHwService(   65): couldn't load sound trigger module sound_trigger.primary (No such file or directory)
+E/memtrack(   68): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug(   68): failed to load memtrack module: -2
+E/Minikin (   68): addFont failed to create font /system/fonts/NotoSansGujarati-Regular.ttf
+E/Minikin (   68): addFont failed to create font /system/fonts/NotoSansGujarati-Bold.ttf
+E/Minikin (   68): addFont failed to create font /system/fonts/NotoSansGujaratiUI-Regular.ttf
+E/Minikin (   68): addFont failed to create font /system/fonts/NotoSansGujaratiUI-Bold.ttf
+E/Minikin (   68): addFont failed to create font /system/fonts/NotoSansGurmukhi-Regular.ttf
+E/Minikin (   68): addFont failed to create font /system/fonts/NotoSansGurmukhi-Bold.ttf
+E/Minikin (   68): addFont failed to create font /system/fonts/NotoSansGurmukhiUI-Regular.ttf
+E/Minikin (   68): addFont failed to create font /system/fonts/NotoSansGurmukhiUI-Bold.ttf
+E/Minikin (   68): addFont failed to create font /system/fonts/NotoSansSinhala-Regular.ttf
+E/Minikin (   68): addFont failed to create font /system/fonts/NotoSansSinhala-Bold.ttf
+E/Minikin (   68): addFont failed to create font /system/fonts/NotoSansCherokee-Regular.ttf
+E/Minikin (   68): addFont failed to create font /system/fonts/NotoSansCanadianAboriginal-Regular.ttf
+E/Minikin (   68): addFont failed to create font /system/fonts/NotoSansYi-Regular.ttf
+E/Minikin (   68): addFont failed to create font /system/fonts/NotoSansHans-Regular.otf
+E/Minikin (   68): addFont failed to create font /system/fonts/NotoSansHant-Regular.otf
+E/Minikin (   68): addFont failed to create font /system/fonts/NotoSansJP-Regular.otf
+E/Minikin (   68): addFont failed to create font /system/fonts/NotoSansKR-Regular.otf
+E/EmojiFactory_jni(   68): Failed to load libemoji.so: dlopen failed: library "libemoji.so" not found
+W/art     (   68): Suspending all threads took: 14.418ms
+W/art     (   68): Suspending all threads took: 10.210ms
+E/logwrapper(  332): executing /system/bin/ip failed: No such file or directory
+E/Netd    (   61): failed to flush rules
+E/CommandListener(   61): failed to initialize RouteController (Remote I/O error)
+E/installd(  354): Running /system/bin/patchoat isa=arm in-fd=6 (/system/framework/arm/services.odex) out-fd=7 (/data/dalvik-cache/arm/system@framework@services.jar@classes.dex)
+E/installd(  355): Running /system/bin/patchoat isa=arm in-fd=6 (/system/framework/arm/ethernet-service.odex) out-fd=7 (/data/dalvik-cache/arm/system@framework@ethernet-service.jar@classes.dex)
+E/installd(  356): Running /system/bin/patchoat isa=arm in-fd=6 (/system/framework/arm/wifi-service.odex) out-fd=7 (/data/dalvik-cache/arm/system@framework@wifi-service.jar@classes.dex)
+E/installd(   66): eof
+E/installd(   66): failed to read size
+E/PowerManagerService-JNI(  341): Couldn't load power module (No such file or directory)
+W/libsuspend(  341): Error writing 'on' to /sys/power/state: Invalid argument
+E/SurfaceFlinger(   54): ro.sf.lcd_density must be defined as a build property
+W/SELinuxMMAC(  341): Error opening /data/system/seapp_hash. Assuming first boot.
+W/FileUtils(  341): Failed to chmod(/data/system/packages.list): android.system.ErrnoException: chmod failed: ENOENT (No such file or directory)
+W/SystemConfig(  341): No directory /system/etc/sysconfig, skipping
+E/installd(  373): Running /system/bin/patchoat isa=arm in-fd=6 (/system/framework/arm/android.test.runner.odex) out-fd=7 (/data/dalvik-cache/arm/system@framework@android.test.runner.jar@classes.dex)
+E/installd(  374): Running /system/bin/patchoat isa=arm in-fd=6 (/system/framework/arm/com.android.media.remotedisplay.odex) out-fd=7 (/data/dalvik-cache/arm/system@framework@com.android.media.remotedisplay.jar@classes.dex)
+E/installd(  375): Running /system/bin/patchoat isa=arm in-fd=6 (/system/framework/arm/com.android.location.provider.odex) out-fd=7 (/data/dalvik-cache/arm/system@framework@com.android.location.provider.jar@classes.dex)
+E/installd(  376): Running /system/bin/patchoat isa=arm in-fd=6 (/system/framework/arm/com.android.mediadrm.signer.odex) out-fd=7 (/data/dalvik-cache/arm/system@framework@com.android.mediadrm.signer.jar@classes.dex)
+E/installd(  377): Running /system/bin/patchoat isa=arm in-fd=6 (/system/framework/arm/javax.obex.odex) out-fd=7 (/data/dalvik-cache/arm/system@framework@javax.obex.jar@classes.dex)
+E/installd(  378): Running /system/bin/patchoat isa=arm in-fd=6 (/system/framework/arm/am.odex) out-fd=7 (/data/dalvik-cache/arm/system@framework@am.jar@classes.dex)
+E/installd(  379): Running /system/bin/patchoat isa=arm in-fd=6 (/system/framework/arm/appops.odex) out-fd=7 (/data/dalvik-cache/arm/system@framework@appops.jar@classes.dex)
+E/installd(  380): Running /system/bin/patchoat isa=arm in-fd=6 (/system/framework/arm/appwidget.odex) out-fd=7 (/data/dalvik-cache/arm/system@framework@appwidget.jar@classes.dex)
+E/installd(  381): Running /system/bin/patchoat isa=arm in-fd=6 (/system/framework/arm/bmgr.odex) out-fd=7 (/data/dalvik-cache/arm/system@framework@bmgr.jar@classes.dex)
+E/installd(  382): Running /system/bin/patchoat isa=arm in-fd=6 (/system/framework/arm/bu.odex) out-fd=7 (/data/dalvik-cache/arm/system@framework@bu.jar@classes.dex)
+E/installd(  383): Running /system/bin/patchoat isa=arm in-fd=6 (/system/framework/arm/com.android.future.usb.accessory.odex) out-fd=7 (/data/dalvik-cache/arm/system@framework@com.android.future.usb.accessory.jar@classes.dex)
+E/installd(  384): Running /system/bin/patchoat isa=arm in-fd=6 (/system/framework/arm/content.odex) out-fd=7 (/data/dalvik-cache/arm/system@framework@content.jar@classes.dex)
+E/installd(  385): Running /system/bin/patchoat isa=arm in-fd=6 (/system/framework/arm/dpm.odex) out-fd=7 (/data/dalvik-cache/arm/system@framework@dpm.jar@classes.dex)
+E/installd(  386): Running /system/bin/patchoat isa=arm in-fd=6 (/system/framework/arm/ime.odex) out-fd=7 (/data/dalvik-cache/arm/system@framework@ime.jar@classes.dex)
+E/installd(  387): Running /system/bin/patchoat isa=arm in-fd=6 (/system/framework/arm/input.odex) out-fd=7 (/data/dalvik-cache/arm/system@framework@input.jar@classes.dex)
+E/installd(  388): Running /system/bin/patchoat isa=arm in-fd=6 (/system/framework/arm/media_cmd.odex) out-fd=7 (/data/dalvik-cache/arm/system@framework@media_cmd.jar@classes.dex)
+E/installd(  389): Running /system/bin/patchoat isa=arm in-fd=6 (/system/framework/arm/monkey.odex) out-fd=7 (/data/dalvik-cache/arm/system@framework@monkey.jar@classes.dex)
+E/installd(  390): Running /system/bin/patchoat isa=arm in-fd=6 (/system/framework/arm/pm.odex) out-fd=7 (/data/dalvik-cache/arm/system@framework@pm.jar@classes.dex)
+E/installd(  391): Running /system/bin/patchoat isa=arm in-fd=6 (/system/framework/arm/requestsync.odex) out-fd=7 (/data/dalvik-cache/arm/system@framework@requestsync.jar@classes.dex)
+E/installd(  392): Running /system/bin/patchoat isa=arm in-fd=6 (/system/framework/arm/settings.odex) out-fd=7 (/data/dalvik-cache/arm/system@framework@settings.jar@classes.dex)
+E/installd(  393): Running /system/bin/patchoat isa=arm in-fd=6 (/system/framework/arm/svc.odex) out-fd=7 (/data/dalvik-cache/arm/system@framework@svc.jar@classes.dex)
+E/installd(  394): Running /system/bin/patchoat isa=arm in-fd=6 (/system/framework/arm/uiautomator.odex) out-fd=7 (/data/dalvik-cache/arm/system@framework@uiautomator.jar@classes.dex)
+E/installd(  395): Running /system/bin/patchoat isa=arm in-fd=6 (/system/framework/arm/wm.odex) out-fd=7 (/data/dalvik-cache/arm/system@framework@wm.jar@classes.dex)
+W/PackageManager(  341): Failed to parse /system/framework/arm: Missing base APK in /system/framework/arm
+W/ResourceType(  341): Failure getting entry for 0x7f0b01e9 (t=10 e=489) (error -75)
+W/PackageParser(  341): No actions in intent filter at /system/priv-app/Contacts/Contacts.apk Binary XML file line #355
+W/PackageParser(  341): No actions in intent filter at /system/priv-app/Dialer/Dialer.apk Binary XML file line #165
+W/art     (  341): Suspending all threads took: 8.486ms
+W/art     (  341): Suspending all threads took: 24.543ms
+W/ResourceType(  341): Failure getting entry for 0x7f08025b (t=7 e=603) (error -75)
+W/PackageParser(  341): No actions in intent filter at /data/app/ApiDemos/ApiDemos.apk Binary XML file line #3027
+W/PackageParser(  341): No actions in intent filter at /data/app/ApiDemos/ApiDemos.apk Binary XML file line #3033
+W/PackageManager(  341): Package com.example.android.apis desires unavailable shared library com.example.will.never.exist; ignoring!
+W/PackageManager(  341): Package com.example.android.apis desires unavailable shared library com.example.will.never.exist; ignoring!
+W/PackageManager(  341): Package com.android.camera desires unavailable shared library com.google.android.media.effects; ignoring!
+E/installd(  397): Running /system/bin/patchoat isa=arm in-fd=6 (/system/priv-app/Settings/arm/Settings.odex) out-fd=7 (/data/dalvik-cache/arm/system@priv-app@Settings@Settings.apk@classes.dex)
+E/installd(  398): Running /system/bin/patchoat isa=arm in-fd=6 (/system/priv-app/SettingsProvider/arm/SettingsProvider.odex) out-fd=7 (/data/dalvik-cache/arm/system@priv-app@SettingsProvider@SettingsProvider.apk@classes.dex)
+E/installd(  399): Running /system/bin/patchoat isa=arm in-fd=6 (/system/priv-app/InputDevices/arm/InputDevices.odex) out-fd=7 (/data/dalvik-cache/arm/system@priv-app@InputDevices@InputDevices.apk@classes.dex)
+E/installd(  400): Running /system/bin/patchoat isa=arm in-fd=6 (/system/app/KeyChain/arm/KeyChain.odex) out-fd=7 (/data/dalvik-cache/arm/system@app@KeyChain@KeyChain.apk@classes.dex)
+E/installd(  401): Running /system/bin/patchoat isa=arm in-fd=6 (/system/priv-app/FusedLocation/arm/FusedLocation.odex) out-fd=7 (/data/dalvik-cache/arm/system@priv-app@FusedLocation@FusedLocation.apk@classes.dex)
+W/PackageManager(  341): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.mail in package com.android.calendar
+W/PackageManager(  341): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.settings
+W/PackageManager(  341): Not granting permission android.permission.DELETE_PACKAGES to package com.svox.pico (protectionLevel=18 flags=0x8be45)
+W/PackageManager(  341): Not granting permission android.permission.BIND_APPWIDGET to package com.android.widgetpreview (protectionLevel=18 flags=0x8be44)
+W/PackageManager(  341): Not granting permission android.permission.DEVICE_POWER to package com.android.deskclock (protectionLevel=2 flags=0x48be45)
+W/PackageManager(  341): Not granting permission android.permission.GLOBAL_SEARCH to package com.android.quicksearchbox (protectionLevel=18 flags=0x8be45)
+W/PackageManager(  341): Unknown permission com.android.smspush.WAPPUSH_MANAGER_BIND in package com.android.phone
+W/PackageManager(  341): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.providers.calendar
+W/PackageManager(  341): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.cl in package com.android.providers.calendar
+W/PackageManager(  341): Unknown permission android.permission.INSTALL_DRM in package com.android.mms
+W/PackageManager(  341): Not granting permission android.permission.ACCESS_DOWNLOAD_MANAGER to package com.android.browser (protectionLevel=18 flags=0x9be45)
+W/PackageManager(  341): Not granting permission android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS to package com.android.browser (protectionLevel=2 flags=0x9be45)
+W/PackageManager(  341): Unknown permission com.google.android.googleapps.permission.ACCESS_GOOGLE_PASSWORD in package com.android.development
+W/PackageManager(  341): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.development
+W/PackageManager(  341): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.ALL_SERVICES in package com.android.development
+W/PackageManager(  341): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.YouTubeUser in package com.android.development
+W/EntropyMixer(  341): No existing entropy file -- first boot?
+W/ActivityManager(  341): Can't addPackageDependency on system process
+W/CoreSettingsObserver(  341): Cannot find setting "debug_view_attributes"
+W/CoreSettingsObserver(  341): android.provider.Settings$SettingNotFoundException: debug_view_attributes
+W/CoreSettingsObserver(  341): 	at android.provider.Settings$Global.getInt(Settings.java:6726)
+W/CoreSettingsObserver(  341): 	at com.android.server.am.CoreSettingsObserver.populateSettings(CoreSettingsObserver.java:129)
+W/CoreSettingsObserver(  341): 	at com.android.server.am.CoreSettingsObserver.sendCoreSettings(CoreSettingsObserver.java:82)
+W/CoreSettingsObserver(  341): 	at com.android.server.am.CoreSettingsObserver.<init>(CoreSettingsObserver.java:65)
+W/CoreSettingsObserver(  341): 	at com.android.server.am.ActivityManagerService.installSystemProviders(ActivityManagerService.java:9845)
+W/CoreSettingsObserver(  341): 	at com.android.server.SystemServer.startOtherServices(SystemServer.java:452)
+W/CoreSettingsObserver(  341): 	at com.android.server.SystemServer.run(SystemServer.java:256)
+W/CoreSettingsObserver(  341): 	at com.android.server.SystemServer.main(SystemServer.java:170)
+W/CoreSettingsObserver(  341): 	at java.lang.reflect.Method.invoke(Native Method)
+W/CoreSettingsObserver(  341): 	at java.lang.reflect.Method.invoke(Method.java:372)
+W/CoreSettingsObserver(  341): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:899)
+W/CoreSettingsObserver(  341): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:694)
+E/ConsumerIrService(  341): Can't open consumer IR HW Module, error: -2
+E/EventHub(  341): could not get driver version for /dev/input/mouse0, Not a typewriter
+W/EventHub(  341): Unable to disable kernel key repeat for /dev/input/event0: Function not implemented
+E/EventHub(  341): could not get driver version for /dev/input/mice, Not a typewriter
+W/InputMethodManagerService(  341): No IME selected. Choose the most applicable IME.
+W/MountService(  341): getSecureContainerList() called when storage not mounted
+W/PackageManager(  341): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.mail in package com.android.calendar
+W/PackageManager(  341): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.settings
+W/PackageManager(  341): Not granting permission android.permission.DELETE_PACKAGES to package com.svox.pico (protectionLevel=18 flags=0x8be45)
+W/PackageManager(  341): Not granting permission android.permission.BIND_APPWIDGET to package com.android.widgetpreview (protectionLevel=18 flags=0x8be44)
+W/PackageManager(  341): Not granting permission android.permission.DEVICE_POWER to package com.android.deskclock (protectionLevel=2 flags=0x48be45)
+W/PackageManager(  341): Not granting permission android.permission.GLOBAL_SEARCH to package com.android.quicksearchbox (protectionLevel=18 flags=0x8be45)
+W/PackageManager(  341): Unknown permission com.android.smspush.WAPPUSH_MANAGER_BIND in package com.android.phone
+W/PackageManager(  341): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.providers.calendar
+W/PackageManager(  341): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.cl in package com.android.providers.calendar
+W/PackageManager(  341): Unknown permission android.permission.INSTALL_DRM in package com.android.mms
+W/PackageManager(  341): Not granting permission android.permission.ACCESS_DOWNLOAD_MANAGER to package com.android.browser (protectionLevel=18 flags=0x9be45)
+W/PackageManager(  341): Not granting permission android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS to package com.android.browser (protectionLevel=2 flags=0x9be45)
+W/PackageManager(  341): Unknown permission com.google.android.googleapps.permission.ACCESS_GOOGLE_PASSWORD in package com.android.development
+W/PackageManager(  341): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.development
+W/PackageManager(  341): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.ALL_SERVICES in package com.android.development
+W/PackageManager(  341): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.YouTubeUser in package com.android.development
+W/MountService(  341): getSecureContainerList() called when storage not mounted
+E/WifiConfigStore(  341): associatedPartialScanPeriodMilli set to 10000
+W/art     (  341): No such thread id for suspend: 37
+W/WallpaperManagerService(  341): no current wallpaper -- first boot?
+W/TelecomManager(  341): Telecom Service not found.
+W/DockObserver(  341): This kernel does not have dock station support
+W/WiredAccessoryManager(  341): This kernel does not have wired headset support
+W/WiredAccessoryManager(  341): This kernel does not have usb audio support
+W/WiredAccessoryManager(  341): This kernel does not have HDMI audio support
+W/SoundTriggerHelper(  341): listModules status=0, # of modules=0
+E/Fingerprint-JNI(  341): Can't open fingerprint HW Module, error: -2
+W/AssetAtlasService(  341): Could not find EGL configuration
+E/SQLiteLog(  341): (1) no such table: locksettings
+W/art     (  341): Suspending all threads took: 27.510ms
+W/InputMethodManagerService(  341): Focus gain on non-focused client android.view.inputmethod.InputMethodManager$1@33d8c8d2 (uid=1000 pid=341)
+W/Zygote  (  435): Slow operation: 1280ms so far, now at Zygote.postForkCommon
+W/Zygote  (  435): Slow operation: 1458ms so far, now at zygoteConnection.runOnce: postForkAndSpecialize
+E/installd(  451): Running /system/bin/patchoat isa=arm in-fd=6 (/system/priv-app/CalendarProvider/arm/CalendarProvider.odex) out-fd=7 (/data/dalvik-cache/arm/system@priv-app@CalendarProvider@CalendarProvider.apk@classes.dex)
+W/ResourcesManager(  435): Asset path '/system/framework/android.test.runner.jar' does not exist or contains no resources.
+E/installd(  470): Running /system/bin/patchoat isa=arm in-fd=6 (/system/priv-app/ContactsProvider/arm/ContactsProvider.odex) out-fd=7 (/data/dalvik-cache/arm/system@priv-app@ContactsProvider@ContactsProvider.apk@classes.dex)
+E/installd(  489): Running /system/bin/patchoat isa=arm in-fd=6 (/system/priv-app/ManagedProvisioning/arm/ManagedProvisioning.odex) out-fd=7 (/data/dalvik-cache/arm/system@priv-app@ManagedProvisioning@ManagedProvisioning.apk@classes.dex)
+E/installd(  505): Running /system/bin/patchoat isa=arm in-fd=6 (/system/priv-app/MediaProvider/arm/MediaProvider.odex) out-fd=7 (/data/dalvik-cache/arm/system@priv-app@MediaProvider@MediaProvider.apk@classes.dex)
+W/ActivityManager(  341): Spurious death for ProcessRecord{2bf94cce 435:com.android.providers.calendar/u0a1}, curProc for 435: null
+W/ActivityManager(  341): Spurious death for ProcessRecord{23e0a7ef 454:android.process.acore/u0a2}, curProc for 454: null
+W/ActivityManager(  341): Spurious death for ProcessRecord{bac82fc 473:com.android.managedprovisioning/u0a8}, curProc for 473: null
+W/ActivityManager(  341): Spurious death for ProcessRecord{1344bd85 490:android.process.media/u0a5}, curProc for 490: null
+W/ActivityManager(  341): Spurious death for ProcessRecord{3fe167da 507:com.android.settings/1000}, curProc for 507: null
+W/art     (   68): Suspending all threads took: 5.168ms
+E/installd(  563): Running /system/bin/patchoat isa=arm in-fd=6 (/system/priv-app/SystemUI/arm/SystemUI.odex) out-fd=7 (/data/dalvik-cache/arm/system@priv-app@SystemUI@SystemUI.apk@classes.dex)
+E/NetdConnector(  341): NDC Command {2 bandwidth enable} took too long (3194ms)
+E/NetdConnector(  341): NDC Command {3 firewall disable} took too long (901ms)
+E/NetdConnector(  341): NDC Command {5 bandwidth setglobalalert 2097152} took too long (572ms)
+E/NetdConnector(  341): NDC Command {6 firewall disable} took too long (903ms)
+E/BluetoothAdapter(  341): Bluetooth binder is null
+E/BluetoothAdapter(  341): Bluetooth binder is null
+E/InputMethodManagerService(  341): Ignoring setImeWindowStatus due to an invalid token. uid:1000 token:null
+W/InputMethodManagerService(  341): Reset the default IME as "Resource" is ready here.
+E/memtrack(  604): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug(  604): failed to load memtrack module: -2
+E/WVMExtractor(   65): Failed to open libwvm.so: dlopen failed: library "libwvm.so" not found
+W/InputMethodManagerService(  341): Illegal subtype state: old subtype = null, new subtype = android.view.inputmethod.InputMethodSubtype@c9194f98
+E/OMXNodeInstance(   65): getParameter(100663311) ERROR: 0x8000101a
+E/OMXNodeInstance(   65): getParameter(100663297) ERROR: 0x8000101a
+E/OMXNodeInstance(   65): getParameter(100663311) ERROR: 0x8000101a
+E/OMXNodeInstance(   65): getParameter(100663297) ERROR: 0x8000101a
+E/OMXNodeInstance(   65): getParameter(100663311) ERROR: 0x8000101a
+E/OMXNodeInstance(   65): getParameter(100663297) ERROR: 0x8000101a
+E/OMXNodeInstance(   65): getParameter(100663311) ERROR: 0x8000101a
+E/OMXNodeInstance(   65): getParameter(100663297) ERROR: 0x8000101a
+E/OMXNodeInstance(   65): getParameter(100663311) ERROR: 0x8000101a
+E/OMXNodeInstance(   65): getParameter(100663297) ERROR: 0x8000101a
+E/OMXNodeInstance(   65): getParameter(100663311) ERROR: 0x8000101a
+E/OMXNodeInstance(   65): getParameter(100663297) ERROR: 0x8000101a
+E/OMXNodeInstance(   65): getParameter(100663311) ERROR: 0x8000101a
+E/OMXNodeInstance(   65): getParameter(100663297) ERROR: 0x8000101a
+E/OMXNodeInstance(   65): getParameter(100663311) ERROR: 0x8000101a
+E/OMXNodeInstance(   65): getParameter(100663297) ERROR: 0x8000101a
+E/OMXNodeInstance(   65): getParameter(100663311) ERROR: 0x8000101a
+E/OMXNodeInstance(   65): getParameter(100663297) ERROR: 0x8000101a
+E/OMXNodeInstance(   65): getParameter(100663311) ERROR: 0x8000101a
+E/OMXNodeInstance(   65): getParameter(100663297) ERROR: 0x8000101a
+E/OMXNodeInstance(   65): getParameter(100663311) ERROR: 0x8000101a
+E/OMXNodeInstance(   65): getParameter(100663297) ERROR: 0x8000101a
+E/OMXNodeInstance(   65): getParameter(100663311) ERROR: 0x8000101a
+E/OMXNodeInstance(   65): getParameter(100663297) ERROR: 0x8000101a
+E/OMXNodeInstance(   65): getParameter(100663311) ERROR: 0x8000101a
+E/OMXNodeInstance(   65): getParameter(100663297) ERROR: 0x8000101a
+E/OMXNodeInstance(   65): getParameter(100663311) ERROR: 0x8000101a
+E/OMXNodeInstance(   65): getParameter(100663297) ERROR: 0x8000101a
+W/Zygote  (  633): Slow operation: 1389ms so far, now at Zygote.postForkCommon
+W/Zygote  (  633): Slow operation: 1408ms so far, now at zygoteConnection.runOnce: postForkAndSpecialize
+E/OMXNodeInstance(   65): getParameter(100663311) ERROR: 0x8000100e
+E/OMXNodeInstance(   65): getParameter(100663297) ERROR: 0x8000100e
+E/OMXNodeInstance(   65): OMX_GetExtensionIndex OMX.google.android.index.storeMetaDataInBuffers failed
+E/OMXNodeInstance(   65): getParameter(100663311) ERROR: 0x8000100e
+E/OMXNodeInstance(   65): getParameter(100663297) ERROR: 0x8000100e
+E/OMXNodeInstance(   65): OMX_GetExtensionIndex OMX.google.android.index.storeMetaDataInBuffers failed
+E/OMXNodeInstance(   65): getParameter(100663311) ERROR: 0x8000100e
+E/OMXNodeInstance(   65): getParameter(100663297) ERROR: 0x8000100e
+E/OMXNodeInstance(   65): OMX_GetExtensionIndex OMX.google.android.index.storeMetaDataInBuffers failed
+E/OMXNodeInstance(   65): getParameter(100663311) ERROR: 0x8000100e
+E/OMXNodeInstance(   65): getParameter(100663297) ERROR: 0x8000100e
+E/OMXNodeInstance(   65): OMX_GetExtensionIndex OMX.google.android.index.storeMetaDataInBuffers failed
+E/OMXNodeInstance(   65): getParameter(100663311) ERROR: 0x8000100e
+E/OMXNodeInstance(   65): getParameter(100663297) ERROR: 0x8000100e
+E/OMXNodeInstance(   65): OMX_GetExtensionIndex OMX.google.android.index.storeMetaDataInBuffers failed
+E/OMXNodeInstance(   65): getParameter(100663311) ERROR: 0x8000100e
+E/OMXNodeInstance(   65): getParameter(100663297) ERROR: 0x8000100e
+E/OMXNodeInstance(   65): OMX_GetExtensionIndex OMX.google.android.index.storeMetaDataInBuffers failed
+E/OMXNodeInstance(   65): getParameter(100663311) ERROR: 0x8000100e
+W/ACodec  (   65): do not know color format 0x7f000789 = 2130708361
+E/OMXNodeInstance(   65): getParameter(100663297) ERROR: 0x8000100e
+E/OMXNodeInstance(   65): getParameter(100663311) ERROR: 0x8000100e
+W/ACodec  (   65): do not know color format 0x7f000789 = 2130708361
+E/OMXNodeInstance(   65): getParameter(100663297) ERROR: 0x8000100e
+E/OMXNodeInstance(   65): getParameter(100663311) ERROR: 0x8000100e
+W/ACodec  (   65): do not know color format 0x7f000789 = 2130708361
+E/OMXNodeInstance(   65): getParameter(100663297) ERROR: 0x8000100e
+E/OMXNodeInstance(   65): getParameter(100663311) ERROR: 0x8000100e
+W/ACodec  (   65): do not know color format 0x7f000789 = 2130708361
+E/OMXNodeInstance(   65): getParameter(100663297) ERROR: 0x8000100e
+W/GpsLocationProvider(  341): Could not open GPS configuration file /etc/gps.conf
+E/GpsLocationProvider(  341): no AGPS interface in set_agps_server
+E/GpsLocationProvider(  341): no GPS configuration interface in configuraiton_update
+W/ServiceWatcher(  341): com.google.android.location not found
+W/ServiceWatcher(  341): com.google.android.location not found
+W/LocationManagerService(  341): no network location provider found
+W/ServiceWatcher(  341): com.google.android.location not found
+E/memtrack(  658): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug(  658): failed to load memtrack module: -2
+E/installd(  712): Running /system/bin/patchoat isa=arm in-fd=6 (/system/app/LatinIME/arm/LatinIME.odex) out-fd=7 (/data/dalvik-cache/arm/system@app@LatinIME@LatinIME.apk@classes.dex)
+W/ServiceWatcher(  341): com.google.android.location not found
+E/LocationManagerService(  341): no geocoder provider found
+E/FlpHardwareProvider(  341): Error hw_get_module 'flp': -2
+E/LocationManagerService(  341): FLP HAL not supported
+W/ServiceWatcher(  341): com.google.android.location not found
+E/LocationManagerService(  341): Unable to bind FLP Geofence proxy.
+E/ActivityRecognitionHardware(  341): Error hw_get_module: -2
+E/LocationManagerService(  341): Hardware Activity-Recognition not supported.
+E/GpsLocationProvider(  341): no AGPS interface in set_agps_server
+W/ContextImpl(  341): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1750 com.android.server.MmsServiceBroker.tryConnecting:134 com.android.server.MmsServiceBroker.systemRunning:121 com.android.server.SystemServer$2.run:1180 com.android.server.am.ActivityManagerService.systemReady:11322 
+W/art     (  341): Verification of android.os.IBinder com.android.location.fused.FusedLocationService.onBind(android.content.Intent) took 303.148ms
+W/ResourcesManager(  341): Asset path '/system/framework/com.android.location.provider.jar' does not exist or contains no resources.
+W/VoiceInteractionManagerService(  341): no available voice interaction services found for user 0
+W/VoiceInteractionManagerService(  341): no available voice recognition services found for user 0
+W/art     (  341): Verification of void com.android.location.fused.FusedLocationProvider.<clinit>() took 105.261ms
+W/art     (  341): Verification of void com.android.location.fused.FusedLocationProvider.onDisable() took 194.667ms
+W/Zygote  (  772): Slow operation: 1265ms so far, now at Zygote.postForkCommon
+W/Zygote  (  772): Slow operation: 1282ms so far, now at zygoteConnection.runOnce: postForkAndSpecialize
+W/ActivityManager(  341): No pending application record for pid 772 (IApplicationThread android.app.ApplicationThreadProxy@37601946); dropping process
+W/Zygote  (  814): Slow operation: 1242ms so far, now at Zygote.postForkCommon
+W/Zygote  (  814): Slow operation: 1246ms so far, now at zygoteConnection.runOnce: postForkAndSpecialize
+E/installd(  836): Running /system/bin/patchoat isa=arm in-fd=6 (/system/priv-app/Telecom/arm/Telecom.odex) out-fd=7 (/data/dalvik-cache/arm/system@priv-app@Telecom@Telecom.apk@classes.dex)
+W/art     (  633): Suspending all threads took: 64.458ms
+W/art     (  633): Suspending all threads took: 16.172ms
+E/memtrack(  823): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug(  823): failed to load memtrack module: -2
+W/AppWidgetServiceImpl(  341): Failed to read state: java.io.FileNotFoundException: /data/system/users/0/appwidgets.xml: open failed: ENOENT (No such file or directory)
+W/art     (  341): Suspending all threads took: 28.938ms
+E/installd(  847): Running /system/bin/patchoat isa=arm in-fd=6 (/system/priv-app/TeleService/arm/TeleService.odex) out-fd=7 (/data/dalvik-cache/arm/system@priv-app@TeleService@TeleService.apk@classes.dex)
+E/installd(  850): Running /system/bin/patchoat isa=arm in-fd=6 (/system/priv-app/TelephonyProvider/arm/TelephonyProvider.odex) out-fd=7 (/data/dalvik-cache/arm/system@priv-app@TelephonyProvider@TelephonyProvider.apk@classes.dex)
+E/installd(  851): Running /system/bin/patchoat isa=arm in-fd=6 (/system/priv-app/MmsService/arm/MmsService.odex) out-fd=7 (/data/dalvik-cache/arm/system@priv-app@MmsService@MmsService.apk@classes.dex)
+W/InputAttributes(  633): No editor info for this field. Bug?
+E/BluetoothAdapter(  782): Bluetooth binder is null
+E/installd(  896): Running /system/bin/patchoat isa=arm in-fd=6 (/system/app/UserDictionaryProvider/arm/UserDictionaryProvider.odex) out-fd=7 (/data/dalvik-cache/arm/system@app@UserDictionaryProvider@UserDictionaryProvider.apk@classes.dex)
+E/installd(  910): Running /system/bin/patchoat isa=arm in-fd=6 (/system/app/PrintSpooler/arm/PrintSpooler.odex) out-fd=7 (/data/dalvik-cache/arm/system@app@PrintSpooler@PrintSpooler.apk@classes.dex)
+E/installd(  911): Running /system/bin/patchoat isa=arm in-fd=6 (/system/priv-app/DefaultContainerService/arm/DefaultContainerService.odex) out-fd=7 (/data/dalvik-cache/arm/system@priv-app@DefaultContainerService@DefaultContainerService.apk@classes.dex)
+E/BluetoothAdapter(  782): Bluetooth binder is null
+W/art     (  852): Suspending all threads took: 7.955ms
+W/art     (  852): Suspending all threads took: 73.951ms
+E/installd(  941): Running /system/bin/patchoat isa=arm in-fd=6 (/system/app/Music/arm/Music.odex) out-fd=7 (/data/dalvik-cache/arm/system@app@Music@Music.apk@classes.dex)
+W/art     (  539): Suspending all threads took: 9.928ms
+W/art     (  539): Suspending all threads took: 8.430ms
+W/art     (  539): Suspending all threads took: 11.588ms
+E/installd(  951): Running /system/bin/patchoat isa=arm in-fd=6 (/system/app/SdkSetup/arm/SdkSetup.odex) out-fd=7 (/data/dalvik-cache/arm/system@app@SdkSetup@SdkSetup.apk@classes.dex)
+E/MmsService(  788): MmsConfigManager.load -- empty getActiveSubInfoList
+W/Settings(  932): Setting install_non_market_apps has moved from android.provider.Settings.Global to android.provider.Settings.Secure, value is unchanged.
+W/ActivityManager(  341): Spurious death for ProcessRecord{2409954 932:com.android.sdksetup/u0a42}, curProc for 932: null
+E/BluetoothAdapter(  539): Bluetooth binder is null
+W/BluetoothController(  539): Default BT adapter not found
+E/BluetoothAdapter(  539): Bluetooth binder is null
+W/BackupManagerService(  341): dataChanged but no participant pkg='com.android.providers.settings' uid=10012
+W/OpenGLRenderer(  539): can't set property, no Caches instance
+W/OpenGLRenderer(  539): can't set property, no Caches instance
