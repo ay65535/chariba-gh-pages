@@ -1,0 +1,141 @@
+--------- beginning of main
+W/auditd  (   48): type=2000 audit(0.0:1): initialized
+W/auditd  (   48): type=1404 audit(0.0:3): enforcing=1 old_enforcing=0 auid=4294967295 ses=4294967295
+E/cutils  (   65): Failed to read /data/.layout_version: No such file or directory
+--------- beginning of system
+E/SurfaceFlinger(   53): hwcomposer module not found
+W/SurfaceFlinger(   53): no suitable EGLConfig found, trying a simpler query
+W/SurfaceFlinger(   53): EGL_SLOW_CONFIG selected!
+W/SurfaceFlinger(   53): no suitable EGLConfig found, trying a simpler query
+W/SurfaceFlinger(   53): EGL_SLOW_CONFIG selected!
+W/SurfaceFlinger(   53): no suitable EGLConfig found, trying a simpler query
+W/SurfaceFlinger(   53): EGL_SLOW_CONFIG selected!
+E/SurfaceFlinger(   53): ro.sf.lcd_density must be defined as a build property
+W/AudioFlinger(   64): Thread AudioOut_2 cannot connect to the power manager service
+E/audio_hw_generic(   64): Error opening input stream format 1, channel_mask 0010, sample_rate 16000
+E/AudioFlinger(   64): int android::load_audio_interface(const char*, audio_hw_device_t**) couldn't load audio hw module audio.r_submix (No such file or directory)
+W/AudioPolicyManager(   64): could not open HW module r_submix
+W/AudioPolicyManager(   64): Input device 80000100 unreachable
+E/SoundTriggerHwService(   64): couldn't load sound trigger module sound_trigger.primary (No such file or directory)
+W/AudioFlinger(   64): Thread AudioOut_2 cannot connect to the power manager service
+W/AudioFlinger(   64): Thread AudioOut_2 cannot connect to the power manager service
+E/AudioFlinger(   64): no wake lock to update!
+E/memtrack(   67): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug(   67): failed to load memtrack module: -2
+E/Minikin (   67): addFont failed to create font /system/fonts/NotoSansGujarati-Regular.ttf
+E/Minikin (   67): addFont failed to create font /system/fonts/NotoSansGujarati-Bold.ttf
+E/Minikin (   67): addFont failed to create font /system/fonts/NotoSansGujaratiUI-Regular.ttf
+E/Minikin (   67): addFont failed to create font /system/fonts/NotoSansGujaratiUI-Bold.ttf
+E/Minikin (   67): addFont failed to create font /system/fonts/NotoSansGurmukhi-Regular.ttf
+E/Minikin (   67): addFont failed to create font /system/fonts/NotoSansGurmukhi-Bold.ttf
+E/Minikin (   67): addFont failed to create font /system/fonts/NotoSansGurmukhiUI-Regular.ttf
+E/Minikin (   67): addFont failed to create font /system/fonts/NotoSansGurmukhiUI-Bold.ttf
+E/Minikin (   67): addFont failed to create font /system/fonts/NotoSansSinhala-Regular.ttf
+E/Minikin (   67): addFont failed to create font /system/fonts/NotoSansSinhala-Bold.ttf
+E/Minikin (   67): addFont failed to create font /system/fonts/NotoSansCherokee-Regular.ttf
+E/Minikin (   67): addFont failed to create font /system/fonts/NotoSansCanadianAboriginal-Regular.ttf
+E/Minikin (   67): addFont failed to create font /system/fonts/NotoSansYi-Regular.ttf
+E/Minikin (   67): addFont failed to create font /system/fonts/NotoSansHans-Regular.otf
+E/Minikin (   67): addFont failed to create font /system/fonts/NotoSansHant-Regular.otf
+E/Minikin (   67): addFont failed to create font /system/fonts/NotoSansJP-Regular.otf
+E/Minikin (   67): addFont failed to create font /system/fonts/NotoSansKR-Regular.otf
+E/EmojiFactory_jni(   67): Failed to load libemoji.so: dlopen failed: library "libemoji.so" not found
+E/logwrapper(  333): executing /system/bin/ip failed: No such file or directory
+E/Netd    (   60): failed to flush rules
+E/CommandListener(   60): failed to initialize RouteController (Remote I/O error)
+E/installd(  355): Running /system/bin/patchoat isa=arm in-fd=6 (/system/framework/arm/services.odex) out-fd=7 (/data/dalvik-cache/arm/system@framework@services.jar@classes.dex)
+E/installd(  356): Running /system/bin/patchoat isa=arm in-fd=6 (/system/framework/arm/ethernet-service.odex) out-fd=7 (/data/dalvik-cache/arm/system@framework@ethernet-service.jar@classes.dex)
+E/installd(  357): Running /system/bin/patchoat isa=arm in-fd=6 (/system/framework/arm/wifi-service.odex) out-fd=7 (/data/dalvik-cache/arm/system@framework@wifi-service.jar@classes.dex)
+E/installd(   65): eof
+E/installd(   65): failed to read size
+E/PowerManagerService-JNI(  342): Couldn't load power module (No such file or directory)
+W/libsuspend(  342): Error writing 'on' to /sys/power/state: Invalid argument
+E/SurfaceFlinger(   53): ro.sf.lcd_density must be defined as a build property
+W/SELinuxMMAC(  342): Error opening /data/system/seapp_hash. Assuming first boot.
+W/FileUtils(  342): Failed to chmod(/data/system/packages.list): android.system.ErrnoException: chmod failed: ENOENT (No such file or directory)
+W/SystemConfig(  342): No directory /system/etc/sysconfig, skipping
+E/installd(  374): Running /system/bin/patchoat isa=arm in-fd=6 (/system/framework/arm/android.test.runner.odex) out-fd=7 (/data/dalvik-cache/arm/system@framework@android.test.runner.jar@classes.dex)
+E/installd(  375): Running /system/bin/patchoat isa=arm in-fd=6 (/system/framework/arm/com.android.media.remotedisplay.odex) out-fd=7 (/data/dalvik-cache/arm/system@framework@com.android.media.remotedisplay.jar@classes.dex)
+E/installd(  376): Running /system/bin/patchoat isa=arm in-fd=6 (/system/framework/arm/com.android.location.provider.odex) out-fd=7 (/data/dalvik-cache/arm/system@framework@com.android.location.provider.jar@classes.dex)
+E/installd(  377): Running /system/bin/patchoat isa=arm in-fd=6 (/system/framework/arm/com.android.mediadrm.signer.odex) out-fd=7 (/data/dalvik-cache/arm/system@framework@com.android.mediadrm.signer.jar@classes.dex)
+E/installd(  378): Running /system/bin/patchoat isa=arm in-fd=6 (/system/framework/arm/javax.obex.odex) out-fd=7 (/data/dalvik-cache/arm/system@framework@javax.obex.jar@classes.dex)
+E/installd(  379): Running /system/bin/patchoat isa=arm in-fd=6 (/system/framework/arm/am.odex) out-fd=7 (/data/dalvik-cache/arm/system@framework@am.jar@classes.dex)
+E/installd(  380): Running /system/bin/patchoat isa=arm in-fd=6 (/system/framework/arm/appops.odex) out-fd=7 (/data/dalvik-cache/arm/system@framework@appops.jar@classes.dex)
+E/installd(  381): Running /system/bin/patchoat isa=arm in-fd=6 (/system/framework/arm/appwidget.odex) out-fd=7 (/data/dalvik-cache/arm/system@framework@appwidget.jar@classes.dex)
+E/installd(  382): Running /system/bin/patchoat isa=arm in-fd=6 (/system/framework/arm/bmgr.odex) out-fd=7 (/data/dalvik-cache/arm/system@framework@bmgr.jar@classes.dex)
+E/installd(  383): Running /system/bin/patchoat isa=arm in-fd=6 (/system/framework/arm/bu.odex) out-fd=7 (/data/dalvik-cache/arm/system@framework@bu.jar@classes.dex)
+E/installd(  384): Running /system/bin/patchoat isa=arm in-fd=6 (/system/framework/arm/com.android.future.usb.accessory.odex) out-fd=7 (/data/dalvik-cache/arm/system@framework@com.android.future.usb.accessory.jar@classes.dex)
+E/installd(  385): Running /system/bin/patchoat isa=arm in-fd=6 (/system/framework/arm/content.odex) out-fd=7 (/data/dalvik-cache/arm/system@framework@content.jar@classes.dex)
+E/installd(  386): Running /system/bin/patchoat isa=arm in-fd=6 (/system/framework/arm/dpm.odex) out-fd=7 (/data/dalvik-cache/arm/system@framework@dpm.jar@classes.dex)
+E/installd(  387): Running /system/bin/patchoat isa=arm in-fd=6 (/system/framework/arm/ime.odex) out-fd=7 (/data/dalvik-cache/arm/system@framework@ime.jar@classes.dex)
+E/installd(  388): Running /system/bin/patchoat isa=arm in-fd=6 (/system/framework/arm/input.odex) out-fd=7 (/data/dalvik-cache/arm/system@framework@input.jar@classes.dex)
+E/installd(  389): Running /system/bin/patchoat isa=arm in-fd=6 (/system/framework/arm/media_cmd.odex) out-fd=7 (/data/dalvik-cache/arm/system@framework@media_cmd.jar@classes.dex)
+E/installd(  390): Running /system/bin/patchoat isa=arm in-fd=6 (/system/framework/arm/monkey.odex) out-fd=7 (/data/dalvik-cache/arm/system@framework@monkey.jar@classes.dex)
+E/installd(  391): Running /system/bin/patchoat isa=arm in-fd=6 (/system/framework/arm/pm.odex) out-fd=7 (/data/dalvik-cache/arm/system@framework@pm.jar@classes.dex)
+E/installd(  392): Running /system/bin/patchoat isa=arm in-fd=6 (/system/framework/arm/requestsync.odex) out-fd=7 (/data/dalvik-cache/arm/system@framework@requestsync.jar@classes.dex)
+E/installd(  393): Running /system/bin/patchoat isa=arm in-fd=6 (/system/framework/arm/settings.odex) out-fd=7 (/data/dalvik-cache/arm/system@framework@settings.jar@classes.dex)
+E/installd(  394): Running /system/bin/patchoat isa=arm in-fd=6 (/system/framework/arm/svc.odex) out-fd=7 (/data/dalvik-cache/arm/system@framework@svc.jar@classes.dex)
+E/installd(  395): Running /system/bin/patchoat isa=arm in-fd=6 (/system/framework/arm/uiautomator.odex) out-fd=7 (/data/dalvik-cache/arm/system@framework@uiautomator.jar@classes.dex)
+E/installd(  396): Running /system/bin/patchoat isa=arm in-fd=6 (/system/framework/arm/wm.odex) out-fd=7 (/data/dalvik-cache/arm/system@framework@wm.jar@classes.dex)
+W/PackageManager(  342): Failed to parse /system/framework/arm: Missing base APK in /system/framework/arm
+W/ResourceType(  342): Failure getting entry for 0x7f0b01e9 (t=10 e=489) (error -75)
+W/PackageParser(  342): No actions in intent filter at /system/priv-app/Contacts/Contacts.apk Binary XML file line #355
+W/PackageParser(  342): No actions in intent filter at /system/priv-app/Dialer/Dialer.apk Binary XML file line #165
+W/ResourceType(  342): Failure getting entry for 0x7f08025b (t=7 e=603) (error -75)
+W/PackageParser(  342): No actions in intent filter at /data/app/ApiDemos/ApiDemos.apk Binary XML file line #3027
+W/PackageParser(  342): No actions in intent filter at /data/app/ApiDemos/ApiDemos.apk Binary XML file line #3033
+W/PackageManager(  342): Package com.example.android.apis desires unavailable shared library com.example.will.never.exist; ignoring!
+W/PackageManager(  342): Package com.example.android.apis desires unavailable shared library com.example.will.never.exist; ignoring!
+W/PackageManager(  342): Package com.android.camera desires unavailable shared library com.google.android.media.effects; ignoring!
+E/installd(  397): Running /system/bin/patchoat isa=arm in-fd=6 (/system/priv-app/Settings/arm/Settings.odex) out-fd=7 (/data/dalvik-cache/arm/system@priv-app@Settings@Settings.apk@classes.dex)
+E/installd(  398): Running /system/bin/patchoat isa=arm in-fd=6 (/system/priv-app/SettingsProvider/arm/SettingsProvider.odex) out-fd=7 (/data/dalvik-cache/arm/system@priv-app@SettingsProvider@SettingsProvider.apk@classes.dex)
+E/installd(  399): Running /system/bin/patchoat isa=arm in-fd=6 (/system/app/KeyChain/arm/KeyChain.odex) out-fd=7 (/data/dalvik-cache/arm/system@app@KeyChain@KeyChain.apk@classes.dex)
+E/installd(  400): Running /system/bin/patchoat isa=arm in-fd=6 (/system/priv-app/InputDevices/arm/InputDevices.odex) out-fd=7 (/data/dalvik-cache/arm/system@priv-app@InputDevices@InputDevices.apk@classes.dex)
+E/installd(  401): Running /system/bin/patchoat isa=arm in-fd=6 (/system/priv-app/FusedLocation/arm/FusedLocation.odex) out-fd=7 (/data/dalvik-cache/arm/system@priv-app@FusedLocation@FusedLocation.apk@classes.dex)
+W/PackageManager(  342): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.mail in package com.android.calendar
+W/PackageManager(  342): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.settings
+W/PackageManager(  342): Not granting permission android.permission.DELETE_PACKAGES to package com.svox.pico (protectionLevel=18 flags=0x8be45)
+W/PackageManager(  342): Not granting permission android.permission.BIND_APPWIDGET to package com.android.widgetpreview (protectionLevel=18 flags=0x8be44)
+W/PackageManager(  342): Not granting permission android.permission.DEVICE_POWER to package com.android.deskclock (protectionLevel=2 flags=0x48be45)
+W/PackageManager(  342): Not granting permission android.permission.GLOBAL_SEARCH to package com.android.quicksearchbox (protectionLevel=18 flags=0x8be45)
+W/PackageManager(  342): Unknown permission com.android.smspush.WAPPUSH_MANAGER_BIND in package com.android.phone
+W/PackageManager(  342): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.providers.calendar
+W/PackageManager(  342): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.cl in package com.android.providers.calendar
+W/PackageManager(  342): Unknown permission android.permission.INSTALL_DRM in package com.android.mms
+W/PackageManager(  342): Not granting permission android.permission.ACCESS_DOWNLOAD_MANAGER to package com.android.browser (protectionLevel=18 flags=0x9be45)
+W/PackageManager(  342): Not granting permission android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS to package com.android.browser (protectionLevel=2 flags=0x9be45)
+W/PackageManager(  342): Unknown permission com.google.android.googleapps.permission.ACCESS_GOOGLE_PASSWORD in package com.android.development
+W/PackageManager(  342): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.development
+W/PackageManager(  342): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.ALL_SERVICES in package com.android.development
+W/PackageManager(  342): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.YouTubeUser in package com.android.development
+W/EntropyMixer(  342): No existing entropy file -- first boot?
+W/ActivityManager(  342): Can't addPackageDependency on system process
+W/CoreSettingsObserver(  342): Cannot find setting "debug_view_attributes"
+W/CoreSettingsObserver(  342): android.provider.Settings$SettingNotFoundException: debug_view_attributes
+W/CoreSettingsObserver(  342): 	at android.provider.Settings$Global.getInt(Settings.java:6726)
+W/CoreSettingsObserver(  342): 	at com.android.server.am.CoreSettingsObserver.populateSettings(CoreSettingsObserver.java:129)
+W/CoreSettingsObserver(  342): 	at com.android.server.am.CoreSettingsObserver.sendCoreSettings(CoreSettingsObserver.java:82)
+W/CoreSettingsObserver(  342): 	at com.android.server.am.CoreSettingsObserver.<init>(CoreSettingsObserver.java:65)
+W/CoreSettingsObserver(  342): 	at com.android.server.am.ActivityManagerService.installSystemProviders(ActivityManagerService.java:9845)
+W/CoreSettingsObserver(  342): 	at com.android.server.SystemServer.startOtherServices(SystemServer.java:452)
+W/CoreSettingsObserver(  342): 	at com.android.server.SystemServer.run(SystemServer.java:256)
+W/CoreSettingsObserver(  342): 	at com.android.server.SystemServer.main(SystemServer.java:170)
+W/CoreSettingsObserver(  342): 	at java.lang.reflect.Method.invoke(Native Method)
+W/CoreSettingsObserver(  342): 	at java.lang.reflect.Method.invoke(Method.java:372)
+W/CoreSettingsObserver(  342): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:899)
+W/CoreSettingsObserver(  342): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:694)
+E/ConsumerIrService(  342): Can't open consumer IR HW Module, error: -2
+E/memtrack(  412): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug(  412): failed to load memtrack module: -2
+E/EventHub(  342): could not get driver version for /dev/input/mouse0, Not a typewriter
+W/EventHub(  342): Unable to disable kernel key repeat for /dev/input/event0: Function not implemented
+E/EventHub(  342): could not get driver version for /dev/input/mice, Not a typewriter
+E/Pm      (  412): Error
+E/Pm      (  412): java.lang.NullPointerException: Attempt to invoke interface method 'android.os.storage.StorageVolume[] android.os.storage.IMountService.getVolumeList()' on a null object reference
+E/Pm      (  412): 	at android.os.Parcel.readException(Parcel.java:1546)
+E/Pm      (  412): 	at android.os.Parcel.readException(Parcel.java:1493)
+E/Pm      (  412): 	at android.content.pm.IPackageInstaller$Stub$Proxy.createSession(IPackageInstaller.java:235)
+E/Pm      (  412): 	at com.android.commands.pm.Pm.runInstallCreate(Pm.java:1039)
+E/Pm      (  412): 	at com.android.commands.pm.Pm.run(Pm.java:150)
+E/Pm      (  412): 	at com.android.commands.pm.Pm.main(Pm.java:100)
+E/Pm      (  412): 	at com.android.internal.os.RuntimeInit.nativeFinishInit(Nati
