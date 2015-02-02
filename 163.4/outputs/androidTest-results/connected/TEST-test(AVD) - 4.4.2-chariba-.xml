@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="com.github.ay65535.chariba.HogeTest" tests="4" failures="0" errors="0" skipped="0" time="0.325" timestamp="2015-02-02T13:23:27" hostname="localhost">
+  <properties>
+    <property name="device" value="test(AVD) - 4.4.2" />
+    <property name="flavor" value="" />
+    <property name="project" value="chariba" />
+  </properties>
+  <testcase name="junit4" classname="com.github.ay65535.chariba.HogeTest" time="0.026" />
+  <testcase name="add" classname="com.github.ay65535.chariba.MainActivitySmallTest" time="0.076" />
+  <testcase name="context" classname="com.github.ay65535.chariba.MainActivitySmallTest" time="0.026" />
+  <testcase name="sample" classname="com.github.ay65535.chariba.SampleTest" time="0.026" />
+</testsuite>
