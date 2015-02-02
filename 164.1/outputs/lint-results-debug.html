@@ -1,0 +1,1603 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>Lint Report</title>
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto" />
+<link rel="stylesheet" type="text/css" href="lint-results-debug_files/hololike.css" />
+<script language="javascript" type="text/javascript"> 
+<!--
+function reveal(id) {
+if (document.getElementById) {
+document.getElementById(id).style.display = 'block';
+document.getElementById(id+'Link').style.display = 'none';
+}
+}
+//--> 
+</script>
+</head>
+<body>
+<h1>Lint Report</h1>
+<div class="titleSeparator"></div>
+Check performed at Mon Feb 02 22:29:00 JST 2015.<br/>
+3 errors and 109 warnings found:<br/><br/>
+<table class="overview">
+<tr><td></td><td class="categoryColumn"><a href="#Correctness">Correctness</a>
+</td></tr>
+<tr>
+<td class="countColumn">3</td><td class="issueColumn"><img border="0" align="top" src="lint-results-debug_files/lint-error.png" alt="Error" />
+<a href="#MissingPrefix">MissingPrefix: Missing Android XML namespace</a>
+</td></tr>
+<tr>
+<td class="countColumn">1</td><td class="issueColumn"><img border="0" align="top" src="lint-results-debug_files/lint-warning.png" alt="Warning" />
+<a href="#InflateParams">InflateParams: Layout Inflation without a Parent</a>
+</td></tr>
+<tr>
+<td class="countColumn">1</td><td class="issueColumn"><img border="0" align="top" src="lint-results-debug_files/lint-warning.png" alt="Warning" />
+<a href="#GradleDependency">GradleDependency: Obsolete Gradle Dependency</a>
+</td></tr>
+<tr><td></td><td class="categoryColumn"><a href="#Performance">Performance</a>
+</td></tr>
+<tr>
+<td class="countColumn">59</td><td class="issueColumn"><img border="0" align="top" src="lint-results-debug_files/lint-warning.png" alt="Warning" />
+<a href="#UnusedResources">UnusedResources: Unused resources</a>
+</td></tr>
+<tr><td></td><td class="categoryColumn"><a href="#Usability:Icons">Usability:Icons</a>
+</td></tr>
+<tr>
+<td class="countColumn">4</td><td class="issueColumn"><img border="0" align="top" src="lint-results-debug_files/lint-warning.png" alt="Warning" />
+<a href="#IconDipSize">IconDipSize: Icon density-independent size validation</a>
+</td></tr>
+<tr>
+<td class="countColumn">4</td><td class="issueColumn"><img border="0" align="top" src="lint-results-debug_files/lint-warning.png" alt="Warning" />
+<a href="#IconDuplicatesConfig">IconDuplicatesConfig: Identical bitmaps across various configurations</a>
+</td></tr>
+<tr>
+<td class="countColumn">3</td><td class="issueColumn"><img border="0" align="top" src="lint-results-debug_files/lint-warning.png" alt="Warning" />
+<a href="#IconDensities">IconDensities: Icon densities validation</a>
+</td></tr>
+<tr>
+<td class="countColumn">8</td><td class="issueColumn"><img border="0" align="top" src="lint-results-debug_files/lint-warning.png" alt="Warning" />
+<a href="#IconDuplicates">IconDuplicates: Duplicated icons under different names</a>
+</td></tr>
+<tr><td></td><td class="categoryColumn"><a href="#Accessibility">Accessibility</a>
+</td></tr>
+<tr>
+<td class="countColumn">1</td><td class="issueColumn"><img border="0" align="top" src="lint-results-debug_files/lint-warning.png" alt="Warning" />
+<a href="#ClickableViewAccessibility">ClickableViewAccessibility: Accessibility in Custom Views</a>
+</td></tr>
+<tr>
+<td class="countColumn">7</td><td class="issueColumn"><img border="0" align="top" src="lint-results-debug_files/lint-warning.png" alt="Warning" />
+<a href="#LabelFor">LabelFor: Missing <code>labelFor</code> attribute</a>
+</td></tr>
+<tr><td></td><td class="categoryColumn"><a href="#Internationalization">Internationalization</a>
+</td></tr>
+<tr>
+<td class="countColumn">21</td><td class="issueColumn"><img border="0" align="top" src="lint-results-debug_files/lint-warning.png" alt="Warning" />
+<a href="#HardcodedText">HardcodedText: Hardcoded text</a>
+</td></tr>
+<tr><td></td><td class="categoryColumn"><a href="#MissingIssues">Disabled Checks (10)</a>
+</td></tr></table>
+<br/>
+<a name="Correctness"></a>
+<div class="category"><a href="#" title="Return to top">Correctness</a><div class="categorySeparator"></div>
+</div>
+<a name="MissingPrefix"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">MissingPrefix: Missing Android XML namespace</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../res/layout/activity_main.xml">../../res/layout/activity_main.xml</a>:73</span>: <span class="message">Unexpected namespace prefix "xmlns" found for tag <code>ListView</code></span><br /><pre class="errorlines">
+<span class="lineno">  70</span>         &lt;!--tools:context=".MainActivity">-->
+<span class="lineno">  71</span>         &lt;!--&lt;/ScrollView>-->
+<span class="lineno">  72</span> 
+<span class="lineno">  73</span>         &lt;ListView <span class="errorspan">xmlns:android="http://schemas.android.com/apk/res/android"</span>
+<span class="lineno">  74</span>             xmlns:tools="http://schemas.android.com/tools"
+<span class="lineno">  75</span>             android:id="@+id/list_item"
+</pre>
+<span class="location"><a href="../../res/layout/activity_main.xml">../../res/layout/activity_main.xml</a>:74</span>: <span class="message">Unexpected namespace prefix "xmlns" found for tag <code>ListView</code></span><br /><pre class="errorlines">
+<span class="lineno">  71</span>         &lt;!--&lt;/ScrollView>-->
+<span class="lineno">  72</span> 
+<span class="lineno">  73</span>         &lt;ListView xmlns:android="http://schemas.android.com/apk/res/android"
+<span class="lineno">  74</span>             <span class="errorspan">xmlns:tools="http://schemas.android.com/tools"</span>
+<span class="lineno">  75</span>             android:id="@+id/list_item"
+<span class="lineno">  76</span>             android:layout_width="match_parent"
+</pre>
+<span class="location"><a href="../../res/layout/activity_settings.xml">../../res/layout/activity_settings.xml</a>:19</span>: <span class="message">Unexpected namespace prefix "xmlns" found for tag <code>ScrollView</code></span><br /><pre class="errorlines">
+<span class="lineno">  16</span>         app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+<span class="lineno">  17</span>         app:theme="@style/MyActionBarStyle" />
+<span class="lineno">  18</span> 
+<span class="lineno">  19</span>     &lt;ScrollView <span class="errorspan">xmlns:android="http://schemas.android.com/apk/res/android"</span>
+<span class="lineno">  20</span>         android:id="@+id/scrollview"
+<span class="lineno">  21</span>         android:layout_width="match_parent"
+</pre>
+</div>
+<div class="metadata">Note: This issue has an associated quickfix operation in Eclipse/ADT & Android Studio/IntelliJ&nbsp;<img alt="Fix" border="0" align="top" src="lint-results-debug_files/lint-run.png" />
+<br>
+Priority: 6 / 10<br/>
+Category: Correctness</div>
+Severity: <span class="error">Error</span><div class="summary">
+Explanation: Missing Android XML namespace.</div>
+<div class="explanation">
+Most Android views have attributes in the Android namespace. When referencing these attributes you <b>must</b> include the namespace prefix, or your attribute will be interpreted by <code>aapt</code> as just a custom attribute.<br/>
+<br/>
+Similarly, in manifest files, nearly all attributes should be in the <code>android:</code> namespace.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "MissingPrefix" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="InflateParams"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">InflateParams: Layout Inflation without a Parent</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../src/com/github/ay65535/chariba/CustomArrayAdapter.java">../../src/com/github/ay65535/chariba/CustomArrayAdapter.java</a>:32</span>: <span class="message">Avoid passing <code>null</code> as the view root (needed to resolve layout parameters on the inflated layout's root element)</span><br /><pre class="errorlines">
+<span class="lineno">  29</span> 
+<span class="lineno">  30</span>         // convertView&#12399;&#20351;&#12356;&#22238;&#12375;&#12373;&#12428;&#12390;&#12356;&#12427;&#21487;&#33021;&#24615;&#12364;&#12354;&#12427;&#12398;&#12391;null&#12398;&#26178;&#12384;&#12369;&#26032;&#12375;&#12367;&#20316;&#12427;
+<span class="lineno">  31</span>         if (null == convertView) {
+<span class="lineno">  32</span>             convertView = layoutInflater_.inflate(R.layout.custom_adapter_item, <span class="errorspan">null);</span>
+<span class="lineno">  33</span>         }
+<span class="lineno">  34</span> 
+</pre>
+</div>
+<div class="metadata">Priority: 5 / 10<br/>
+Category: Correctness</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Layout Inflation without a Parent.</div>
+<div class="explanation">
+When inflating a layout, avoid passing in null as the parent view, since otherwise any layout parameters on the root of the inflated layout will be ignored.
+</div>
+<br/><div class="moreinfo">More info: <a href="http://www.doubleencore.com/2013/05/layout-inflation-as-intended">http://www.doubleencore.com/2013/05/layout-inflation-as-intended</a>
+</div><br/>To suppress this error, use the issue id "InflateParams" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="GradleDependency"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">GradleDependency: Obsolete Gradle Dependency</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../build.gradle">../../build.gradle</a>:163</span>: <span class="message">A newer version of com.google.android.gms:play-services than 6.1.71 is available: 6.5.87</span><br /><pre class="errorlines">
+<span class="lineno"> 160</span>     //compile files('libs/android-support-v4.jar')
+<span class="lineno"> 161</span>     //compile 'com.android.support:support-v4:21.0.0'
+<span class="lineno"> 162</span>     compile 'com.android.support:appcompat-v7:21.0.3'
+<span class="lineno"> 163</span>     <span class="errorspan">compile 'com.google.android.gms:play-services:6.1.71'</span>
+<span class="lineno"> 164</span>     compile 'com.getbase:floatingactionbutton:1.5.1'
+<span class="lineno"> 165</span> }
+</pre>
+</div>
+<div class="metadata">Note: This issue has an associated quickfix operation in Android Studio/IntelliJ&nbsp;<img alt="Fix" border="0" align="top" src="lint-results-debug_files/lint-run.png" />
+<br>
+Priority: 4 / 10<br/>
+Category: Correctness</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Obsolete Gradle Dependency.</div>
+<div class="explanation">
+This detector looks for usages of libraries where the version you are using is not the current stable release. Using older versions is fine, and there are cases where you deliberately want to stick with an older version. However, you may simply not be aware that a more recent version is available, and that is what this lint check helps find.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "GradleDependency" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+
+<a name="Performance"></a>
+<div class="category"><a href="#" title="Return to top">Performance</a><div class="categorySeparator"></div>
+</div>
+<a name="UnusedResources"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">UnusedResources: Unused resources</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../res/drawable-hdpi/argoal.png">../../res/drawable-hdpi/argoal.png</a></span>: <span class="message">The resource <code>R.drawable.argoal</code> appears to be unused</span><br />
+<ul></ul><button id="Location1DivLink" onclick="reveal('Location1Div');" />+ 2 Additional Locations...</button>
+<div id="Location1Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../res/drawable-mdpi/argoal.png">../../res/drawable-mdpi/argoal.png</a></span>
+<li> <span class="location"><a href="../../res/drawable-xhdpi/argoal.png">../../res/drawable-xhdpi/argoal.png</a></span>
+</ul>
+</div><br/><br/>
+<table><tr><td><a href="../../res/drawable-xhdpi/argoal.png"><img border="0" align="top" src="../../res/drawable-xhdpi/argoal.png" /></a>
+</td><td><a href="../../res/drawable-hdpi/argoal.png"><img border="0" align="top" src="../../res/drawable-hdpi/argoal.png" /></a>
+</td><td><a href="../../res/drawable-mdpi/argoal.png"><img border="0" align="top" src="../../res/drawable-mdpi/argoal.png" /></a>
+</td></tr><tr><th>xhdpi</th><th>hdpi</th><th>mdpi</th></tr>
+</table>
+<span class="location"><a href="../../res/drawable-hdpi/arkeiyu.png">../../res/drawable-hdpi/arkeiyu.png</a></span>: <span class="message">The resource <code>R.drawable.arkeiyu</code> appears to be unused</span><br />
+<ul></ul><button id="Location2DivLink" onclick="reveal('Location2Div');" />+ 2 Additional Locations...</button>
+<div id="Location2Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../res/drawable-mdpi/arkeiyu.png">../../res/drawable-mdpi/arkeiyu.png</a></span>
+<li> <span class="location"><a href="../../res/drawable-xhdpi/arkeiyu.png">../../res/drawable-xhdpi/arkeiyu.png</a></span>
+</ul>
+</div><br/><br/>
+<table><tr><td><a href="../../res/drawable-xhdpi/arkeiyu.png"><img border="0" align="top" src="../../res/drawable-xhdpi/arkeiyu.png" /></a>
+</td><td><a href="../../res/drawable-hdpi/arkeiyu.png"><img border="0" align="top" src="../../res/drawable-hdpi/arkeiyu.png" /></a>
+</td><td><a href="../../res/drawable-mdpi/arkeiyu.png"><img border="0" align="top" src="../../res/drawable-mdpi/arkeiyu.png" /></a>
+</td></tr><tr><th>xhdpi</th><th>hdpi</th><th>mdpi</th></tr>
+</table>
+<span class="location"><a href="../../res/drawable-hdpi/back.png">../../res/drawable-hdpi/back.png</a></span>: <span class="message">The resource <code>R.drawable.back</code> appears to be unused</span><br />
+<ul></ul><button id="Location3DivLink" onclick="reveal('Location3Div');" />+ 2 Additional Locations...</button>
+<div id="Location3Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../res/drawable-mdpi/back.png">../../res/drawable-mdpi/back.png</a></span>
+<li> <span class="location"><a href="../../res/drawable-xhdpi/back.png">../../res/drawable-xhdpi/back.png</a></span>
+</ul>
+</div><br/><br/>
+<table><tr><td><a href="../../res/drawable-xhdpi/back.png"><img border="0" align="top" src="../../res/drawable-xhdpi/back.png" /></a>
+</td><td><a href="../../res/drawable-hdpi/back.png"><img border="0" align="top" src="../../res/drawable-hdpi/back.png" /></a>
+</td><td><a href="../../res/drawable-mdpi/back.png"><img border="0" align="top" src="../../res/drawable-mdpi/back.png" /></a>
+</td></tr><tr><th>xhdpi</th><th>hdpi</th><th>mdpi</th></tr>
+</table>
+<span class="location"><a href="../../res/values/colors.xml">../../res/values/colors.xml</a>:4</span>: <span class="message">The resource <code>R.color.my_awesome_color</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">   1</span> &lt;resources>
+<span class="lineno">   2</span> 
+<span class="lineno">   3</span>     &lt;color name="black_overlay">#66000000&lt;/color>
+<span class="lineno">   4</span>     &lt;color <span class="errorspan">name="my_awesome_color">@color/background_material_light&lt;/color></span>
+<span class="lineno">   5</span>     &lt;color name="my_awesome_darker_color">@color/background_material_dark&lt;/color>
+<span class="lineno">   6</span>     &lt;color name="accent">@color/accent_material_light&lt;/color>
+</pre>
+<span class="location"><a href="../../res/values/colors.xml">../../res/values/colors.xml</a>:5</span>: <span class="message">The resource <code>R.color.my_awesome_darker_color</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">   2</span> 
+<span class="lineno">   3</span>     &lt;color name="black_overlay">#66000000&lt;/color>
+<span class="lineno">   4</span>     &lt;color name="my_awesome_color">@color/background_material_light&lt;/color>
+<span class="lineno">   5</span>     &lt;color <span class="errorspan">name="my_awesome_darker_color">@color/background_material_dark&lt;/color></span>
+<span class="lineno">   6</span>     &lt;color name="accent">@color/accent_material_light&lt;/color>
+<span class="lineno">   7</span>     &lt;color name="myawesomered">#f00&lt;/color>
+</pre>
+<button id="UnusedResourcesDivLink" onclick="reveal('UnusedResourcesDiv');" />+ 54 More Occurrences...</button>
+<div id="UnusedResourcesDiv" style="display: none">
+<span class="location"><a href="../../res/values/colors.xml">../../res/values/colors.xml</a>:6</span>: <span class="message">The resource <code>R.color.accent</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">   3</span>     &lt;color name="black_overlay">#66000000&lt;/color>
+<span class="lineno">   4</span>     &lt;color name="my_awesome_color">@color/background_material_light&lt;/color>
+<span class="lineno">   5</span>     &lt;color name="my_awesome_darker_color">@color/background_material_dark&lt;/color>
+<span class="lineno">   6</span>     &lt;color <span class="errorspan">name="accent">@color/accent_material_light&lt;/color></span>
+<span class="lineno">   7</span>     &lt;color name="myawesomered">#f00&lt;/color>
+<span class="lineno">   8</span>     &lt;color name="myawesomedarker_red">#900&lt;/color>
+</pre>
+<span class="location"><a href="../../res/values/colors.xml">../../res/values/colors.xml</a>:7</span>: <span class="message">The resource <code>R.color.myawesomered</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">   4</span>     &lt;color name="my_awesome_color">@color/background_material_light&lt;/color>
+<span class="lineno">   5</span>     &lt;color name="my_awesome_darker_color">@color/background_material_dark&lt;/color>
+<span class="lineno">   6</span>     &lt;color name="accent">@color/accent_material_light&lt;/color>
+<span class="lineno">   7</span>     &lt;color <span class="errorspan">name="myawesomered">#f00&lt;/color></span>
+<span class="lineno">   8</span>     &lt;color name="myawesomedarker_red">#900&lt;/color>
+<span class="lineno">   9</span>     &lt;color name="myawesomeblue">#3F51B5&lt;/color>
+</pre>
+<span class="location"><a href="../../res/values/colors.xml">../../res/values/colors.xml</a>:8</span>: <span class="message">The resource <code>R.color.myawesomedarker_red</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">   5</span>     &lt;color name="my_awesome_darker_color">@color/background_material_dark&lt;/color>
+<span class="lineno">   6</span>     &lt;color name="accent">@color/accent_material_light&lt;/color>
+<span class="lineno">   7</span>     &lt;color name="myawesomered">#f00&lt;/color>
+<span class="lineno">   8</span>     &lt;color <span class="errorspan">name="myawesomedarker_red">#900&lt;/color></span>
+<span class="lineno">   9</span>     &lt;color name="myawesomeblue">#3F51B5&lt;/color>
+<span class="lineno">  10</span>     &lt;color name="myawesomedarker_blue">#303F9F&lt;/color>
+</pre>
+<span class="location"><a href="../../res/values/colors.xml">../../res/values/colors.xml</a>:9</span>: <span class="message">The resource <code>R.color.myawesomeblue</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">   6</span>     &lt;color name="accent">@color/accent_material_light&lt;/color>
+<span class="lineno">   7</span>     &lt;color name="myawesomered">#f00&lt;/color>
+<span class="lineno">   8</span>     &lt;color name="myawesomedarker_red">#900&lt;/color>
+<span class="lineno">   9</span>     &lt;color <span class="errorspan">name="myawesomeblue">#3F51B5&lt;/color></span>
+<span class="lineno">  10</span>     &lt;color name="myawesomedarker_blue">#303F9F&lt;/color>
+<span class="lineno">  11</span>     &lt;color name="myawesomelighter_green">#28BC1F&lt;/color>
+</pre>
+<span class="location"><a href="../../res/values/colors.xml">../../res/values/colors.xml</a>:10</span>: <span class="message">The resource <code>R.color.myawesomedarker_blue</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">   7</span>     &lt;color name="myawesomered">#f00&lt;/color>
+<span class="lineno">   8</span>     &lt;color name="myawesomedarker_red">#900&lt;/color>
+<span class="lineno">   9</span>     &lt;color name="myawesomeblue">#3F51B5&lt;/color>
+<span class="lineno">  10</span>     &lt;color <span class="errorspan">name="myawesomedarker_blue">#303F9F&lt;/color></span>
+<span class="lineno">  11</span>     &lt;color name="myawesomelighter_green">#28BC1F&lt;/color>
+<span class="lineno">  12</span>     &lt;color name="myawesomegreen">#1D8717&lt;/color>
+</pre>
+<span class="location"><a href="../../res/values/colors.xml">../../res/values/colors.xml</a>:11</span>: <span class="message">The resource <code>R.color.myawesomelighter_green</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">   8</span>     &lt;color name="myawesomedarker_red">#900&lt;/color>
+<span class="lineno">   9</span>     &lt;color name="myawesomeblue">#3F51B5&lt;/color>
+<span class="lineno">  10</span>     &lt;color name="myawesomedarker_blue">#303F9F&lt;/color>
+<span class="lineno">  11</span>     &lt;color <span class="errorspan">name="myawesomelighter_green">#28BC1F&lt;/color></span>
+<span class="lineno">  12</span>     &lt;color name="myawesomegreen">#1D8717&lt;/color>
+<span class="lineno">  13</span>     &lt;color name="myawesomedarker_green">#155111&lt;/color>
+</pre>
+<span class="location"><a href="../../res/values/colors.xml">../../res/values/colors.xml</a>:15</span>: <span class="message">The resource <code>R.color.myawesomeorange</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  12</span>     &lt;color name="myawesomegreen">#1D8717&lt;/color>
+<span class="lineno">  13</span>     &lt;color name="myawesomedarker_green">#155111&lt;/color>
+<span class="lineno">  14</span>     &lt;color name="myawesomepink">#E91E63&lt;/color>
+<span class="lineno">  15</span>     &lt;color <span class="errorspan">name="myawesomeorange">#FF8800&lt;/color></span>
+<span class="lineno">  16</span> 
+<span class="lineno">  17</span>     &lt;!-- com.getbase:floatingactionbutton -->
+</pre>
+<span class="location"><a href="../../res/values/colors.xml">../../res/values/colors.xml</a>:18</span>: <span class="message">The resource <code>R.color.black_semi_transparent</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  15</span>     &lt;color name="myawesomeorange">#FF8800&lt;/color>
+<span class="lineno">  16</span> 
+<span class="lineno">  17</span>     &lt;!-- com.getbase:floatingactionbutton -->
+<span class="lineno">  18</span>     &lt;color <span class="errorspan">name="black_semi_transparent">#B2000000&lt;/color></span>
+<span class="lineno">  19</span>     &lt;color name="background">#e5e5e5&lt;/color>
+<span class="lineno">  20</span>     &lt;color name="half_black">#808080&lt;/color>
+</pre>
+<span class="location"><a href="../../res/values/colors.xml">../../res/values/colors.xml</a>:19</span>: <span class="message">The resource <code>R.color.background</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  16</span> 
+<span class="lineno">  17</span>     &lt;!-- com.getbase:floatingactionbutton -->
+<span class="lineno">  18</span>     &lt;color name="black_semi_transparent">#B2000000&lt;/color>
+<span class="lineno">  19</span>     &lt;color <span class="errorspan">name="background">#e5e5e5&lt;/color></span>
+<span class="lineno">  20</span>     &lt;color name="half_black">#808080&lt;/color>
+<span class="lineno">  21</span>     &lt;color name="white">#fafafa&lt;/color>
+</pre>
+<span class="location"><a href="../../res/values/colors.xml">../../res/values/colors.xml</a>:20</span>: <span class="message">The resource <code>R.color.half_black</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  17</span>     &lt;!-- com.getbase:floatingactionbutton -->
+<span class="lineno">  18</span>     &lt;color name="black_semi_transparent">#B2000000&lt;/color>
+<span class="lineno">  19</span>     &lt;color name="background">#e5e5e5&lt;/color>
+<span class="lineno">  20</span>     &lt;color <span class="errorspan">name="half_black">#808080&lt;/color></span>
+<span class="lineno">  21</span>     &lt;color name="white">#fafafa&lt;/color>
+<span class="lineno">  22</span>     &lt;color name="white_pressed">#f1f1f1&lt;/color>
+</pre>
+<span class="location"><a href="../../res/values/colors.xml">../../res/values/colors.xml</a>:22</span>: <span class="message">The resource <code>R.color.white_pressed</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  19</span>     &lt;color name="background">#e5e5e5&lt;/color>
+<span class="lineno">  20</span>     &lt;color name="half_black">#808080&lt;/color>
+<span class="lineno">  21</span>     &lt;color name="white">#fafafa&lt;/color>
+<span class="lineno">  22</span>     &lt;color <span class="errorspan">name="white_pressed">#f1f1f1&lt;/color></span>
+<span class="lineno">  23</span>     &lt;color name="pink">#e91e63&lt;/color>
+<span class="lineno">  24</span>     &lt;color name="pink_pressed">#ec407a&lt;/color>
+</pre>
+<span class="location"><a href="../../res/values/colors.xml">../../res/values/colors.xml</a>:23</span>: <span class="message">The resource <code>R.color.pink</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  20</span>     &lt;color name="half_black">#808080&lt;/color>
+<span class="lineno">  21</span>     &lt;color name="white">#fafafa&lt;/color>
+<span class="lineno">  22</span>     &lt;color name="white_pressed">#f1f1f1&lt;/color>
+<span class="lineno">  23</span>     &lt;color <span class="errorspan">name="pink">#e91e63&lt;/color></span>
+<span class="lineno">  24</span>     &lt;color name="pink_pressed">#ec407a&lt;/color>
+<span class="lineno">  25</span>     &lt;color name="blue_semi_transparent">#805677fc&lt;/color>
+</pre>
+<span class="location"><a href="../../res/values/colors.xml">../../res/values/colors.xml</a>:24</span>: <span class="message">The resource <code>R.color.pink_pressed</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  21</span>     &lt;color name="white">#fafafa&lt;/color>
+<span class="lineno">  22</span>     &lt;color name="white_pressed">#f1f1f1&lt;/color>
+<span class="lineno">  23</span>     &lt;color name="pink">#e91e63&lt;/color>
+<span class="lineno">  24</span>     &lt;color <span class="errorspan">name="pink_pressed">#ec407a&lt;/color></span>
+<span class="lineno">  25</span>     &lt;color name="blue_semi_transparent">#805677fc&lt;/color>
+<span class="lineno">  26</span>     &lt;color name="blue_semi_transparent_pressed">#80738ffe&lt;/color>
+</pre>
+<span class="location"><a href="../../res/values/colors.xml">../../res/values/colors.xml</a>:25</span>: <span class="message">The resource <code>R.color.blue_semi_transparent</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  22</span>     &lt;color name="white_pressed">#f1f1f1&lt;/color>
+<span class="lineno">  23</span>     &lt;color name="pink">#e91e63&lt;/color>
+<span class="lineno">  24</span>     &lt;color name="pink_pressed">#ec407a&lt;/color>
+<span class="lineno">  25</span>     &lt;color <span class="errorspan">name="blue_semi_transparent">#805677fc&lt;/color></span>
+<span class="lineno">  26</span>     &lt;color name="blue_semi_transparent_pressed">#80738ffe&lt;/color>
+<span class="lineno">  27</span>     &lt;color name="pink_semi_transparent">#b0e91e63&lt;/color>
+</pre>
+<span class="location"><a href="../../res/values/colors.xml">../../res/values/colors.xml</a>:26</span>: <span class="message">The resource <code>R.color.blue_semi_transparent_pressed</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  23</span>     &lt;color name="pink">#e91e63&lt;/color>
+<span class="lineno">  24</span>     &lt;color name="pink_pressed">#ec407a&lt;/color>
+<span class="lineno">  25</span>     &lt;color name="blue_semi_transparent">#805677fc&lt;/color>
+<span class="lineno">  26</span>     &lt;color <span class="errorspan">name="blue_semi_transparent_pressed">#80738ffe&lt;/color></span>
+<span class="lineno">  27</span>     &lt;color name="pink_semi_transparent">#b0e91e63&lt;/color>
+<span class="lineno">  28</span>     &lt;color name="pink_semi_transparent_pressed">#b0ec407a&lt;/color>
+</pre>
+<span class="location"><a href="../../res/drawable-hdpi/compass48.png">../../res/drawable-hdpi/compass48.png</a></span>: <span class="message">The resource <code>R.drawable.compass48</code> appears to be unused</span><br />
+<ul></ul><button id="Location21DivLink" onclick="reveal('Location21Div');" />+ 2 Additional Locations...</button>
+<div id="Location21Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../res/drawable-mdpi/compass48.png">../../res/drawable-mdpi/compass48.png</a></span>
+<li> <span class="location"><a href="../../res/drawable-xhdpi/compass48.png">../../res/drawable-xhdpi/compass48.png</a></span>
+</ul>
+</div><br/><br/>
+<table><tr><td><a href="../../res/drawable-xhdpi/compass48.png"><img border="0" align="top" src="../../res/drawable-xhdpi/compass48.png" /></a>
+</td><td><a href="../../res/drawable-hdpi/compass48.png"><img border="0" align="top" src="../../res/drawable-hdpi/compass48.png" /></a>
+</td><td><a href="../../res/drawable-mdpi/compass48.png"><img border="0" align="top" src="../../res/drawable-mdpi/compass48.png" /></a>
+</td></tr><tr><th>xhdpi</th><th>hdpi</th><th>mdpi</th></tr>
+</table>
+<span class="location"><a href="../../res/values/dimens.xml">../../res/values/dimens.xml</a>:7</span>: <span class="message">The resource <code>R.dimen.image_view_size</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">   4</span>     &lt;dimen name="activity_horizontal_margin">16dp&lt;/dimen>
+<span class="lineno">   5</span>     &lt;dimen name="activity_vertical_margin">16dp&lt;/dimen>
+<span class="lineno">   6</span>     &lt;dimen name="main_button_width">78dp&lt;/dimen>
+<span class="lineno">   7</span>     &lt;dimen <span class="errorspan">name="image_view_size">300dp&lt;/dimen></span>
+<span class="lineno">   8</span>     &lt;dimen name="image_list_height">200dp&lt;/dimen>
+<span class="lineno">   9</span> 
+</pre>
+<ul></ul><button id="Location22DivLink" onclick="reveal('Location22Div');" />+ 1 Additional Locations...</button>
+<div id="Location22Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../res/values-v21/dimens.xml">../../res/values-v21/dimens.xml</a>:7</span>
+</ul>
+</div><br/><br/>
+<span class="location"><a href="../../res/values/dimens.xml">../../res/values/dimens.xml</a>:8</span>: <span class="message">The resource <code>R.dimen.image_list_height</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">   5</span>     &lt;dimen name="activity_vertical_margin">16dp&lt;/dimen>
+<span class="lineno">   6</span>     &lt;dimen name="main_button_width">78dp&lt;/dimen>
+<span class="lineno">   7</span>     &lt;dimen name="image_view_size">300dp&lt;/dimen>
+<span class="lineno">   8</span>     &lt;dimen <span class="errorspan">name="image_list_height">200dp&lt;/dimen></span>
+<span class="lineno">   9</span> 
+<span class="lineno">  10</span> &lt;/resources>
+</pre>
+<ul></ul><button id="Location23DivLink" onclick="reveal('Location23Div');" />+ 1 Additional Locations...</button>
+<div id="Location23Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../res/values-v21/dimens.xml">../../res/values-v21/dimens.xml</a>:8</span>
+</ul>
+</div><br/><br/>
+<span class="location"><a href="../../res/drawable-hdpi/ic_directions_bike_white_18dp.png">../../res/drawable-hdpi/ic_directions_bike_white_18dp.png</a></span>: <span class="message">The resource <code>R.drawable.ic_directions_bike_white_18dp</code> appears to be unused</span><br />
+<ul></ul><button id="Location24DivLink" onclick="reveal('Location24Div');" />+ 3 Additional Locations...</button>
+<div id="Location24Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../res/drawable-mdpi/ic_directions_bike_white_18dp.png">../../res/drawable-mdpi/ic_directions_bike_white_18dp.png</a></span>
+<li> <span class="location"><a href="../../res/drawable-xhdpi/ic_directions_bike_white_18dp.png">../../res/drawable-xhdpi/ic_directions_bike_white_18dp.png</a></span>
+<li> <span class="location"><a href="../../res/drawable-xxhdpi/ic_directions_bike_white_18dp.png">../../res/drawable-xxhdpi/ic_directions_bike_white_18dp.png</a></span>
+</ul>
+</div><br/><br/>
+<table><tr><td><a href="../../res/drawable-xhdpi/ic_directions_bike_white_18dp.png"><img border="0" align="top" src="../../res/drawable-xhdpi/ic_directions_bike_white_18dp.png" /></a>
+</td><td><a href="../../res/drawable-hdpi/ic_directions_bike_white_18dp.png"><img border="0" align="top" src="../../res/drawable-hdpi/ic_directions_bike_white_18dp.png" /></a>
+</td><td><a href="../../res/drawable-mdpi/ic_directions_bike_white_18dp.png"><img border="0" align="top" src="../../res/drawable-mdpi/ic_directions_bike_white_18dp.png" /></a>
+</td><td><a href="../../res/drawable-xxhdpi/ic_directions_bike_white_18dp.png"><img border="0" align="top" src="../../res/drawable-xxhdpi/ic_directions_bike_white_18dp.png" /></a>
+</td></tr><tr><th>xhdpi</th><th>hdpi</th><th>mdpi</th><th>xxhdpi</th></tr>
+</table>
+<span class="location"><a href="../../res/drawable-hdpi/ic_directions_bike_white_24dp.png">../../res/drawable-hdpi/ic_directions_bike_white_24dp.png</a></span>: <span class="message">The resource <code>R.drawable.ic_directions_bike_white_24dp</code> appears to be unused</span><br />
+<ul></ul><button id="Location25DivLink" onclick="reveal('Location25Div');" />+ 3 Additional Locations...</button>
+<div id="Location25Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../res/drawable-mdpi/ic_directions_bike_white_24dp.png">../../res/drawable-mdpi/ic_directions_bike_white_24dp.png</a></span>
+<li> <span class="location"><a href="../../res/drawable-xhdpi/ic_directions_bike_white_24dp.png">../../res/drawable-xhdpi/ic_directions_bike_white_24dp.png</a></span>
+<li> <span class="location"><a href="../../res/drawable-xxhdpi/ic_directions_bike_white_24dp.png">../../res/drawable-xxhdpi/ic_directions_bike_white_24dp.png</a></span>
+</ul>
+</div><br/><br/>
+<table><tr><td><a href="../../res/drawable-xhdpi/ic_directions_bike_white_24dp.png"><img border="0" align="top" src="../../res/drawable-xhdpi/ic_directions_bike_white_24dp.png" /></a>
+</td><td><a href="../../res/drawable-hdpi/ic_directions_bike_white_24dp.png"><img border="0" align="top" src="../../res/drawable-hdpi/ic_directions_bike_white_24dp.png" /></a>
+</td><td><a href="../../res/drawable-mdpi/ic_directions_bike_white_24dp.png"><img border="0" align="top" src="../../res/drawable-mdpi/ic_directions_bike_white_24dp.png" /></a>
+</td><td><a href="../../res/drawable-xxhdpi/ic_directions_bike_white_24dp.png"><img border="0" align="top" src="../../res/drawable-xxhdpi/ic_directions_bike_white_24dp.png" /></a>
+</td></tr><tr><th>xhdpi</th><th>hdpi</th><th>mdpi</th><th>xxhdpi</th></tr>
+</table>
+<span class="location"><a href="../../res/drawable-hdpi/ic_directions_bike_white_48dp.png">../../res/drawable-hdpi/ic_directions_bike_white_48dp.png</a></span>: <span class="message">The resource <code>R.drawable.ic_directions_bike_white_48dp</code> appears to be unused</span><br />
+<ul></ul><button id="Location26DivLink" onclick="reveal('Location26Div');" />+ 3 Additional Locations...</button>
+<div id="Location26Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../res/drawable-mdpi/ic_directions_bike_white_48dp.png">../../res/drawable-mdpi/ic_directions_bike_white_48dp.png</a></span>
+<li> <span class="location"><a href="../../res/drawable-xhdpi/ic_directions_bike_white_48dp.png">../../res/drawable-xhdpi/ic_directions_bike_white_48dp.png</a></span>
+<li> <span class="location"><a href="../../res/drawable-xxhdpi/ic_directions_bike_white_48dp.png">../../res/drawable-xxhdpi/ic_directions_bike_white_48dp.png</a></span>
+</ul>
+</div><br/><br/>
+<table><tr><td><a href="../../res/drawable-xhdpi/ic_directions_bike_white_48dp.png"><img border="0" align="top" src="../../res/drawable-xhdpi/ic_directions_bike_white_48dp.png" /></a>
+</td><td><a href="../../res/drawable-hdpi/ic_directions_bike_white_48dp.png"><img border="0" align="top" src="../../res/drawable-hdpi/ic_directions_bike_white_48dp.png" /></a>
+</td><td><a href="../../res/drawable-mdpi/ic_directions_bike_white_48dp.png"><img border="0" align="top" src="../../res/drawable-mdpi/ic_directions_bike_white_48dp.png" /></a>
+</td><td><a href="../../res/drawable-xxhdpi/ic_directions_bike_white_48dp.png"><img border="0" align="top" src="../../res/drawable-xxhdpi/ic_directions_bike_white_48dp.png" /></a>
+</td></tr><tr><th>xhdpi</th><th>hdpi</th><th>mdpi</th><th>xxhdpi</th></tr>
+</table>
+<span class="location"><a href="../../res/drawable-hdpi/ic_launcher_default.png">../../res/drawable-hdpi/ic_launcher_default.png</a></span>: <span class="message">The resource <code>R.drawable.ic_launcher_default</code> appears to be unused</span><br />
+<ul></ul><button id="Location27DivLink" onclick="reveal('Location27Div');" />+ 3 Additional Locations...</button>
+<div id="Location27Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../res/drawable-mdpi/ic_launcher_default.png">../../res/drawable-mdpi/ic_launcher_default.png</a></span>
+<li> <span class="location"><a href="../../res/drawable-xhdpi/ic_launcher_default.png">../../res/drawable-xhdpi/ic_launcher_default.png</a></span>
+<li> <span class="location"><a href="../../res/drawable-xxhdpi/ic_launcher_default.png">../../res/drawable-xxhdpi/ic_launcher_default.png</a></span>
+</ul>
+</div><br/><br/>
+<table><tr><td><a href="../../res/drawable-xhdpi/ic_launcher_default.png"><img border="0" align="top" src="../../res/drawable-xhdpi/ic_launcher_default.png" /></a>
+</td><td><a href="../../res/drawable-hdpi/ic_launcher_default.png"><img border="0" align="top" src="../../res/drawable-hdpi/ic_launcher_default.png" /></a>
+</td><td><a href="../../res/drawable-mdpi/ic_launcher_default.png"><img border="0" align="top" src="../../res/drawable-mdpi/ic_launcher_default.png" /></a>
+</td><td><a href="../../res/drawable-xxhdpi/ic_launcher_default.png"><img border="0" align="top" src="../../res/drawable-xxhdpi/ic_launcher_default.png" /></a>
+</td></tr><tr><th>xhdpi</th><th>hdpi</th><th>mdpi</th><th>xxhdpi</th></tr>
+</table>
+<span class="location"><a href="../../res/drawable-hdpi/ic_launcher_eclipse.png">../../res/drawable-hdpi/ic_launcher_eclipse.png</a></span>: <span class="message">The resource <code>R.drawable.ic_launcher_eclipse</code> appears to be unused</span><br />
+<ul></ul><button id="Location28DivLink" onclick="reveal('Location28Div');" />+ 3 Additional Locations...</button>
+<div id="Location28Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../res/drawable-mdpi/ic_launcher_eclipse.png">../../res/drawable-mdpi/ic_launcher_eclipse.png</a></span>
+<li> <span class="location"><a href="../../res/drawable-xhdpi/ic_launcher_eclipse.png">../../res/drawable-xhdpi/ic_launcher_eclipse.png</a></span>
+<li> <span class="location"><a href="../../res/drawable-xxhdpi/ic_launcher_eclipse.png">../../res/drawable-xxhdpi/ic_launcher_eclipse.png</a></span>
+</ul>
+</div><br/><br/>
+<table><tr><td><a href="../../res/drawable-xhdpi/ic_launcher_eclipse.png"><img border="0" align="top" src="../../res/drawable-xhdpi/ic_launcher_eclipse.png" /></a>
+</td><td><a href="../../res/drawable-hdpi/ic_launcher_eclipse.png"><img border="0" align="top" src="../../res/drawable-hdpi/ic_launcher_eclipse.png" /></a>
+</td><td><a href="../../res/drawable-mdpi/ic_launcher_eclipse.png"><img border="0" align="top" src="../../res/drawable-mdpi/ic_launcher_eclipse.png" /></a>
+</td><td><a href="../../res/drawable-xxhdpi/ic_launcher_eclipse.png"><img border="0" align="top" src="../../res/drawable-xxhdpi/ic_launcher_eclipse.png" /></a>
+</td></tr><tr><th>xhdpi</th><th>hdpi</th><th>mdpi</th><th>xxhdpi</th></tr>
+</table>
+<span class="location"><a href="../../res/drawable-hdpi/ic_location_on_white_18dp.png">../../res/drawable-hdpi/ic_location_on_white_18dp.png</a></span>: <span class="message">The resource <code>R.drawable.ic_location_on_white_18dp</code> appears to be unused</span><br />
+<ul></ul><button id="Location29DivLink" onclick="reveal('Location29Div');" />+ 3 Additional Locations...</button>
+<div id="Location29Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../res/drawable-mdpi/ic_location_on_white_18dp.png">../../res/drawable-mdpi/ic_location_on_white_18dp.png</a></span>
+<li> <span class="location"><a href="../../res/drawable-xhdpi/ic_location_on_white_18dp.png">../../res/drawable-xhdpi/ic_location_on_white_18dp.png</a></span>
+<li> <span class="location"><a href="../../res/drawable-xxhdpi/ic_location_on_white_18dp.png">../../res/drawable-xxhdpi/ic_location_on_white_18dp.png</a></span>
+</ul>
+</div><br/><br/>
+<table><tr><td><a href="../../res/drawable-xhdpi/ic_location_on_white_18dp.png"><img border="0" align="top" src="../../res/drawable-xhdpi/ic_location_on_white_18dp.png" /></a>
+</td><td><a href="../../res/drawable-hdpi/ic_location_on_white_18dp.png"><img border="0" align="top" src="../../res/drawable-hdpi/ic_location_on_white_18dp.png" /></a>
+</td><td><a href="../../res/drawable-mdpi/ic_location_on_white_18dp.png"><img border="0" align="top" src="../../res/drawable-mdpi/ic_location_on_white_18dp.png" /></a>
+</td><td><a href="../../res/drawable-xxhdpi/ic_location_on_white_18dp.png"><img border="0" align="top" src="../../res/drawable-xxhdpi/ic_location_on_white_18dp.png" /></a>
+</td></tr><tr><th>xhdpi</th><th>hdpi</th><th>mdpi</th><th>xxhdpi</th></tr>
+</table>
+<span class="location"><a href="../../res/drawable-hdpi/ic_location_on_white_36dp.png">../../res/drawable-hdpi/ic_location_on_white_36dp.png</a></span>: <span class="message">The resource <code>R.drawable.ic_location_on_white_36dp</code> appears to be unused</span><br />
+<ul></ul><button id="Location30DivLink" onclick="reveal('Location30Div');" />+ 3 Additional Locations...</button>
+<div id="Location30Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../res/drawable-mdpi/ic_location_on_white_36dp.png">../../res/drawable-mdpi/ic_location_on_white_36dp.png</a></span>
+<li> <span class="location"><a href="../../res/drawable-xhdpi/ic_location_on_white_36dp.png">../../res/drawable-xhdpi/ic_location_on_white_36dp.png</a></span>
+<li> <span class="location"><a href="../../res/drawable-xxhdpi/ic_location_on_white_36dp.png">../../res/drawable-xxhdpi/ic_location_on_white_36dp.png</a></span>
+</ul>
+</div><br/><br/>
+<table><tr><td><a href="../../res/drawable-xhdpi/ic_location_on_white_36dp.png"><img border="0" align="top" src="../../res/drawable-xhdpi/ic_location_on_white_36dp.png" /></a>
+</td><td><a href="../../res/drawable-hdpi/ic_location_on_white_36dp.png"><img border="0" align="top" src="../../res/drawable-hdpi/ic_location_on_white_36dp.png" /></a>
+</td><td><a href="../../res/drawable-mdpi/ic_location_on_white_36dp.png"><img border="0" align="top" src="../../res/drawable-mdpi/ic_location_on_white_36dp.png" /></a>
+</td><td><a href="../../res/drawable-xxhdpi/ic_location_on_white_36dp.png"><img border="0" align="top" src="../../res/drawable-xxhdpi/ic_location_on_white_36dp.png" /></a>
+</td></tr><tr><th>xhdpi</th><th>hdpi</th><th>mdpi</th><th>xxhdpi</th></tr>
+</table>
+<span class="location"><a href="../../res/values/lib_strings.xml">../../res/values/lib_strings.xml</a>:17</span>: <span class="message">The resource <code>R.string.connection_error_code</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  14</span>   limitations under the License.
+<span class="lineno">  15</span> -->
+<span class="lineno">  16</span> &lt;resources>
+<span class="lineno">  17</span>     &lt;string <span class="errorspan">name="connection_error_code" translatable="false">Connection failure error code: %1$d&lt;/string></span>
+<span class="lineno">  18</span>     &lt;string name="connection_error_disabled" translatable="false">Google Play services is disabled&lt;/string>
+<span class="lineno">  19</span>     &lt;string name="connection_error_internal" translatable="false">An internal error occurred&lt;/string>
+</pre>
+<span class="location"><a href="../../res/values/lib_strings.xml">../../res/values/lib_strings.xml</a>:27</span>: <span class="message">The resource <code>R.string.connection_error_message</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  24</span>     &lt;string name="connection_error_license_check_failed" translatable="false">
+<span class="lineno">  25</span>         The app is not licensed to the user
+<span class="lineno">  26</span>     &lt;/string>
+<span class="lineno">  27</span>     &lt;string <span class="errorspan">name="connection_error_message" translatable="false">Connection failure error message: %1$s&lt;/string></span>
+<span class="lineno">  28</span>     &lt;string name="connection_error_misconfigured" translatable="false">The application is misconfigured&lt;/string>
+<span class="lineno">  29</span>     &lt;string name="connection_error_missing" translatable="false">Google Play services is missing&lt;/string>
+</pre>
+<span class="location"><a href="../../res/drawable-hdpi/moreicon32.png">../../res/drawable-hdpi/moreicon32.png</a></span>: <span class="message">The resource <code>R.drawable.moreicon32</code> appears to be unused</span><br />
+<ul></ul><button id="Location33DivLink" onclick="reveal('Location33Div');" />+ 2 Additional Locations...</button>
+<div id="Location33Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../res/drawable-mdpi/moreicon32.png">../../res/drawable-mdpi/moreicon32.png</a></span>
+<li> <span class="location"><a href="../../res/drawable-xhdpi/moreicon32.png">../../res/drawable-xhdpi/moreicon32.png</a></span>
+</ul>
+</div><br/><br/>
+<table><tr><td><a href="../../res/drawable-xhdpi/moreicon32.png"><img border="0" align="top" src="../../res/drawable-xhdpi/moreicon32.png" /></a>
+</td><td><a href="../../res/drawable-hdpi/moreicon32.png"><img border="0" align="top" src="../../res/drawable-hdpi/moreicon32.png" /></a>
+</td><td><a href="../../res/drawable-mdpi/moreicon32.png"><img border="0" align="top" src="../../res/drawable-mdpi/moreicon32.png" /></a>
+</td></tr><tr><th>xhdpi</th><th>hdpi</th><th>mdpi</th></tr>
+</table>
+<span class="location"><a href="../../res/drawable-hdpi/pin_goal.png">../../res/drawable-hdpi/pin_goal.png</a></span>: <span class="message">The resource <code>R.drawable.pin_goal</code> appears to be unused</span><br />
+<ul></ul><button id="Location34DivLink" onclick="reveal('Location34Div');" />+ 2 Additional Locations...</button>
+<div id="Location34Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../res/drawable-mdpi/pin_goal.png">../../res/drawable-mdpi/pin_goal.png</a></span>
+<li> <span class="location"><a href="../../res/drawable-xhdpi/pin_goal.png">../../res/drawable-xhdpi/pin_goal.png</a></span>
+</ul>
+</div><br/><br/>
+<table><tr><td><a href="../../res/drawable-xhdpi/pin_goal.png"><img border="0" align="top" src="../../res/drawable-xhdpi/pin_goal.png" /></a>
+</td><td><a href="../../res/drawable-hdpi/pin_goal.png"><img border="0" align="top" src="../../res/drawable-hdpi/pin_goal.png" /></a>
+</td><td><a href="../../res/drawable-mdpi/pin_goal.png"><img border="0" align="top" src="../../res/drawable-mdpi/pin_goal.png" /></a>
+</td></tr><tr><th>xhdpi</th><th>hdpi</th><th>mdpi</th></tr>
+</table>
+<span class="location"><a href="../../res/drawable-hdpi/pin_green_l.png">../../res/drawable-hdpi/pin_green_l.png</a></span>: <span class="message">The resource <code>R.drawable.pin_green_l</code> appears to be unused</span><br />
+<ul></ul><button id="Location35DivLink" onclick="reveal('Location35Div');" />+ 2 Additional Locations...</button>
+<div id="Location35Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../res/drawable-mdpi/pin_green_l.png">../../res/drawable-mdpi/pin_green_l.png</a></span>
+<li> <span class="location"><a href="../../res/drawable-xhdpi/pin_green_l.png">../../res/drawable-xhdpi/pin_green_l.png</a></span>
+</ul>
+</div><br/><br/>
+<table><tr><td><a href="../../res/drawable-xhdpi/pin_green_l.png"><img border="0" align="top" src="../../res/drawable-xhdpi/pin_green_l.png" /></a>
+</td><td><a href="../../res/drawable-hdpi/pin_green_l.png"><img border="0" align="top" src="../../res/drawable-hdpi/pin_green_l.png" /></a>
+</td><td><a href="../../res/drawable-mdpi/pin_green_l.png"><img border="0" align="top" src="../../res/drawable-mdpi/pin_green_l.png" /></a>
+</td></tr><tr><th>xhdpi</th><th>hdpi</th><th>mdpi</th></tr>
+</table>
+<span class="location"><a href="../../res/drawable-hdpi/pin_head_l.png">../../res/drawable-hdpi/pin_head_l.png</a></span>: <span class="message">The resource <code>R.drawable.pin_head_l</code> appears to be unused</span><br />
+<ul></ul><button id="Location36DivLink" onclick="reveal('Location36Div');" />+ 2 Additional Locations...</button>
+<div id="Location36Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../res/drawable-mdpi/pin_head_l.png">../../res/drawable-mdpi/pin_head_l.png</a></span>
+<li> <span class="location"><a href="../../res/drawable-xhdpi/pin_head_l.png">../../res/drawable-xhdpi/pin_head_l.png</a></span>
+</ul>
+</div><br/><br/>
+<table><tr><td><a href="../../res/drawable-xhdpi/pin_head_l.png"><img border="0" align="top" src="../../res/drawable-xhdpi/pin_head_l.png" /></a>
+</td><td><a href="../../res/drawable-hdpi/pin_head_l.png"><img border="0" align="top" src="../../res/drawable-hdpi/pin_head_l.png" /></a>
+</td><td><a href="../../res/drawable-mdpi/pin_head_l.png"><img border="0" align="top" src="../../res/drawable-mdpi/pin_head_l.png" /></a>
+</td></tr><tr><th>xhdpi</th><th>hdpi</th><th>mdpi</th></tr>
+</table>
+<span class="location"><a href="../../res/drawable-hdpi/pin_red_l.png">../../res/drawable-hdpi/pin_red_l.png</a></span>: <span class="message">The resource <code>R.drawable.pin_red_l</code> appears to be unused</span><br />
+<ul></ul><button id="Location37DivLink" onclick="reveal('Location37Div');" />+ 2 Additional Locations...</button>
+<div id="Location37Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../res/drawable-mdpi/pin_red_l.png">../../res/drawable-mdpi/pin_red_l.png</a></span>
+<li> <span class="location"><a href="../../res/drawable-xhdpi/pin_red_l.png">../../res/drawable-xhdpi/pin_red_l.png</a></span>
+</ul>
+</div><br/><br/>
+<table><tr><td><a href="../../res/drawable-xhdpi/pin_red_l.png"><img border="0" align="top" src="../../res/drawable-xhdpi/pin_red_l.png" /></a>
+</td><td><a href="../../res/drawable-hdpi/pin_red_l.png"><img border="0" align="top" src="../../res/drawable-hdpi/pin_red_l.png" /></a>
+</td><td><a href="../../res/drawable-mdpi/pin_red_l.png"><img border="0" align="top" src="../../res/drawable-mdpi/pin_red_l.png" /></a>
+</td></tr><tr><th>xhdpi</th><th>hdpi</th><th>mdpi</th></tr>
+</table>
+<span class="location"><a href="../../res/drawable-hdpi/pin_route.png">../../res/drawable-hdpi/pin_route.png</a></span>: <span class="message">The resource <code>R.drawable.pin_route</code> appears to be unused</span><br />
+<ul></ul><button id="Location38DivLink" onclick="reveal('Location38Div');" />+ 2 Additional Locations...</button>
+<div id="Location38Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../res/drawable-mdpi/pin_route.png">../../res/drawable-mdpi/pin_route.png</a></span>
+<li> <span class="location"><a href="../../res/drawable-xhdpi/pin_route.png">../../res/drawable-xhdpi/pin_route.png</a></span>
+</ul>
+</div><br/><br/>
+<table><tr><td><a href="../../res/drawable-xhdpi/pin_route.png"><img border="0" align="top" src="../../res/drawable-xhdpi/pin_route.png" /></a>
+</td><td><a href="../../res/drawable-hdpi/pin_route.png"><img border="0" align="top" src="../../res/drawable-hdpi/pin_route.png" /></a>
+</td><td><a href="../../res/drawable-mdpi/pin_route.png"><img border="0" align="top" src="../../res/drawable-mdpi/pin_route.png" /></a>
+</td></tr><tr><th>xhdpi</th><th>hdpi</th><th>mdpi</th></tr>
+</table>
+<span class="location"><a href="../../res/drawable-hdpi/pin_start.png">../../res/drawable-hdpi/pin_start.png</a></span>: <span class="message">The resource <code>R.drawable.pin_start</code> appears to be unused</span><br />
+<ul></ul><button id="Location39DivLink" onclick="reveal('Location39Div');" />+ 2 Additional Locations...</button>
+<div id="Location39Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../res/drawable-mdpi/pin_start.png">../../res/drawable-mdpi/pin_start.png</a></span>
+<li> <span class="location"><a href="../../res/drawable-xhdpi/pin_start.png">../../res/drawable-xhdpi/pin_start.png</a></span>
+</ul>
+</div><br/><br/>
+<table><tr><td><a href="../../res/drawable-xhdpi/pin_start.png"><img border="0" align="top" src="../../res/drawable-xhdpi/pin_start.png" /></a>
+</td><td><a href="../../res/drawable-hdpi/pin_start.png"><img border="0" align="top" src="../../res/drawable-hdpi/pin_start.png" /></a>
+</td><td><a href="../../res/drawable-mdpi/pin_start.png"><img border="0" align="top" src="../../res/drawable-mdpi/pin_start.png" /></a>
+</td></tr><tr><th>xhdpi</th><th>hdpi</th><th>mdpi</th></tr>
+</table>
+<span class="location"><a href="../../res/drawable-hdpi/pin_violet_l.png">../../res/drawable-hdpi/pin_violet_l.png</a></span>: <span class="message">The resource <code>R.drawable.pin_violet_l</code> appears to be unused</span><br />
+<ul></ul><button id="Location40DivLink" onclick="reveal('Location40Div');" />+ 2 Additional Locations...</button>
+<div id="Location40Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../res/drawable-mdpi/pin_violet_l.png">../../res/drawable-mdpi/pin_violet_l.png</a></span>
+<li> <span class="location"><a href="../../res/drawable-xhdpi/pin_violet_l.png">../../res/drawable-xhdpi/pin_violet_l.png</a></span>
+</ul>
+</div><br/><br/>
+<table><tr><td><a href="../../res/drawable-xhdpi/pin_violet_l.png"><img border="0" align="top" src="../../res/drawable-xhdpi/pin_violet_l.png" /></a>
+</td><td><a href="../../res/drawable-hdpi/pin_violet_l.png"><img border="0" align="top" src="../../res/drawable-hdpi/pin_violet_l.png" /></a>
+</td><td><a href="../../res/drawable-mdpi/pin_violet_l.png"><img border="0" align="top" src="../../res/drawable-mdpi/pin_violet_l.png" /></a>
+</td></tr><tr><th>xhdpi</th><th>hdpi</th><th>mdpi</th></tr>
+</table>
+<span class="location"><a href="../../res/values/strings.xml">../../res/values/strings.xml</a>:7</span>: <span class="message">The resource <code>R.string.settings</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">   4</span>     &lt;string name="app_name" translatable="false">chariba&lt;/string>
+<span class="lineno">   5</span>     &lt;string name="hello_world" translatable="false">Hello world!&lt;/string>
+<span class="lineno">   6</span>     &lt;string name="action_settings">Settings&lt;/string>
+<span class="lineno">   7</span>     &lt;string <span class="errorspan">name="settings">settings&lt;/string></span>
+<span class="lineno">   8</span>     &lt;string name="stop">Stop&lt;/string>
+<span class="lineno">   9</span>     &lt;string name="title_activity_image_browser" translatable="false">ImageBrowserActivity&lt;/string>
+</pre>
+<ul></ul><button id="Location41DivLink" onclick="reveal('Location41Div');" />+ 1 Additional Locations...</button>
+<div id="Location41Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../res/values-ja/strings.xml">../../res/values-ja/strings.xml</a>:11</span>
+</ul>
+</div><br/><br/>
+<span class="location"><a href="../../res/values/strings.xml">../../res/values/strings.xml</a>:8</span>: <span class="message">The resource <code>R.string.stop</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">   5</span>     &lt;string name="hello_world" translatable="false">Hello world!&lt;/string>
+<span class="lineno">   6</span>     &lt;string name="action_settings">Settings&lt;/string>
+<span class="lineno">   7</span>     &lt;string name="settings">settings&lt;/string>
+<span class="lineno">   8</span>     &lt;string <span class="errorspan">name="stop">Stop&lt;/string></span>
+<span class="lineno">   9</span>     &lt;string name="title_activity_image_browser" translatable="false">ImageBrowserActivity&lt;/string>
+<span class="lineno">  10</span>     &lt;string name="title_activity_camera" translatable="false">CameraActivity&lt;/string>
+</pre>
+<ul></ul><button id="Location42DivLink" onclick="reveal('Location42Div');" />+ 1 Additional Locations...</button>
+<div id="Location42Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../res/values-ja/strings.xml">../../res/values-ja/strings.xml</a>:13</span>
+</ul>
+</div><br/><br/>
+<span class="location"><a href="../../res/values/strings.xml">../../res/values/strings.xml</a>:9</span>: <span class="message">The resource <code>R.string.title_activity_image_browser</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">   6</span>     &lt;string name="action_settings">Settings&lt;/string>
+<span class="lineno">   7</span>     &lt;string name="settings">settings&lt;/string>
+<span class="lineno">   8</span>     &lt;string name="stop">Stop&lt;/string>
+<span class="lineno">   9</span>     &lt;string <span class="errorspan">name="title_activity_image_browser" translatable="false">ImageBrowserActivity&lt;/string></span>
+<span class="lineno">  10</span>     &lt;string name="title_activity_camera" translatable="false">CameraActivity&lt;/string>
+<span class="lineno">  11</span>     &lt;string name="dummy_button" translatable="false">Dummy Button&lt;/string>
+</pre>
+<span class="location"><a href="../../res/values/strings.xml">../../res/values/strings.xml</a>:11</span>: <span class="message">The resource <code>R.string.dummy_button</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">   8</span>     &lt;string name="stop">Stop&lt;/string>
+<span class="lineno">   9</span>     &lt;string name="title_activity_image_browser" translatable="false">ImageBrowserActivity&lt;/string>
+<span class="lineno">  10</span>     &lt;string name="title_activity_camera" translatable="false">CameraActivity&lt;/string>
+<span class="lineno">  11</span>     &lt;string <span class="errorspan">name="dummy_button" translatable="false">Dummy Button&lt;/string></span>
+<span class="lineno">  12</span>     &lt;string name="dummy_content" translatable="false">DUMMY\nCONTENT&lt;/string>
+<span class="lineno">  13</span>     &lt;string name="cross" translatable="false">+&lt;/string>
+</pre>
+<span class="location"><a href="../../res/values/strings.xml">../../res/values/strings.xml</a>:18</span>: <span class="message">The resource <code>R.string.share</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  15</span>     &lt;string name="message">you can leave a note here&lt;/string>
+<span class="lineno">  16</span>     &lt;string name="gps" translatable="false">GPS&lt;/string>
+<span class="lineno">  17</span>     &lt;string name="save" translatable="false">save&lt;/string>
+<span class="lineno">  18</span>     &lt;string <span class="errorspan">name="share">Share&lt;/string></span>
+<span class="lineno">  19</span>     &lt;string name="dots" translatable="false">&#8230;&lt;/string>
+<span class="lineno">  20</span>     &lt;string name="pdr" translatable="false">PDR&lt;/string>
+</pre>
+<ul></ul><button id="Location45DivLink" onclick="reveal('Location45Div');" />+ 1 Additional Locations...</button>
+<div id="Location45Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../res/values-ja/strings.xml">../../res/values-ja/strings.xml</a>:12</span>
+</ul>
+</div><br/><br/>
+<span class="location"><a href="../../res/values/strings.xml">../../res/values/strings.xml</a>:19</span>: <span class="message">The resource <code>R.string.dots</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  16</span>     &lt;string name="gps" translatable="false">GPS&lt;/string>
+<span class="lineno">  17</span>     &lt;string name="save" translatable="false">save&lt;/string>
+<span class="lineno">  18</span>     &lt;string name="share">Share&lt;/string>
+<span class="lineno">  19</span>     &lt;string <span class="errorspan">name="dots" translatable="false">&#8230;&lt;/string></span>
+<span class="lineno">  20</span>     &lt;string name="pdr" translatable="false">PDR&lt;/string>
+<span class="lineno">  21</span>     &lt;string name="pin" translatable="false">pin&lt;/string>
+</pre>
+<span class="location"><a href="../../res/values/strings.xml">../../res/values/strings.xml</a>:22</span>: <span class="message">The resource <code>R.string.photos</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  19</span>     &lt;string name="dots" translatable="false">&#8230;&lt;/string>
+<span class="lineno">  20</span>     &lt;string name="pdr" translatable="false">PDR&lt;/string>
+<span class="lineno">  21</span>     &lt;string name="pin" translatable="false">pin&lt;/string>
+<span class="lineno">  22</span>     &lt;string <span class="errorspan">name="photos">Photos&lt;/string></span>
+<span class="lineno">  23</span>     &lt;string name="camera">Camera&lt;/string>
+<span class="lineno">  24</span>     &lt;string name="location_service_started">location service started&lt;/string>
+</pre>
+<ul></ul><button id="Location47DivLink" onclick="reveal('Location47Div');" />+ 1 Additional Locations...</button>
+<div id="Location47Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../res/values-ja/strings.xml">../../res/values-ja/strings.xml</a>:10</span>
+</ul>
+</div><br/><br/>
+<span class="location"><a href="../../res/values/strings.xml">../../res/values/strings.xml</a>:27</span>: <span class="message">The resource <code>R.string.location_service_connected</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  24</span>     &lt;string name="location_service_started">location service started&lt;/string>
+<span class="lineno">  25</span>     &lt;string name="location_service_stopped">location service stopped&lt;/string>
+<span class="lineno">  26</span>     &lt;string name="location_service_label" translatable="false">chariba&lt;/string>
+<span class="lineno">  27</span>     &lt;string <span class="errorspan">name="location_service_connected">location service connected&lt;/string></span>
+<span class="lineno">  28</span>     &lt;string name="location_service_disconnected">location service disconnected&lt;/string>
+<span class="lineno">  29</span> 
+</pre>
+<ul></ul><button id="Location48DivLink" onclick="reveal('Location48Div');" />+ 1 Additional Locations...</button>
+<div id="Location48Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../res/values-ja/strings.xml">../../res/values-ja/strings.xml</a>:5</span>
+</ul>
+</div><br/><br/>
+<span class="location"><a href="../../res/values/strings.xml">../../res/values/strings.xml</a>:31</span>: <span class="message">The resource <code>R.string.send_notif</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  28</span>     &lt;string name="location_service_disconnected">location service disconnected&lt;/string>
+<span class="lineno">  29</span> 
+<span class="lineno">  30</span> 
+<span class="lineno">  31</span>     &lt;string <span class="errorspan">name="send_notif" translatable="false">sendNotification called&lt;/string></span>
+<span class="lineno">  32</span> 
+<span class="lineno">  33</span>     &lt;!-- app name and title -->
+</pre>
+<span class="location"><a href="../../res/values/strings.xml">../../res/values/strings.xml</a>:34</span>: <span class="message">The resource <code>R.string.title_activity_geofence</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  31</span>     &lt;string name="send_notif" translatable="false">sendNotification called&lt;/string>
+<span class="lineno">  32</span> 
+<span class="lineno">  33</span>     &lt;!-- app name and title -->
+<span class="lineno">  34</span>     &lt;string <span class="errorspan">name="title_activity_geofence" translatable="false">Geofence Entry&lt;/string></span>
+<span class="lineno">  35</span> 
+<span class="lineno">  36</span>     &lt;!-- UI -->
+</pre>
+<span class="location"><a href="../../res/values/strings.xml">../../res/values/strings.xml</a>:59</span>: <span class="message">The resource <code>R.string.connection_failed</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  56</span>         Can\'t add geofences, previous request hasn\'t finished.
+<span class="lineno">  57</span>     &lt;/string>
+<span class="lineno">  58</span>     &lt;string name="connected" translatable="false">Client connected&lt;/string>
+<span class="lineno">  59</span>     &lt;string <span class="errorspan">name="connection_failed" translatable="false">Connection failed&lt;/string></span>
+<span class="lineno">  60</span>     &lt;string name="disconnected" translatable="false">Client disconnected&lt;/string>
+<span class="lineno">  61</span>     &lt;string name="geofence_input_error_missing" translatable="false">Missing value&lt;/string>
+</pre>
+<span class="location"><a href="../../res/values/strings.xml">../../res/values/strings.xml</a>:88</span>: <span class="message">The resource <code>R.string.invalid_integer_id</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  85</span>     &lt;string name="geofence_transition_unknown" translatable="false">Unknown transition&lt;/string>
+<span class="lineno">  86</span>     &lt;string name="invalid_action" translatable="false">Invalid action received. See error log for details.&lt;/string>
+<span class="lineno">  87</span>     &lt;string name="invalid_action_detail" translatable="false">Invalid action %1$s received.&lt;/string>
+<span class="lineno">  88</span>     &lt;string <span class="errorspan">name="invalid_integer_id" translatable="false">Invalid integer request ID: %1$s&lt;/string></span>
+<span class="lineno">  89</span>     &lt;string name="latitude_error_message" translatable="false">
+<span class="lineno">  90</span>         Latitude should be in the range -90 to 90 degrees
+</pre>
+<span class="location"><a href="../../res/values/strings.xml">../../res/values/strings.xml</a>:89</span>: <span class="message">The resource <code>R.string.latitude_error_message</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  86</span>     &lt;string name="invalid_action" translatable="false">Invalid action received. See error log for details.&lt;/string>
+<span class="lineno">  87</span>     &lt;string name="invalid_action_detail" translatable="false">Invalid action %1$s received.&lt;/string>
+<span class="lineno">  88</span>     &lt;string name="invalid_integer_id" translatable="false">Invalid integer request ID: %1$s&lt;/string>
+<span class="lineno">  89</span>     &lt;string <span class="errorspan">name="latitude_error_message" translatable="false"></span>
+<span class="lineno">  90</span>         Latitude should be in the range -90 to 90 degrees
+<span class="lineno">  91</span>     &lt;/string>
+</pre>
+<span class="location"><a href="../../res/values/strings.xml">../../res/values/strings.xml</a>:92</span>: <span class="message">The resource <code>R.string.longitude_error_message</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  89</span>     &lt;string name="latitude_error_message" translatable="false">
+<span class="lineno">  90</span>         Latitude should be in the range -90 to 90 degrees
+<span class="lineno">  91</span>     &lt;/string>
+<span class="lineno">  92</span>     &lt;string <span class="errorspan">name="longitude_error_message" translatable="false"></span>
+<span class="lineno">  93</span>         Longitude should be in the range -180 to 180 degrees
+<span class="lineno">  94</span>     &lt;/string>
+</pre>
+<span class="location"><a href="../../res/values/strings.xml">../../res/values/strings.xml</a>:97</span>: <span class="message">The resource <code>R.string.radius_error_message</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  94</span>     &lt;/string>
+<span class="lineno">  95</span>     &lt;string name="no_resolution" translatable="false">Google Play services: unable to resolve connection error.&lt;/string>
+<span class="lineno">  96</span>     &lt;string name="play_services_available" translatable="false">Location Services is available&lt;/string>
+<span class="lineno">  97</span>     &lt;string <span class="errorspan">name="radius_error_message" translatable="false">Radius must be greater than or equal to 0&lt;/string></span>
+<span class="lineno">  98</span>     &lt;string name="register_geofence" translatable="false">Register geofence&lt;/string>
+<span class="lineno">  99</span>     &lt;string name="remove_geofences_id_failure" translatable="false">
+</pre>
+<span class="location"><a href="../../res/values/strings.xml">../../res/values/strings.xml</a>:114</span>: <span class="message">The resource <code>R.string.transition_entered</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno"> 111</span>     &lt;string name="remove_geofences_intent_success" translatable="false">
+<span class="lineno"> 112</span>         Removing all geofences succeeded.
+<span class="lineno"> 113</span>     &lt;/string>
+<span class="lineno"> 114</span>     &lt;string <span class="errorspan">name="transition_entered" translatable="false">entered&lt;/string></span>
+<span class="lineno"> 115</span>     &lt;string name="transition_exited" translatable="false">exited&lt;/string>
+<span class="lineno"> 116</span>     &lt;string name="transition_unknown" translatable="false">unknown&lt;/string>
+</pre>
+<span class="location"><a href="../../res/values/strings.xml">../../res/values/strings.xml</a>:115</span>: <span class="message">The resource <code>R.string.transition_exited</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno"> 112</span>         Removing all geofences succeeded.
+<span class="lineno"> 113</span>     &lt;/string>
+<span class="lineno"> 114</span>     &lt;string name="transition_entered" translatable="false">entered&lt;/string>
+<span class="lineno"> 115</span>     &lt;string <span class="errorspan">name="transition_exited" translatable="false">exited&lt;/string></span>
+<span class="lineno"> 116</span>     &lt;string name="transition_unknown" translatable="false">unknown&lt;/string>
+<span class="lineno"> 117</span>     &lt;string name="unknown" translatable="false">--Unknown--&lt;/string>
+</pre>
+<span class="location"><a href="../../res/values/strings.xml">../../res/values/strings.xml</a>:116</span>: <span class="message">The resource <code>R.string.transition_unknown</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno"> 113</span>     &lt;/string>
+<span class="lineno"> 114</span>     &lt;string name="transition_entered" translatable="false">entered&lt;/string>
+<span class="lineno"> 115</span>     &lt;string name="transition_exited" translatable="false">exited&lt;/string>
+<span class="lineno"> 116</span>     &lt;string <span class="errorspan">name="transition_unknown" translatable="false">unknown&lt;/string></span>
+<span class="lineno"> 117</span>     &lt;string name="unknown" translatable="false">--Unknown--&lt;/string>
+<span class="lineno"> 118</span>     &lt;string name="unknown_activity_request_code" translatable="false">
+</pre>
+<span class="location"><a href="../../res/values/strings.xml">../../res/values/strings.xml</a>:117</span>: <span class="message">The resource <code>R.string.unknown</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno"> 114</span>     &lt;string name="transition_entered" translatable="false">entered&lt;/string>
+<span class="lineno"> 115</span>     &lt;string name="transition_exited" translatable="false">exited&lt;/string>
+<span class="lineno"> 116</span>     &lt;string name="transition_unknown" translatable="false">unknown&lt;/string>
+<span class="lineno"> 117</span>     &lt;string <span class="errorspan">name="unknown" translatable="false">--Unknown--&lt;/string></span>
+<span class="lineno"> 118</span>     &lt;string name="unknown_activity_request_code" translatable="false">
+<span class="lineno"> 119</span>         Received an unknown activity request code %1$d in onActivityResult.
+</pre>
+</div>
+</div>
+<div class="metadata">Priority: 3 / 10<br/>
+Category: Performance</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Unused resources.</div>
+<div class="explanation">
+Unused resources make applications larger and slow down builds.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "UnusedResources" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+
+<a name="Usability:Icons"></a>
+<div class="category"><a href="#" title="Return to top">Usability:Icons</a><div class="categorySeparator"></div>
+</div>
+<a name="IconDipSize"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">IconDipSize: Icon density-independent size validation</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../res/drawable-xhdpi/argoal.png">../../res/drawable-xhdpi/argoal.png</a></span>: <span class="message">The image <code>argoal.png</code> varies significantly in its density-independent (dip) size across the various density versions: drawable-mdpi/argoal.png: 64x61 dp (64x61 px), drawable-hdpi/argoal.png: 43x41 dp (64x61 px), drawable-xhdpi/argoal.png: 32x31 dp (64x61 px)</span><br />
+<ul></ul><button id="Location1DivLink" onclick="reveal('Location1Div');" />+ 2 Additional Locations...</button>
+<div id="Location1Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../res/drawable-hdpi/argoal.png">../../res/drawable-hdpi/argoal.png</a></span>
+<li> <span class="location"><a href="../../res/drawable-mdpi/argoal.png">../../res/drawable-mdpi/argoal.png</a></span>
+</ul>
+</div><br/><br/>
+<table><tr><td><a href="../../res/drawable-xhdpi/argoal.png"><img border="0" align="top" src="../../res/drawable-xhdpi/argoal.png" /></a>
+</td><td><a href="../../res/drawable-hdpi/argoal.png"><img border="0" align="top" src="../../res/drawable-hdpi/argoal.png" /></a>
+</td><td><a href="../../res/drawable-mdpi/argoal.png"><img border="0" align="top" src="../../res/drawable-mdpi/argoal.png" /></a>
+</td></tr><tr><th>xhdpi</th><th>hdpi</th><th>mdpi</th></tr>
+</table>
+<span class="location"><a href="../../res/drawable-xhdpi/arkeiyu.png">../../res/drawable-xhdpi/arkeiyu.png</a></span>: <span class="message">The image <code>arkeiyu.png</code> varies significantly in its density-independent (dip) size across the various density versions: drawable-mdpi/arkeiyu.png: 82x76 dp (82x76 px), drawable-hdpi/arkeiyu.png: 55x51 dp (82x76 px), drawable-xhdpi/arkeiyu.png: 41x38 dp (82x76 px)</span><br />
+<ul></ul><button id="Location2DivLink" onclick="reveal('Location2Div');" />+ 2 Additional Locations...</button>
+<div id="Location2Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../res/drawable-hdpi/arkeiyu.png">../../res/drawable-hdpi/arkeiyu.png</a></span>
+<li> <span class="location"><a href="../../res/drawable-mdpi/arkeiyu.png">../../res/drawable-mdpi/arkeiyu.png</a></span>
+</ul>
+</div><br/><br/>
+<table><tr><td><a href="../../res/drawable-xhdpi/arkeiyu.png"><img border="0" align="top" src="../../res/drawable-xhdpi/arkeiyu.png" /></a>
+</td><td><a href="../../res/drawable-hdpi/arkeiyu.png"><img border="0" align="top" src="../../res/drawable-hdpi/arkeiyu.png" /></a>
+</td><td><a href="../../res/drawable-mdpi/arkeiyu.png"><img border="0" align="top" src="../../res/drawable-mdpi/arkeiyu.png" /></a>
+</td></tr><tr><th>xhdpi</th><th>hdpi</th><th>mdpi</th></tr>
+</table>
+<span class="location"><a href="../../res/drawable-xhdpi/back.png">../../res/drawable-xhdpi/back.png</a></span>: <span class="message">The image <code>back.png</code> varies significantly in its density-independent (dip) size across the various density versions: drawable-hdpi/back.png: 256x256 dp (384x384 px), drawable-mdpi/back.png: 256x256 dp (256x256 px), drawable-xhdpi/back.png: 192x192 dp (384x384 px)</span><br />
+<ul></ul><button id="Location3DivLink" onclick="reveal('Location3Div');" />+ 2 Additional Locations...</button>
+<div id="Location3Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../res/drawable-mdpi/back.png">../../res/drawable-mdpi/back.png</a></span>
+<li> <span class="location"><a href="../../res/drawable-hdpi/back.png">../../res/drawable-hdpi/back.png</a></span>
+</ul>
+</div><br/><br/>
+<table><tr><td><a href="../../res/drawable-xhdpi/back.png"><img border="0" align="top" src="../../res/drawable-xhdpi/back.png" /></a>
+</td><td><a href="../../res/drawable-hdpi/back.png"><img border="0" align="top" src="../../res/drawable-hdpi/back.png" /></a>
+</td><td><a href="../../res/drawable-mdpi/back.png"><img border="0" align="top" src="../../res/drawable-mdpi/back.png" /></a>
+</td></tr><tr><th>xhdpi</th><th>hdpi</th><th>mdpi</th></tr>
+</table>
+<span class="location"><a href="../../res/drawable-xhdpi/pin_head_l.png">../../res/drawable-xhdpi/pin_head_l.png</a></span>: <span class="message">The image <code>pin_head_l.png</code> varies significantly in its density-independent (dip) size across the various density versions: drawable-mdpi/pin_head_l.png: 24x24 dp (24x24 px), drawable-hdpi/pin_head_l.png: 16x16 dp (24x24 px), drawable-xhdpi/pin_head_l.png: 12x12 dp (24x24 px)</span><br />
+<ul></ul><button id="Location4DivLink" onclick="reveal('Location4Div');" />+ 2 Additional Locations...</button>
+<div id="Location4Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../res/drawable-hdpi/pin_head_l.png">../../res/drawable-hdpi/pin_head_l.png</a></span>
+<li> <span class="location"><a href="../../res/drawable-mdpi/pin_head_l.png">../../res/drawable-mdpi/pin_head_l.png</a></span>
+</ul>
+</div><br/><br/>
+<table><tr><td><a href="../../res/drawable-xhdpi/pin_head_l.png"><img border="0" align="top" src="../../res/drawable-xhdpi/pin_head_l.png" /></a>
+</td><td><a href="../../res/drawable-hdpi/pin_head_l.png"><img border="0" align="top" src="../../res/drawable-hdpi/pin_head_l.png" /></a>
+</td><td><a href="../../res/drawable-mdpi/pin_head_l.png"><img border="0" align="top" src="../../res/drawable-mdpi/pin_head_l.png" /></a>
+</td></tr><tr><th>xhdpi</th><th>hdpi</th><th>mdpi</th></tr>
+</table>
+</div>
+<div class="metadata">Priority: 5 / 10<br/>
+Category: Usability:Icons</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Icon density-independent size validation.</div>
+<div class="explanation">
+Checks the all icons which are provided in multiple densities, all compute to roughly the same density-independent pixel (<code>dip</code>) size. This catches errors where images are either placed in the wrong folder, or icons are changed to new sizes but some folders are forgotten.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "IconDipSize" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="IconDuplicatesConfig"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">IconDuplicatesConfig: Identical bitmaps across various configurations</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../res/drawable-xhdpi/argoal.png">../../res/drawable-xhdpi/argoal.png</a></span>: <span class="message">The <code>argoal.png</code> icon has identical contents in the following configuration folders: drawable-hdpi, drawable-mdpi, drawable-xhdpi</span><br />
+<ul></ul><button id="Location1DivLink" onclick="reveal('Location1Div');" />+ 2 Additional Locations...</button>
+<div id="Location1Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../res/drawable-mdpi/argoal.png">../../res/drawable-mdpi/argoal.png</a></span>
+<li> <span class="location"><a href="../../res/drawable-hdpi/argoal.png">../../res/drawable-hdpi/argoal.png</a></span>
+</ul>
+</div><br/><br/>
+<table><tr><td><a href="../../res/drawable-xhdpi/argoal.png"><img border="0" align="top" src="../../res/drawable-xhdpi/argoal.png" /></a>
+</td><td><a href="../../res/drawable-hdpi/argoal.png"><img border="0" align="top" src="../../res/drawable-hdpi/argoal.png" /></a>
+</td><td><a href="../../res/drawable-mdpi/argoal.png"><img border="0" align="top" src="../../res/drawable-mdpi/argoal.png" /></a>
+</td></tr><tr><th>xhdpi</th><th>hdpi</th><th>mdpi</th></tr>
+</table>
+<span class="location"><a href="../../res/drawable-xhdpi/arkeiyu.png">../../res/drawable-xhdpi/arkeiyu.png</a></span>: <span class="message">The <code>arkeiyu.png</code> icon has identical contents in the following configuration folders: drawable-hdpi, drawable-mdpi, drawable-xhdpi</span><br />
+<ul></ul><button id="Location2DivLink" onclick="reveal('Location2Div');" />+ 2 Additional Locations...</button>
+<div id="Location2Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../res/drawable-mdpi/arkeiyu.png">../../res/drawable-mdpi/arkeiyu.png</a></span>
+<li> <span class="location"><a href="../../res/drawable-hdpi/arkeiyu.png">../../res/drawable-hdpi/arkeiyu.png</a></span>
+</ul>
+</div><br/><br/>
+<table><tr><td><a href="../../res/drawable-xhdpi/arkeiyu.png"><img border="0" align="top" src="../../res/drawable-xhdpi/arkeiyu.png" /></a>
+</td><td><a href="../../res/drawable-hdpi/arkeiyu.png"><img border="0" align="top" src="../../res/drawable-hdpi/arkeiyu.png" /></a>
+</td><td><a href="../../res/drawable-mdpi/arkeiyu.png"><img border="0" align="top" src="../../res/drawable-mdpi/arkeiyu.png" /></a>
+</td></tr><tr><th>xhdpi</th><th>hdpi</th><th>mdpi</th></tr>
+</table>
+<span class="location"><a href="../../res/drawable-xhdpi/back.png">../../res/drawable-xhdpi/back.png</a></span>: <span class="message">The <code>back.png</code> icon has identical contents in the following configuration folders: drawable-hdpi, drawable-xhdpi</span><br />
+<ul></ul><button id="Location3DivLink" onclick="reveal('Location3Div');" />+ 1 Additional Locations...</button>
+<div id="Location3Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../res/drawable-hdpi/back.png">../../res/drawable-hdpi/back.png</a></span>
+</ul>
+</div><br/><br/>
+<table><tr><td><a href="../../res/drawable-xhdpi/back.png"><img border="0" align="top" src="../../res/drawable-xhdpi/back.png" /></a>
+</td><td><a href="../../res/drawable-hdpi/back.png"><img border="0" align="top" src="../../res/drawable-hdpi/back.png" /></a>
+</td></tr><tr><th>xhdpi</th><th>hdpi</th></tr>
+</table>
+<span class="location"><a href="../../res/drawable-xhdpi/pin_head_l.png">../../res/drawable-xhdpi/pin_head_l.png</a></span>: <span class="message">The <code>pin_head_l.png</code> icon has identical contents in the following configuration folders: drawable-hdpi, drawable-mdpi, drawable-xhdpi</span><br />
+<ul></ul><button id="Location4DivLink" onclick="reveal('Location4Div');" />+ 2 Additional Locations...</button>
+<div id="Location4Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../res/drawable-mdpi/pin_head_l.png">../../res/drawable-mdpi/pin_head_l.png</a></span>
+<li> <span class="location"><a href="../../res/drawable-hdpi/pin_head_l.png">../../res/drawable-hdpi/pin_head_l.png</a></span>
+</ul>
+</div><br/><br/>
+<table><tr><td><a href="../../res/drawable-xhdpi/pin_head_l.png"><img border="0" align="top" src="../../res/drawable-xhdpi/pin_head_l.png" /></a>
+</td><td><a href="../../res/drawable-hdpi/pin_head_l.png"><img border="0" align="top" src="../../res/drawable-hdpi/pin_head_l.png" /></a>
+</td><td><a href="../../res/drawable-mdpi/pin_head_l.png"><img border="0" align="top" src="../../res/drawable-mdpi/pin_head_l.png" /></a>
+</td></tr><tr><th>xhdpi</th><th>hdpi</th><th>mdpi</th></tr>
+</table>
+</div>
+<div class="metadata">Priority: 5 / 10<br/>
+Category: Usability:Icons</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Identical bitmaps across various configurations.</div>
+<div class="explanation">
+If an icon is provided under different configuration parameters such as <code>drawable-hdpi</code> or <code>-v11</code>, they should typically be different. This detector catches cases where the same icon is provided in different configuration folder which is usually not intentional.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "IconDuplicatesConfig" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="IconDensities"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">IconDensities: Icon densities validation</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../res/drawable-hdpi">../../res/drawable-hdpi</a></span>: <span class="message">Missing the following drawables in <code>drawable-hdpi</code>: ic_launcher.png (found in drawable-xxhdpi, drawable-mdpi, drawable-xhdpi, drawable-xxxhdpi)</span><br />
+<span class="location"><a href="../../res/drawable-xxhdpi">../../res/drawable-xxhdpi</a></span>: <span class="message">Missing the following drawables in <code>drawable-xxhdpi</code>: argoal.png, arkeiyu.png, back.png, compass48.png, moreicon32.png... (7 more)</span><br />
+<span class="location"><a href="../../res/drawable-xxxhdpi">../../res/drawable-xxxhdpi</a></span>: <span class="message">Missing the following drawables in <code>drawable-xxxhdpi</code>: argoal.png, arkeiyu.png, back.png, compass48.png, ic_directions_bike_white_18dp.png... (17 more)</span><br />
+</div>
+<div class="metadata">Priority: 4 / 10<br/>
+Category: Usability:Icons</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Icon densities validation.</div>
+<div class="explanation">
+Icons will look best if a custom version is provided for each of the major screen density classes (low, medium, high, extra high). This lint check identifies icons which do not have complete coverage across the densities.<br/>
+<br/>
+Low density is not really used much anymore, so this check ignores the ldpi density. To force lint to include it, set the environment variable <code>ANDROID_LINT_INCLUDE_LDPI=true</code>. For more information on current density usage, see <a href="http://developer.android.com/resources/dashboard/screens.html">http://developer.android.com/resources/dashboard/screens.html</a>
+</div>
+<br/><div class="moreinfo">More info: <a href="http://developer.android.com/guide/practices/screens_support.html">http://developer.android.com/guide/practices/screens_support.html</a>
+</div><br/>To suppress this error, use the issue id "IconDensities" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="IconDuplicates"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">IconDuplicates: Duplicated icons under different names</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../res/drawable-xhdpi/ic_directions_bike_white_18dp.png">../../res/drawable-xhdpi/ic_directions_bike_white_18dp.png</a></span>: <span class="message">The following unrelated icon files have identical contents: ic_directions_bike_white_24dp.png, ic_directions_bike_white_36dp.png, ic_directions_bike_white_18dp.png</span><br />
+<ul></ul><button id="Location1DivLink" onclick="reveal('Location1Div');" />+ 2 Additional Locations...</button>
+<div id="Location1Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../res/drawable-mdpi/ic_directions_bike_white_36dp.png">../../res/drawable-mdpi/ic_directions_bike_white_36dp.png</a></span>
+<li> <span class="location"><a href="../../res/drawable-hdpi/ic_directions_bike_white_24dp.png">../../res/drawable-hdpi/ic_directions_bike_white_24dp.png</a></span>
+</ul>
+</div><br/><br/>
+<table><tr><td><a href="../../res/drawable-xhdpi/ic_directions_bike_white_18dp.png"><img border="0" align="top" src="../../res/drawable-xhdpi/ic_directions_bike_white_18dp.png" /></a>
+</td><td><a href="../../res/drawable-hdpi/ic_directions_bike_white_24dp.png"><img border="0" align="top" src="../../res/drawable-hdpi/ic_directions_bike_white_24dp.png" /></a>
+</td><td><a href="../../res/drawable-mdpi/ic_directions_bike_white_36dp.png"><img border="0" align="top" src="../../res/drawable-mdpi/ic_directions_bike_white_36dp.png" /></a>
+</td></tr><tr><th>xhdpi</th><th>hdpi</th><th>mdpi</th></tr>
+</table>
+<span class="location"><a href="../../res/drawable-xxhdpi/ic_directions_bike_white_18dp.png">../../res/drawable-xxhdpi/ic_directions_bike_white_18dp.png</a></span>: <span class="message">The following unrelated icon files have identical contents: ic_directions_bike_white_36dp.png, ic_directions_bike_white_18dp.png</span><br />
+<ul></ul><button id="Location2DivLink" onclick="reveal('Location2Div');" />+ 1 Additional Locations...</button>
+<div id="Location2Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../res/drawable-hdpi/ic_directions_bike_white_36dp.png">../../res/drawable-hdpi/ic_directions_bike_white_36dp.png</a></span>
+</ul>
+</div><br/><br/>
+<table><tr><td><a href="../../res/drawable-hdpi/ic_directions_bike_white_36dp.png"><img border="0" align="top" src="../../res/drawable-hdpi/ic_directions_bike_white_36dp.png" /></a>
+</td><td><a href="../../res/drawable-xxhdpi/ic_directions_bike_white_18dp.png"><img border="0" align="top" src="../../res/drawable-xxhdpi/ic_directions_bike_white_18dp.png" /></a>
+</td></tr><tr><th>hdpi</th><th>xxhdpi</th></tr>
+</table>
+<span class="location"><a href="../../res/drawable-xhdpi/ic_directions_bike_white_24dp.png">../../res/drawable-xhdpi/ic_directions_bike_white_24dp.png</a></span>: <span class="message">The following unrelated icon files have identical contents: ic_directions_bike_white_48dp.png, ic_directions_bike_white_24dp.png</span><br />
+<ul></ul><button id="Location3DivLink" onclick="reveal('Location3Div');" />+ 1 Additional Locations...</button>
+<div id="Location3Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../res/drawable-mdpi/ic_directions_bike_white_48dp.png">../../res/drawable-mdpi/ic_directions_bike_white_48dp.png</a></span>
+</ul>
+</div><br/><br/>
+<table><tr><td><a href="../../res/drawable-xhdpi/ic_directions_bike_white_24dp.png"><img border="0" align="top" src="../../res/drawable-xhdpi/ic_directions_bike_white_24dp.png" /></a>
+</td><td><a href="../../res/drawable-mdpi/ic_directions_bike_white_48dp.png"><img border="0" align="top" src="../../res/drawable-mdpi/ic_directions_bike_white_48dp.png" /></a>
+</td></tr><tr><th>xhdpi</th><th>mdpi</th></tr>
+</table>
+<span class="location"><a href="../../res/drawable-xxhdpi/ic_directions_bike_white_24dp.png">../../res/drawable-xxhdpi/ic_directions_bike_white_24dp.png</a></span>: <span class="message">The following unrelated icon files have identical contents: ic_directions_bike_white_48dp.png, ic_directions_bike_white_36dp.png, ic_directions_bike_white_24dp.png</span><br />
+<ul></ul><button id="Location4DivLink" onclick="reveal('Location4Div');" />+ 2 Additional Locations...</button>
+<div id="Location4Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../res/drawable-xhdpi/ic_directions_bike_white_36dp.png">../../res/drawable-xhdpi/ic_directions_bike_white_36dp.png</a></span>
+<li> <span class="location"><a href="../../res/drawable-hdpi/ic_directions_bike_white_48dp.png">../../res/drawable-hdpi/ic_directions_bike_white_48dp.png</a></span>
+</ul>
+</div><br/><br/>
+<table><tr><td><a href="../../res/drawable-xhdpi/ic_directions_bike_white_36dp.png"><img border="0" align="top" src="../../res/drawable-xhdpi/ic_directions_bike_white_36dp.png" /></a>
+</td><td><a href="../../res/drawable-hdpi/ic_directions_bike_white_48dp.png"><img border="0" align="top" src="../../res/drawable-hdpi/ic_directions_bike_white_48dp.png" /></a>
+</td><td><a href="../../res/drawable-xxhdpi/ic_directions_bike_white_24dp.png"><img border="0" align="top" src="../../res/drawable-xxhdpi/ic_directions_bike_white_24dp.png" /></a>
+</td></tr><tr><th>xhdpi</th><th>hdpi</th><th>xxhdpi</th></tr>
+</table>
+<span class="location"><a href="../../res/drawable-xhdpi/ic_location_on_white_18dp.png">../../res/drawable-xhdpi/ic_location_on_white_18dp.png</a></span>: <span class="message">The following unrelated icon files have identical contents: ic_location_on_white_24dp.png, ic_location_on_white_36dp.png, ic_location_on_white_18dp.png</span><br />
+<ul></ul><button id="Location5DivLink" onclick="reveal('Location5Div');" />+ 2 Additional Locations...</button>
+<div id="Location5Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../res/drawable-mdpi/ic_location_on_white_36dp.png">../../res/drawable-mdpi/ic_location_on_white_36dp.png</a></span>
+<li> <span class="location"><a href="../../res/drawable-hdpi/ic_location_on_white_24dp.png">../../res/drawable-hdpi/ic_location_on_white_24dp.png</a></span>
+</ul>
+</div><br/><br/>
+<table><tr><td><a href="../../res/drawable-xhdpi/ic_location_on_white_18dp.png"><img border="0" align="top" src="../../res/drawable-xhdpi/ic_location_on_white_18dp.png" /></a>
+</td><td><a href="../../res/drawable-hdpi/ic_location_on_white_24dp.png"><img border="0" align="top" src="../../res/drawable-hdpi/ic_location_on_white_24dp.png" /></a>
+</td><td><a href="../../res/drawable-mdpi/ic_location_on_white_36dp.png"><img border="0" align="top" src="../../res/drawable-mdpi/ic_location_on_white_36dp.png" /></a>
+</td></tr><tr><th>xhdpi</th><th>hdpi</th><th>mdpi</th></tr>
+</table>
+<span class="location"><a href="../../res/drawable-xxhdpi/ic_location_on_white_18dp.png">../../res/drawable-xxhdpi/ic_location_on_white_18dp.png</a></span>: <span class="message">The following unrelated icon files have identical contents: ic_location_on_white_36dp.png, ic_location_on_white_18dp.png</span><br />
+<ul></ul><button id="Location6DivLink" onclick="reveal('Location6Div');" />+ 1 Additional Locations...</button>
+<div id="Location6Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../res/drawable-hdpi/ic_location_on_white_36dp.png">../../res/drawable-hdpi/ic_location_on_white_36dp.png</a></span>
+</ul>
+</div><br/><br/>
+<table><tr><td><a href="../../res/drawable-hdpi/ic_location_on_white_36dp.png"><img border="0" align="top" src="../../res/drawable-hdpi/ic_location_on_white_36dp.png" /></a>
+</td><td><a href="../../res/drawable-xxhdpi/ic_location_on_white_18dp.png"><img border="0" align="top" src="../../res/drawable-xxhdpi/ic_location_on_white_18dp.png" /></a>
+</td></tr><tr><th>hdpi</th><th>xxhdpi</th></tr>
+</table>
+<span class="location"><a href="../../res/drawable-xhdpi/ic_location_on_white_24dp.png">../../res/drawable-xhdpi/ic_location_on_white_24dp.png</a></span>: <span class="message">The following unrelated icon files have identical contents: ic_location_on_white_48dp.png, ic_location_on_white_24dp.png</span><br />
+<ul></ul><button id="Location7DivLink" onclick="reveal('Location7Div');" />+ 1 Additional Locations...</button>
+<div id="Location7Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../res/drawable-mdpi/ic_location_on_white_48dp.png">../../res/drawable-mdpi/ic_location_on_white_48dp.png</a></span>
+</ul>
+</div><br/><br/>
+<table><tr><td><a href="../../res/drawable-xhdpi/ic_location_on_white_24dp.png"><img border="0" align="top" src="../../res/drawable-xhdpi/ic_location_on_white_24dp.png" /></a>
+</td><td><a href="../../res/drawable-mdpi/ic_location_on_white_48dp.png"><img border="0" align="top" src="../../res/drawable-mdpi/ic_location_on_white_48dp.png" /></a>
+</td></tr><tr><th>xhdpi</th><th>mdpi</th></tr>
+</table>
+<span class="location"><a href="../../res/drawable-xxhdpi/ic_location_on_white_24dp.png">../../res/drawable-xxhdpi/ic_location_on_white_24dp.png</a></span>: <span class="message">The following unrelated icon files have identical contents: ic_location_on_white_48dp.png, ic_location_on_white_36dp.png, ic_location_on_white_24dp.png</span><br />
+<ul></ul><button id="Location8DivLink" onclick="reveal('Location8Div');" />+ 2 Additional Locations...</button>
+<div id="Location8Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../res/drawable-xhdpi/ic_location_on_white_36dp.png">../../res/drawable-xhdpi/ic_location_on_white_36dp.png</a></span>
+<li> <span class="location"><a href="../../res/drawable-hdpi/ic_location_on_white_48dp.png">../../res/drawable-hdpi/ic_location_on_white_48dp.png</a></span>
+</ul>
+</div><br/><br/>
+<table><tr><td><a href="../../res/drawable-xhdpi/ic_location_on_white_36dp.png"><img border="0" align="top" src="../../res/drawable-xhdpi/ic_location_on_white_36dp.png" /></a>
+</td><td><a href="../../res/drawable-hdpi/ic_location_on_white_48dp.png"><img border="0" align="top" src="../../res/drawable-hdpi/ic_location_on_white_48dp.png" /></a>
+</td><td><a href="../../res/drawable-xxhdpi/ic_location_on_white_24dp.png"><img border="0" align="top" src="../../res/drawable-xxhdpi/ic_location_on_white_24dp.png" /></a>
+</td></tr><tr><th>xhdpi</th><th>hdpi</th><th>xxhdpi</th></tr>
+</table>
+</div>
+<div class="metadata">Priority: 3 / 10<br/>
+Category: Usability:Icons</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Duplicated icons under different names.</div>
+<div class="explanation">
+If an icon is repeated under different names, you can consolidate and just use one of the icons and delete the others to make your application smaller. However, duplicated icons usually are not intentional and can sometimes point to icons that were accidentally overwritten or accidentally not updated.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "IconDuplicates" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+
+<a name="Accessibility"></a>
+<div class="category"><a href="#" title="Return to top">Accessibility</a><div class="categorySeparator"></div>
+</div>
+<a name="ClickableViewAccessibility"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">ClickableViewAccessibility: Accessibility in Custom Views</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../src/com/github/ay65535/chariba/CameraActivity.java">../../src/com/github/ay65535/chariba/CameraActivity.java</a>:116</span>: <span class="message"><code>com/github/ay65535/chariba/CameraActivity$2#onTouch</code> should call <code>View#performClick</code> when a click is detected</span><br /><pre class="errorlines">
+<span class="lineno"> 113</span>     View.OnTouchListener mDelayHideTouchListener = new View.OnTouchListener() {
+<span class="lineno"> 114</span> 
+<span class="lineno"> 115</span>         @Override
+<span class="lineno"> 116</span>         public boolean <span class="errorspan">onTouch(View view, MotionEvent motionEvent) {</span>
+<span class="lineno"> 117</span> 
+<span class="lineno"> 118</span>             if (mSafeToTakePicture) {
+</pre>
+</div>
+<div class="metadata">Priority: 6 / 10<br/>
+Category: Accessibility</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Accessibility in Custom Views.</div>
+<div class="explanation">
+If a <code>View</code> that overrides <code>onTouchEvent</code> or uses an <code>OnTouchListener</code> does not also implement <code>performClick</code> and call it when clicks are detected, the <code>View</code> may not handle accessibility actions properly. Logic handling the click actions should ideally be placed in <code>View#performClick</code> as some accessibility services invoke <code>performClick</code> when a click action should occur.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "ClickableViewAccessibility" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="LabelFor"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">LabelFor: Missing <code>labelFor</code> attribute</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../res/layout/activity_settings.xml">../../res/layout/activity_settings.xml</a>:54</span>: <span class="message">No label views point to this text field with an <code>android:labelFor="@+id/@+id/stepLengthValueText"</code> attribute</span><br /><pre class="errorlines">
+<span class="lineno">  51</span>                 android:layout_below="@+id/PDRPrefTextView"
+<span class="lineno">  52</span>                 android:text="&#27497;&#24133;&#12434;&#20837;&#21147;&#12375;&#12390;&#19979;&#12373;&#12356;(cm)" />
+<span class="lineno">  53</span> 
+<span class="lineno">  54</span>             <span class="errorspan">&lt;EditText</span>
+<span class="lineno">  55</span>                 android:id="@+id/stepLengthValueText"
+<span class="lineno">  56</span>                 android:layout_width="116dp"
+</pre>
+<span class="location"><a href="../../res/layout/activity_settings.xml">../../res/layout/activity_settings.xml</a>:207</span>: <span class="message">No label views point to this text field with an <code>android:labelFor="@+id/@+id/value_latitude_1"</code> attribute</span><br /><pre class="errorlines">
+<span class="lineno"> 204</span>                 android:layout_below="@+id/label_geofence_1"
+<span class="lineno"> 205</span>                 android:text="@string/latitude" />
+<span class="lineno"> 206</span> 
+<span class="lineno"> 207</span>             <span class="errorspan">&lt;EditText</span>
+<span class="lineno"> 208</span>                 android:id="@+id/value_latitude_1"
+<span class="lineno"> 209</span>                 android:layout_width="wrap_content"
+</pre>
+<span class="location"><a href="../../res/layout/activity_settings.xml">../../res/layout/activity_settings.xml</a>:226</span>: <span class="message">No label views point to this text field with an <code>android:labelFor="@+id/@+id/value_longitude_1"</code> attribute</span><br /><pre class="errorlines">
+<span class="lineno"> 223</span>                 android:layout_below="@id/label_latitude_1"
+<span class="lineno"> 224</span>                 android:text="@string/longitude" />
+<span class="lineno"> 225</span> 
+<span class="lineno"> 226</span>             <span class="errorspan">&lt;EditText</span>
+<span class="lineno"> 227</span>                 android:id="@+id/value_longitude_1"
+<span class="lineno"> 228</span>                 android:layout_width="wrap_content"
+</pre>
+<span class="location"><a href="../../res/layout/activity_settings.xml">../../res/layout/activity_settings.xml</a>:245</span>: <span class="message">No label views point to this text field with an <code>android:labelFor="@+id/@+id/value_radius_1"</code> attribute</span><br /><pre class="errorlines">
+<span class="lineno"> 242</span>                 android:layout_below="@id/label_longitude_1"
+<span class="lineno"> 243</span>                 android:text="@string/radius" />
+<span class="lineno"> 244</span> 
+<span class="lineno"> 245</span>             <span class="errorspan">&lt;EditText</span>
+<span class="lineno"> 246</span>                 android:id="@+id/value_radius_1"
+<span class="lineno"> 247</span>                 android:layout_width="wrap_content"
+</pre>
+<span class="location"><a href="../../res/layout/activity_settings.xml">../../res/layout/activity_settings.xml</a>:288</span>: <span class="message">No label views point to this text field with an <code>android:labelFor="@+id/@+id/value_latitude_2"</code> attribute</span><br /><pre class="errorlines">
+<span class="lineno"> 285</span>                 android:layout_below="@id/label_geofence_2"
+<span class="lineno"> 286</span>                 android:text="@string/latitude" />
+<span class="lineno"> 287</span> 
+<span class="lineno"> 288</span>             <span class="errorspan">&lt;EditText</span>
+<span class="lineno"> 289</span>                 android:id="@+id/value_latitude_2"
+<span class="lineno"> 290</span>                 android:layout_width="wrap_content"
+</pre>
+<span class="location"><a href="../../res/layout/activity_settings.xml">../../res/layout/activity_settings.xml</a>:307</span>: <span class="message">No label views point to this text field with an <code>android:labelFor="@+id/@+id/value_longitude_2"</code> attribute</span><br /><pre class="errorlines">
+<span class="lineno"> 304</span>                 android:layout_below="@id/label_latitude_2"
+<span class="lineno"> 305</span>                 android:text="@string/longitude" />
+<span class="lineno"> 306</span> 
+<span class="lineno"> 307</span>             <span class="errorspan">&lt;EditText</span>
+<span class="lineno"> 308</span>                 android:id="@+id/value_longitude_2"
+<span class="lineno"> 309</span>                 android:layout_width="wrap_content"
+</pre>
+<span class="location"><a href="../../res/layout/activity_settings.xml">../../res/layout/activity_settings.xml</a>:326</span>: <span class="message">No label views point to this text field with an <code>android:labelFor="@+id/@+id/value_radius_2"</code> attribute</span><br /><pre class="errorlines">
+<span class="lineno"> 323</span>                 android:layout_below="@id/label_longitude_2"
+<span class="lineno"> 324</span>                 android:text="@string/radius" />
+<span class="lineno"> 325</span> 
+<span class="lineno"> 326</span>             <span class="errorspan">&lt;EditText</span>
+<span class="lineno"> 327</span>                 android:id="@+id/value_radius_2"
+<span class="lineno"> 328</span>                 android:layout_width="wrap_content"
+</pre>
+</div>
+<div class="metadata">Priority: 2 / 10<br/>
+Category: Accessibility</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Missing <code>labelFor</code> attribute.</div>
+<div class="explanation">
+Text fields should be labelled with a <code>labelFor</code> attribute, provided your <code>minSdkVersion</code> is at least 17.<br/>
+<br/>
+If your view is labeled but by a label in a different layout which includes this one, just suppress this warning from lint.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "LabelFor" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+
+<a name="Internationalization"></a>
+<div class="category"><a href="#" title="Return to top">Internationalization</a><div class="categorySeparator"></div>
+</div>
+<a name="HardcodedText"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">HardcodedText: Hardcoded text</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../res/layout/activity_settings.xml">../../res/layout/activity_settings.xml</a>:40</span>: <span class="message">[I18N] Hardcoded string "PDR&#12398;&#35373;&#23450;", should use <code>@string</code> resource</span><br /><pre class="errorlines">
+<span class="lineno">  37</span>                 android:layout_height="wrap_content"
+<span class="lineno">  38</span>                 android:focusable="true"
+<span class="lineno">  39</span>                 android:focusableInTouchMode="true"
+<span class="lineno">  40</span>                 <span class="errorspan">android:text="PDR&#12398;&#35373;&#23450;"</span>
+<span class="lineno">  41</span>                 android:textAppearance="?android:attr/textAppearanceLarge">
+<span class="lineno">  42</span> 
+</pre>
+<span class="location"><a href="../../res/layout/activity_settings.xml">../../res/layout/activity_settings.xml</a>:52</span>: <span class="message">[I18N] Hardcoded string "&#27497;&#24133;&#12434;&#20837;&#21147;&#12375;&#12390;&#19979;&#12373;&#12356;(cm)", should use <code>@string</code> resource</span><br /><pre class="errorlines">
+<span class="lineno">  49</span>                 android:layout_width="wrap_content"
+<span class="lineno">  50</span>                 android:layout_height="wrap_content"
+<span class="lineno">  51</span>                 android:layout_below="@+id/PDRPrefTextView"
+<span class="lineno">  52</span>                 <span class="errorspan">android:text="&#27497;&#24133;&#12434;&#20837;&#21147;&#12375;&#12390;&#19979;&#12373;&#12356;(cm)" /></span>
+<span class="lineno">  53</span> 
+<span class="lineno">  54</span>             &lt;EditText
+</pre>
+<span class="location"><a href="../../res/layout/activity_settings.xml">../../res/layout/activity_settings.xml</a>:61</span>: <span class="message">[I18N] Hardcoded string "75.0", should use <code>@string</code> resource</span><br /><pre class="errorlines">
+<span class="lineno">  58</span>                 android:layout_below="@+id/stepLengthTextView"
+<span class="lineno">  59</span>                 android:ems="10"
+<span class="lineno">  60</span>                 android:inputType="number|numberDecimal"
+<span class="lineno">  61</span>                 <span class="errorspan">android:text="75.0" /></span>
+<span class="lineno">  62</span> 
+<span class="lineno">  63</span>             &lt;TextView
+</pre>
+<span class="location"><a href="../../res/layout/activity_settings.xml">../../res/layout/activity_settings.xml</a>:68</span>: <span class="message">[I18N] Hardcoded string "Step Calibration&#12508;&#12479;&#12531;&#12434;&#12479;&#12483;&#12503;&#12375;&#12289;20&#27497;&#21069;&#36914;&#12375;&#12390;&#19979;&#12373;&#12356;", should use <code>@string</code> resource</span><br /><pre class="errorlines">
+<span class="lineno">  65</span>                 android:layout_width="wrap_content"
+<span class="lineno">  66</span>                 android:layout_height="wrap_content"
+<span class="lineno">  67</span>                 android:layout_below="@+id/stepLengthValueText"
+<span class="lineno">  68</span>                 <span class="errorspan">android:text="Step Calibration&#12508;&#12479;&#12531;&#12434;&#12479;&#12483;&#12503;&#12375;&#12289;20&#27497;&#21069;&#36914;&#12375;&#12390;&#19979;&#12373;&#12356;" /></span>
+<span class="lineno">  69</span> 
+<span class="lineno">  70</span>             &lt;TextView
+</pre>
+<span class="location"><a href="../../res/layout/activity_settings.xml">../../res/layout/activity_settings.xml</a>:75</span>: <span class="message">[I18N] Hardcoded string "step:", should use <code>@string</code> resource</span><br /><pre class="errorlines">
+<span class="lineno">  72</span>                 android:layout_width="wrap_content"
+<span class="lineno">  73</span>                 android:layout_height="wrap_content"
+<span class="lineno">  74</span>                 android:layout_below="@+id/stepCalibTextView"
+<span class="lineno">  75</span>                 <span class="errorspan">android:text="step:"</span>
+<span class="lineno">  76</span>                 android:textAppearance="?android:attr/textAppearanceSmall" />
+<span class="lineno">  77</span> 
+</pre>
+<button id="HardcodedTextDivLink" onclick="reveal('HardcodedTextDiv');" />+ 16 More Occurrences...</button>
+<div id="HardcodedTextDiv" style="display: none">
+<span class="location"><a href="../../res/layout/activity_settings.xml">../../res/layout/activity_settings.xml</a>:83</span>: <span class="message">[I18N] Hardcoded string "Step Calibration", should use <code>@string</code> resource</span><br /><pre class="errorlines">
+<span class="lineno">  80</span>                 android:layout_width="wrap_content"
+<span class="lineno">  81</span>                 android:layout_height="wrap_content"
+<span class="lineno">  82</span>                 android:layout_below="@+id/stepPrefView"
+<span class="lineno">  83</span>                 <span class="errorspan">android:text="Step Calibration" /></span>
+<span class="lineno">  84</span> 
+<span class="lineno">  85</span>             &lt;TextView
+</pre>
+<span class="location"><a href="../../res/layout/activity_settings.xml">../../res/layout/activity_settings.xml</a>:90</span>: <span class="message">[I18N] Hardcoded string "&#31471;&#26411;&#12434;&#24179;&#22374;&#12394;&#22580;&#25152;&#12395;&#32622;&#12365;&#12289;Gyro Calibration&#12508;&#12479;&#12531;&#12434;&#12479;&#12483;&#12503;&#12375;&#12289;5&#31186;&#38291;&#25918;&#32622;&#12375;&#12390;&#12367;&#12384;&#12373;&#12356;", should use <code>@string</code> resource</span><br /><pre class="errorlines">
+<span class="lineno">  87</span>                 android:layout_width="wrap_content"
+<span class="lineno">  88</span>                 android:layout_height="wrap_content"
+<span class="lineno">  89</span>                 android:layout_below="@+id/stepCalibrationButton"
+<span class="lineno">  90</span>                 <span class="errorspan">android:text="&#31471;&#26411;&#12434;&#24179;&#22374;&#12394;&#22580;&#25152;&#12395;&#32622;&#12365;&#12289;Gyro Calibration&#12508;&#12479;&#12531;&#12434;&#12479;&#12483;&#12503;&#12375;&#12289;5&#31186;&#38291;&#25918;&#32622;&#12375;&#12390;&#12367;&#12384;&#12373;&#12356;" /></span>
+<span class="lineno">  91</span> 
+<span class="lineno">  92</span>             &lt;TextView
+</pre>
+<span class="location"><a href="../../res/layout/activity_settings.xml">../../res/layout/activity_settings.xml</a>:97</span>: <span class="message">[I18N] Hardcoded string "gyro:", should use <code>@string</code> resource</span><br /><pre class="errorlines">
+<span class="lineno">  94</span>                 android:layout_width="wrap_content"
+<span class="lineno">  95</span>                 android:layout_height="wrap_content"
+<span class="lineno">  96</span>                 android:layout_below="@+id/gyroCalibTextView"
+<span class="lineno">  97</span>                 <span class="errorspan">android:text="gyro:"</span>
+<span class="lineno">  98</span>                 android:textAppearance="?android:attr/textAppearanceSmall" />
+<span class="lineno">  99</span> 
+</pre>
+<span class="location"><a href="../../res/layout/activity_settings.xml">../../res/layout/activity_settings.xml</a>:105</span>: <span class="message">[I18N] Hardcoded string "Gyro Calibration", should use <code>@string</code> resource</span><br /><pre class="errorlines">
+<span class="lineno"> 102</span>                 android:layout_width="wrap_content"
+<span class="lineno"> 103</span>                 android:layout_height="wrap_content"
+<span class="lineno"> 104</span>                 android:layout_below="@+id/gyroPrefTextView"
+<span class="lineno"> 105</span>                 <span class="errorspan">android:text="Gyro Calibration" /></span>
+<span class="lineno"> 106</span> 
+<span class="lineno"> 107</span>             &lt;TextView
+</pre>
+<span class="location"><a href="../../res/layout/activity_settings.xml">../../res/layout/activity_settings.xml</a>:112</span>: <span class="message">[I18N] Hardcoded string "&#35373;&#23450;&#12364;&#23436;&#20102;&#12375;&#12383;&#12425;&#12479;&#12483;&#12503;&#12375;&#12390;&#19979;&#12373;&#12356;", should use <code>@string</code> resource</span><br /><pre class="errorlines">
+<span class="lineno"> 109</span>                 android:layout_width="wrap_content"
+<span class="lineno"> 110</span>                 android:layout_height="wrap_content"
+<span class="lineno"> 111</span>                 android:layout_below="@+id/gyroCalibrateButton"
+<span class="lineno"> 112</span>                 <span class="errorspan">android:text="&#35373;&#23450;&#12364;&#23436;&#20102;&#12375;&#12383;&#12425;&#12479;&#12483;&#12503;&#12375;&#12390;&#19979;&#12373;&#12356;" /></span>
+<span class="lineno"> 113</span> 
+<span class="lineno"> 114</span>             &lt;Button
+</pre>
+<span class="location"><a href="../../res/layout/activity_settings.xml">../../res/layout/activity_settings.xml</a>:121</span>: <span class="message">[I18N] Hardcoded string "Apply Changes", should use <code>@string</code> resource</span><br /><pre class="errorlines">
+<span class="lineno"> 118</span>                 android:layout_below="@+id/applyChangesTextView"
+<span class="lineno"> 119</span>                 android:width="100dp"
+<span class="lineno"> 120</span>                 android:minHeight="59sp"
+<span class="lineno"> 121</span>                 <span class="errorspan">android:text="Apply Changes" /></span>
+<span class="lineno"> 122</span> 
+<span class="lineno"> 123</span>             &lt;Button
+</pre>
+<span class="location"><a href="../../res/layout/activity_settings.xml">../../res/layout/activity_settings.xml</a>:132</span>: <span class="message">[I18N] Hardcoded string "Reset", should use <code>@string</code> resource</span><br /><pre class="errorlines">
+<span class="lineno"> 129</span>                 android:width="100dp"
+<span class="lineno"> 130</span>                 android:minHeight="59sp"
+<span class="lineno"> 131</span>                 android:singleLine="false"
+<span class="lineno"> 132</span>                 <span class="errorspan">android:text="Reset" /></span>
+<span class="lineno"> 133</span> 
+<span class="lineno"> 134</span>             &lt;TextView
+</pre>
+<span class="location"><a href="../../res/layout/activity_settings.xml">../../res/layout/activity_settings.xml</a>:140</span>: <span class="message">[I18N] Hardcoded string "&#12450;&#12503;&#12522;&#12465;&#12540;&#12471;&#12519;&#12531;&#12398;&#35373;&#23450;", should use <code>@string</code> resource</span><br /><pre class="errorlines">
+<span class="lineno"> 137</span>                 android:layout_height="wrap_content"
+<span class="lineno"> 138</span>                 android:layout_below="@+id/applyChangesButton"
+<span class="lineno"> 139</span>                 android:layout_marginTop="@dimen/activity_vertical_margin"
+<span class="lineno"> 140</span>                 <span class="errorspan">android:text="&#12450;&#12503;&#12522;&#12465;&#12540;&#12471;&#12519;&#12531;&#12398;&#35373;&#23450;"</span>
+<span class="lineno"> 141</span>                 android:textAppearance="?android:attr/textAppearanceLarge" />
+<span class="lineno"> 142</span> 
+</pre>
+<span class="location"><a href="../../res/layout/activity_settings.xml">../../res/layout/activity_settings.xml</a>:149</span>: <span class="message">[I18N] Hardcoded string "&#12472;&#12515;&#12452;&#12525;&#12475;&#12531;&#12469;&#12434;&#21033;&#29992;&#12377;&#12427;", should use <code>@string</code> resource</span><br /><pre class="errorlines">
+<span class="lineno"> 146</span>                 android:layout_height="wrap_content"
+<span class="lineno"> 147</span>                 android:layout_below="@+id/textView1"
+<span class="lineno"> 148</span>                 android:checked="true"
+<span class="lineno"> 149</span>                 <span class="errorspan">android:text="&#12472;&#12515;&#12452;&#12525;&#12475;&#12531;&#12469;&#12434;&#21033;&#29992;&#12377;&#12427;" /></span>
+<span class="lineno"> 150</span> 
+<span class="lineno"> 151</span>             &lt;TextView
+</pre>
+<span class="location"><a href="../../res/layout/activity_settings.xml">../../res/layout/activity_settings.xml</a>:157</span>: <span class="message">[I18N] Hardcoded string "&#20301;&#32622;&#24773;&#22577;&#12469;&#12540;&#12499;&#12473;&#12398;&#35373;&#23450;", should use <code>@string</code> resource</span><br /><pre class="errorlines">
+<span class="lineno"> 154</span>                 android:layout_height="wrap_content"
+<span class="lineno"> 155</span>                 android:layout_below="@+id/gyro_check"
+<span class="lineno"> 156</span>                 android:layout_marginTop="@dimen/activity_vertical_margin"
+<span class="lineno"> 157</span>                 <span class="errorspan">android:text="&#20301;&#32622;&#24773;&#22577;&#12469;&#12540;&#12499;&#12473;&#12398;&#35373;&#23450;"</span>
+<span class="lineno"> 158</span>                 android:textAppearance="?android:attr/textAppearanceLarge" />
+<span class="lineno"> 159</span> 
+</pre>
+<span class="location"><a href="../../res/layout/activity_settings.xml">../../res/layout/activity_settings.xml</a>:167</span>: <span class="message">[I18N] Hardcoded string "&#26377;&#21177;&#12539;&#28961;&#21177;", should use <code>@string</code> resource</span><br /><pre class="errorlines">
+<span class="lineno"> 164</span>                 android:layout_below="@+id/service_setting_title"
+<span class="lineno"> 165</span>                 android:background="@color/background_material_light"
+<span class="lineno"> 166</span>                 android:checked="false"
+<span class="lineno"> 167</span>                 <span class="errorspan">android:text="&#26377;&#21177;&#12539;&#28961;&#21177;"</span>
+<span class="lineno"> 168</span>                 android:textColor="@color/abc_primary_text_material_light" />
+<span class="lineno"> 169</span> 
+</pre>
+<span class="location"><a href="../../res/layout/activity_settings.xml">../../res/layout/activity_settings.xml</a>:176</span>: <span class="message">[I18N] Hardcoded string "&#12472;&#12458;&#12501;&#12455;&#12531;&#12471;&#12531;&#12464;&#12398;&#35373;&#23450;", should use <code>@string</code> resource</span><br /><pre class="errorlines">
+<span class="lineno"> 173</span>                 android:layout_height="wrap_content"
+<span class="lineno"> 174</span>                 android:layout_below="@+id/switch_locservice"
+<span class="lineno"> 175</span>                 android:layout_marginTop="@dimen/activity_vertical_margin"
+<span class="lineno"> 176</span>                 <span class="errorspan">android:text="&#12472;&#12458;&#12501;&#12455;&#12531;&#12471;&#12531;&#12464;&#12398;&#35373;&#23450;"</span>
+<span class="lineno"> 177</span>                 android:textAppearance="?android:attr/textAppearanceLarge" />
+<span class="lineno"> 178</span> 
+</pre>
+<span class="location"><a href="../../res/layout/custom_adapter_item.xml">../../res/layout/custom_adapter_item.xml</a>:15</span>: <span class="message">[I18N] Hardcoded string "&#12371;&#12371;&#12395;&#12399;&#12479;&#12452;&#12488;&#12523;&#12364;&#34920;&#31034;&#12373;&#12428;&#12414;&#12377;", should use <code>@string</code> resource</span><br /><pre class="errorlines">
+<span class="lineno">  12</span>         android:layout_weight="1"
+<span class="lineno">  13</span> 
+<span class="lineno">  14</span>         android:choiceMode="singleChoice"
+<span class="lineno">  15</span>         <span class="errorspan">android:text="&#12371;&#12371;&#12395;&#12399;&#12479;&#12452;&#12488;&#12523;&#12364;&#34920;&#31034;&#12373;&#12428;&#12414;&#12377;"</span>
+<span class="lineno">  16</span>         android:textSize="16sp"
+<span class="lineno">  17</span>         android:textStyle="bold" />
+</pre>
+<span class="location"><a href="../../res/layout/custom_adapter_item.xml">../../res/layout/custom_adapter_item.xml</a>:27</span>: <span class="message">[I18N] Hardcoded string "&#12371;&#12371;&#12395;&#12399;&#12513;&#12514;&#12364;&#34920;&#31034;&#12373;&#12428;&#12414;&#12377;", should use <code>@string</code> resource</span><br /><pre class="errorlines">
+<span class="lineno">  24</span>         android:choiceMode="singleChoice"
+<span class="lineno">  25</span>         android:ellipsize="end"
+<span class="lineno">  26</span>         android:singleLine="true"
+<span class="lineno">  27</span>         <span class="errorspan">android:text="&#12371;&#12371;&#12395;&#12399;&#12513;&#12514;&#12364;&#34920;&#31034;&#12373;&#12428;&#12414;&#12377;"</span>
+<span class="lineno">  28</span> 
+<span class="lineno">  29</span>         android:textSize="16sp" />
+</pre>
+<span class="location"><a href="../../res/layout/geofence_setpos.xml">../../res/layout/geofence_setpos.xml</a>:50</span>: <span class="message">[I18N] Hardcoded string "rad", should use <code>@string</code> resource</span><br /><pre class="errorlines">
+<span class="lineno">  47</span>                 android:width="60dp"
+<span class="lineno">  48</span>                 android:ems="10"
+<span class="lineno">  49</span>                 android:inputType="number"
+<span class="lineno">  50</span>                 <span class="errorspan">android:text="rad" /></span>
+<span class="lineno">  51</span> 
+<span class="lineno">  52</span>             &lt;TextView
+</pre>
+<span class="location"><a href="../../res/layout/geofence_setpos.xml">../../res/layout/geofence_setpos.xml</a>:101</span>: <span class="message">[I18N] Hardcoded string "OK", should use <code>@string</code> resource</span><br /><pre class="errorlines">
+<span class="lineno">  98</span>         android:layout_height="wrap_content"
+<span class="lineno">  99</span>         android:layout_alignParentBottom="true"
+<span class="lineno"> 100</span>         android:layout_alignParentStart="false"
+<span class="lineno"> 101</span>         <span class="errorspan">android:text="OK" /></span>
+<span class="lineno"> 102</span> 
+<span class="lineno"> 103</span> &lt;/RelativeLayout>
+</pre>
+</div>
+</div>
+<div class="metadata">Note: This issue has an associated quickfix operation in Eclipse/ADT&nbsp;<img alt="Fix" border="0" align="top" src="lint-results-debug_files/lint-run.png" />
+<br>
+Priority: 5 / 10<br/>
+Category: Internationalization</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Hardcoded text.</div>
+<div class="explanation">
+Hardcoding text attributes directly in layout files is bad for several reasons:<br/>
+<br/>
+* When creating configuration variations (for example for landscape or portrait)you have to repeat the actual text (and keep it up to date when making changes)<br/>
+<br/>
+* The application cannot be translated to other languages by just adding new translations for existing string resources.<br/>
+<br/>
+In Android Studio and Eclipse there are quickfixes to automatically extract this hardcoded string into a resource lookup.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "HardcodedText" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+
+<a name="MissingIssues"></a>
+<div class="category">Disabled Checks<div class="categorySeparator"></div>
+</div>
+The following issues were not run by lint, either because the check is not enabled by default, or because it was disabled with a command line flag or via one or more lint.xml configuration files in the project directories.
+<br/><br/>
+<a name="BackButton"></a>
+<div class="issue">
+<div class="id">BackButton<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+Priority: 6 / 10<br/>
+Category: Usability</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Back button.</div>
+<div class="explanation">
+According to the Android Design Guide,<br/>
+<br/>
+"Other platforms use an explicit back button with label to allow the user to navigate up the application's hierarchy. Instead, Android uses the main action bar's app icon for hierarchical navigation and the navigation bar's back button for temporal navigation."<br/>
+This check is not very sophisticated (it just looks for buttons with the label "Back"), so it is disabled by default to not trigger on common scenarios like pairs of Back/Next buttons to paginate through screens.
+</div>
+<br/><div class="moreinfo">More info: <a href="http://developer.android.com/design/patterns/pure-android.html">http://developer.android.com/design/patterns/pure-android.html</a>
+</div><br/>To suppress this error, use the issue id "BackButton" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="EasterEgg"></a>
+<div class="issue">
+<div class="id">EasterEgg<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+Priority: 6 / 10<br/>
+Category: Security</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Code contains easter egg.</div>
+<div class="explanation">
+An "easter egg" is code deliberately hidden in the code, both from potential users and even from other developers. This lint check looks for code which looks like it may be hidden from sight.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "EasterEgg" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="FieldGetter"></a>
+<div class="issue">
+<div class="id">FieldGetter<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+Priority: 4 / 10<br/>
+Category: Performance</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Using getter instead of field.</div>
+<div class="explanation">
+Accessing a field within the class that defines a getter for that field is at least 3 times faster than calling the getter. For simple getters that do nothing other than return the field, you might want to just reference the local field directly instead.<br/>
+<br/>
+<b>NOTE</b>: As of Android 2.3 (Gingerbread), this optimization is performed automatically by Dalvik, so there is no need to change your code; this is only relevant if you are targeting older versions of Android.
+</div>
+<br/><div class="moreinfo">More info: <a href="http://developer.android.com/guide/practices/design/performance.html#internal_get_set">http://developer.android.com/guide/practices/design/performance.html#internal_get_set</a>
+</div><br/>To suppress this error, use the issue id "FieldGetter" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="IconExpectedSize"></a>
+<div class="issue">
+<div class="id">IconExpectedSize<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+Priority: 5 / 10<br/>
+Category: Usability:Icons</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Icon has incorrect size.</div>
+<div class="explanation">
+There are predefined sizes (for each density) for launcher icons. You should follow these conventions to make sure your icons fit in with the overall look of the platform.
+</div>
+<br/><div class="moreinfo">More info: <a href="http://developer.android.com/design/style/iconography.html">http://developer.android.com/design/style/iconography.html</a>
+</div><br/>To suppress this error, use the issue id "IconExpectedSize" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="NegativeMargin"></a>
+<div class="issue">
+<div class="id">NegativeMargin<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+Priority: 4 / 10<br/>
+Category: Usability</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Negative Margins.</div>
+<div class="explanation">
+Margin values should be positive. Negative values are generally a sign that you are making assumptions about views surrounding the current one, or may be tempted to turn off child clipping to allow a view to escape its parent. Turning off child clipping to do this not only leads to poor graphical performance, it also results in wrong touch event handling since touch events are based strictly on a chain of parent-rect hit tests. Finally, making assumptions about the size of strings can lead to localization problems.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "NegativeMargin" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="NewerVersionAvailable"></a>
+<div class="issue">
+<div class="id">NewerVersionAvailable<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Note: This issue has an associated quickfix operation in Android Studio/IntelliJ&nbsp;<img alt="Fix" border="0" align="top" src="lint-results-debug_files/lint-run.png" />
+<br>
+Disabled By: Default<br/>
+Priority: 4 / 10<br/>
+Category: Correctness</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Newer Library Versions Available.</div>
+<div class="explanation">
+This detector checks with a central repository to see if there are newer versions available for the dependencies used by this project.<br/>
+This is similar to the <code>GradleDependency</code> check, which checks for newer versions available in the Android SDK tools and libraries, but this works with any MavenCentral dependency, and connects to the library every time, which makes it more flexible but also <b>much</b> slower.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "NewerVersionAvailable" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="SelectableText"></a>
+<div class="issue">
+<div class="id">SelectableText<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Note: This issue has an associated quickfix operation in Android Studio/IntelliJ&nbsp;<img alt="Fix" border="0" align="top" src="lint-results-debug_files/lint-run.png" />
+<br>
+Disabled By: Default<br/>
+Priority: 7 / 10<br/>
+Category: Usability</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Dynamic text should probably be selectable.</div>
+<div class="explanation">
+If a <code>&lt;TextView></code> is used to display data, the user might want to copy that data and paste it elsewhere. To allow this, the <code>&lt;TextView></code> should specify <code>android:textIsSelectable="true"</code>.<br/>
+<br/>
+This lint check looks for TextViews which are likely to be displaying data: views whose text is set dynamically. This value will be ignored on platforms older than API 11, so it is okay to set it regardless of your <code>minSdkVersion</code>.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "SelectableText" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="StopShip"></a>
+<div class="issue">
+<div class="id">StopShip<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Note: This issue has an associated quickfix operation in Android Studio/IntelliJ&nbsp;<img alt="Fix" border="0" align="top" src="lint-results-debug_files/lint-run.png" />
+<br>
+Disabled By: Default<br/>
+Priority: 10 / 10<br/>
+Category: Correctness</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Code contains <code>STOPSHIP</code> marker.</div>
+<div class="explanation">
+Using the comment <code>// STOPSHIP</code> can be used to flag code that is incomplete but checked in. This comment marker can be used to indicate that the code should not be shipped until the issue is addressed, and lint will look for these.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "StopShip" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="TypographyQuotes"></a>
+<div class="issue">
+<div class="id">TypographyQuotes<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Note: This issue has an associated quickfix operation in Eclipse/ADT & Android Studio/IntelliJ&nbsp;<img alt="Fix" border="0" align="top" src="lint-results-debug_files/lint-run.png" />
+<br>
+Disabled By: Default<br/>
+Priority: 5 / 10<br/>
+Category: Usability:Typography</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Straight quotes can be replaced with curvy quotes.</div>
+<div class="explanation">
+Straight single quotes and double quotes, when used as a pair, can be replaced by "curvy quotes" (or directional quotes). This can make the text more readable.<br/>
+<br/>
+Note that you should never use grave accents and apostrophes to quote, `like this'.<br/>
+<br/>
+(Also note that you should not use curvy quotes for code fragments.)
+</div>
+<br/><div class="moreinfo">More info: <a href="http://en.wikipedia.org/wiki/Quotation_mark">http://en.wikipedia.org/wiki/Quotation_mark</a>
+</div><br/>To suppress this error, use the issue id "TypographyQuotes" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="UnusedIds"></a>
+<div class="issue">
+<div class="id">UnusedIds<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+Priority: 1 / 10<br/>
+Category: Performance</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Unused id.</div>
+<div class="explanation">
+This resource id definition appears not to be needed since it is not referenced from anywhere. Having id definitions, even if unused, is not necessarily a bad idea since they make working on layouts and menus easier, so there is not a strong reason to delete these.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "UnusedIds" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+
+<a name="SuppressInfo"></a>
+<div class="category">Suppressing Warnings and Errors<div class="categorySeparator"></div>
+</div>
+Lint errors can be suppressed in a variety of ways:<br/>
+<br/>
+1. With a @SuppressLint annotation in the Java code<br/>
+2. With a tools:ignore attribute in the XML file<br/>
+3. With a lint.xml configuration file in the project<br/>
+4. With a lint.xml configuration file passed to lint via the --config flag<br/>
+5. With the --ignore flag passed to lint.<br/>
+<br/>
+To suppress a lint warning with an annotation, add a @SuppressLint("id") annotation on the class, method or variable declaration closest to the warning instance you want to disable. The id can be one or more issue id's, such as "UnusedResources" or {"UnusedResources","UnusedIds"}, or it can be "all" to suppress all lint warnings in the given scope.<br/>
+<br/>
+To suppress a lint warning in an XML file, add a tools:ignore="id" attribute on the element containing the error, or one of its surrounding elements. You also need to define the namespace for the tools prefix on the root element in your document, next to the xmlns:android declaration:<br/>
+* xmlns:tools="http://schemas.android.com/tools"<br/>
+<br/>
+To suppress lint warnings with a configuration XML file, create a file named lint.xml and place it at the root directory of the project in which it applies. (If you use the Eclipse plugin's Lint view, you can suppress errors there via the toolbar and Eclipse will create the lint.xml file for you.).<br/>
+<br/>
+The format of the lint.xml file is something like the following:<br/>
+<br/>
+&lt;?xml version="1.0" encoding="UTF-8"?><br/>
+&lt;lint><br/>
+    &lt;!-- Disable this given check in this project --><br/>
+    &lt;issue id="IconMissingDensityFolder" severity="ignore" /><br/>
+<br/>
+    &lt;!-- Ignore the ObsoleteLayoutParam issue in the given files --><br/>
+    &lt;issue id="ObsoleteLayoutParam"><br/>
+        &lt;ignore path="res/layout/activation.xml" /><br/>
+        &lt;ignore path="res/layout-xlarge/activation.xml" /><br/>
+    &lt;/issue><br/>
+<br/>
+    &lt;!-- Ignore the UselessLeaf issue in the given file --><br/>
+    &lt;issue id="UselessLeaf"><br/>
+        &lt;ignore path="res/layout/main.xml" /><br/>
+    &lt;/issue><br/>
+<br/>
+    &lt;!-- Change the severity of hardcoded strings to "error" --><br/>
+    &lt;issue id="HardcodedText" severity="error" /><br/>
+&lt;/lint><br/>
+<br/>
+To suppress lint checks from the command line, pass the --ignore flag with a comma separated list of ids to be suppressed, such as:<br/>
+"lint --ignore UnusedResources,UselessLeaf /my/project/path"<br/>
+
+
+</body>
+</html>
