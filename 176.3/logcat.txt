@@ -1,0 +1,210 @@
+--------- beginning of main
+--------- beginning of system
+E/installd( 1137): Running /system/bin/patchoat isa=arm in-fd=6 (/system/priv-app/DownloadProvider/arm/DownloadProvider.odex) out-fd=7 (/data/dalvik-cache/arm/system@priv-app@DownloadProvider@DownloadProvider.apk@classes.dex)
+E/memtrack( 1117): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 1117): failed to load memtrack module: -2
+W/InputMethodManagerService(  367): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@2af4345c attribute=null, token = android.os.BinderProxy@2077e9f7
+E/installd( 1174): Running /system/bin/patchoat isa=arm in-fd=6 (/system/app/DeskClock/arm/DeskClock.odex) out-fd=7 (/data/dalvik-cache/arm/system@app@DeskClock@DeskClock.apk@classes.dex)
+E/installd( 1197): Running /system/bin/patchoat isa=arm in-fd=6 (/system/priv-app/Dialer/arm/Dialer.odex) out-fd=7 (/data/dalvik-cache/arm/system@priv-app@Dialer@Dialer.apk@classes.dex)
+W/ResourceType( 1060): No package identifier when getting value for resource number 0x00000000
+W/ResourceType( 1060): No package identifier when getting value for resource number 0x00000000
+W/PackageManager( 1060): Failure retrieving resources for com.android.speechrecorder: Resource ID #0x0
+W/ResourceType( 1060): No package identifier when getting value for resource number 0x00000000
+W/PackageManager( 1060): Failure retrieving resources for com.android.speechrecorder: Resource ID #0x0
+W/art     (  856): Suspending all threads took: 19.924ms
+W/BackupManagerService(  367): dataChanged but no participant pkg='com.android.providers.settings' uid=1001
+W/art     (  856): Suspending all threads took: 9.601ms
+W/art     (  960): Suspending all threads took: 42.233ms
+E/BluetoothAdapter(  856): Bluetooth binder is null
+W/Zygote  (   68): Slow operation: 1186ms so far, now at Zygote.nativeForkAndSpecialize
+W/Zygote  (   68): Slow operation: 1747ms so far, now at Zygote.postForkCommon
+W/Zygote  (   68): Slow operation: 1871ms so far, now at zygoteConnection.runOnce: postForkAndSpecialize
+W/ActivityManager(  367): Slow operation: 2048ms so far, now at startProcess: returned from zygote!
+W/ActivityManager(  367): Slow operation: 2064ms so far, now at startProcess: done updating battery stats
+W/ActivityManager(  367): Slow operation: 2065ms so far, now at startProcess: building log message
+W/ActivityManager(  367): Slow operation: 2065ms so far, now at startProcess: starting to update pids map
+W/ActivityManager(  367): Slow operation: 2066ms so far, now at startProcess: done updating pids map
+W/ActivityManager(  367): Slow operation: 2067ms so far, now at startProcess: done starting proc!
+W/Zygote  ( 1233): Slow operation: 1253 ms in ForkAndSpecializeCommon:PostForkChildHooks returns
+W/Zygote  ( 1233): Slow operation: 2216ms so far, now at Zygote.nativeForkAndSpecialize
+W/Zygote  ( 1233): Slow operation: 2688ms so far, now at Zygote.postForkCommon
+W/Zygote  ( 1233): Slow operation: 2812ms so far, now at zygoteConnection.runOnce: postForkAndSpecialize
+E/installd( 1248): Running /system/bin/patchoat isa=arm in-fd=6 (/system/app/Calendar/arm/Calendar.odex) out-fd=7 (/data/dalvik-cache/arm/system@app@Calendar@Calendar.apk@classes.dex)
+E/installd( 1268): Running /system/bin/patchoat isa=arm in-fd=6 (/system/app/Exchange2/arm/Exchange2.odex) out-fd=7 (/data/dalvik-cache/arm/system@app@Exchange2@Exchange2.apk@classes.dex)
+E/installd( 1286): Running /system/bin/patchoat isa=arm in-fd=6 (/system/app/Email/arm/Email.odex) out-fd=7 (/data/dalvik-cache/arm/system@app@Email@Email.apk@classes.dex)
+E/PhoneInterfaceManager(  856): [PhoneIntfMgr] getIccId: ICC ID is null or empty.
+W/ResourcesManager( 1289): Asset path '/system/framework/android.test.runner.jar' does not exist or contains no resources.
+E/SurfaceFlinger(   54): glCheckFramebufferStatusOES error 0
+E/SurfaceFlinger(   54): got GL_FRAMEBUFFER_COMPLETE_OES error while taking screenshot
+W/art     ( 1270): Suspending all threads took: 9.859ms
+W/BackupManagerService(  367): dataChanged but no participant pkg='com.android.providers.settings' uid=1001
+W/BackupManagerService(  367): dataChanged but no participant pkg='com.android.providers.settings' uid=1001
+W/BackupManagerService(  367): dataChanged but no participant pkg='com.android.providers.settings' uid=1001
+W/art     ( 1270): Suspending all threads took: 708.797ms
+E/Netd    (   61): netlink response contains error (Operation not supported on transport endpoint)
+E/Netd    (   61): failed to add interface eth0 to netId 100
+E/ConnectivityService(  367): Exception adding interface: java.lang.IllegalStateException: command '15 network interface add 100 eth0' failed with '400 15 addInterfaceToNetwork() failed (Operation not supported on transport endpoint)'
+E/Netd    (   61): interface eth0 not assigned to any netId
+E/ConnectivityService(  367): Exception in addRoute for gateway: java.lang.IllegalStateException: command '17 network route add 100 eth0 0.0.0.0/0 10.0.2.2' failed with '400 17 addRoute() failed (No such device)'
+E/NetdConnector(  367): NDC Command {20 bandwidth gettetherstats} took too long (628ms)
+E/NetdConnector(  367): NDC Command {19 idletimer add eth0 5 0} took too long (655ms)
+E/NetdConnector(  367): NDC Command {21 bandwidth setiquota eth0 9223372036854775807} took too long (3472ms)
+E/NetdConnector(  367): NDC Command {22 network default set 100} took too long (3247ms)
+E/NetdConnector(  367): NDC Command {23 bandwidth removeiquota eth0} took too long (1715ms)
+W/ContentResolver( 1289): Failed to get type for: content://com.android.calendar (Unknown URL content://com.android.calendar)
+E/NetdConnector(  367): NDC Command {24 bandwidth setiquota eth0 9223372036854775807} took too long (1899ms)
+W/art     (  960): Suspending all threads took: 40.688ms
+W/art     (  960): Suspending all threads took: 17.106ms
+W/GpsLocationProvider(  367): Could not open GPS configuration file /etc/gps.conf
+E/GpsLocationProvider(  367): no AGPS interface in set_agps_server
+E/GpsLocationProvider(  367): no GPS configuration interface in configuraiton_update
+W/ResourceType( 1060): No package identifier when getting value for resource number 0x00000000
+W/ResourceType( 1060): No package identifier when getting value for resource number 0x00000000
+W/PackageManager( 1060): Failure retrieving resources for com.android.speechrecorder: Resource ID #0x0
+W/ResourceType( 1060): No package identifier when getting value for resource number 0x00000000
+W/PackageManager( 1060): Failure retrieving resources for com.android.speechrecorder: Resource ID #0x0
+W/GpsLocationProvider(  367): Could not open GPS configuration file /etc/gps.conf
+E/GpsLocationProvider(  367): no AGPS interface in set_agps_server
+E/GpsLocationProvider(  367): no GPS configuration interface in configuraiton_update
+W/GpsLocationProvider(  367): Could not open GPS configuration file /etc/gps.conf
+E/GpsLocationProvider(  367): no AGPS interface in set_agps_server
+E/GpsLocationProvider(  367): no GPS configuration interface in configuraiton_update
+W/GpsLocationProvider(  367): Could not open GPS configuration file /etc/gps.conf
+E/GpsLocationProvider(  367): no AGPS interface in set_agps_server
+E/GpsLocationProvider(  367): no GPS configuration interface in configuraiton_update
+W/ActivityManager(  367): Unable to start service Intent { cmp=com.android.email/.service.AttachmentService } U=0: not found
+W/ContextImpl( 1270): Implicit intents with startService are not safe: Intent { act=com.android.mail.action.BACKUP_DATA_CHANGED } android.content.ContextWrapper.startService:515 com.android.mail.MailIntentService.broadcastBackupDataChanged:123 com.android.mail.preferences.VersionedPrefs.notifyBackupPreferenceChanged:278 
+W/ActivityManager(  367): Unable to start service Intent { act=com.android.mail.action.BACKUP_DATA_CHANGED } U=0: not found
+W/ContextImpl( 1270): Implicit intents with startService are not safe: Intent { act=com.android.mail.action.BACKUP_DATA_CHANGED } android.content.ContextWrapper.startService:515 com.android.mail.MailIntentService.broadcastBackupDataChanged:123 com.android.mail.preferences.VersionedPrefs.notifyBackupPreferenceChanged:278 
+W/ActivityManager(  367): Unable to start service Intent { act=com.android.mail.action.BACKUP_DATA_CHANGED } U=0: not found
+W/ContextImpl( 1270): Implicit intents with startService are not safe: Intent { act=com.android.mail.action.BACKUP_DATA_CHANGED } android.content.ContextWrapper.startService:515 com.android.mail.MailIntentService.broadcastBackupDataChanged:123 com.android.mail.preferences.VersionedPrefs.notifyBackupPreferenceChanged:278 
+W/ActivityManager(  367): Unable to start service Intent { act=com.android.mail.action.BACKUP_DATA_CHANGED } U=0: not found
+W/ContextImpl( 1270): Implicit intents with startService are not safe: Intent { act=com.android.mail.action.BACKUP_DATA_CHANGED } android.content.ContextWrapper.startService:515 com.android.mail.MailIntentService.broadcastBackupDataChanged:123 com.android.mail.preferences.VersionedPrefs.notifyBackupPreferenceChanged:278 
+W/ActivityManager(  367): Unable to start service Intent { act=com.android.mail.action.BACKUP_DATA_CHANGED } U=0: not found
+W/ContextImpl( 1270): Implicit intents with startService are not safe: Intent { act=com.android.mail.action.BACKUP_DATA_CHANGED } android.content.ContextWrapper.startService:515 com.android.mail.MailIntentService.broadcastBackupDataChanged:123 com.android.mail.preferences.VersionedPrefs.notifyBackupPreferenceChanged:278 
+W/ActivityManager(  367): Unable to start service Intent { act=com.android.mail.action.BACKUP_DATA_CHANGED } U=0: not found
+W/ContextImpl( 1270): Implicit intents with startService are not safe: Intent { act=com.android.mail.action.BACKUP_DATA_CHANGED } android.content.ContextWrapper.startService:515 com.android.mail.MailIntentService.broadcastBackupDataChanged:123 com.android.mail.preferences.VersionedPrefs.notifyBackupPreferenceChanged:278 
+W/ActivityManager(  367): Unable to start service Intent { act=com.android.mail.action.BACKUP_DATA_CHANGED } U=0: not found
+W/ContextImpl( 1270): Implicit intents with startService are not safe: Intent { act=com.android.mail.action.BACKUP_DATA_CHANGED } android.content.ContextWrapper.startService:515 com.android.mail.MailIntentService.broadcastBackupDataChanged:123 com.android.mail.preferences.VersionedPrefs.notifyBackupPreferenceChanged:278 
+W/ActivityManager(  367): Unable to start service Intent { act=com.android.mail.action.BACKUP_DATA_CHANGED } U=0: not found
+W/ActivityManager(  367): Unable to start service Intent { cmp=com.android.email/.service.AttachmentService } U=0: not found
+E/installd( 1417): Running /system/bin/patchoat isa=arm in-fd=6 (/system/priv-app/Mms/arm/Mms.odex) out-fd=7 (/data/dalvik-cache/arm/system@priv-app@Mms@Mms.apk@classes.dex)
+W/ActivityManager(  367): Unable to start service Intent { cmp=com.android.email/.service.AttachmentService } U=0: not found
+W/ActivityManager(  367): Unable to start service Intent { cmp=com.android.email/.service.AttachmentService } U=0: not found
+E/SQLiteLog( 1122): (1) no such table: files
+E/MetadataRetrieverClient(   65): failed to extract an album art
+W/BackupManagerService(  367): dataChanged but no participant pkg='com.android.providers.settings' uid=10005
+E/ActivityThread( 1270): Service com.android.email.service.EmailBroadcastProcessorService has leaked ServiceConnection com.android.emailcommon.service.ServiceProxy$ProxyConnection@2cd641da that was originally bound here
+E/ActivityThread( 1270): android.app.ServiceConnectionLeaked: Service com.android.email.service.EmailBroadcastProcessorService has leaked ServiceConnection com.android.emailcommon.service.ServiceProxy$ProxyConnection@2cd641da that was originally bound here
+E/ActivityThread( 1270): 	at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:1070)
+E/ActivityThread( 1270): 	at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:964)
+E/ActivityThread( 1270): 	at android.app.ContextImpl.bindServiceCommon(ContextImpl.java:1768)
+E/ActivityThread( 1270): 	at android.app.ContextImpl.bindService(ContextImpl.java:1751)
+E/ActivityThread( 1270): 	at android.content.ContextWrapper.bindService(ContextWrapper.java:538)
+E/ActivityThread( 1270): 	at com.android.emailcommon.service.ServiceProxy.setTask(ServiceProxy.java:176)
+E/ActivityThread( 1270): 	at com.android.emailcommon.service.ServiceProxy.test(ServiceProxy.java:219)
+E/ActivityThread( 1270): 	at com.android.email.service.EmailServiceUtils.isServiceAvailable(EmailServiceUtils.java:160)
+E/ActivityThread( 1270): 	at com.android.email.provider.AccountReconciler.reconcileAccountsInternal(AccountReconciler.java:164)
+E/ActivityThread( 1270): 	at com.android.email.provider.AccountReconciler.reconcileAccounts(AccountReconciler.java:113)
+E/ActivityThread( 1270): 	at com.android.email.service.EmailBroadcastProcessorService.reconcileAndStartServices(EmailBroadcastProcessorService.java:305)
+E/ActivityThread( 1270): 	at com.android.email.service.EmailBroadcastProcessorService.onBootCompleted(EmailBroadcastProcessorService.java:295)
+E/ActivityThread( 1270): 	at com.android.email.service.EmailBroadcastProcessorService.onHandleIntent(EmailBroadcastProcessorService.java:130)
+E/ActivityThread( 1270): 	at android.app.IntentService$ServiceHandler.handleMessage(IntentService.java:65)
+E/ActivityThread( 1270): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/ActivityThread( 1270): 	at android.os.Looper.loop(Looper.java:135)
+E/ActivityThread( 1270): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+E/StrictMode( 1270): null
+E/StrictMode( 1270): android.app.ServiceConnectionLeaked: Service com.android.email.service.EmailBroadcastProcessorService has leaked ServiceConnection com.android.emailcommon.service.ServiceProxy$ProxyConnection@2cd641da that was originally bound here
+E/StrictMode( 1270): 	at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:1070)
+E/StrictMode( 1270): 	at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:964)
+E/StrictMode( 1270): 	at android.app.ContextImpl.bindServiceCommon(ContextImpl.java:1768)
+E/StrictMode( 1270): 	at android.app.ContextImpl.bindService(ContextImpl.java:1751)
+E/StrictMode( 1270): 	at android.content.ContextWrapper.bindService(ContextWrapper.java:538)
+E/StrictMode( 1270): 	at com.android.emailcommon.service.ServiceProxy.setTask(ServiceProxy.java:176)
+E/StrictMode( 1270): 	at com.android.emailcommon.service.ServiceProxy.test(ServiceProxy.java:219)
+E/StrictMode( 1270): 	at com.android.email.service.EmailServiceUtils.isServiceAvailable(EmailServiceUtils.java:160)
+E/StrictMode( 1270): 	at com.android.email.provider.AccountReconciler.reconcileAccountsInternal(AccountReconciler.java:164)
+E/StrictMode( 1270): 	at com.android.email.provider.AccountReconciler.reconcileAccounts(AccountReconciler.java:113)
+E/StrictMode( 1270): 	at com.android.email.service.EmailBroadcastProcessorService.reconcileAndStartServices(EmailBroadcastProcessorService.java:305)
+E/StrictMode( 1270): 	at com.android.email.service.EmailBroadcastProcessorService.onBootCompleted(EmailBroadcastProcessorService.java:295)
+E/StrictMode( 1270): 	at com.android.email.service.EmailBroadcastProcessorService.onHandleIntent(EmailBroadcastProcessorService.java:130)
+E/StrictMode( 1270): 	at android.app.IntentService$ServiceHandler.handleMessage(IntentService.java:65)
+E/StrictMode( 1270): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/StrictMode( 1270): 	at android.os.Looper.loop(Looper.java:135)
+E/StrictMode( 1270): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+E/memtrack( 1454): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 1454): failed to load memtrack module: -2
+E/memtrack( 1480): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 1480): failed to load memtrack module: -2
+E/SQLiteLog( 1289): (284) automatic index on view_events(_id)
+E/memtrack( 1495): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 1495): failed to load memtrack module: -2
+W/BackupManagerService(  367): dataChanged but no participant pkg='com.android.providers.settings' uid=1001
+E/installd( 1523): Running /system/bin/patchoat isa=arm in-fd=6 (/system/priv-app/DefaultContainerService/arm/DefaultContainerService.odex) out-fd=7 (/data/dalvik-cache/arm/system@priv-app@DefaultContainerService@DefaultContainerService.apk@classes.dex)
+E/MetadataRetrieverClient(   65): failed to extract an album art
+W/BackupManagerService(  367): dataChanged but no participant pkg='com.android.providers.settings' uid=10005
+W/dex2oat ( 1526): Before Android 4.1, method int android.support.v7.internal.widget.ListViewCompat.lookForSelectablePosition(int, boolean) would have incorrectly overridden the package-private method in android.widget.ListView
+W/dex2oat ( 1526): Verification of com.google.android.gms.internal.pd com.google.android.gms.internal.pe.dx(android.os.Parcel) took 454.842ms
+W/dex2oat ( 1526): Verification of void com.google.android.gms.internal.f$b.b(byte[], byte[]) took 124.552ms
+W/dex2oat ( 1526): Verification of void com.google.android.gms.internal.f$c.b(byte[], byte[]) took 115.566ms
+W/dex2oat ( 1526): Verification of void com.google.android.gms.internal.f$g.b(byte[], byte[]) took 106.900ms
+W/dex2oat ( 1526): Verification of void com.google.android.gms.internal.f$h.b(byte[], byte[]) took 103.942ms
+W/dex2oat ( 1526): Verification of void com.google.android.gms.internal.f$i.b(byte[], byte[]) took 171.723ms
+W/dex2oat ( 1526): Verification of void com.google.android.gms.internal.f$j.b(byte[], byte[]) took 125.934ms
+W/dex2oat ( 1526): Verification of void com.google.android.gms.internal.f$k.b(byte[], byte[]) took 100.438ms
+W/dex2oat ( 1526): Verification of void com.google.android.gms.internal.f$l.b(byte[], byte[]) took 110.600ms
+W/dex2oat ( 1526): Verification of void com.google.android.gms.internal.f$m.b(byte[], byte[]) took 172.935ms
+W/dex2oat ( 1526): Verification of boolean com.google.android.gms.internal.ni$a.onTransact(int, android.os.Parcel, android.os.Parcel, int) took 453.286ms
+W/dex2oat ( 1526): Compilation of boolean com.google.android.gms.games.internal.IGamesService$Stub.onTransact(int, android.os.Parcel, android.os.Parcel, int) took 197.546ms
+E/MetadataRetrieverClient(   65): failed to extract an album art
+W/BackupManagerService(  367): dataChanged but no participant pkg='com.android.providers.settings' uid=10005
+E/MetadataRetrieverClient(   65): failed to extract an album art
+W/PackageManager(  367): Unknown permission com.google.android.providers.gsf.permission.READ_GSERVICES in package com.github.ay65535.chariba
+W/Settings(  367): Setting install_non_market_apps has moved from android.provider.Settings.Global to android.provider.Settings.Secure, returning read-only value.
+E/installd( 1543): Running /system/bin/patchoat isa=arm in-fd=6 (/system/app/PicoTts/arm/PicoTts.odex) out-fd=7 (/data/dalvik-cache/arm/system@app@PicoTts@PicoTts.apk@classes.dex)
+W/VoiceInteractionManagerService(  367): no available voice recognition services found for user 0
+E/memtrack( 1544): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 1544): failed to load memtrack module: -2
+E/memtrack( 1555): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 1555): failed to load memtrack module: -2
+E/memtrack( 1567): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 1567): failed to load memtrack module: -2
+W/dex2oat ( 1579): Verification of void com.android.support.test.deps.guava.net.TldPatterns.<clinit>() took 141.304ms
+W/dex2oat ( 1579): Verification of java.lang.reflect.Type com.android.support.test.deps.guava.reflect.TypeResolver$WildcardCapturer.captureNullable(java.lang.reflect.Type) took 290.713ms
+W/Settings(  367): Setting install_non_market_apps has moved from android.provider.Settings.Global to android.provider.Settings.Secure, returning read-only value.
+W/VoiceInteractionManagerService(  367): no available voice recognition services found for user 0
+E/memtrack( 1589): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 1589): failed to load memtrack module: -2
+E/memtrack( 1600): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 1600): failed to load memtrack module: -2
+E/memtrack( 1612): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 1612): failed to load memtrack module: -2
+W/MediaScanner( 1122): Error opening directory '/oem/media/', skipping: No such file or directory.
+E/MetadataRetrieverClient(   65): failed to extract an album art
+E/MetadataRetrieverClient(   65): failed to extract an album art
+W/MediaProvider( 1122): no database for scanned volume external
+W/dex2oat ( 1624): Before Android 4.1, method int android.support.v7.internal.widget.ListViewCompat.lookForSelectablePosition(int, boolean) would have incorrectly overridden the package-private method in android.widget.ListView
+E/SQLiteLog( 1122): (1) no such table: album_info
+W/MediaScanner( 1122): Error opening directory '/storage/sdcard/', skipping: Permission denied.
+W/dex2oat ( 1624): Verification of com.google.android.gms.internal.pd com.google.android.gms.internal.pe.dx(android.os.Parcel) took 167.555ms
+W/dex2oat ( 1624): Compilation of boolean com.google.android.gms.games.internal.IGamesService$Stub.onTransact(int, android.os.Parcel, android.os.Parcel, int) took 126.480ms
+W/PackageManager(  367): Code path for pkg : com.github.ay65535.chariba changing from /data/app/com.github.ay65535.chariba-1 to /data/app/com.github.ay65535.chariba-2
+W/PackageManager(  367): Resource path for pkg : com.github.ay65535.chariba changing from /data/app/com.github.ay65535.chariba-1 to /data/app/com.github.ay65535.chariba-2
+W/PackageManager(  367): Unknown permission com.google.android.providers.gsf.permission.READ_GSERVICES in package com.github.ay65535.chariba
+W/Settings(  367): Setting install_non_market_apps has moved from android.provider.Settings.Global to android.provider.Settings.Secure, returning read-only value.
+W/BackupManagerService(  367): Removing schedule queue dupe of com.github.ay65535.chariba
+W/ContextImpl( 1198): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1686 android.content.ContextWrapper.startService:515 android.content.ContextWrapper.startService:515 com.android.keychain.KeyChainBroadcastReceiver.onReceive:12 android.app.ActivityThread.handleReceiver:2579 
+W/VoiceInteractionManagerService(  367): no available voice recognition services found for user 0
+E/memtrack( 1631): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 1631): failed to load memtrack module: -2
+W/dex2oat ( 1642): Verification of void com.android.support.test.deps.guava.net.TldPatterns.<clinit>() took 128.028ms
+W/PackageManager(  367): Code path for pkg : com.github.ay65535.chariba.test changing from /data/app/com.github.ay65535.chariba.test-1 to /data/app/com.github.ay65535.chariba.test-2
+W/PackageManager(  367): Resource path for pkg : com.github.ay65535.chariba.test changing from /data/app/com.github.ay65535.chariba.test-1 to /data/app/com.github.ay65535.chariba.test-2
+W/ContextImpl( 1198): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1686 android.content.ContextWrapper.startService:515 android.content.ContextWrapper.startService:515 com.android.keychain.KeyChainBroadcastReceiver.onReceive:12 android.app.ActivityThread.handleReceiver:2579 
+W/BackupManagerService(  367): Removing schedule queue dupe of com.github.ay65535.chariba.test
+W/Settings(  367): Setting install_non_market_apps has moved from android.provider.Settings.Global to android.provider.Settings.Secure, returning read-only value.
+W/VoiceInteractionManagerService(  367): no available voice recognition services found for user 0
+E/memtrack( 1648): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 1648): failed to load memtrack module: -2
+W/ActivityManager(  367): Spurious death for ProcessRecord{200a794f 1659:com.github.ay65535.chariba/u0a53}, curProc for 1659: null
+E/memtrack( 1678): Couldn't load memtrack module (No such 
