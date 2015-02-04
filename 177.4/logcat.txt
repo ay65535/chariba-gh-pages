@@ -1,0 +1,116 @@
+--------- beginning of /dev/log/main
+--------- beginning of /dev/log/system
+E/NetdConnector(  396): NDC Command {14 bandwidth setiquota eth0 9223372036854775807} took too long (1928ms)
+E/NetdConnector(  396): NDC Command {15 bandwidth setglobalalert 2097152} took too long (678ms)
+E/ConnectivityService(  396): startUsingNetworkFeature took too long: 1107ms
+E/logwrapper( 1024): executing /system/bin/ip failed: No such file or directory
+E/NetdConnector(  396): NDC Command {21 interface fwmark exempt add 10.0.2.2/32} took too long (631ms)
+E/ConnectivityService(  396): Exception trying to add a route: java.lang.IllegalStateException: command '21 interface fwmark exempt add 10.0.2.2/32' failed with '400 21 Failed to add exemption rule (File exists)'
+E/memtrack( 1003): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 1003): failed to load memtrack module: -2
+E/logwrapper( 1026): executing /system/bin/ip failed: No such file or directory
+E/NetdConnector(  396): NDC Command {23 interface fwmark exempt add 10.0.2.3/32} took too long (543ms)
+E/ConnectivityService(  396): Exception trying to add a route: java.lang.IllegalStateException: command '23 interface fwmark exempt add 10.0.2.3/32' failed with '400 23 Failed to add exemption rule (File exists)'
+E/logwrapper( 1027): executing /system/bin/ip failed: No such file or directory
+E/SecondaryTablController(   53): ip route add failed: /system/bin/ip route add 10.0.2.2/32 via 0.0.0.0 dev eth0 table 60
+W/FrameworkListener(   53): Handler 'interface' error (No such device)
+E/ConnectivityService(  396): Exception trying to add a route: java.lang.IllegalStateException: command '24 interface route add eth0 secondary 10.0.2.2 32 0.0.0.0' failed with '400 24 ip route modification failed (No such device)'
+E/logwrapper( 1028): executing /system/bin/ip failed: No such file or directory
+E/SecondaryTablController(   53): ip route add failed: /system/bin/ip route add 0.0.0.0/0 via 10.0.2.2 dev eth0 table 60
+W/FrameworkListener(   53): Handler 'interface' error (No such device)
+E/ConnectivityService(  396): Exception trying to add a route: java.lang.IllegalStateException: command '25 interface route add eth0 secondary 0.0.0.0 0 10.0.2.2' failed with '400 25 ip route modification failed (No such device)'
+W/NetworkPolicy(  396): shared quota unsupported; generating rule for each iface
+E/NetdConnector(  396): NDC Command {27 bandwidth removeiquota eth0} took too long (1002ms)
+E/NetdConnector(  396): NDC Command {28 bandwidth setiquota eth0 9223372036854775807} took too long (1515ms)
+E/logwrapper( 1059): executing /system/bin/ip failed: No such file or directory
+W/ActivityManager(  396): Activity destroy timeout for ActivityRecord{b2f074d0 u0 com.android.settings/.CryptKeeper t1 f}
+E/ConnectivityService(  396): Exception trying to add a route: java.lang.IllegalStateException: command '30 interface fwmark exempt add 10.0.2.2/32' failed with '400 30 Failed to add exemption rule (File exists)'
+E/NetdConnector(  396): NDC Command {31 bandwidth removeiquota eth0} took too long (1000ms)
+E/NetdConnector(  396): NDC Command {32 interface route add eth0 default 173.194.121.2 32 10.0.2.2} took too long (850ms)
+W/ProcessCpuTracker(  396): Skipping unknown process pid 1094
+E/NetdConnector(  396): NDC Command {33 bandwidth setiquota eth0 9223372036854775807} took too long (1998ms)
+E/logwrapper( 1101): executing /system/bin/ip failed: No such file or directory
+E/NetdConnector(  396): NDC Command {34 interface fwmark exempt add 173.194.121.2/32} took too long (2030ms)
+E/ConnectivityService(  396): Exception trying to add a route: java.lang.IllegalStateException: command '34 interface fwmark exempt add 173.194.121.2/32' failed with '400 34 Failed to add exemption rule (File exists)'
+W/ActivityManager(  396): Unable to start service Intent { cmp=com.android.email/.service.AttachmentDownloadService } U=0: not found
+W/ActivityManager(  396): Unable to start service Intent { cmp=com.android.email/.service.AttachmentDownloadService } U=0: not found
+W/ActivityManager(  396): Unable to start service Intent { cmp=com.android.email/.service.AttachmentDownloadService } U=0: not found
+E/logwrapper( 1110): executing /system/bin/ip failed: No such file or directory
+E/ConnectivityService(  396): Exception trying to add a route: java.lang.IllegalStateException: command '37 interface fwmark exempt add 10.0.2.2/32' failed with '400 37 Failed to add exemption rule (File exists)'
+E/logwrapper( 1112): executing /system/bin/ip failed: No such file or directory
+E/ConnectivityService(  396): Exception trying to add a route: java.lang.IllegalStateException: command '39 interface fwmark exempt add 173.194.121.8/32' failed with '400 39 Failed to add exemption rule (File exists)'
+E/logwrapper( 1114): executing /system/bin/ip failed: No such file or directory
+E/ConnectivityService(  396): Exception trying to add a route: java.lang.IllegalStateException: command '41 interface fwmark exempt add 10.0.2.2/32' failed with '400 41 Failed to add exemption rule (File exists)'
+E/logwrapper( 1116): executing /system/bin/ip failed: No such file or directory
+E/ConnectivityService(  396): Exception trying to add a route: java.lang.IllegalStateException: command '43 interface fwmark exempt add 173.194.121.0/32' failed with '400 43 Failed to add exemption rule (File exists)'
+E/logwrapper( 1118): executing /system/bin/ip failed: No such file or directory
+E/NetdConnector(  396): NDC Command {45 interface fwmark exempt add 10.0.2.2/32} took too long (525ms)
+E/ConnectivityService(  396): Exception trying to add a route: java.lang.IllegalStateException: command '45 interface fwmark exempt add 10.0.2.2/32' failed with '400 45 Failed to add exemption rule (File exists)'
+E/logwrapper( 1120): executing /system/bin/ip failed: No such file or directory
+E/ConnectivityService(  396): Exception trying to add a route: java.lang.IllegalStateException: command '47 interface fwmark exempt add 173.194.121.1/32' failed with '400 47 Failed to add exemption rule (File exists)'
+E/BluetoothAdapter(  735): Bluetooth binder is null
+E/logwrapper( 1123): executing /system/bin/ip failed: No such file or directory
+E/SecondaryTablController(   53): ip route del failed: /system/bin/ip route del 10.0.2.2/32 via 0.0.0.0 dev eth0 table 60
+W/FrameworkListener(   53): Handler 'interface' error (No such device)
+E/logwrapper( 1124): executing /system/bin/ip failed: No such file or directory
+E/SecondaryTablController(   53): ip route del failed: /system/bin/ip route del 0.0.0.0/0 via 10.0.2.2 dev eth0 table 60
+W/FrameworkListener(   53): Handler 'interface' error (No such device)
+E/NetdConnector(  396): NDC Command {53 bandwidth gettetherstats} took too long (1082ms)
+E/NetdConnector(  396): NDC Command {54 bandwidth removeiquota eth0} took too long (2824ms)
+W/ProcessCpuTracker(  396): Skipping unknown process pid 1158
+E/NetdConnector(  396): NDC Command {55 bandwidth setiquota eth0 9223372036854775807} took too long (3573ms)
+E/NetdConnector(  396): NDC Command {56 bandwidth removeiquota eth0} took too long (1298ms)
+E/NetdConnector(  396): NDC Command {57 bandwidth setiquota eth0 9223372036854775807} took too long (1871ms)
+E/NetdConnector(  396): NDC Command {58 bandwidth gettetherstats} took too long (919ms)
+W/BackupManagerService(  396): dataChanged but no participant pkg='com.android.providers.settings' uid=10020
+E/BluetoothAdapter(  735): Bluetooth binder is null
+W/ContentResolver( 1208): Failed to get type for: content://com.android.calendar (Unknown URL content://com.android.calendar)
+E/BluetoothAdapter(  396): Bluetooth binder is null
+E/BluetoothAdapter(  396): Bluetooth binder is null
+E/SoundPool(  396): error loading /system/media/audio/ui/Effect_Tick.ogg
+W/AudioService(  396): Soundpool could not load file: /system/media/audio/ui/Effect_Tick.ogg
+E/SoundPool(  396): error loading /system/media/audio/ui/Effect_Tick.ogg
+W/AudioService(  396): Soundpool could not load file: /system/media/audio/ui/Effect_Tick.ogg
+E/SoundPool(  396): error loading /system/media/audio/ui/Effect_Tick.ogg
+W/AudioService(  396): Soundpool could not load file: /system/media/audio/ui/Effect_Tick.ogg
+E/SoundPool(  396): error loading /system/media/audio/ui/Effect_Tick.ogg
+W/AudioService(  396): Soundpool could not load file: /system/media/audio/ui/Effect_Tick.ogg
+E/SoundPool(  396): error loading /system/media/audio/ui/Effect_Tick.ogg
+W/AudioService(  396): Soundpool could not load file: /system/media/audio/ui/Effect_Tick.ogg
+E/SoundPool(  396): error loading /system/media/audio/ui/KeypressStandard.ogg
+W/AudioService(  396): Soundpool could not load file: /system/media/audio/ui/KeypressStandard.ogg
+E/SoundPool(  396): error loading /system/media/audio/ui/KeypressSpacebar.ogg
+W/AudioService(  396): Soundpool could not load file: /system/media/audio/ui/KeypressSpacebar.ogg
+E/SoundPool(  396): error loading /system/media/audio/ui/KeypressDelete.ogg
+W/AudioService(  396): Soundpool could not load file: /system/media/audio/ui/KeypressDelete.ogg
+E/SoundPool(  396): error loading /system/media/audio/ui/KeypressReturn.ogg
+W/AudioService(  396): Soundpool could not load file: /system/media/audio/ui/KeypressReturn.ogg
+E/SoundPool(  396): error loading /system/media/audio/ui/KeypressInvalid.ogg
+W/AudioService(  396): Soundpool could not load file: /system/media/audio/ui/KeypressInvalid.ogg
+W/AudioService(  396): onLoadSoundEffects(), Error -1 while loading samples
+E/SQLiteLog( 1064): (1) no such table: files
+E/WVMExtractor(   59): Failed to open libwvm.so
+E/MetadataRetrieverClient(   59): failed to extract an album art
+W/MediaProvider( 1064): no database for scanned volume external
+E/SQLiteLog( 1064): (1) no such table: album_info
+W/MediaScanner( 1064): Error opening directory '/storage/sdcard/', skipping: Permission denied.
+W/BroadcastQueue(  396): Permission Denial: broadcasting Intent { act=android.appwidget.action.APPWIDGET_UPDATE_OPTIONS flg=0x10 cmp=com.android.settings/.widget.SettingsAppWidgetProvider (has extras) } from android (pid=885, uid=10008) is not exported from uid 1000 due to receiver com.android.settings/.widget.SettingsAppWidgetProvider
+E/BluetoothAdapter(  735): Bluetooth binder is null
+E/memtrack( 1333): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 1333): failed to load memtrack module: -2
+W/ActivityManager(  396): No content provider found for permission revoke: file:///data/local/tmp/chariba-debug.apk
+W/ActivityManager(  396): No content provider found for permission revoke: file:///data/local/tmp/chariba-debug.apk
+W/dalvikvm( 1359): method Landroid/support/v7/internal/widget/ListViewCompat;.lookForSelectablePosition incorrectly overrides package-private method with same name in Landroid/widget/ListView;
+W/PackageManager(  396): Unknown permission com.google.android.providers.gsf.permission.READ_GSERVICES in package com.github.ay65535.chariba
+W/RecognitionManagerService(  396): no available voice recognition services found for user 0
+E/memtrack( 1381): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 1381): failed to load memtrack module: -2
+W/ActivityManager(  396): No content provider found for permission revoke: file:///data/local/tmp/chariba-debug-test-unaligned.apk
+W/ActivityManager(  396): No content provider found for permission revoke: file:///data/local/tmp/chariba-debug-test-unaligned.apk
+W/RecognitionManagerService(  396): no available voice recognition services found for user 0
+E/memtrack( 1408): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 1408): failed to load memtrack module: -2
+W/ActivityManager(  396): No content provider found for permission revoke: file:///data/local/tmp/chariba-debug.apk
+W/ActivityManager(  396): No content provider found for permission revoke: file:///data/local/tmp/chariba-debug.apk
+W/dalvikvm( 1419): method Landroid/support/v7/internal/widget/ListViewCompat;.lookForSelectablePosition incorrectly overrides package-private method with same name in Landroid/widget/ListView;
+W/PackageManager(  396): Code path for pkg : com.github.ay65535.chariba changing from /data/app
