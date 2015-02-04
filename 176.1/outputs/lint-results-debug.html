@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>Lint Report</title>
 <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto" />
-<link rel="stylesheet" type="text/css" href="../../../../lint-results_files/hololike.css" />
+<link rel="stylesheet" type="text/css" href="../../lint-results_files/hololike.css" />
 <script language="javascript" type="text/javascript"> 
 <!--
 function reveal(id) {
@@ -18,52 +18,87 @@ document.getElementById(id+'Link').style.display = 'none';
 <body>
 <h1>Lint Report</h1>
 <div class="titleSeparator"></div>
-Check performed at Wed Feb 04 22:34:32 JST 2015.<br/>
-0 errors and 106 warnings found:<br/><br/>
+Check performed at Wed Feb 04 22:48:17 JST 2015.<br/>
+0 errors and 108 warnings found:<br/><br/>
 <table class="overview">
+<tr><td></td><td class="categoryColumn"><a href="#Correctness">Correctness</a>
+</td></tr>
+<tr>
+<td class="countColumn">1</td><td class="issueColumn"><img border="0" align="top" src="../../lint-results_files/lint-warning.png" alt="Warning" />
+<a href="#GradleDependency">GradleDependency: Obsolete Gradle Dependency</a>
+</td></tr>
 <tr><td></td><td class="categoryColumn"><a href="#Performance">Performance</a>
 </td></tr>
 <tr>
-<td class="countColumn">58</td><td class="issueColumn"><img border="0" align="top" src="../../../../lint-results_files/lint-warning.png" alt="Warning" />
+<td class="countColumn">59</td><td class="issueColumn"><img border="0" align="top" src="../../lint-results_files/lint-warning.png" alt="Warning" />
 <a href="#UnusedResources">UnusedResources: Unused resources</a>
 </td></tr>
 <tr><td></td><td class="categoryColumn"><a href="#Usability:Icons">Usability:Icons</a>
 </td></tr>
 <tr>
-<td class="countColumn">4</td><td class="issueColumn"><img border="0" align="top" src="../../../../lint-results_files/lint-warning.png" alt="Warning" />
+<td class="countColumn">4</td><td class="issueColumn"><img border="0" align="top" src="../../lint-results_files/lint-warning.png" alt="Warning" />
 <a href="#IconDipSize">IconDipSize: Icon density-independent size validation</a>
 </td></tr>
 <tr>
-<td class="countColumn">4</td><td class="issueColumn"><img border="0" align="top" src="../../../../lint-results_files/lint-warning.png" alt="Warning" />
+<td class="countColumn">4</td><td class="issueColumn"><img border="0" align="top" src="../../lint-results_files/lint-warning.png" alt="Warning" />
 <a href="#IconDuplicatesConfig">IconDuplicatesConfig: Identical bitmaps across various configurations</a>
 </td></tr>
 <tr>
-<td class="countColumn">3</td><td class="issueColumn"><img border="0" align="top" src="../../../../lint-results_files/lint-warning.png" alt="Warning" />
+<td class="countColumn">3</td><td class="issueColumn"><img border="0" align="top" src="../../lint-results_files/lint-warning.png" alt="Warning" />
 <a href="#IconDensities">IconDensities: Icon densities validation</a>
 </td></tr>
 <tr>
-<td class="countColumn">8</td><td class="issueColumn"><img border="0" align="top" src="../../../../lint-results_files/lint-warning.png" alt="Warning" />
+<td class="countColumn">8</td><td class="issueColumn"><img border="0" align="top" src="../../lint-results_files/lint-warning.png" alt="Warning" />
 <a href="#IconDuplicates">IconDuplicates: Duplicated icons under different names</a>
 </td></tr>
 <tr><td></td><td class="categoryColumn"><a href="#Accessibility">Accessibility</a>
 </td></tr>
 <tr>
-<td class="countColumn">1</td><td class="issueColumn"><img border="0" align="top" src="../../../../lint-results_files/lint-warning.png" alt="Warning" />
+<td class="countColumn">1</td><td class="issueColumn"><img border="0" align="top" src="../../lint-results_files/lint-warning.png" alt="Warning" />
 <a href="#ClickableViewAccessibility">ClickableViewAccessibility: Accessibility in Custom Views</a>
 </td></tr>
 <tr>
-<td class="countColumn">7</td><td class="issueColumn"><img border="0" align="top" src="../../../../lint-results_files/lint-warning.png" alt="Warning" />
+<td class="countColumn">7</td><td class="issueColumn"><img border="0" align="top" src="../../lint-results_files/lint-warning.png" alt="Warning" />
 <a href="#LabelFor">LabelFor: Missing <code>labelFor</code> attribute</a>
 </td></tr>
 <tr><td></td><td class="categoryColumn"><a href="#Internationalization">Internationalization</a>
 </td></tr>
 <tr>
-<td class="countColumn">21</td><td class="issueColumn"><img border="0" align="top" src="../../../../lint-results_files/lint-warning.png" alt="Warning" />
+<td class="countColumn">21</td><td class="issueColumn"><img border="0" align="top" src="../../lint-results_files/lint-warning.png" alt="Warning" />
 <a href="#HardcodedText">HardcodedText: Hardcoded text</a>
 </td></tr>
 <tr><td></td><td class="categoryColumn"><a href="#MissingIssues">Disabled Checks (10)</a>
 </td></tr></table>
 <br/>
+<a name="Correctness"></a>
+<div class="category"><a href="#" title="Return to top">Correctness</a><div class="categorySeparator"></div>
+</div>
+<a name="GradleDependency"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">GradleDependency: Obsolete Gradle Dependency</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../build.gradle">../../build.gradle</a>:163</span>: <span class="message">A newer version of com.google.android.gms:play-services than 6.1.71 is available: 6.5.87</span><br /><pre class="errorlines">
+<span class="lineno"> 160</span>     //compile files('libs/android-support-v4.jar')
+<span class="lineno"> 161</span>     //compile 'com.android.support:support-v4:21.0.0'
+<span class="lineno"> 162</span>     compile 'com.android.support:appcompat-v7:21.0.3'
+<span class="lineno"> 163</span>     <span class="errorspan">compile 'com.google.android.gms:play-services:6.1.71'</span>
+<span class="lineno"> 164</span>     compile 'com.getbase:floatingactionbutton:1.5.1'
+<span class="lineno"> 165</span> }
+</pre>
+</div>
+<div class="metadata">Note: This issue has an associated quickfix operation in Android Studio/IntelliJ&nbsp;<img alt="Fix" border="0" align="top" src="../../lint-results_files/lint-run.png" />
+<br>
+Priority: 4 / 10<br/>
+Category: Correctness</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Obsolete Gradle Dependency.</div>
+<div class="explanation">
+This detector looks for usages of libraries where the version you are using is not the current stable release. Using older versions is fine, and there are cases where you deliberately want to stick with an older version. However, you may simply not be aware that a more recent version is available, and that is what this lint check helps find.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "GradleDependency" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+
 <a name="Performance"></a>
 <div class="category"><a href="#" title="Return to top">Performance</a><div class="categorySeparator"></div>
 </div>
@@ -127,7 +162,7 @@ Additional locations: <ul>
 <span class="lineno">   6</span>     &lt;color name="accent">@color/accent_material_light&lt;/color>
 <span class="lineno">   7</span>     &lt;color name="myawesomered">#f00&lt;/color>
 </pre>
-<button id="UnusedResourcesDivLink" onclick="reveal('UnusedResourcesDiv');" />+ 53 More Occurrences...</button>
+<button id="UnusedResourcesDivLink" onclick="reveal('UnusedResourcesDiv');" />+ 54 More Occurrences...</button>
 <div id="UnusedResourcesDiv" style="display: none">
 <span class="location"><a href="../../res/values/colors.xml">../../res/values/colors.xml</a>:6</span>: <span class="message">The resource <code>R.color.accent</code> appears to be unused</span><br /><pre class="errorlines">
 <span class="lineno">   3</span>     &lt;color name="black_overlay">#66000000&lt;/color>
@@ -624,6 +659,14 @@ Additional locations: <ul>
 <span class="lineno">  34</span>     &lt;string <span class="errorspan">name="title_activity_geofence" translatable="false">Geofence Entry&lt;/string></span>
 <span class="lineno">  35</span> 
 <span class="lineno">  36</span>     &lt;!-- UI -->
+</pre>
+<span class="location"><a href="../../res/values/strings.xml">../../res/values/strings.xml</a>:59</span>: <span class="message">The resource <code>R.string.connection_failed</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  56</span>         Can\'t add geofences, previous request hasn\'t finished.
+<span class="lineno">  57</span>     &lt;/string>
+<span class="lineno">  58</span>     &lt;string name="connected" translatable="false">Client connected&lt;/string>
+<span class="lineno">  59</span>     &lt;string <span class="errorspan">name="connection_failed" translatable="false">Connection failed&lt;/string></span>
+<span class="lineno">  60</span>     &lt;string name="disconnected" translatable="false">Client disconnected&lt;/string>
+<span class="lineno">  61</span>     &lt;string name="geofence_input_error_missing" translatable="false">Missing value&lt;/string>
 </pre>
 <span class="location"><a href="../../res/values/strings.xml">../../res/values/strings.xml</a>:88</span>: <span class="message">The resource <code>R.string.invalid_integer_id</code> appears to be unused</span><br /><pre class="errorlines">
 <span class="lineno">  85</span>     &lt;string name="geofence_transition_unknown" translatable="false">Unknown transition&lt;/string>
@@ -1249,7 +1292,7 @@ If your view is labeled but by a label in a different layout which includes this
 </pre>
 </div>
 </div>
-<div class="metadata">Note: This issue has an associated quickfix operation in Eclipse/ADT&nbsp;<img alt="Fix" border="0" align="top" src="../../../../lint-results_files/lint-run.png" />
+<div class="metadata">Note: This issue has an associated quickfix operation in Eclipse/ADT&nbsp;<img alt="Fix" border="0" align="top" src="../../lint-results_files/lint-run.png" />
 <br>
 Priority: 5 / 10<br/>
 Category: Internationalization</div>
@@ -1354,7 +1397,7 @@ Margin values should be positive. Negative values are generally a sign that you 
 <div class="issue">
 <div class="id">NewerVersionAvailable<div class="issueSeparator"></div>
 </div>
-<div class="metadata">Note: This issue has an associated quickfix operation in Android Studio/IntelliJ&nbsp;<img alt="Fix" border="0" align="top" src="../../../../lint-results_files/lint-run.png" />
+<div class="metadata">Note: This issue has an associated quickfix operation in Android Studio/IntelliJ&nbsp;<img alt="Fix" border="0" align="top" src="../../lint-results_files/lint-run.png" />
 <br>
 Disabled By: Default<br/>
 Priority: 4 / 10<br/>
@@ -1371,7 +1414,7 @@ This is similar to the <code>GradleDependency</code> check, which checks for new
 <div class="issue">
 <div class="id">SelectableText<div class="issueSeparator"></div>
 </div>
-<div class="metadata">Note: This issue has an associated quickfix operation in Android Studio/IntelliJ&nbsp;<img alt="Fix" border="0" align="top" src="../../../../lint-results_files/lint-run.png" />
+<div class="metadata">Note: This issue has an associated quickfix operation in Android Studio/IntelliJ&nbsp;<img alt="Fix" border="0" align="top" src="../../lint-results_files/lint-run.png" />
 <br>
 Disabled By: Default<br/>
 Priority: 7 / 10<br/>
@@ -1389,7 +1432,7 @@ This lint check looks for TextViews which are likely to be displaying data: view
 <div class="issue">
 <div class="id">StopShip<div class="issueSeparator"></div>
 </div>
-<div class="metadata">Note: This issue has an associated quickfix operation in Android Studio/IntelliJ&nbsp;<img alt="Fix" border="0" align="top" src="../../../../lint-results_files/lint-run.png" />
+<div class="metadata">Note: This issue has an associated quickfix operation in Android Studio/IntelliJ&nbsp;<img alt="Fix" border="0" align="top" src="../../lint-results_files/lint-run.png" />
 <br>
 Disabled By: Default<br/>
 Priority: 10 / 10<br/>
@@ -1405,7 +1448,7 @@ Using the comment <code>// STOPSHIP</code> can be used to flag code that is inco
 <div class="issue">
 <div class="id">TypographyQuotes<div class="issueSeparator"></div>
 </div>
-<div class="metadata">Note: This issue has an associated quickfix operation in Eclipse/ADT & Android Studio/IntelliJ&nbsp;<img alt="Fix" border="0" align="top" src="../../../../lint-results_files/lint-run.png" />
+<div class="metadata">Note: This issue has an associated quickfix operation in Eclipse/ADT & Android Studio/IntelliJ&nbsp;<img alt="Fix" border="0" align="top" src="../../lint-results_files/lint-run.png" />
 <br>
 Disabled By: Default<br/>
 Priority: 5 / 10<br/>
