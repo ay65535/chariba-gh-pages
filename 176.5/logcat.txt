@@ -1,0 +1,435 @@
+W/dalvikvm(  660): PR_CAPBSET_DROP 0 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  660): PR_CAPBSET_DROP 1 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  660): PR_CAPBSET_DROP 2 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  660): PR_CAPBSET_DROP 3 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  660): PR_CAPBSET_DROP 4 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  660): PR_CAPBSET_DROP 5 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  660): PR_CAPBSET_DROP 6 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  660): PR_CAPBSET_DROP 7 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  660): PR_CAPBSET_DROP 8 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  660): PR_CAPBSET_DROP 9 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  660): PR_CAPBSET_DROP 10 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  660): PR_CAPBSET_DROP 11 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  660): PR_CAPBSET_DROP 12 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  660): PR_CAPBSET_DROP 13 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  660): PR_CAPBSET_DROP 14 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  660): PR_CAPBSET_DROP 15 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  660): PR_CAPBSET_DROP 16 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  660): PR_CAPBSET_DROP 17 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  660): PR_CAPBSET_DROP 18 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  660): PR_CAPBSET_DROP 19 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  660): PR_CAPBSET_DROP 20 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  660): PR_CAPBSET_DROP 21 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  660): PR_CAPBSET_DROP 22 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  660): PR_CAPBSET_DROP 23 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  660): PR_CAPBSET_DROP 24 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  660): PR_CAPBSET_DROP 25 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  660): PR_CAPBSET_DROP 26 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  660): PR_CAPBSET_DROP 27 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  660): PR_CAPBSET_DROP 28 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  660): PR_CAPBSET_DROP 29 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  660): PR_CAPBSET_DROP 30 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  660): PR_CAPBSET_DROP 31 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  660): PR_CAPBSET_DROP 32 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  660): PR_CAPBSET_DROP 33 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/WindowManager(  274): App freeze timeout expired.
+W/WindowManager(  274): Force clearing freeze: AppWindowToken{4193adf0 token=Token{41998540 ActivityRecord{41a1f5b0 u0 com.android.launcher/com.android.launcher2.Launcher}}}
+W/ActivityManager(  274): Activity idle timeout for ActivityRecord{41a1f5b0 u0 com.android.launcher/com.android.launcher2.Launcher}
+E/cutils-trace(  655): Error opening trace file: No such file or directory (2)
+E/ConnectivityService(  274): startUsingNetworkFeature took too long: 2340ms
+E/logwrapper(  688): executing /system/bin/ip failed: No such file or directory
+E/SecondaryTablController(   33): ip route add failed: /system/bin/ip route add 10.0.2.2/32 via 0.0.0.0 dev eth0 table 60
+W/FrameworkListener(   33): Handler 'interface' error (No such device)
+E/ConnectivityService(  274): Exception trying to add a route: java.lang.IllegalStateException: command '11 interface route add eth0 secondary 10.0.2.2 32 0.0.0.0' failed with '400 11 ip route modification failed (No such device)'
+E/logwrapper(  689): executing /system/bin/ip failed: No such file or directory
+E/SecondaryTablController(   33): ip route add failed: /system/bin/ip route add 0.0.0.0/0 via 10.0.2.2 dev eth0 table 60
+W/FrameworkListener(   33): Handler 'interface' error (No such device)
+E/ConnectivityService(  274): Exception trying to add a route: java.lang.IllegalStateException: command '12 interface route add eth0 secondary 0.0.0.0 0 10.0.2.2' failed with '400 12 ip route modification failed (No such device)'
+W/SystemClock(  274): Unable to set rtc to 1423060597: Invalid argument
+W/ViewRootImpl(  564): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=61461, downTime=61461, deviceId=-1, source=0x101 }
+W/dalvikvm(  695): PR_CAPBSET_DROP 0 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  695): PR_CAPBSET_DROP 1 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  695): PR_CAPBSET_DROP 2 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  695): PR_CAPBSET_DROP 3 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  695): PR_CAPBSET_DROP 4 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  695): PR_CAPBSET_DROP 5 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  695): PR_CAPBSET_DROP 6 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  695): PR_CAPBSET_DROP 7 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  695): PR_CAPBSET_DROP 8 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  695): PR_CAPBSET_DROP 9 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  695): PR_CAPBSET_DROP 10 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  695): PR_CAPBSET_DROP 11 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  695): PR_CAPBSET_DROP 12 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  695): PR_CAPBSET_DROP 13 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  695): PR_CAPBSET_DROP 14 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  695): PR_CAPBSET_DROP 15 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  695): PR_CAPBSET_DROP 16 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  695): PR_CAPBSET_DROP 17 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  695): PR_CAPBSET_DROP 18 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  695): PR_CAPBSET_DROP 19 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  695): PR_CAPBSET_DROP 20 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  695): PR_CAPBSET_DROP 21 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  695): PR_CAPBSET_DROP 22 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  695): PR_CAPBSET_DROP 23 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  695): PR_CAPBSET_DROP 24 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  695): PR_CAPBSET_DROP 25 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  695): PR_CAPBSET_DROP 26 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  695): PR_CAPBSET_DROP 27 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  695): PR_CAPBSET_DROP 28 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  695): PR_CAPBSET_DROP 29 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  695): PR_CAPBSET_DROP 30 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  695): PR_CAPBSET_DROP 31 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  695): PR_CAPBSET_DROP 32 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  695): PR_CAPBSET_DROP 33 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  713): PR_CAPBSET_DROP 0 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  713): PR_CAPBSET_DROP 1 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  713): PR_CAPBSET_DROP 2 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  713): PR_CAPBSET_DROP 3 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  713): PR_CAPBSET_DROP 4 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  713): PR_CAPBSET_DROP 5 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  713): PR_CAPBSET_DROP 6 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  713): PR_CAPBSET_DROP 7 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  713): PR_CAPBSET_DROP 8 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  713): PR_CAPBSET_DROP 9 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  713): PR_CAPBSET_DROP 10 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  713): PR_CAPBSET_DROP 11 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  713): PR_CAPBSET_DROP 12 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  713): PR_CAPBSET_DROP 13 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  713): PR_CAPBSET_DROP 14 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  713): PR_CAPBSET_DROP 15 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  713): PR_CAPBSET_DROP 16 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  713): PR_CAPBSET_DROP 17 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  713): PR_CAPBSET_DROP 18 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  713): PR_CAPBSET_DROP 19 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  713): PR_CAPBSET_DROP 20 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  713): PR_CAPBSET_DROP 21 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  713): PR_CAPBSET_DROP 22 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  713): PR_CAPBSET_DROP 23 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  713): PR_CAPBSET_DROP 24 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  713): PR_CAPBSET_DROP 25 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  713): PR_CAPBSET_DROP 26 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  713): PR_CAPBSET_DROP 27 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  713): PR_CAPBSET_DROP 28 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  713): PR_CAPBSET_DROP 29 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  713): PR_CAPBSET_DROP 30 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  713): PR_CAPBSET_DROP 31 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  713): PR_CAPBSET_DROP 32 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  713): PR_CAPBSET_DROP 33 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  728): PR_CAPBSET_DROP 0 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  728): PR_CAPBSET_DROP 1 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  728): PR_CAPBSET_DROP 2 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  728): PR_CAPBSET_DROP 3 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  728): PR_CAPBSET_DROP 4 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  728): PR_CAPBSET_DROP 5 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  728): PR_CAPBSET_DROP 6 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  728): PR_CAPBSET_DROP 7 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  728): PR_CAPBSET_DROP 8 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  728): PR_CAPBSET_DROP 9 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  728): PR_CAPBSET_DROP 10 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  728): PR_CAPBSET_DROP 11 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  728): PR_CAPBSET_DROP 12 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  728): PR_CAPBSET_DROP 13 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  728): PR_CAPBSET_DROP 14 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  728): PR_CAPBSET_DROP 15 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  728): PR_CAPBSET_DROP 16 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  728): PR_CAPBSET_DROP 17 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  728): PR_CAPBSET_DROP 18 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  728): PR_CAPBSET_DROP 19 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  728): PR_CAPBSET_DROP 20 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  728): PR_CAPBSET_DROP 21 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  728): PR_CAPBSET_DROP 22 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  728): PR_CAPBSET_DROP 23 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  728): PR_CAPBSET_DROP 24 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  728): PR_CAPBSET_DROP 25 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  728): PR_CAPBSET_DROP 26 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  728): PR_CAPBSET_DROP 27 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  728): PR_CAPBSET_DROP 28 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  728): PR_CAPBSET_DROP 29 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  728): PR_CAPBSET_DROP 30 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  728): PR_CAPBSET_DROP 31 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  728): PR_CAPBSET_DROP 32 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  728): PR_CAPBSET_DROP 33 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/BackupManagerService(  274): dataChanged but no participant pkg='com.android.providers.settings' uid=10021
+W/dalvikvm(  751): PR_CAPBSET_DROP 0 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  751): PR_CAPBSET_DROP 1 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  751): PR_CAPBSET_DROP 2 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  751): PR_CAPBSET_DROP 3 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  751): PR_CAPBSET_DROP 4 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  751): PR_CAPBSET_DROP 5 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  751): PR_CAPBSET_DROP 6 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  751): PR_CAPBSET_DROP 7 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  751): PR_CAPBSET_DROP 8 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  751): PR_CAPBSET_DROP 9 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  751): PR_CAPBSET_DROP 10 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  751): PR_CAPBSET_DROP 11 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  751): PR_CAPBSET_DROP 12 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  751): PR_CAPBSET_DROP 13 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  751): PR_CAPBSET_DROP 14 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  751): PR_CAPBSET_DROP 15 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  751): PR_CAPBSET_DROP 16 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  751): PR_CAPBSET_DROP 17 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  751): PR_CAPBSET_DROP 18 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  751): PR_CAPBSET_DROP 19 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  751): PR_CAPBSET_DROP 20 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  751): PR_CAPBSET_DROP 21 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  751): PR_CAPBSET_DROP 22 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  751): PR_CAPBSET_DROP 23 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  751): PR_CAPBSET_DROP 24 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  751): PR_CAPBSET_DROP 25 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  751): PR_CAPBSET_DROP 26 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  751): PR_CAPBSET_DROP 27 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  751): PR_CAPBSET_DROP 28 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  751): PR_CAPBSET_DROP 29 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  751): PR_CAPBSET_DROP 30 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  751): PR_CAPBSET_DROP 31 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  751): PR_CAPBSET_DROP 32 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  751): PR_CAPBSET_DROP 33 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  766): PR_CAPBSET_DROP 0 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  766): PR_CAPBSET_DROP 1 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  766): PR_CAPBSET_DROP 2 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  766): PR_CAPBSET_DROP 3 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  766): PR_CAPBSET_DROP 4 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  766): PR_CAPBSET_DROP 5 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  766): PR_CAPBSET_DROP 6 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  766): PR_CAPBSET_DROP 7 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  766): PR_CAPBSET_DROP 8 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  766): PR_CAPBSET_DROP 9 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  766): PR_CAPBSET_DROP 10 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  766): PR_CAPBSET_DROP 11 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  766): PR_CAPBSET_DROP 12 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  766): PR_CAPBSET_DROP 13 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  766): PR_CAPBSET_DROP 14 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  766): PR_CAPBSET_DROP 15 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  766): PR_CAPBSET_DROP 16 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  766): PR_CAPBSET_DROP 17 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  766): PR_CAPBSET_DROP 18 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  766): PR_CAPBSET_DROP 19 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  766): PR_CAPBSET_DROP 20 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  766): PR_CAPBSET_DROP 21 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  766): PR_CAPBSET_DROP 22 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  766): PR_CAPBSET_DROP 23 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  766): PR_CAPBSET_DROP 24 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  766): PR_CAPBSET_DROP 25 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  766): PR_CAPBSET_DROP 26 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  766): PR_CAPBSET_DROP 27 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  766): PR_CAPBSET_DROP 28 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  766): PR_CAPBSET_DROP 29 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  766): PR_CAPBSET_DROP 30 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  766): PR_CAPBSET_DROP 31 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  766): PR_CAPBSET_DROP 32 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  766): PR_CAPBSET_DROP 33 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  803): PR_CAPBSET_DROP 0 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  803): PR_CAPBSET_DROP 1 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  803): PR_CAPBSET_DROP 2 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  803): PR_CAPBSET_DROP 3 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  803): PR_CAPBSET_DROP 4 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  803): PR_CAPBSET_DROP 5 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  803): PR_CAPBSET_DROP 6 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  803): PR_CAPBSET_DROP 7 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  803): PR_CAPBSET_DROP 8 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  803): PR_CAPBSET_DROP 9 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  803): PR_CAPBSET_DROP 10 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  803): PR_CAPBSET_DROP 11 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  803): PR_CAPBSET_DROP 12 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  803): PR_CAPBSET_DROP 13 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  803): PR_CAPBSET_DROP 14 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  803): PR_CAPBSET_DROP 15 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  803): PR_CAPBSET_DROP 16 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  803): PR_CAPBSET_DROP 17 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  803): PR_CAPBSET_DROP 18 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  803): PR_CAPBSET_DROP 19 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  803): PR_CAPBSET_DROP 20 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  803): PR_CAPBSET_DROP 21 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  803): PR_CAPBSET_DROP 22 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  803): PR_CAPBSET_DROP 23 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  803): PR_CAPBSET_DROP 24 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  803): PR_CAPBSET_DROP 25 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  803): PR_CAPBSET_DROP 26 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  803): PR_CAPBSET_DROP 27 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  803): PR_CAPBSET_DROP 28 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  803): PR_CAPBSET_DROP 29 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  803): PR_CAPBSET_DROP 30 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  803): PR_CAPBSET_DROP 31 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  803): PR_CAPBSET_DROP 32 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  803): PR_CAPBSET_DROP 33 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+E/logwrapper(  818): executing /system/bin/ip failed: No such file or directory
+E/SecondaryTablController(   33): ip route del failed: /system/bin/ip route del 10.0.2.2/32 via 0.0.0.0 dev eth0 table 60
+W/FrameworkListener(   33): Handler 'interface' error (No such device)
+E/logwrapper(  819): executing /system/bin/ip failed: No such file or directory
+E/SecondaryTablController(   33): ip route del failed: /system/bin/ip route del 0.0.0.0/0 via 10.0.2.2 dev eth0 table 60
+W/FrameworkListener(   33): Handler 'interface' error (No such device)
+E/SQLiteLog(  803): (1) no such table: Account
+W/EmailProvider(  803): Exception cleaning EmailProvider.dbandroid.database.sqlite.SQLiteException: no such table: Account (code 1): , while compiling: delete from Account WHERE displayName ISNULL;
+W/ActivityManager(  274): Unable to start service Intent { cmp=com.android.email/.service.AttachmentDownloadService } U=0: not found
+W/ActivityManager(  274): Unable to start service Intent { cmp=com.android.email/.service.AttachmentDownloadService } U=0: not found
+W/ActivityManager(  274): Unable to start service Intent { cmp=com.android.email/.service.AttachmentDownloadService } U=0: not found
+E/BluetoothAdapter(  485): Bluetooth binder is null
+W/ActivityManager(  274): Permission denied: checkComponentPermission() owningUid=1000
+W/BroadcastQueue(  274): Permission Denial: broadcasting Intent { act=android.appwidget.action.APPWIDGET_UPDATE_OPTIONS flg=0x10 cmp=com.android.settings/.widget.SettingsAppWidgetProvider (has extras) } from android (pid=564, uid=10013) is not exported from uid 1000 due to receiver com.android.settings/.widget.SettingsAppWidgetProvider
+E/StrictMode(  766): A resource was acquired at attached stack trace but never released. See java.io.Closeable for information on avoiding resource leaks.
+E/StrictMode(  766): java.lang.Throwable: Explicit termination method 'release' not called
+E/StrictMode(  766): 	at dalvik.system.CloseGuard.open(CloseGuard.java:184)
+E/StrictMode(  766): 	at android.drm.DrmManagerClient.<init>(DrmManagerClient.java:258)
+E/StrictMode(  766): 	at com.google.android.mms.pdu.PduPersister.<init>(PduPersister.java:288)
+E/StrictMode(  766): 	at com.google.android.mms.pdu.PduPersister.getPduPersister(PduPersister.java:296)
+E/StrictMode(  766): 	at com.android.mms.transaction.TransactionService.onNewIntent(TransactionService.java:210)
+E/StrictMode(  766): 	at com.android.mms.transaction.TransactionService$ServiceHandler.handleMessage(TransactionService.java:607)
+E/StrictMode(  766): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+E/StrictMode(  766): 	at android.os.Looper.loop(Looper.java:137)
+E/StrictMode(  766): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+W/ContentResolver(  728): Failed to get type for: content://com.android.calendar (Unknown URL content://com.android.calendar)
+E/SQLiteLog(  596): (1) no such table: files
+E/WVMExtractor(   39): Failed to open libwvm.so
+W/MediaProvider(  596): no database for scanned volume external
+E/MetadataRetrieverClient(   39): failed to extract an album art
+E/SQLiteLog(  596): (1) no such table: album_info
+E/cutils-trace(  892): Error opening trace file: No such file or directory (2)
+W/dalvikvm(  902): PR_CAPBSET_DROP 0 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  902): PR_CAPBSET_DROP 1 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  902): PR_CAPBSET_DROP 2 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  902): PR_CAPBSET_DROP 3 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  902): PR_CAPBSET_DROP 4 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  902): PR_CAPBSET_DROP 5 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  902): PR_CAPBSET_DROP 6 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  902): PR_CAPBSET_DROP 7 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  902): PR_CAPBSET_DROP 8 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  902): PR_CAPBSET_DROP 9 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  902): PR_CAPBSET_DROP 10 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  902): PR_CAPBSET_DROP 11 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  902): PR_CAPBSET_DROP 12 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  902): PR_CAPBSET_DROP 13 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  902): PR_CAPBSET_DROP 14 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  902): PR_CAPBSET_DROP 15 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  902): PR_CAPBSET_DROP 16 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  902): PR_CAPBSET_DROP 17 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  902): PR_CAPBSET_DROP 18 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  902): PR_CAPBSET_DROP 19 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  902): PR_CAPBSET_DROP 20 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  902): PR_CAPBSET_DROP 21 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  902): PR_CAPBSET_DROP 22 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  902): PR_CAPBSET_DROP 23 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  902): PR_CAPBSET_DROP 24 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  902): PR_CAPBSET_DROP 25 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  902): PR_CAPBSET_DROP 26 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  902): PR_CAPBSET_DROP 27 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  902): PR_CAPBSET_DROP 28 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  902): PR_CAPBSET_DROP 29 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  902): PR_CAPBSET_DROP 30 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  902): PR_CAPBSET_DROP 31 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  902): PR_CAPBSET_DROP 32 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  902): PR_CAPBSET_DROP 33 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/ActivityManager(  274): No content provider found for permission revoke: file:///data/local/tmp/chariba-debug.apk
+W/ActivityManager(  274): No content provider found for permission revoke: file:///data/local/tmp/chariba-debug.apk
+W/dalvikvm(  917): method Landroid/support/v7/internal/widget/ListViewCompat;.lookForSelectablePosition incorrectly overrides package-private method with same name in Landroid/widget/ListView;
+W/PackageManager(  274): Unknown permission com.google.android.providers.gsf.permission.READ_GSERVICES in package com.github.ay65535.chariba
+W/dalvikvm(  918): PR_CAPBSET_DROP 0 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  918): PR_CAPBSET_DROP 1 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  918): PR_CAPBSET_DROP 2 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  918): PR_CAPBSET_DROP 3 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  918): PR_CAPBSET_DROP 4 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  918): PR_CAPBSET_DROP 5 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  918): PR_CAPBSET_DROP 6 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  918): PR_CAPBSET_DROP 7 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  918): PR_CAPBSET_DROP 8 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  918): PR_CAPBSET_DROP 9 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  918): PR_CAPBSET_DROP 10 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  918): PR_CAPBSET_DROP 11 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  918): PR_CAPBSET_DROP 12 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  918): PR_CAPBSET_DROP 13 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  918): PR_CAPBSET_DROP 14 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  918): PR_CAPBSET_DROP 15 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  918): PR_CAPBSET_DROP 16 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  918): PR_CAPBSET_DROP 17 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  918): PR_CAPBSET_DROP 18 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  918): PR_CAPBSET_DROP 19 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  918): PR_CAPBSET_DROP 20 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  918): PR_CAPBSET_DROP 21 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  918): PR_CAPBSET_DROP 22 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  918): PR_CAPBSET_DROP 23 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  918): PR_CAPBSET_DROP 24 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  918): PR_CAPBSET_DROP 25 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  918): PR_CAPBSET_DROP 26 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  918): PR_CAPBSET_DROP 27 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  918): PR_CAPBSET_DROP 28 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  918): PR_CAPBSET_DROP 29 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  918): PR_CAPBSET_DROP 30 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  918): PR_CAPBSET_DROP 31 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  918): PR_CAPBSET_DROP 32 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  918): PR_CAPBSET_DROP 33 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/RecognitionManagerService(  274): no available voice recognition services found for user 0
+E/cutils-trace(  937): Error opening trace file: No such file or directory (2)
+W/ActivityManager(  274): No content provider found for permission revoke: file:///data/local/tmp/chariba-debug-test-unaligned.apk
+W/ActivityManager(  274): No content provider found for permission revoke: file:///data/local/tmp/chariba-debug-test-unaligned.apk
+W/RecognitionManagerService(  274): no available voice recognition services found for user 0
+E/cutils-trace(  963): Error opening trace file: No such file or directory (2)
+W/ActivityManager(  274): No content provider found for permission revoke: file:///data/local/tmp/chariba-debug.apk
+W/ActivityManager(  274): No content provider found for permission revoke: file:///data/local/tmp/chariba-debug.apk
+W/dalvikvm(  973): method Landroid/support/v7/internal/widget/ListViewCompat;.lookForSelectablePosition incorrectly overrides package-private method with same name in Landroid/widget/ListView;
+W/PackageManager(  274): Code path for pkg : com.github.ay65535.chariba changing from /data/app/com.github.ay65535.chariba-1.apk to /data/app/com.github.ay65535.chariba-2.apk
+W/PackageManager(  274): Resource path for pkg : com.github.ay65535.chariba changing from /data/app/com.github.ay65535.chariba-1.apk to /data/app/com.github.ay65535.chariba-2.apk
+W/PackageManager(  274): Unknown permission com.google.android.providers.gsf.permission.READ_GSERVICES in package com.github.ay65535.chariba
+W/dalvikvm(  974): PR_CAPBSET_DROP 0 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  974): PR_CAPBSET_DROP 1 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  974): PR_CAPBSET_DROP 2 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  974): PR_CAPBSET_DROP 3 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  974): PR_CAPBSET_DROP 4 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  974): PR_CAPBSET_DROP 5 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  974): PR_CAPBSET_DROP 6 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  974): PR_CAPBSET_DROP 7 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  974): PR_CAPBSET_DROP 8 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  974): PR_CAPBSET_DROP 9 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  974): PR_CAPBSET_DROP 10 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  974): PR_CAPBSET_DROP 11 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  974): PR_CAPBSET_DROP 12 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  974): PR_CAPBSET_DROP 13 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  974): PR_CAPBSET_DROP 14 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  974): PR_CAPBSET_DROP 15 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  974): PR_CAPBSET_DROP 16 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  974): PR_CAPBSET_DROP 17 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  974): PR_CAPBSET_DROP 18 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  974): PR_CAPBSET_DROP 19 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  974): PR_CAPBSET_DROP 20 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  974): PR_CAPBSET_DROP 21 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  974): PR_CAPBSET_DROP 22 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  974): PR_CAPBSET_DROP 23 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  974): PR_CAPBSET_DROP 24 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  974): PR_CAPBSET_DROP 25 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  974): PR_CAPBSET_DROP 26 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  974): PR_CAPBSET_DROP 27 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  974): PR_CAPBSET_DROP 28 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  974): PR_CAPBSET_DROP 29 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  974): PR_CAPBSET_DROP 30 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  974): PR_CAPBSET_DROP 31 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  974): PR_CAPBSET_DROP 32 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  974): PR_CAPBSET_DROP 33 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/ContextImpl(  974): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1385 android.content.ContextWrapper.startService:473 android.content.ContextWrapper.startService:473 com.android.keychain.KeyChainBroadcastReceiver.onReceive:12 android.app.ActivityThread.handleReceiver:2424 
+W/RecognitionManagerService(  274): no available voice recognition services found for user 0
+E/cutils-trace(  994): Error opening trace file: No such file or directory (2)
+W/ActivityManager(  274): No content provider found for permission revoke: file:///data/local/tmp/chariba-debug-test-unaligned.apk
+W/ActivityManager(  274): No content provider found for permission revoke: file:///data/local/tmp/chariba-debug-test-unaligned.apk
+W/PackageManager(  274): Code path for pkg : com.github.ay65535.chariba.test changing from /data/app/com.github.ay65535.chariba.test-1.apk to /data/app/com.github.ay65535.chariba.test-2.apk
+W/PackageManager(  274): Resource path for pkg : com.github.ay65535.chariba.test changing from /data/app/com.github.ay65535.chariba.test-1.apk to /data/app/com.github.ay65535.chariba.test-2.apk
+W/ContextImpl(  974): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1385 android.content.ContextWrapper.startService:473 android.content.ContextWrapper.startService:473 com.android.keychain.KeyChainBroadcastReceiver.onReceive:12 android.app.ActivityThread.handleReceiver:2424 
+W/RecognitionManagerService(  274): no available voice recognition services found for user 0
+E/cutils-trace( 1010): Error opening trace file: No such file or directory (2)
+W/dalvikvm( 1021): PR_CAPBSET_DROP 0 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm( 1021): PR_CAPBSET_DROP 1 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm( 1021): PR_CAPBSET_DROP 2 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm( 1021): PR_CAPBSET_DROP 3 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm( 1021): PR_CAPBSET_DROP 4 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm( 1021): PR_CAPBSET_DROP 5 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm( 1021): PR_CAPBSET_DROP 6 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm( 1021): PR_CAPBSET_DROP 7 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm( 1021): PR_CAPBSET_DROP 8 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm( 1021): PR_CAPBSET_DROP 9 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm( 1021): PR_CAPBSET_DROP 10 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm( 1021): PR_CAPBSET_DROP 11 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm( 1021): PR_CAPBSET_DROP 12 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm( 1021): PR_CAPBSET_DROP 13 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm( 1021): PR_CAPBSET_DROP 14 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm( 1021): PR_CAPBSET_DROP 15 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm( 1021): PR_CAPBSET_DROP 16 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm( 1021): PR_CAPBSET_DROP 17 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm( 1021): PR_CAPBSET_DROP 18 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm( 1021): PR_CAPBSET_DROP 19 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm( 1021): PR_CAPB
