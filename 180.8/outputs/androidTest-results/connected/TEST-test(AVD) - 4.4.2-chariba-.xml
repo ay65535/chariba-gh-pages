@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="com.android.builder.testing.ConnectedDevice" tests="1" failures="1" errors="0" skipped="0" time="16.033" timestamp="2015-02-05T23:34:04" hostname="localhost">
+  <properties>
+    <property name="device" value="test(AVD) - 4.4.2" />
+    <property name="flavor" value="" />
+    <property name="project" value="chariba" />
+  </properties>
+  <testcase name="hasTests" classname="com.android.builder.testing.ConnectedDevice" time="0.003">
+    <failure>No tests found.</failure>
+  </testcase>
+</testsuite>
