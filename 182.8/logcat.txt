@@ -1,0 +1,36 @@
+--------- beginning of /dev/log/main
+E/logwrapper(   39): executing /system/bin/e2fsck failed: No such file or directory
+E/logwrapper(   45): executing /system/bin/e2fsck failed: No such file or directory
+E/cutils  (   59): Failed to read /data/.layout_version: No such file or directory
+--------- beginning of /dev/log/system
+W/InterfaceController(   52): Warning (dlopen failed: library "/system/lib/libnetcmdiface.so" not found) while opening the net interface command library
+E/SurfaceFlinger(   55): hwcomposer module not found
+W/SurfaceFlinger(   55): getting VSYNC period from fb HAL: 1536001
+W/SurfaceFlinger(   55): no suitable EGLConfig found, trying a simpler query
+W/SurfaceFlinger(   55): EGL_SLOW_CONFIG selected!
+W/SurfaceFlinger(   55): power module not found
+W/SurfaceFlinger(   55): power module not found
+E/SurfaceFlinger(   55): ro.sf.lcd_density must be defined as a build property
+W/AudioFlinger(   58): Thread AudioOut_2 cannot connect to the power manager service
+E/AudioFlinger(   58): int android::load_audio_interface(const char*, audio_hw_device_t**) couldn't load audio hw module audio.r_submix (No such file or directory)
+W/AudioPolicyManagerBase(   58): could not open HW module r_submix
+E/memtrack(   56): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug(   56): failed to load memtrack module: -2
+W/dalvikvm(   56): Exception Ljava/lang/UnsatisfiedLinkError; thrown while initializing Landroid/media/videoeditor/MediaArtistNativeHelper;
+W/Zygote  (   56): Class not found for preloading: android.media.videoeditor.MediaArtistNativeHelper
+E/EmojiFactory_jni(   56): Failed to load libemoji.so: dlopen failed: library "libemoji.so" not found
+E/logwrapper(  299): executing /system/bin/ip failed: No such file or directory
+W/Zygote  (   56): Class not found for preloading: java.lang.UnsafeByteSequence
+E/logwrapper(  300): executing /system/bin/ip failed: No such file or directory
+E/logwrapper(  301): executing /system/bin/ip failed: No such file or directory
+E/logwrapper(  302): executing /system/bin/ip failed: No such file or directory
+E/logwrapper(  303): executing /system/bin/ip failed: No such file or directory
+E/logwrapper(  304): executing /system/bin/ip failed: No such file or directory
+E/logwrapper(  305): executing /system/bin/ip failed: No such file or directory
+E/PowerManagerService-JNI(  380): Couldn't load power module (No such file or directory)
+E/SurfaceFlinger(   55): ro.sf.lcd_density must be defined as a build property
+W/FileUtils(  380): Failed to chmod(/data/system/packages.list): libcore.io.ErrnoException: chmod failed: ENOENT (No such file or directory)
+W/PackageManager(  380): Running ENG build: no pre-dexopt!
+W/PackageParser(  380): No actions in intent filter at /system/priv-app/Contacts.apk Binary XML file line #375
+W/PackageParser(  380): No actions in intent filter at /system/priv-app/Dialer.apk Binary XML file line #162
+W/ResourceType(  380): Failure getting entry for 0x7f050000 (t=4 e=0) in package 0 (error -75)
