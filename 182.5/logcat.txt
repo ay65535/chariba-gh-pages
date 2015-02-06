@@ -1,0 +1,52 @@
+--------- beginning of main
+W/auditd  (   48): type=2000 audit(0.0:1): initialized
+W/auditd  (   48): type=1404 audit(0.0:3): enforcing=1 old_enforcing=0 auid=4294967295 ses=4294967295
+E/cutils  (   65): Failed to read /data/.layout_version: No such file or directory
+--------- beginning of system
+E/SurfaceFlinger(   53): hwcomposer module not found
+W/SurfaceFlinger(   53): no suitable EGLConfig found, trying a simpler query
+W/SurfaceFlinger(   53): EGL_SLOW_CONFIG selected!
+W/SurfaceFlinger(   53): no suitable EGLConfig found, trying a simpler query
+W/SurfaceFlinger(   53): EGL_SLOW_CONFIG selected!
+W/SurfaceFlinger(   53): no suitable EGLConfig found, trying a simpler query
+W/SurfaceFlinger(   53): EGL_SLOW_CONFIG selected!
+E/SurfaceFlinger(   53): ro.sf.lcd_density must be defined as a build property
+W/AudioFlinger(   64): Thread AudioOut_2 cannot connect to the power manager service
+W/AudioFlinger(   64): Thread AudioOut_2 cannot connect to the power manager service
+W/AudioFlinger(   64): Thread AudioOut_2 cannot connect to the power manager service
+E/AudioFlinger(   64): no wake lock to update!
+E/audio_hw_generic(   64): Error opening input stream format 1, channel_mask 0010, sample_rate 16000
+W/AudioFlinger(   64): Thread AudioIn_3 cannot connect to the power manager service
+W/AudioFlinger(   64): Thread AudioIn_3 cannot connect to the power manager service
+E/AudioFlinger(   64): int android::load_audio_interface(const char*, audio_hw_device_t**) couldn't load audio hw module audio.r_submix (No such file or directory)
+W/AudioPolicyManager(   64): could not open HW module r_submix
+W/AudioPolicyManager(   64): Input device 80000100 unreachable
+E/SoundTriggerHwService(   64): couldn't load sound trigger module sound_trigger.primary (No such file or directory)
+E/memtrack(   67): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug(   67): failed to load memtrack module: -2
+E/Minikin (   67): addFont failed to create font /system/fonts/NotoSansGujarati-Regular.ttf
+E/Minikin (   67): addFont failed to create font /system/fonts/NotoSansGujarati-Bold.ttf
+E/Minikin (   67): addFont failed to create font /system/fonts/NotoSansGujaratiUI-Regular.ttf
+E/Minikin (   67): addFont failed to create font /system/fonts/NotoSansGujaratiUI-Bold.ttf
+E/Minikin (   67): addFont failed to create font /system/fonts/NotoSansGurmukhi-Regular.ttf
+E/Minikin (   67): addFont failed to create font /system/fonts/NotoSansGurmukhi-Bold.ttf
+E/Minikin (   67): addFont failed to create font /system/fonts/NotoSansGurmukhiUI-Regular.ttf
+E/Minikin (   67): addFont failed to create font /system/fonts/NotoSansGurmukhiUI-Bold.ttf
+E/Minikin (   67): addFont failed to create font /system/fonts/NotoSansSinhala-Regular.ttf
+E/Minikin (   67): addFont failed to create font /system/fonts/NotoSansSinhala-Bold.ttf
+E/Minikin (   67): addFont failed to create font /system/fonts/NotoSansCherokee-Regular.ttf
+E/Minikin (   67): addFont failed to create font /system/fonts/NotoSansCanadianAboriginal-Regular.ttf
+E/Minikin (   67): addFont failed to create font /system/fonts/NotoSansYi-Regular.ttf
+E/Minikin (   67): addFont failed to create font /system/fonts/NotoSansHans-Regular.otf
+E/Minikin (   67): addFont failed to create font /system/fonts/NotoSansHant-Regular.otf
+E/Minikin (   67): addFont failed to create font /system/fonts/NotoSansJP-Regular.otf
+E/Minikin (   67): addFont failed to create font /system/fonts/NotoSansKR-Regular.otf
+E/EmojiFactory_jni(   67): Failed to load libemoji.so: dlopen failed: library "libemoji.so" not found
+E/logwrapper(  333): executing /system/bin/ip failed: No such file or directory
+E/Netd    (   60): failed to flush rules
+E/CommandListener(   60): failed to initialize RouteController (Remote I/O error)
+E/installd(  355): Running /system/bin/patchoat isa=arm in-fd=6 (/system/framework/arm/services.odex) out-fd=7 (/data/dalvik-cache/arm/system@framework@services.jar@classes.dex)
+E/installd(  356): Running /system/bin/patchoat isa=arm in-fd=6 (/system/framework/arm/ethernet-service.odex) out-fd=7 (/data/dalvik-cache/arm/system@framework@ethernet-service.jar@classes.dex)
+E/installd(  357): Running /system/bin/patchoat isa=arm in-fd=6 (/system/framework/arm/wifi-service.odex) out-fd=7 (/data/dalvik-cache/arm/system@framework@wifi-service.jar@classes.dex)
+E/installd(   65): eof
+E/installd(   65): failed to read size
