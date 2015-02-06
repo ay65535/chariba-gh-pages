@@ -1,0 +1,66 @@
+E/cutils  (   40): Failed to read /data/.layout_version: No such file or directory
+W/InterfaceController(   33): Warning (dlopen failed: library "/system/lib/libnetcmdiface.so" not found) while opening the net interface command library
+E/SurfaceFlinger(   36): hwcomposer module not found
+W/SurfaceFlinger(   36): getting VSYNC period from fb HAL: 1536001
+W/SurfaceFlinger(   36): no suitable EGLConfig found, trying without EGL_FRAMEBUFFER_TARGET_ANDROID
+W/SurfaceFlinger(   36): no suitable EGLConfig found, trying without EGL_RECORDABLE_ANDROID
+W/SurfaceFlinger(   36): no suitable EGLConfig found, trying with 16-bit color allowed
+W/SurfaceFlinger(   36): EGL_SLOW_CONFIG selected!
+E/cutils-trace(   36): Error opening trace file: No such file or directory (2)
+W/SurfaceFlinger(   36): power module not found
+E/SurfaceFlinger(   36): ro.sf.lcd_density must be defined as a build property
+E/cutils-trace(   77): Error opening trace file: No such file or directory (2)
+W/AudioFlinger(   39): Thread AudioOut_2 cannot connect to the power manager service
+W/dalvikvm(   37): PR_SET_NO_NEW_PRIVS failed. Is your kernel compiled correctly?: Invalid argument
+E/cutils-trace(   37): Error opening trace file: No such file or directory (2)
+W/dalvikvm(   37): Exception Ljava/lang/UnsatisfiedLinkError; thrown while initializing Landroid/media/videoeditor/MediaArtistNativeHelper;
+W/Zygote  (   37): Class not found for preloading: android.media.videoeditor.MediaArtistNativeHelper
+E/logwrapper(  229): executing /system/bin/ip failed: No such file or directory
+E/logwrapper(  230): executing /system/bin/ip failed: No such file or directory
+E/logwrapper(  231): executing /system/bin/ip failed: No such file or directory
+E/logwrapper(  232): executing /system/bin/ip failed: No such file or directory
+E/logwrapper(  233): executing /system/bin/ip failed: No such file or directory
+E/logwrapper(  234): executing /system/bin/ip failed: No such file or directory
+E/logwrapper(  235): executing /system/bin/ip failed: No such file or directory
+E/BandwidthController(   33): runIptablesCmd(): res=1 status=256 failed /system/bin/iptables -A bw_INPUT -m owner --socket-exists
+E/BandwidthController(   33): runIptablesCmd(): res=1 status=256 failed /system/bin/ip6tables -A bw_INPUT -m owner --socket-exists
+E/Netd    (   33): Unable to bind netlink socket: No such file or directory
+E/Netd    (   33): Unable to open quota2 logging socket
+W/dalvikvm(  281): PR_CAPBSET_DROP 0 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  281): PR_CAPBSET_DROP 1 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  281): PR_CAPBSET_DROP 2 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  281): PR_CAPBSET_DROP 3 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  281): PR_CAPBSET_DROP 4 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  281): PR_CAPBSET_DROP 5 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  281): PR_CAPBSET_DROP 6 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  281): PR_CAPBSET_DROP 7 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  281): PR_CAPBSET_DROP 8 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  281): PR_CAPBSET_DROP 9 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  281): PR_CAPBSET_DROP 10 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  281): PR_CAPBSET_DROP 11 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  281): PR_CAPBSET_DROP 12 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  281): PR_CAPBSET_DROP 13 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  281): PR_CAPBSET_DROP 14 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  281): PR_CAPBSET_DROP 15 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  281): PR_CAPBSET_DROP 16 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  281): PR_CAPBSET_DROP 17 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  281): PR_CAPBSET_DROP 18 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  281): PR_CAPBSET_DROP 19 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  281): PR_CAPBSET_DROP 20 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  281): PR_CAPBSET_DROP 21 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  281): PR_CAPBSET_DROP 22 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  281): PR_CAPBSET_DROP 23 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  281): PR_CAPBSET_DROP 24 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  281): PR_CAPBSET_DROP 25 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  281): PR_CAPBSET_DROP 26 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  281): PR_CAPBSET_DROP 27 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  281): PR_CAPBSET_DROP 28 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  281): PR_CAPBSET_DROP 29 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  281): PR_CAPBSET_DROP 30 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  281): PR_CAPBSET_DROP 31 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  281): PR_CAPBSET_DROP 32 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm(  281): PR_CAPBSET_DROP 33 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+E/PowerManagerService-JNI(  281): Couldn't load power module (No such file or directory)
+E/SurfaceFlinger(   36): ro.sf.lcd_density must be defined as a build property
+W/PackageManager(  281): Running ENG build: no pre-dexopt!
+W/PackageParser(  281): No actions in intent filter at /system/app/Contacts.apk Binary XML file line #374
